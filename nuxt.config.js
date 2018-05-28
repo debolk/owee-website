@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'website voor de owee van D.S.V. Nieuwe Delft (de Bolk)' }
     ],
     link: [
-      {href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600', rel: 'stylesheet'}
+      {href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600', rel: 'stylesheet'},
+      {href: 'https://fonts.googleapis.com/css?family=Fredoka+One', rel: "stylesheet"}
     ]
   },
   /*
@@ -21,6 +22,16 @@ module.exports = {
   ** Build configuration
   */
   build: {
-
-  }
+    vendor: [
+      'vue-carousel',
+      'vue-smooth-scroll'
+    ],
+  },
+  plugins: [
+    { src: '~plugins/vue-carousel', ssr: false },
+    '~/plugins/vue-smooth-scroll'
+  ],
+  css: [
+    { src: 'bulma/bulma.sass', lang: 'sass' }
+  ]
 }
