@@ -42,7 +42,7 @@ export default{
   background-color: #8700a0;
   padding: 100px 0px;
   position: relative;
-  height: 1600px;
+  height: 1700px;
 }
 
 .maintriangles{

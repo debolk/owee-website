@@ -1,12 +1,12 @@
 <template>
   <div id="quotes">
 
-    <div class="content">
+    <!-- <div class="content"> -->
 
       <h2>Waarom ben je hier lid geworden?</h2>
 
       <carousel class="carousel"
-        :perPage="3"
+        :perPage="6"
         :navigationEnabled="true"
         :navigationClickTargetSize="5"
         :paginationActiveColor="'#8700a0'"
@@ -21,7 +21,7 @@
         </slide>
       </carousel>
 
-    </div>
+    <!-- </div> -->
     <div class="verenigingtriangles"></div>
   </div>
 </template>
@@ -75,6 +75,7 @@ export default{
 }
 
 .carousel{
+  margin-top: 20px;
 	padding-left: 60px;
 	padding-right: 60px;
 }

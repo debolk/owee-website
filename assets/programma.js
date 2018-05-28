@@ -243,7 +243,7 @@ module.exports = {
         start: 2000,
         end: 2300,
         beschrijving: 'Verschillende Bolkse bandjes komen optreden op het voordek van onze boot. Relax in de lounge en geniet van de zomernacht.',
-        lokatie: 'midden'
+        lokatie: 'links'
       },
       {
         titel: 'loco met Choco',
@@ -257,7 +257,7 @@ module.exports = {
         start: 2315,
         end: 400,
         beschrijving: 'Yes we were born, born. Born to be alive. (Born to be alive). Yes we were born. Born Born. (Born to be alive)',
-        lokatie: 'links'
+        lokatie: 'midden'
       },
       {
         titel: 'Intermezzo',

@@ -37,6 +37,7 @@
 
   #headerimage h1{
     font-size: 8rem !important;
-    color: #8700a0 !important;
+    color: #87eebf !important;
+    text-shadow: -4px 0 #8700a0, 0 4px #8700a0, 4px 0 #8700a0, 0 -4px #8700a0;
   }
 </style>

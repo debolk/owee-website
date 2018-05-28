@@ -9,34 +9,26 @@
            v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts' }"
            class="event"
            @click="openmodal(item)">
-
-             <span class="title">{{item.titel}}</span>
-             <br/>
-             <span class="time">
-               {{`${Math.floor(item.start/100)}:${pad(item.start%100,2 )} - ${Math.floor(item.end/100)}:${pad(item.end%100,2 )}`}}
-             </span>
+             <div class="textcontainer">
+               <span class="title">{{item.titel}}</span>
+               <br/>
+               <span class="time">
+                 {{`${Math.floor(item.start/100)}:${pad(item.start%100,2 )} - ${Math.floor(item.end/100)}:${pad(item.end%100,2 )}`}}
+               </span>
+             </div>
            </div>
 
         </div>
 
         <div class="modal" v-bind:class="{ 'is-active': modal }">
           <div class="modal-background" @click="modal = false"></div>
-          <div class="modal-card">
-            <header class="modal-card-head">
-              <p class="modal-card-title" >
-                {{modalItem.titel}}<br/>
-                <span class="time">
-                  {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
-                </span>
-              </p>
-              <button class="delete" @click="modal = false"></button>
-            </header>
-            <section class="modal-card-body">
-              {{modalItem.beschrijving}}
-            </section>
-            <footer class="modal-card-foot">
-            </footer>
+          <div class="modal-content">
+            <div class="modaltitle">
+              {{modalItem.titel}}
+            </div>
+            {{modalItem.beschrijving}}
           </div>
+          <button class="modal-close is-large" @click="modal = false"></button>
         </div>
 
     </div>
@@ -56,7 +48,7 @@ export default {
     return {
       vandaag: programma[this.dag].planning,
       begintijd: programma[this.dag].begintijd,
-      grow: 1.2,
+      grow: 1.3,
       modal: false,
       modalItem: { titel: "none", beschrijving: "none"}
     }
@@ -89,8 +81,19 @@ export default {
 
 <style>
 
-.modal-card-title p{
-  color: black !important;
+.modal-content{
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.modal-content .modaltitle{
+  font-size: 1.8rem;
+}
+
+.modal-background{
+  opacity: .7;
 }
 
 .container {
@@ -100,22 +103,8 @@ export default {
   position: relative;
 }
 
-.timings {
-  text-align: right;
-  padding-right: 10px;
-  width: 100px;
-  height: 780px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: white;
-  font-size: 0.5em;
-  box-sizing: border-box
-}
-
-.timings span {
-  font-size: 200%;
-  color: black;
+.time{
+  font-size: .8rem;
 }
 
 .days{
@@ -135,27 +124,29 @@ export default {
 .event {
   cursor: pointer;
   width: 100%;
-  padding: -5px;
   background-color: #87eebf;
   border-width: 1px;
   border: 2px solid #8700a0;
   border-radius: 10px;
-  padding-left: 10px;
   padding-top: 5px;
   position: absolute;
   font-size: 0.5em;
   box-sizing: border-box;
   transition: 0.2s ease all;
   overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
 }
 
 .event:hover{
-  background-color: #00eebf;
+  background-color: white;
 }
 
 .event .title {
   color: black;
-  font-size: 200%;
+  font-size: 1rem;
 }
 
 body{
