@@ -1,8 +1,10 @@
 <template>
   <div>
     <div class="flexcontainer">
-
+      <programmas dag="maandag"></programmas>
+      <programmas dag="dinsdag"></programmas>
       <programmas dag="woensdag"></programmas>
+      <programmas dag="donderdag"></programmas>
     </div>
   </div>
 </template>
@@ -33,6 +35,6 @@ body{
 }
 
 .programma{
-  width: 33%;
+  width: 25%;
 }
 </style>
