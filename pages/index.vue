@@ -1,26 +1,39 @@
 <template>
   <div>
+    <navbar></navbar>
     <imageheader></imageheader>
+    <maintext></maintext>
+    <vereniging></vereniging>
+    <schema></schema>
+    <kmt></kmt>
+    <sleepin></sleepin>
     <quotes></quotes>
-    <!-- <div class="flexcontainer">
-      <programmas dag="maandag"></programmas>
-      <programmas dag="dinsdag"></programmas>
-      <programmas dag="woensdag"></programmas>
-      <programmas dag="donderdag"></programmas>
-    </div> -->
+    <contact></contact>
   </div>
 </template>
 
 <script>
-  import programmas from '~/components/programmas.vue'
   import imageheader from '~/pages/imageheader.vue'
   import quotes from '~/pages/quotes.vue'
+  import vereniging from '~/pages/vereniging.vue'
+  import maintext from '~/pages/maintext.vue'
+  import schema from '~/pages/schema.vue'
+  import kmt from '~/pages/kmt.vue'
+  import sleepin from '~/pages/sleepin.vue'
+  import contact from '~/pages/contact.vue'
+  import navbar from '~/pages/navbar.vue'
 
   export default {
     components: {
-      programmas,
       imageheader,
-      quotes
+      quotes,
+      vereniging,
+      schema,
+      maintext,
+      kmt,
+      sleepin,
+      contact,
+      navbar
     }
   }
 </script>
@@ -30,14 +43,14 @@
 body{
   margin: none;
   font-family: 'Montserrat', sans-serif !important;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 html{
   font-size: 16px;
 }
 
-h2{
+h1, h2{
   text-align: center;
   color: white !important;
   font-family: 'Fredoka One', cursive;
@@ -49,18 +62,9 @@ p{
 }
 
 .content{
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
-.flexcontainer {
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   width: 100%;
-}
-
-.programma{
-  width: 25%;
-}
 </style>

@@ -12,7 +12,7 @@
    viewBox="0 0 24 24"
    version="1.1"
    id="svg4"
-   sodipodi:docname="triangle-purple.svg"
+   sodipodi:docname="triangle-blue.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata10">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,16 +41,16 @@
      inkscape:window-height="1016"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="78.666667"
-     inkscape:cx="12.595456"
-     inkscape:cy="3.5008621"
+     inkscape:zoom="128"
+     inkscape:cx="1.3095986"
+     inkscape:cy="-0.90188359"
      inkscape:window-x="54"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <path
-     d="M 24,23.995763 H 0 l 12,-8.813559 z"
+     d="M 24.008738,24.021186 H 0.00873941 L 12.00874,15.207627 Z"
      id="path2"
-     style="fill:#8700a0;fill-opacity:1;stroke-width:0.66383582"
+     style="fill:#87eebf;fill-opacity:1;stroke-width:0.66383582"
      inkscape:connector-curvature="0" />
 </svg>

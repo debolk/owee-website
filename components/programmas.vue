@@ -5,16 +5,38 @@
 
         <div class="days" :id="dag">
            <div v-for="item of vandaag"
-           v-bind:style="{ height: `${Math.max(timeToPx(item.end)-timeToPx(item.start), 30)}px`, top: `${timeToPx(item.start)}px` }"
+           v-bind:style="{ height: `${Math.max((timeToPx(item.end)-timeToPx(item.start))*grow, 40)}px`, top: `${(timeToPx(item.start)*grow)}px` }"
            v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts' }"
-           class="event">
+           class="event"
+           @click="openmodal(item)">
 
              <span class="title">{{item.titel}}</span>
+             <br/>
              <span class="time">
                {{`${Math.floor(item.start/100)}:${pad(item.start%100,2 )} - ${Math.floor(item.end/100)}:${pad(item.end%100,2 )}`}}
              </span>
            </div>
 
+        </div>
+
+        <div class="modal" v-bind:class="{ 'is-active': modal }">
+          <div class="modal-background" @click="modal = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title" >
+                {{modalItem.titel}}<br/>
+                <span class="time">
+                  {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
+                </span>
+              </p>
+              <button class="delete" @click="modal = false"></button>
+            </header>
+            <section class="modal-card-body">
+              {{modalItem.beschrijving}}
+            </section>
+            <footer class="modal-card-foot">
+            </footer>
+          </div>
         </div>
 
     </div>
@@ -33,11 +55,18 @@ export default {
   data() {
     return {
       vandaag: programma[this.dag].planning,
-      begintijd: programma[this.dag].begintijd
+      begintijd: programma[this.dag].begintijd,
+      grow: 1.2,
+      modal: false,
+      modalItem: { titel: "none", beschrijving: "none"}
     }
   },
 
   methods: {
+    openmodal(item){
+      this.modalItem = item;
+      this.modal = true;
+    },
     pad(n, width, z) {
       z = z || '0';
       n = n + '';
@@ -59,6 +88,10 @@ export default {
 </script>
 
 <style>
+
+.modal-card-title p{
+  color: black !important;
+}
 
 .container {
   height:100%;
@@ -100,23 +133,24 @@ export default {
 }
 
 .event {
+  cursor: pointer;
   width: 100%;
   padding: -5px;
-  background-color: #add8e6;
-  border-style: solid;
+  background-color: #87eebf;
   border-width: 1px;
-  border-left-width: 5px;
-  border-color: purple;
+  border: 2px solid #8700a0;
   border-radius: 10px;
   padding-left: 10px;
   padding-top: 5px;
   position: absolute;
   font-size: 0.5em;
   box-sizing: border-box;
+  transition: 0.2s ease all;
+  overflow: hidden;
 }
 
 .event:hover{
-  background-color: purple;
+  background-color: #00eebf;
 }
 
 .event .title {
