@@ -2,22 +2,34 @@
   <div id="schema">
     <div class="content">
       <h2>Wat is er te doen tijdens de OWee?</h2>
-      <div class="flexcontainer">
-        <div class="dagcontainer">
-          <h3>maandag</h3>
-          <programmas dag="maandag"></programmas>
+      <div class="columns">
+        <div class="column column-left">
+          <div class="columns is-mobile">
+            <div class="column">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }">
+                <programmas dag="maandag"></programmas>
+              </div>
+            </div>
+            <div class="column">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }">
+                <programmas dag="dinsdag"></programmas>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="dagcontainer">
-          <h3>dinsdag</h3>
-          <programmas dag="dinsdag"></programmas>
-        </div>
-        <div class="dagcontainer">
-          <h3>woensdag</h3>
-          <programmas dag="woensdag"></programmas>
-        </div>
-        <div class="dagcontainer">
-          <h3>donderdag</h3>
-          <programmas dag="donderdag"></programmas>
+        <div class="column column-right">
+          <div class="columns is-mobile">
+            <div class="column">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }">
+                <programmas dag="woensdag"></programmas>
+              </div>
+            </div>
+            <div class="column">
+              <div class="dagcontainer">
+                <programmas dag="donderdag"></programmas>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -42,7 +54,23 @@ export default{
   background-color: #8700a0;
   padding: 100px 0px;
   position: relative;
-  height: 1700px;
+}
+
+.column{
+  padding: 3px;
+}
+
+.column-left{
+  padding-left: 0px;
+}
+
+.column-right{
+  padding-right: 0px;
+}
+
+.columns{
+  padding: 2px;
+  margin: -5px;
 }
 
 .maintriangles{
@@ -54,17 +82,14 @@ export default{
   background-size: contain;
 }
 
-.flexcontainer {
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   width: 100%;
-}
-
 .dagcontainer{
   text-align: center;
-  width: 25%;
-  padding: 0 5px;
+  width: 100%;
+  height: 1350px;
+}
+
+.mobiledagcontainer{
+  height: 1100px;
 }
 
 .dagcontainer h3{

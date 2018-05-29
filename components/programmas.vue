@@ -1,12 +1,14 @@
 <template>
   <div class="programma">
 
+    <h3>{{dag}}</h3>
+
     <div class ="container">
 
         <div class="days" :id="dag">
            <div v-for="item of vandaag"
            v-bind:style="{ height: `${Math.max((timeToPx(item.end)-timeToPx(item.start))*grow, 40)}px`, top: `${(timeToPx(item.start)*grow)}px` }"
-           v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts' }"
+           v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts', 'mobileevent': $mq === 'mobile' }"
            class="event"
            @click="openmodal(item)">
              <div class="textcontainer">
@@ -17,20 +19,22 @@
                </span>
              </div>
            </div>
-
         </div>
 
-        <div class="modal" v-bind:class="{ 'is-active': modal }">
-          <div class="modal-background" @click="modal = false"></div>
-          <div class="modal-content">
-            <div class="modaltitle">
-              {{modalItem.titel}}
-            </div>
-            {{modalItem.beschrijving}}
-          </div>
-          <button class="modal-close is-large" @click="modal = false"></button>
-        </div>
+    </div>
 
+    <div class="modal" v-bind:class="{ 'is-active': modal }">
+      <div class="modal-background" @click="modal = false"></div>
+      <div class="modal-content">
+        <div class="modaltitle">
+          {{modalItem.titel}}
+          <span class="time">
+            {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
+          </span>
+        </div>
+        {{modalItem.beschrijving}}
+      </div>
+      <button class="modal-close is-large" @click="modal = false"></button>
     </div>
 
   </div>
@@ -47,10 +51,24 @@ export default {
   data() {
     return {
       vandaag: programma[this.dag].planning,
-      begintijd: programma[this.dag].begintijd,
-      grow: 1.3,
       modal: false,
-      modalItem: { titel: "none", beschrijving: "none"}
+      modalItem: {},
+    }
+  },
+
+  computed: {
+    grow(){
+      return this.$mq === 'mobile' ? 1.3 : 1.3
+    },
+    begintijd: function(){
+      if(this.$mq === 'mobile'){
+        return programma[this.dag].begintijd;
+      }
+      let s = Number.MAX_SAFE_INTEGER;
+      for(let i in programma){
+        s = Math.min(programma[i].begintijd, s);
+      }
+      return s;
     }
   },
 
@@ -138,6 +156,8 @@ export default {
   justify-content:center;
   align-content:center;
   flex-direction:column;
+  word-wrap: normal;
+  word-break: keep-all;
 }
 
 .event:hover{

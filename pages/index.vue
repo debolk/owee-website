@@ -64,7 +64,7 @@ p{
 .content{
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 29px;
 }
 
 </style>

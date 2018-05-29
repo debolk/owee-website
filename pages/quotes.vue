@@ -6,7 +6,9 @@
       <h2>Waarom ben je hier lid geworden?</h2>
 
       <carousel class="carousel"
-        :perPage="6"
+        :perPage="cardsamount"
+        :paginationEnabled="false"
+        :loop="true"
         :navigationEnabled="true"
         :navigationClickTargetSize="5"
         :paginationActiveColor="'#8700a0'"
@@ -35,6 +37,31 @@ export default{
       quotes: quotes.sort(function() {
         return .5 - Math.random();
       })
+    }
+  },
+
+  computed: {
+    cardsamount: function(){
+      switch(this.$mq){
+        case 'mobile':
+          return 1
+          break
+        case 'twocards':
+          return 2
+          break
+        case 'threecards':
+          return 3
+          break
+        case 'fourcards':
+          return 4
+          break
+        case 'fivecards':
+          return 5
+          break
+        case 'desktop':
+          return 5
+          break
+      }
     }
   }
 }

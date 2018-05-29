@@ -24,12 +24,14 @@ module.exports = {
   build: {
     vendor: [
       'vue-carousel',
-      'vue-smooth-scroll'
+      'vue-smooth-scroll',
+      'vue-mq'
     ],
   },
   plugins: [
     { src: '~plugins/vue-carousel', ssr: false },
-    '~/plugins/vue-smooth-scroll'
+    '~/plugins/vue-smooth-scroll',
+    { src: '~plugins/vue-mq.js', ssr: false },
   ],
   css: [
     { src: 'bulma/bulma.sass', lang: 'sass' }
