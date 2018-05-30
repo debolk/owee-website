@@ -83,7 +83,7 @@ export default{
   }
 
   .navbar a{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Britanic bold', cursive;
     color: white;
     font-size: 1.2rem;
   }

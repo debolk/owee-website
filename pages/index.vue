@@ -50,10 +50,15 @@ html{
   font-size: 16px;
 }
 
+@font-face {
+  font-family: 'Britanic bold';
+  src: url('/fonts/BRITANIC.TTF') format('truetype')
+}
+
 h1, h2{
   text-align: center;
   color: white !important;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Britanic bold', cursive;
   font-size: 3rem !important;
 }
 
