@@ -21,7 +21,7 @@
 
     </div>
 
-    <div class="modal is-active" v-bind:class="{ 'modal-not-active': !modal }">
+    <div class="modal" v-bind:class="{ 'is-active': modal }">
       <div class="modal-background" @click="modal = false"></div>
       <div class="modal-content">
         <div class="modaltitle">

@@ -11,7 +11,7 @@ module.exports = {
     ],
     link: [
       {href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600', rel: 'stylesheet'},
-      {href: '~/assets/fonts/BRITANIC.TFF', rel: "stylesheet"}
+      {href: '/fonts/BRITANIC.TTF', rel: "stylesheet"}
     ]
   },
   mode: 'spa',
@@ -26,13 +26,13 @@ module.exports = {
     vendor: [
       'vue-carousel',
       'vue-smooth-scroll',
-      'vue-mq'
+      'vue-mq',
     ],
   },
   plugins: [
     { src: '~plugins/vue-carousel', ssr: false },
     { src: '~plugins/vue-smooth-scroll', ssr: true },
-    { src: '~plugins/vue-mq.js', ssr: false },
+    { src: '~plugins/vue-mq', ssr: false }
   ],
   css: [
     { src: 'bulma/bulma.sass', lang: 'sass' }

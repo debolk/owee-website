@@ -77,10 +77,6 @@ module.exports = [
     quote: 'Niks moet, alles mag.'
   },
   {
-    person: 'Kariem',
-    quote: 'Als ik bij de Bolk aan de bar zat kwam er altijd wel iemand naar me toe voor een gezellig gesprek. Ook al kende ik nog niemand, daarom ben ik lid geworden.'
-  },
-  {
     person: 'Bram',
     quote: 'Verreweg de beste vereniging van Delft'
   },
