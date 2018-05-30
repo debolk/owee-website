@@ -5,14 +5,6 @@ module.exports = [
     quote: 'Tijdens de OWee kwam ik vaak bij de Bolk om te ontspannen, of juist om iets ongelofelijk mafs te doen. Sindsdien is er weinig veranderd.'
   },
   {
-    person: 'Manon',
-    quote: 'Alle avonden waren zo leuk dat ik te veel dronk en zo meer dan de helft ben vergeten.'
-  },
-  {
-    person: 'Celine',
-    quote: 'De eettafels waren gezellig, lekker en je wordt gestimuleerd om zelf ook wat lekkers te koken!.'
-  },
-  {
     person: 'Luc',
     quote: 'Iedereen is knettergek op zijn eigen manier, iedereen is zichzelf, maar staan open voor anderen'
   },
@@ -39,10 +31,6 @@ module.exports = [
   {
     person: 'Nienke',
     quote: 'Omdat Archery Tag echt heel leuk was, en het de rest van het jaar ook wordt gespeeld.'
-  },
-  {
-    person: 'Tanja',
-    quote: 'Iemand zei word lid en ga morgen mee zeilen op KMT, ik zei oké!'
   },
   {
     person: 'Reinout',
@@ -83,10 +71,6 @@ module.exports = [
   {
     person: 'Roy',
     quote: 'Onder het motto \'gewoon DOEN!\' is er altijd wel enthousiasme voor de meest absurde ideeën, het binnenzetten van een caravan en twee kliko\'s blikbier bijvoorbeeld'
-  },
-  {
-    person: 'Erwin',
-    quote: 'Ik ben lid geworden bij de Bolk omdat de vrije, ongedwongen sfeer mij beviel. Daarnaast vind ik het leuk dat ik alle leden ken, en niet slechts mijn jaarclub.'
   },
   {
     person: 'Vasco',
