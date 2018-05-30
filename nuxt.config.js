@@ -14,6 +14,7 @@ module.exports = {
       {href: '~/assets/fonts/BRITANIC.TFF', rel: "stylesheet"}
     ]
   },
+  mode: 'spa',
   /*
   ** Customize the progress bar color
   */
@@ -30,7 +31,7 @@ module.exports = {
   },
   plugins: [
     { src: '~plugins/vue-carousel', ssr: false },
-    '~/plugins/vue-smooth-scroll',
+    { src: '~plugins/vue-smooth-scroll', ssr: true },
     { src: '~plugins/vue-mq.js', ssr: false },
   ],
   css: [

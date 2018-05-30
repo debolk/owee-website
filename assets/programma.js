@@ -8,7 +8,7 @@
 
 module.exports = {
   maandag: {
-    begintijd: 1600,
+    begintijd: 1200,
     planning:[
       {
         titel: 'MEGA spellen',
@@ -49,7 +49,7 @@ module.exports = {
   },
 
   dinsdag: {
-    begintijd: 1600,
+    begintijd: 1200,
     planning: [
       {
         titel: 'Hert je zonnenbril',
@@ -111,7 +111,7 @@ module.exports = {
   },
 
   woensdag: {
-    begintijd: 1600,
+    begintijd: 1200,
     planning: [
       {
         titel: 'Jukebox Party',

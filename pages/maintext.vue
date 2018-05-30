@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <div class="content">
-      <h2>Ben jij er al klaar voor?</h2>
+      <h2>Ben jij er al klaar voor?{{$mq}}</h2>
       <p>De OWee markeert het begin van een nieuwe periode in je leven: je studententijd. Maar hoe gaat jouw studentenleven eruit zien?</p>
       <p>Van 19 t/m 23 augustus is Delft een groot feest, speciaal voor jou als eerstejaars. De OWee is jouw moment om jezelf opnieuw uit te vinden en te ontdekken wat er nu echt bij jou past.</p>
       <p>De hele week organiseert de Bolk speciaal voor jou allerlei gave activiteiten, zodat je helemaal uit je Bolk kan gaan om jou studietijd een onvergetelijke start te geven!</p>

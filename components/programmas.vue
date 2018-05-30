@@ -1,14 +1,12 @@
 <template>
   <div class="programma">
 
-    <h3>{{dag}}</h3>
-
     <div class ="container">
 
         <div class="days" :id="dag">
            <div v-for="item of vandaag"
            v-bind:style="{ height: `${Math.max((timeToPx(item.end)-timeToPx(item.start))*grow, 40)}px`, top: `${(timeToPx(item.start)*grow)}px` }"
-           v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts', 'mobileevent': $mq === 'mobile' }"
+           v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts' }"
            class="event"
            @click="openmodal(item)">
              <div class="textcontainer">
@@ -23,7 +21,7 @@
 
     </div>
 
-    <div class="modal" v-bind:class="{ 'is-active': modal }">
+    <div class="modal is-active" v-bind:class="{ 'modal-not-active': !modal }">
       <div class="modal-background" @click="modal = false"></div>
       <div class="modal-content">
         <div class="modaltitle">

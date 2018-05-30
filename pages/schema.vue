@@ -6,13 +6,15 @@
         <div class="column column-left">
           <div class="columns is-mobile">
             <div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }">
-                <programmas dag="maandag"></programmas>
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
+                <h3>maandag</h3>
+                <programmas dag="maandag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
             <div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }">
-                <programmas dag="dinsdag"></programmas>
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
+                <h3>dinsdag</h3>
+                <programmas dag="dinsdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
           </div>
@@ -20,12 +22,14 @@
         <div class="column column-right">
           <div class="columns is-mobile">
             <div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }">
+              <div class="dagcontainer">
+                <h3>woensdag</h3>
                 <programmas dag="woensdag"></programmas>
               </div>
             </div>
             <div class="column">
               <div class="dagcontainer">
+                <h3>donderdag</h3>
                 <programmas dag="donderdag"></programmas>
               </div>
             </div>
@@ -49,6 +53,15 @@ export default{
 </script>
 
 <style>
+
+.mobiledagcontainerparent{
+  height: 1100px !important;
+}
+
+.mobiledagcontainer{
+  position: relative;
+  top: -300px;
+}
 
 #schema{
   background-color: #8700a0;
@@ -85,14 +98,10 @@ export default{
 .dagcontainer{
   text-align: center;
   width: 100%;
-  height: 1350px;
-}
-
-.mobiledagcontainer{
-  height: 1100px;
+  height: 1400px;
 }
 
 .dagcontainer h3{
-   color: #87eebf;
+   color: white;
 }
 </style>

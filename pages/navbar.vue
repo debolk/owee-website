@@ -9,7 +9,8 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div class="navbar-menu" v-bind:class="{ 'is-active': burger }">
+      <div class="navbar-menu is-active"
+      v-bind:class="{ 'is-down': burger, 'navmenusmall': ($mq !== 'threecards' && $mq !== 'fourcards' && $mq !== 'desktop') }">
         <div class="navbar-start">
           <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">Home</a></div>
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWee</a></div>
@@ -53,6 +54,15 @@ export default{
     padding: 0;
     position: fixed;
     border-bottom: 5px solid #87eebf;
+    transition: 0.2s ease all;
+  }
+
+  .navmenusmall{
+    top: -400px;
+  }
+
+  .is-down{
+    top: 57px;
   }
 
   .navbar-brand{
