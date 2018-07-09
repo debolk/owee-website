@@ -14,7 +14,7 @@
         :paginationActiveColor="'#8700a0'"
         :navigationPrevLabel="' '"
         :navigationNextLabel="' '">
-        <slide class="slide" v-for="(i, index) of quotes">
+        <slide class="slide" v-for="(i, index) of quotes" :key="index">
           <div class="slide-container">
             <img class="photo" :src="`/quotes/${i.person}.jpg`">
             <p>"{{i.quote}}"</p>

@@ -27,12 +27,14 @@ module.exports = {
       'vue-carousel',
       'vue-smooth-scroll',
       'vue-mq',
+      'vue-cookie'
     ],
   },
   plugins: [
     { src: '~plugins/vue-carousel', ssr: false },
     { src: '~plugins/vue-smooth-scroll', ssr: true },
-    { src: '~plugins/vue-mq', ssr: false }
+    { src: '~plugins/vue-mq', ssr: false },
+    { src: '~plugins/vue-cookie', ssr: false }
   ],
   css: [
     { src: 'bulma/bulma.sass', lang: 'sass' }

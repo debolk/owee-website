@@ -4,7 +4,8 @@
     <div class ="container">
 
         <div class="days" :id="dag">
-           <div v-for="item of vandaag"
+           <div v-for="(item, index) of vandaag"
+           :key="index"
            v-bind:style="{ height: `${Math.max((timeToPx(item.end)-timeToPx(item.start))*grow, 40)}px`, top: `${(timeToPx(item.start)*grow)}px` }"
            v-bind:class="{ 'leftevent': item.lokatie === 'links', 'rightevent': item.lokatie === 'rechts' }"
            class="event"
