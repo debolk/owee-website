@@ -15,7 +15,7 @@
       <p>
       Telefoon/Phone: 015 212 6012<br/>
       E-mail: <a href="mailto:owee@nieuwedelft.nl">owee@nieuwedelft.nl</a><br/>
-      Website: <a href="www.debolk.nl">www.debolk.nl</a>
+      Website: <a href="http://www.debolk.nl">www.debolk.nl</a>
       </p>
     </div>
 

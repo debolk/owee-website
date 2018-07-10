@@ -20,7 +20,6 @@
           <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleepin</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
-          <div class="menuitemcontainer"><a @click="setCookie('english')">English</a></div>
         </div>
 
         <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
@@ -32,12 +31,18 @@
           <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleepin</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
-          <div class="menuitemcontainer"><a @click="setCookie('dutch')">Nederlands</a></div>
         </div>
 
         <div class="navbar-end">
-          <!-- navbar items -->
+          <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
+            <div class="menuitemcontainer"><a @click="setCookie('english')"><img src="~/assets/united-kingdom.svg" class="flag"> English</a></div>
+          </div>
+
+          <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
+            <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> Nederlands</a></div>
+          </div>
         </div>
+        
       </div>
     </nav>
   </div>
@@ -70,6 +75,12 @@ export default{
     background-color: #8700a0;
   }
 
+  .flag{
+    width: 25px;
+    position: relative;
+    top: 6px;
+  }
+
   .navbar-menu{
     background-color: #8700a0;
     text-align: center;
@@ -99,7 +110,6 @@ export default{
   }
 
   .menuitemcontainer{
-    width: 100%;
     line-height: 2.5;
     transition: 0.2s ease all;
     border-radius: 10px;
