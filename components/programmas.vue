@@ -41,7 +41,6 @@
 
 <script>
 import programma from '~/assets/programma'
-import fitty from 'fitty'
 
 export default {
   props: {
@@ -163,10 +162,8 @@ export default {
   cursor: pointer;
   width: 100%;
   background-color: #87eebf;
-  border-width: 1px;
   border: 2px solid #8700a0;
   border-radius: 10px;
-  padding: 5px;
   position: absolute;
   font-size: 0.5em;
   box-sizing: border-box;

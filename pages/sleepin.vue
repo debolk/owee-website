@@ -12,6 +12,8 @@
       <p>Delft is the best place to stay during the OWee. This way you can fully benefit from all activities. Unfortunately, every year it is quite a task to give all future first-years a place to sleep. For those who can not be placed in student houses, this unfortunately means that they have to sleep at the gym. Do not you feel like sleeping en masse at the gym? Or do you really dislike your current sleep address? You can spend the night in a student house at The Bolk!</p>
       <p>There are a number of Bolkhouses where you can get a place to sleep, including the Bolkhuisch attached to the club, voted student house of the year in 2011! Does that sound good to you? Then register below!</p>
     </div>
+
+    <a class="button" href="https://www.aanmelder.nl/sleepinnowee/subscribe">Sleep-Inn</a>
     
     <div class="upsidedowntriangles"></div>
   </div>
@@ -27,6 +29,13 @@
   background-color: #8700a0;
   padding: 100px 0px;
   position: relative;
+}
+
+.button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 150px;
 }
 
 </style>

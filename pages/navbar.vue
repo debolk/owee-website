@@ -17,7 +17,7 @@
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Vereniging</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Programma</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleepin</a></div>
+          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleep-Inn</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
         </div>
@@ -28,7 +28,7 @@
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Association</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Schedule</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleepin</a></div>
+          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleep-Inn</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
         </div>
