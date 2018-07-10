@@ -1,7 +1,11 @@
 <template>
   <div id="contact">
     <div class="content">
-      <h2>Waar kan je ons vinden?</h2>
+
+      <h2 v-if="$cookie.get('language') == 'dutch'">Waar kan je ons vinden?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">Where can you find us?</h2>
+
+      
       <p>
         De Bolk (D.S.V. "Nieuwe Delft")<br/>
         Buitenwatersloot 1-3<br/>
@@ -9,7 +13,7 @@
       </p>
 
       <p>
-      Telefoon: 015 212 6012<br/>
+      Telefoon/Phone: 015 212 6012<br/>
       E-mail: <a href="mailto:owee@nieuwedelft.nl">owee@nieuwedelft.nl</a><br/>
       Website: <a href="www.debolk.nl">www.debolk.nl</a>
       </p>

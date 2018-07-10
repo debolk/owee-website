@@ -3,7 +3,8 @@
 
     <!-- <div class="content"> -->
 
-      <h2>Waarom ben je hier lid geworden?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">Waarom ben je hier lid geworden?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">Why did you become a member?</h2>
 
       <carousel class="carousel"
         :perPage="cardsamount"

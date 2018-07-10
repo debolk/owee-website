@@ -34,6 +34,13 @@
       sleepin,
       contact,
       navbar
+    },
+
+    beforeCreate(){
+      //set cookie if none
+      if(this.$cookie.get('language') != 'dutch' && this.$cookie.get('language') != 'english'){
+        this.$cookie.set('language', 'dutch', '100')
+      }
     }
   }
 </script>

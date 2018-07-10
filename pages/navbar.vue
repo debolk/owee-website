@@ -11,7 +11,7 @@
       </div>
       <div class="navbar-menu is-active"
       v-bind:class="{ 'is-down': burger, 'navmenusmall': ($mq !== 'threecards' && $mq !== 'fourcards' && $mq !== 'desktop') }">
-        <div class="navbar-start">
+        <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
           <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">Home</a></div>
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWee</a></div>
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Vereniging</a></div>
@@ -20,8 +20,19 @@
           <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleepin</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
-          <div v-if="$cookie.get('language') === 'dutch'" class="menuitemcontainer"><a @click="setCookie('english')">English</a></div>
-          <div v-if="$cookie.get('language') === 'english'" class="menuitemcontainer"><a @click="setCookie('dutch')">Dutch</a></div>
+          <div class="menuitemcontainer"><a @click="setCookie('english')">English</a></div>
+        </div>
+
+        <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
+          <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">Home</a></div>
+          <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWee</a></div>
+          <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Association</a></div>
+          <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Schedule</a></div>
+          <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
+          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleepin</a></div>
+          <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
+          <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
+          <div class="menuitemcontainer"><a @click="setCookie('dutch')">Nederlands</a></div>
         </div>
 
         <div class="navbar-end">
@@ -41,17 +52,10 @@ export default{
     }
   },
 
-  mounted(){
-    //set cookie if none
-    if(this.$cookie.get('language') != 'dutch' && this.$cookie.get('language') != 'english'){
-      this.$cookie.set('language', 'dutch', '100')
-    }
-  },
-
   methods: {
     setCookie(lang){
       this.$cookie.set('language', lang, '100')
-      this.burger = false;
+      //this.burger = false;
       location.reload()
     }
   }

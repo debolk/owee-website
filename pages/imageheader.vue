@@ -5,7 +5,7 @@
         class="largelogo"
         src="~/assets/Bolk Logo.svg">
       <br/>
-      <h1 v-bind:class="{ 'mobileheadertext': $mq === 'mobile' }">Bolk to be alive</h1>
+      <h1 v-bind:class="{ 'mobileheadertext': $mq === 'mobile' }">BOLK TO BE ALIVE</h1>
       <div class="triangles"></div>
     </div>
   </div>
@@ -47,6 +47,13 @@
   #imageheader h1{
     font-size: 8rem !important;
     color: #87eebf !important;
-    text-shadow: -4px 0 #8700a0, 0 4px #8700a0, 4px 0 #8700a0, 0 -4px #8700a0;
+    text-shadow: -4px 0 #8700a0,
+                -4px -4px #8700a0,
+                4px 4px #8700a0,
+                -4px 4px #8700a0,
+                4px -4px #8700a0,
+                0 4px #8700a0,
+                4px 0 #8700a0,
+                0 -4px #8700a0;
   }
 </style>

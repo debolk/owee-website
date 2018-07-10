@@ -11,7 +11,7 @@
            class="event"
            @click="openmodal(item)">
              <div class="textcontainer">
-               <span class="title">{{item.titel}}</span>
+               <span class="title">{{item.titel[$cookie.get('language')]}}</span>
                <br/>
                <span class="time">
                  {{`${Math.floor(item.start/100)}:${pad(item.start%100,2 )} - ${Math.floor(item.end/100)}:${pad(item.end%100,2 )}`}}
@@ -26,12 +26,12 @@
       <div class="modal-background" @click="modal = false"></div>
       <div class="modal-content">
         <div class="modaltitle">
-          {{modalItem.titel}}
+          {{modalItem.titel[$cookie.get('language')]}}
           <span class="time">
             {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
           </span>
         </div>
-        {{modalItem.beschrijving}}
+        {{modalItem.beschrijving[$cookie.get('language')]}}
       </div>
       <button class="modal-close is-large" @click="modal = false"></button>
     </div>
@@ -51,7 +51,10 @@ export default {
     return {
       vandaag: programma[this.dag].planning,
       modal: false,
-      modalItem: {},
+      modalItem: {
+        titel: {},
+        beschrijving: {}
+      },
     }
   },
 
