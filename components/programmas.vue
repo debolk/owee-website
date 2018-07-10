@@ -11,9 +11,9 @@
            class="event"
            @click="openmodal(item)">
              <div class="textcontainer">
-               <span class="title">{{item.titel[$cookie.get('language')]}}</span>
+               <span class="title fitTitle">{{item.titel[$cookie.get('language')]}}</span>
                <br/>
-               <span class="time">
+               <span class="time fitTime">
                  {{`${Math.floor(item.start/100)}:${pad(item.start%100,2 )} - ${Math.floor(item.end/100)}:${pad(item.end%100,2 )}`}}
                </span>
              </div>
@@ -41,6 +41,7 @@
 
 <script>
 import programma from '~/assets/programma'
+import fitty from 'fitty'
 
 export default {
   props: {
@@ -56,6 +57,19 @@ export default {
         beschrijving: {}
       },
     }
+  },
+
+  mounted(){
+    fitty('.fitTitle', {
+      minSize: 11,
+      maxSize: 20,
+      multiline: true
+    })
+    fitty('.fitTime', {
+      minSize: 10,
+      maxSize: 11,
+      multiline: false
+    })
   },
 
   computed: {
@@ -108,6 +122,10 @@ export default {
   padding: 20px;
 }
 
+.fitTitle{
+  display: inline !important;
+}
+
 .modal-content .modaltitle{
   font-size: 1.8rem;
 }
@@ -148,7 +166,7 @@ export default {
   border-width: 1px;
   border: 2px solid #8700a0;
   border-radius: 10px;
-  padding-top: 5px;
+  padding: 5px;
   position: absolute;
   font-size: 0.5em;
   box-sizing: border-box;

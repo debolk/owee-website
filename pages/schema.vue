@@ -52,7 +52,7 @@ export default{
     return{
       dagen: {
         dutch: ['maandag', 'dinsdag', 'woensdag', 'donderdag'],
-        english: ['monday', 'tuesday', 'wednesday', 'thursday']
+        english: ['Monday', 'Tuesday', 'Wednesday', 'Thursday']
       }
     }
   },

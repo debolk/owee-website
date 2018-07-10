@@ -8,14 +8,14 @@
 
 module.exports = {
   maandag: {
-    begintijd: 1200,
+    begintijd: 1400,
     planning:[
       {
         titel: {
           dutch: 'MEGA-spellen',
           english: 'MEGA-games'
         },
-        start: 1600,
+        start: 1700,
         end: 1800,
         beschrijving: {
           dutch: 'Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Of probeer iets anders en ga spijkerslaan. Iedereen om een GROTE boomstronk, spijkers en hamers, dit kan alleen maar voor ENORM veel plezier zorgen!',
@@ -68,7 +68,7 @@ module.exports = {
           english: '4 o\'clock cup-a-soup'
         },
         start: 400,
-        end: 430,
+        end: 500,
         beschrijving: {
           dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
           english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
@@ -79,14 +79,14 @@ module.exports = {
   },
 
   dinsdag: {
-    begintijd: 1200,
+    begintijd: 1400,
     planning: [
       {
         titel: {
           dutch: 'Hertje zonnebril',
           english: 'That sunglasses doe'
         },
-        start: 1600,
+        start: 1700,
         end: 1800,
         beschrijving: {
           dutch: 'Het oud-hollandse spel ezeltje-prik-je, maar dan anders! Probeer geblinddoekt de zonnebril op de neus van het hert te zetten.',
@@ -99,8 +99,8 @@ module.exports = {
           dutch: 'Escaperoom',
           english: 'Escaperoom'
         },
-        start: 1600,
-        end: 2000,
+        start: 1700,
+        end: 2130,
         beschrijving: {
           dutch: 'Voor de Bolk ligt een botter en zoals je weet zijn boten soms lastig te navigeren. Helemaal nu we van de botter een escaperoom gemaakt hebben. Probeer je weg naar buiten te vinden door puzzels op te lossen in het ruim van ons schip en zet de snelste tijd neer.',
           english: 'In front of the Bolk you can find our boat and boats are, as you might know, pretty hard to navigate. Especially now that we’ve made it into an escaperoom. Try to find your way out by solving puzzles in the hold of our boat and set a new time record.'
@@ -131,7 +131,7 @@ module.exports = {
           dutch: 'Verbaas je vrienden met je superieure kennis over willekeurige trivia zoals: “Wisten jullie dat de ster die het dichtst bij de aarde staat de zon is?”, “Wisten jullie dat Lingo 5000 afleveringen telt?” en “Wisten jullie dat Willem van Oranje in het pand van De Bolk heeft overnacht?” Deze willekeurige bullshit kan jou een voorsprong geven op de overwinning van deze e-pi-sche pubquiz. Of kom langs om voor de gezelligheid en omdat je dingen wil leren ofzo.',
           english: '[In Dutch] Surprise your friends with your superior knowledge of random trivia. Or just come by to enjoy the atmosphere and learn a thing or two.'
         },
-        lokatie: 'midden'
+        lokatie: 'links'
       },
       {
         titel: {
@@ -161,10 +161,36 @@ module.exports = {
       },
       {
         titel: {
+          dutch: 'Tosti klussen',
+          english: 'Build your own Grilled cheese sandwich'
+        },        
+        start: 2230,
+        end: 0,
+        beschrijving: {
+          dutch: 'Tosti met kaas? Tosti met tandpasta? Of dan toch gewoon een tosti met appeltaart? Het kan hier allemaal! Verzin je eigen tosti en eet hem op.',
+          english: 'Grilled cheese sandwich with cheese? Toothpaste? Or just with apple pie? It’s all possible! Create your own sandwich and taste your ideas.'
+        },
+        lokatie: 'links'
+      },
+      {
+        titel: {
+          dutch: 'Mix je Mojito',
+          english: 'Mix your Mojito'
+        },        
+        start: 2230,
+        end: 0,
+        beschrijving: {
+          dutch: 'Het is zomer en hopelijk lekker weer buiten. Koel lekker af met een frisse mojito huisgemaakt en live gebrouwen aan onze bar met de ingrediënten die je zelf kiest. Alcoholvrije opties zijn natuurlijk ook aanwezig.',
+          english: 'It’s summer and hopefully great weather outside. Cool yourself down with a fresh homemade mojito which is brewed live at the bar using the ingredients of your choosing. Alcohol free options are available as well, obviously.'
+        },
+        lokatie: 'rechts'
+      },
+      {
+        titel: {
           dutch: 'Karaoke',
           english: 'Karaoke'
         },
-        start: 2230,
+        start: 0,
         end: 400,
         beschrijving: {
           dutch: 'Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf.',
@@ -178,7 +204,7 @@ module.exports = {
           english: '4 o\'clock cup-a-soup'
         },
         start: 400,
-        end: 430,
+        end: 500,
         beschrijving: {
           dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
           english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
@@ -189,20 +215,33 @@ module.exports = {
   },
 
   woensdag: {
-    begintijd: 1200,
+    begintijd: 1400,
     planning: [
       {
         titel: {
           dutch: 'Jukebox Party',
           english: 'Jukebox Party'
         },
-        start: 1600,
+        start: 1700,
         end: 1800,
         beschrijving: {
           dutch: 'Wil jij je echt ultiem hipster voelen of ben je dat al maar zit je in de ontkenningsfase, kom dan gewoon lekker langs en vraag jouw ultieme zomerse plaatje aan bij deze handmatige Jukebox Party experience! Singeltjes worden speciaal voor jou onder de naald gelegd! Geniet met een lekker drankje van het gekraak in het zwarte vinyl. Haal die echte hipster in jou naar boven! ☮',
           english: 'Do you want to feel ultra hipster or are you still denying that you are in fact a hipster? Come over and listen to your favorite sunny tunes! Request your favorite vinyl singles and see how the needles is dropped onto the vinyl. Enjoy a drink, relax, sit back and listen to the crackling in the black vinyl. Bring out your inner hipster! ☮'
         },
-        lokatie: 'midden'
+        lokatie: 'links'
+      },
+      {
+        titel: {
+          dutch: 'Knoop je sleutelhanger',
+          english: 'Knot your keychain'
+        },
+        start: 1700,
+        end: 1800,
+        beschrijving: {
+          dutch: 'Vul je sleutelbos aan met je eigen kunstwerken. Laat zien welke knopen jij allemaal kent of breid je collectie uit. Gezellig? Natuurlijk! En dit alles op onze historische zeilboot.',
+          english: 'Fill your bunch of keys with your own artworks. Show which knotting techniques you know or expand your collection. Cosy? Of course! And all this on our historic sailboat.'
+        },
+        lokatie: 'rechts'
       },
       {
         titel: {
@@ -226,9 +265,35 @@ module.exports = {
         end: 2200,
         beschrijving: {
           dutch: 'Ken jij je klassiekers nog? Daag je vrienden uit in een potje Mario Kart, Super Smash of andere spelletjes!',
-          english: 'Do you know your classics ? Challenge your friends in a game of Mario Kart, Super Smash and many more games !'
+          english: 'Do you know your classics? Challenge your friends in a game of Mario Kart, Super Smash and many more games!'
         },
-        lokatie: 'midden'
+        lokatie: 'links'
+      },
+      {
+        titel: {
+          dutch: 'Pimp je fiets',
+          english: 'Pimp my bike'
+        },
+        start: 2000,
+        end: 2100,
+        beschrijving: {
+          dutch: 'Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling.',
+          english: 'Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don’t have to worry about losing it anymore.'
+        },
+        lokatie: 'rechts'
+      },
+      {
+        titel: {
+          dutch: 'Vis roken',
+          english: 'Smoked fish'
+        },
+        start: 2100,
+        end: 2200,
+        beschrijving: {
+          dutch: 'Even bijkomen van alle drukte kan ook. Vis roken is een kunst die verloren gaat, terwijl het zo’n lekker resultaat oplevert! Kom lekker met de Vrienden van Trui (de botter) chillen terwijl er vis wordt gerookt. Uiteraard kan je deze ook eten!',
+          english: 'Take a moment of rest and enjoy some smoked fish. Enjoy the lost art of smoking some good ol’ fish.'
+        },
+        lokatie: 'rechts'
       },
       {
         titel: {
@@ -271,14 +336,14 @@ module.exports = {
       },
       {
         titel: {
-          dutch: 'Tosti klussen',
-          english: 'Build your own Grilled cheese sandwich'
-        },        
-        start: 2330,
-        end: 130,
+          dutch: 'Speciaalbier proeverij',
+          english: 'Craft beer tasting'
+        },
+        start: 2315,
+        end: 45,
         beschrijving: {
-          dutch: 'Tosti met kaas? Tosti met tandpasta? Of dan toch gewoon een tosti met appeltaart? Het kan hier allemaal! Verzin je eigen tosti en eet hem op.',
-          english: 'Grilled cheese sandwich with cheese? Toothpaste? Or just with apple pie? It’s all possible! Create your own sandwich and taste your ideas.'
+          dutch: 'Bier is er in allerlei soorten en maten. Hou je van een zoet biertje of juist eentje met een bittertje? Wil jij dat je bier zonder toevoegingen is gemaakt, of vind je het niet erg als er peper in zit? Hou je van koffie en bier? Dan kan dat ook! Het Bolksch Bierbrouwersgilde kan je er van alles over vertellen tijdens deze speciaalbierproeverij! Heb je vragen over de proeverij, kom dan langs op de Sport en Cultuurdag bij het Bolksch Bierbrouwersgilde (BBG).',
+          english: 'Craft beers come in many shapes and sizes. Do you like a sweet or a bitter pint? Do you like the German idea of the Reinheitsgebot? Or don’t you mind if it is brewed with pepper or coffee beans? The Bolksch Bierbrouwersgilde (Craft Beer Brewing Guild of the Bolk) can tell you a ton of information with every sip you take. If you have any question, you can come and ask them on the Sports & Culture Market at the BBG stand.'
         },
         lokatie: 'rechts'
       },
@@ -300,7 +365,7 @@ module.exports = {
           dutch: 'Short film marathon',
           english: 'Short film marathon'
         },
-        start: 130,
+        start: 100,
         end: 300,
         beschrijving: {
           dutch: 'Kom rustig genieten van een mooie selectie aan grappige, bizarre en ontroerende korte films!',
@@ -340,52 +405,52 @@ module.exports = {
           english: '4 o\'clock cup-a-soup'
         },
         start: 400,
-        end: 430,
+        end: 500,
         beschrijving: {
           dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
           english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
         },
-        lokatie: 'midden'
+        lokatie: 'links'
       },
       {
         titel: {
-          dutch: 'Ochtendgymnastiek',
+          dutch: 'Ochtend gymnastiek',
           english: 'Morning workout'
         },
-        start: 430,
-        end: 500,
+        start: 400,
+        end: 430,
         beschrijving: {
           dutch: 'Als je nog wakker bent op dit late (vroege?) uur dan helpt een beetje ochtendgymnastiek je vaak weer wat beter de dag door.',
           english: 'Still awake at this late (early?) hour? Then a nice morning workout will get you right up and running again!'
         },
-        lokatie: 'midden'
+        lokatie: 'rechts'
       }
     ]
   },
 
   donderdag: {
-    begintijd: 1200,
+    begintijd: 1400,
     planning: [
       {
         titel: {
           dutch: 'Spa',
           english: 'Spa'
         },
-        start: 1200,
-        end: 1600,
+        start: 1400,
+        end: 1700,
         beschrijving: {
           dutch: 'Ook zo moe van gisteren? Kom chillen met zwembadjes, gezichtscreme, gekoelde drankjes en je rustige zomerse muziek. ',
           english: 'Tired from yesterday? Come chill out at our spa with kiddie pools, face masks, cooled drinks and summery tunes.'
         },
-        lokatie: 'midden'
+        lokatie: 'links'
       },
       {
         titel: {
           dutch: 'High Tea',
           english: 'High Tea'
         },
-        start: 1430,
-        end: 1600,
+        start: 1400,
+        end: 1700,
         beschrijving: {
           dutch: 'Wil jij ook lekker bij komen van een deze drukke week? Kom relaxed genieten van een theetje met een lekker koekje erbij!',
           english: 'Are you also tired from this busy week ? Come relax with a nice cup of tea and some cookies. '
@@ -397,8 +462,8 @@ module.exports = {
           dutch: 'Theeproeverij',
           english: 'Tea Tasting'
         },
-        start: 1600,
-        end: 1730,
+        start: 1700,
+        end: 1800,
         beschrijving: {
           dutch: 'Zwarte thee, groene thee, witte thee, kruidenthee en nog veel meer. Er zijn zo veel theesoorten in de wereld. Kom een kleine selectie proeven! Misschien ontdek jij wel je nieuwste favoriete theesmaak of weet je alle smaken feilloos te benoemen.',
           english: 'Black tea, green tea, white tea, herbal tea and much more. There are so many tea flavours in the world. Come and taste a small selection! Maybe you discover your latest favourite tea or you pick out all flavour flawlessly.'
@@ -472,11 +537,24 @@ module.exports = {
       },
       {
         titel: {
+          dutch: 'Frietuur',
+          english: 'Deep fry hour'
+        },
+        start: 2315,
+        end: 15,
+        beschrijving: {
+          dutch: 'Er is een feestje op de Bolk. En bij een feestje hoort natuurlijk gefrituurde meuk. Dat is iets wat we altijd wel op voorraad hebben. Kost geen geld, het hoort er nou eenmaal een beetje bij.',
+          english: 'There is a party at the Bolk and every party needs deep fried shit. That is something we always have in stock. Free or charge, it’s just something we like to do.'
+        },
+        lokatie: 'links'
+      },
+      {
+        titel: {
           dutch: '4 uur cup-a-soup',
           english: '4 o\'clock cup-a-soup'
         },
         start: 400,
-        end: 430,
+        end: 500,
         beschrijving: {
           dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
           english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'

@@ -59,6 +59,7 @@ export default{
 
   methods: {
     setCookie(lang){
+      //set cookie for 100 days, that should probably be enough
       this.$cookie.set('language', lang, '100')
       //this.burger = false;
       location.reload()

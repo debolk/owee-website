@@ -74,7 +74,7 @@ module.exports = [
   },
   {
     person: 'Vasco',
-    quote: 'Compleet anarchisme, complete chaos, complete vrijheid'
+    quote: 'Omdat je bij de Bolk alles kan maken'
   },
   {
     person: 'Pia',
@@ -91,5 +91,21 @@ module.exports = [
   {
     person: 'Anne',
     quote: 'Omdat het hier gezellig is en ik hier mezelf kan zijn.'
-  }
+  },
+  {
+    person: 'Harry',
+    quote: 'Via via ben ik bij de Bolk terecht gekomen omdat een vriend tegen mij zei dat er hier een zooitje lompe nerds rondlopen.'
+  },
+  {
+    person: 'Linda',
+    quote: 'Voornamelijk omdat ik merkte dat mensen hier ook gewoon een beetje spelletjes spelen. Bij 3D twister ben ik hier terrecht gekomen, heb ik mijn bril verloren en ben ik hier blijven hangen.'
+  },
+  {
+    person: 'Looka',
+    quote: 'Omdat ik elke avond van de OWee bij de Bolk belandde vanwege de toffe mensen. En natuurlijk de tosti\'s.'
+  },
+  {
+    person: 'Ivan',
+    quote: 'Ik had een studiegenoot die al lid was, toen zijn we naar de karaoke geweest en dacht ik: Laat ik maar eens lid worden.'
+  },
 ]
