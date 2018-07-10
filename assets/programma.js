@@ -465,8 +465,8 @@ module.exports = {
         start: 2300,
         end: 2315,
         beschrijving: {
-          dutch: 'Neem eventjes rust',
-          english: 'Have a break'
+          dutch: 'Neem eventjes rust.',
+          english: 'Have a break.'
         },
         lokatie: 'rechts'
       },
