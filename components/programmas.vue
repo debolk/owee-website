@@ -27,10 +27,11 @@
       <div class="modal-content">
         <div class="modaltitle">
           {{modalItem.titel[$cookie.get('language')]}}
+        </div>
           <span class="time">
             {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
           </span>
-        </div>
+          <br/>
         {{modalItem.beschrijving[$cookie.get('language')]}}
       </div>
       <button class="modal-close is-large" @click="modal = false"></button>
@@ -60,7 +61,7 @@ export default {
 
   mounted(){
     fitty('.fitTitle', {
-      minSize: 11,
+      minSize: 10,
       maxSize: 20,
       multiline: true
     })
@@ -73,7 +74,7 @@ export default {
 
   computed: {
     grow(){
-      return this.$mq === 'mobile' ? 1.3 : 1.3
+      return this.$mq === 'mobile' ? 1.4 : 1.4
     },
     begintijd: function(){
       if(this.$mq === 'mobile'){
@@ -121,8 +122,16 @@ export default {
   padding: 20px;
 }
 
+.textcontainer{
+  width: calc(100% - 10px);
+  position: relative;
+  left: 5px;
+  display: block;
+}
+
 .fitTitle{
-  display: inline !important;
+  height: 25px;
+  padding-bottom: 0px !important;
 }
 
 .modal-content .modaltitle{
@@ -165,7 +174,7 @@ export default {
   border: 2px solid #8700a0;
   border-radius: 10px;
   position: absolute;
-  font-size: 0.5em;
+  font-size: 0.25em;
   box-sizing: border-box;
   transition: 0.2s ease all;
   overflow: hidden;
@@ -173,7 +182,6 @@ export default {
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  word-wrap: normal;
   word-break: keep-all;
 }
 
@@ -184,6 +192,7 @@ export default {
 .event .title {
   color: black;
   font-size: 1rem;
+  margin-bottom: -20px !important;
 }
 
 body{

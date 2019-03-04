@@ -72,7 +72,7 @@ export default{
 
 .mobiledagcontainer{
   position: relative;
-  top: -300px;
+  top: -250px;
 }
 
 #schema{

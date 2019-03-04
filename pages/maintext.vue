@@ -16,6 +16,14 @@
       <p>Curious what to do and what the Bolk has to offer? This website is especially built for that! Have a look around, mark the dates in your diary and visit us during the OWee.</p>
     </div>
 
+    <div class="content">
+      <div class="video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/oUJQHqtAr4g?rel=0&amp;showinfo=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    
+
     <div class="upsidedowntriangles"></div>
   </div>
 </template>
@@ -30,6 +38,23 @@
   background-color: #8700a0;
   padding: 100px 0px;
   position: relative;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 53%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  border-radius: 20px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .maintriangles{

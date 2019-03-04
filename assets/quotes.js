@@ -108,4 +108,8 @@ module.exports = [
     person: 'Ivan',
     quote: 'Ik had een studiegenoot die al lid was, toen zijn we naar de karaoke geweest en dacht ik: Laat ik maar eens lid worden.'
   },
+  {
+    person: 'Douwe',
+    quote: 'Bolk is love, Bolk is life.'
+  }
 ]
