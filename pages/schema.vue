@@ -103,7 +103,7 @@ export default{
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-image: url('~/assets/triangle-blue.svg');
+  background-image: url('~assets/triangle-blue.svg');
   background-size: contain;
 }
 

@@ -62,7 +62,7 @@
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-image: url('~/assets/triangle-blue.svg');
+  background-image: url('~assets/triangle-blue.svg');
   background-size: contain;
 }
 
@@ -71,7 +71,7 @@
   width: 100%;
   position: absolute;
   bottom: -18px;
-  background-image: url('~/assets/triangle-purple-upsidedown.svg');
+  background-image: url('~assets/triangle-purple-upsidedown.svg');
   background-size: contain;
   z-index: 5;
 }

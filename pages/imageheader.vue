@@ -13,7 +13,7 @@
 
 <style>
   #imageheader{
-    background-image: url('~/assets/fotos/DSC_0316.jpg');
+    background-image: url('~assets/fotos/DSC_0316.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -29,7 +29,7 @@
     width: 100%;
     position: absolute;
     top: calc(100vh - 60px);
-    background-image: url('~/assets/triangle-purple.svg');
+    background-image: url('~assets/triangle-purple.svg');
     background-size: contain;
   }
 

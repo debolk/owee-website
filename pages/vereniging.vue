@@ -27,7 +27,7 @@
 
 #vereniging{
   padding: 100px 0px;
-  background-image: url('~/assets/fotos/groepsfoto.jpg');
+  background-image: url('~assets/fotos/groepsfoto.jpg');
   background-size: cover;
   background-position: bottom;
   color: #8700a0;
@@ -43,7 +43,7 @@
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-image: url('~/assets/triangle-purple.svg');
+  background-image: url('~assets/triangle-purple.svg');
   background-size: contain;
 }
 </style>

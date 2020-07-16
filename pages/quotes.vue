@@ -73,7 +73,7 @@ export default{
   background-color: #87eebf;
   color: white;
   position: relative;
-  background-image: url('~/assets/fotos/societeit.jpg');
+  background-image: url('~assets/fotos/societeit.jpg');
   background-size: cover;
   background-position: bottom;
 }

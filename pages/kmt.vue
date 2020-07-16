@@ -26,7 +26,7 @@
   background-color: #87eebf;
   color: #8700a0;
   position: relative;
-  background-image: url('~/assets/fotos/kmt botter.jpg');
+  background-image: url('~assets/fotos/kmt botter.jpg');
   background-position: bottom;
   background-size: cover;
 }
@@ -40,7 +40,7 @@
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-image: url('~/assets/triangle-purple.svg');
+  background-image: url('~assets/triangle-purple.svg');
   background-size: contain;
 }
 </style>

@@ -18,22 +18,22 @@
     }
   },
   "dependencies": {
-    "bulma": "^0.7.1",
-    "node-sass": "^4.9.0",
+    "bulma": "^0.7.5",
     "nodejs": "0.0.0",
-    "npm": "^6.1.0",
-    "nuxt": "^1.0.0",
-    "sass-loader": "^7.0.1",
+    "npm": "^6.14.6",
+    "nuxt": "2.13.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.0",
     "vue-carousel": "^0.7.3",
     "vue-cookie": "^1.1.4",
     "vue-mq": "^0.2.1",
     "vue-smooth-scroll": "^1.0.13"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.7.1"
   }
 }
