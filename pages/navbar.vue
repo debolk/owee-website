@@ -17,7 +17,7 @@
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Vereniging</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Programma</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleep-Inn</a></div>
+          <div class="menuitemcontainer"><a href="#covid" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
         </div>
@@ -28,7 +28,7 @@
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Association</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Schedule</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleep-Inn</a></div>
+          <div class="menuitemcontainer"><a href="#covid" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
         </div>
@@ -42,7 +42,7 @@
             <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> Nederlands</a></div>
           </div>
         </div>
-        
+
       </div>
     </nav>
   </div>
@@ -73,7 +73,7 @@ export default{
 
 <style>
   .navbar{
-    background-color: #8700a0;
+    background-color: #ee7730;
   }
 
   .flag{
@@ -83,12 +83,12 @@ export default{
   }
 
   .navbar-menu{
-    background-color: #8700a0;
+    background-color: #ee7730;
     text-align: center;
     width: 100%;
     padding: 0;
     position: fixed;
-    border-bottom: 5px solid #87eebf;
+    border-bottom: 5px solid #045a8f;
     transition: 0.2s ease all;
   }
 
@@ -101,7 +101,7 @@ export default{
   }
 
   .navbar-brand{
-    border-bottom: 5px solid #87eebf;
+    border-bottom: 5px solid #045a8f;
   }
 
   .navbar-menu a {
@@ -123,7 +123,7 @@ export default{
   }
 
   .menuitemcontainer:hover a{
-    color: #8700a0;
+    color: #ee7730;
   }
 
   .navbar a{

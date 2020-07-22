@@ -5,7 +5,7 @@
       <h2 v-if="$cookie.get('language') == 'dutch'">Waar kan je ons vinden?</h2>
       <h2 v-if="$cookie.get('language') == 'english'">Where can you find us?</h2>
 
-      
+
       <p>
         De Bolk (D.S.V. "Nieuwe Delft")<br/>
         Buitenwatersloot 1-3<br/>
@@ -34,11 +34,11 @@
 }
 
 #contact a:hover{
-  color: #87eebf;
+  color: #045a8f;
 }
 
 #contact{
-  background-color: #8700a0;
+  background-color: #ee7730;
   padding: 100px 0px;
   position: relative;
   text-align: center;
@@ -49,7 +49,7 @@
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-image: url('~assets/triangle-blue.svg');
+  /*background-image: url('~assets/triangle-blue.svg');*/
   background-size: contain;
 }
 </style>

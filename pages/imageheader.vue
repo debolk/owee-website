@@ -2,10 +2,13 @@
   <div id="header">
     <div id="imageheader">
       <img
+        v-if="this.$mq === 'mobile'"
+        class="largelogo_mobile"
+        src="~/assets/Bolk Logo Mobiel2.svg">
+      <img
+        v-else
         class="largelogo"
         src="~/assets/Bolk Logo.svg">
-      <br/>
-      <h1 v-bind:class="{ 'mobileheadertext': $mq === 'mobile' }">BOLK TO BE ALIVE</h1>
       <div class="triangles"></div>
     </div>
   </div>
@@ -15,9 +18,10 @@
   #imageheader{
     background-image: url('~assets/fotos/DSC_0316.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100vh;
-    border: 10px solid #8700a0;
+    border: 10px solid #ee7730;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,10 +38,16 @@
   }
 
   .largelogo{
-    height:50vw;
+    height:75vw;
     background-repeat: no-repeat;
-    margin-right: 20px;
-    max-height: 50vh;
+    max-height: 75vh;
+    max-width: 90%;
+  }
+
+  .largelogo_mobile{
+    background-repeat: no-repeat;
+    max-height: 85vh;
+    width: 100%;
   }
 
   #imageheader .mobileheadertext{
@@ -46,14 +56,14 @@
 
   #imageheader h1{
     font-size: 8rem !important;
-    color: #87eebf !important;
-    text-shadow: -4px 0 #8700a0,
-                -4px -4px #8700a0,
-                4px 4px #8700a0,
-                -4px 4px #8700a0,
-                4px -4px #8700a0,
-                0 4px #8700a0,
-                4px 0 #8700a0,
-                0 -4px #8700a0;
+    color: #045a8f !important;
+    text-shadow: -4px 0 #ee7730,
+                -4px -4px #ee7730,
+                4px 4px #ee7730,
+                -4px 4px #ee7730,
+                4px -4px #ee7730,
+                0 4px #ee7730,
+                4px 0 #ee7730,
+                0 -4px #ee7730;
   }
 </style>

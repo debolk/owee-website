@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div>
     <navbar></navbar>
     <imageheader></imageheader>
@@ -6,7 +6,7 @@
     <vereniging></vereniging>
     <schema></schema>
     <kmt></kmt>
-    <sleepin></sleepin>
+    <covid></covid>
     <quotes></quotes>
     <contact></contact>
   </div>
@@ -19,7 +19,7 @@
   import maintext from '~/pages/maintext.vue'
   import schema from '~/pages/schema.vue'
   import kmt from '~/pages/kmt.vue'
-  import sleepin from '~/pages/sleepin.vue'
+  import covid from '~/pages/covid.vue'
   import contact from '~/pages/contact.vue'
   import navbar from '~/pages/navbar.vue'
 
@@ -31,14 +31,14 @@
       schema,
       maintext,
       kmt,
-      sleepin,
+      covid,
       contact,
       navbar
     },
 
     beforeCreate(){
       //set cookie if none
-      if(this.$cookie.get('language') != 'dutch' && this.$cookie.get('language') != 'english'){
+      if(this.$cookie.get('language') !== 'dutch' && this.$cookie.get('language') !== 'english'){
         this.$cookie.set('language', 'dutch', '100')
       }
     }

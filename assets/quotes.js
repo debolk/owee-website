@@ -1,4 +1,3 @@
-
 module.exports = [
   {
     person: 'Connor',

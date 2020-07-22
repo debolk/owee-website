@@ -170,8 +170,8 @@ export default {
 .event {
   cursor: pointer;
   width: 100%;
-  background-color: #87eebf;
-  border: 2px solid #8700a0;
+  background-color: #045a8f;
+  border: 2px solid #ee7730;
   border-radius: 10px;
   position: absolute;
   font-size: 0.25em;
@@ -199,5 +199,8 @@ body{
   margin: none;
 }
 
+.fitTime {
+  color: darkgray;
+}
 
 </style>
