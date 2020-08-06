@@ -24,17 +24,18 @@
 
 <style>
 
+
 #contact p{
-  color: white;
+  color: #045a8f;
 }
 
-#contact a{
-  color: white;
+#contact h2{
+  color: #045a8f !important;
   text-decoration: underline;
 }
 
 #contact a:hover{
-  color: #045a8f;
+  color: white;
 }
 
 #contact{

@@ -20,7 +20,11 @@
 <style>
 
 #covid p{
-  color: white;
+  color: #045a8f;
+}
+
+#covid h2{
+  color: #045a8f !important;
 }
 
 #covid{

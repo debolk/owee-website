@@ -71,20 +71,20 @@ export default{
 #quotes{
   padding: 100px 0px;
   background-color: #045a8f;
-  color: white;
+  color: #045a8f;
   position: relative;
   background-size: cover;
   background-position: bottom;
 }
 
 #quotes h2{
-  color: #ee7730 !important;
+  color: white !important;
 }
 
 #quotes .VueCarousel-navigation button{
 	margin-left: 20px;
 	margin-right: 20px;
-	border: solid #ee7730;
+	border: solid #045a8f;
 	border-width: 0 2px 2px 0 !important;
 	width: 30px;
 	height: 30px;

@@ -30,12 +30,12 @@
   background-color: #045a8f;
   background-size: cover;
   background-position: bottom;
-  color: #ee7730;
+  color: white;
   position: relative;
 }
 
 #vereniging h2{
-  color: #ee7730 !important;
+  color: white !important;
 }
 
 .verenigingtriangles{

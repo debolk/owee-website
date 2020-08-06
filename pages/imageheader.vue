@@ -4,7 +4,7 @@
       <img
         v-if="this.$mq === 'mobile'"
         class="largelogo_mobile"
-        src="~/assets/Bolk Logo Mobiel2.svg">
+        src="~/assets/Bolk Logo Mobiel.svg">
       <img
         v-else
         class="largelogo"

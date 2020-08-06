@@ -11,13 +11,17 @@
             <div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][0]}}</h3>
-                <programmas dag="maandag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
+                <programmas dag="vrijdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="column column-middle">
+          <div class="columns is-mobile">
             <div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][1]}}</h3>
-                <programmas dag="dinsdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
+                <programmas dag="zaterdag"></programmas>
               </div>
             </div>
           </div>
@@ -25,15 +29,9 @@
         <div class="column column-right">
           <div class="columns is-mobile">
             <div class="column">
-              <div class="dagcontainer">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][2]}}</h3>
-                <programmas dag="woensdag"></programmas>
-              </div>
-            </div>
-            <div class="column">
-              <div class="dagcontainer">
-                <h3>{{dagen[$cookie.get('language')][3]}}</h3>
-                <programmas dag="donderdag"></programmas>
+                <programmas dag="zondag"></programmas>
               </div>
             </div>
           </div>
@@ -51,8 +49,8 @@ export default{
   data(){
     return{
       dagen: {
-        dutch: ['maandag', 'dinsdag', 'woensdag', 'donderdag'],
-        english: ['Monday', 'Tuesday', 'Wednesday', 'Thursday']
+        dutch: ['Vrijdag', 'Zaterdag', 'Zondag'],
+        english: ['Friday', 'Saturday', 'Sunday']
       }
     }
   },
@@ -67,7 +65,7 @@ export default{
 <style>
 
 .mobiledagcontainerparent{
-  height: 1100px !important;
+  height: 1000px !important;
 }
 
 .mobiledagcontainer{
@@ -79,6 +77,10 @@ export default{
   background-color: #ee7730;
   padding: 100px 0px;
   position: relative;
+}
+
+#schema h2{
+  color: #045a8f !important;
 }
 
 .column{
@@ -114,6 +116,6 @@ export default{
 }
 
 .dagcontainer h3{
-   color: white;
+   color: #045a8f;
 }
 </style>

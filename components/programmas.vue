@@ -49,6 +49,7 @@ export default {
   },
 
   data() {
+    console.log(programma, this.dag)
     return {
       vandaag: programma[this.dag].planning,
       modal: false,
@@ -74,7 +75,7 @@ export default {
 
   computed: {
     grow(){
-      return this.$mq === 'mobile' ? 1.4 : 1.4
+      return this.$mq === 'mobile' ? 1.4 : 2.1
     },
     begintijd: function(){
       if(this.$mq === 'mobile'){
@@ -190,7 +191,7 @@ export default {
 }
 
 .event .title {
-  color: black;
+  color: white;
   font-size: 1rem;
   margin-bottom: -20px !important;
 }

@@ -1,4 +1,3 @@
-
 // elke activiteit heeft 5 variabelen:
 // begintid (start),
 // eindtid (end),
@@ -7,479 +6,239 @@
 // of hij 'links', 'rechts' of in het 'midden' moet worden weergegeven (lokatie)
 
 module.exports = {
-  maandag: {
-    begintijd: 1400,
-    planning:[
-      {
-        titel: {
-          dutch: 'MEGA-spellen',
-          english: 'MEGA-games'
-        },
-        start: 1700,
-        end: 1800,
-        beschrijving: {
-          dutch: 'Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Of probeer iets anders en ga spijkerslaan. Iedereen om een GROTE boomstronk, spijkers en hamers, dit kan alleen maar voor ENORM veel plezier zorgen!',
-          english: 'Do Connect Four and Jenga give you nostalgic feelings? Play it in MEGA. Make sure that your victory can also be admired from a distance or challenge your friends to a rematch. Or try something different and play Nail Stump. Everyone around a BIG tree stump, nails and hammers, this can only lead to a HUGE amount of fun!'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Eettafel',
-          english: 'Dinner'
-        },
-        start: 1800,
-        end: 2000,
-        beschrijving: {
-          dutch: 'Onze eettafel bestaat uit een voorgerecht, een hoofdgerecht en een toetje, elke dag gemaakt door onze eigen leden met verse producten.',
-          english: 'Dinner at the Bolk consists of a starter, main course and dessert, made freshly everyday by our own members.'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: '3D-twister',
-          english: '3D-twister'
-        },
-        start: 2000,
-        end: 2200,
-        beschrijving: {
-          dutch: 'Waarom een zeil met gekleurde stippen gebruiken als je ook in het vooronder van onze botter naar gekleurde rondjes kan zoeken die op allemaal random plekken zitten? Daarom hebben we twister een 3D karakter gegeven. Wring je in de meest onmogelijke bochten, ontdek allerlei hoekjes en gaatjes en zorg dat je niet omvalt!',
-          english: 'Why use a mat with coloured dots if you can search for randomly placed coloured circles at our sailing ship? That’s why we have given twister a 3D character. Put yourself in precarious positions, discover special corners of our historical boat and make sure you don’t fall!'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Cocktailnight',
-          english: 'Cocktailnight'
-        },
-        start: 2200,
-        end: 400,
-        beschrijving: {
-          dutch: 'De beroemde Bolksche Cocktailnight wordt weer een groot feest! Ga een avond helemaal los met jouw favoriete cocktails, bijvoorbeeld de Paarse Moederneuker of de Bananenboner!',
-          english: 'The famous Cocktailnight at De Bolk is going to be a huge party! With your favourite cocktails like the Purple Motherfucker and the Bananaboner!'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: '4 uur cup-a-soup',
-          english: '4 o\'clock cup-a-soup'
-        },
-        start: 400,
-        end: 500,
-        beschrijving: {
-          dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
-          english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
-        },
-        lokatie: 'midden'
-      }
-    ]
-  },
-
-  dinsdag: {
-    begintijd: 1400,
+  vrijdag: {
+    begintijd: 1200,
     planning: [
       {
         titel: {
-          dutch: 'Hertje zonnebril',
-          english: 'That sunglasses doe'
+          dutch: 'Algemene intro',
+          english: 'Introduction'
         },
-        start: 1700,
+        start: 1630,
+        end: 1645,
+        beschrijving: {
+          dutch: 'Ben jij bij de Bolk gekomen via de kieswijzer? Heb je vragen voor onze leden? Onze leden zullen vragen beantwoorden en het programma verder toelichten.',
+          english: 'Did you come to the Bolk via the voting guide? Are there already questions you want to ask to our members? Our members will be answering questions and giving more details about our program.'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'Kijk hoe het klinkt',
+          english: 'See how it sounds'
+        },
+        start: 1645,
         end: 1800,
         beschrijving: {
-          dutch: 'Het oud-hollandse spel ezeltje-prik-je, maar dan anders! Probeer geblinddoekt de zonnebril op de neus van het hert te zetten.',
-          english: 'Try to put the sunglasses on the deer’s nose - while being blindfolded!'
+          dutch: 'Kan jij horen welk voorwerp er naar beneden van ons level wordt gegooid zonder het te zien? Ook benieuwd hoe het klinkt en eruit ziet als er een apparaat kapot valt vanaf 3 meter hoog? Raad het voorwerp!',
+          english: 'Can you hear what object is being thrown down from our level without seeing it? Also curious how it sounds and looks when a device crashes down from 3 meters high? Guess the object!'
         },
-        lokatie: 'links'
+        lokatie: 'midden'
       },
       {
         titel: {
-          dutch: 'Escaperoom',
-          english: 'Escaperoom'
+          dutch: 'Constructiewedstrijd met A4-papier',
+          english: 'Construction competition with A4 paper'
         },
-        start: 1700,
-        end: 2130,
+        start: 2000,
+        end: 2030,
         beschrijving: {
-          dutch: 'Voor de Bolk ligt een botter en zoals je weet zijn boten soms lastig te navigeren. Helemaal nu we van de botter een escaperoom gemaakt hebben. Probeer je weg naar buiten te vinden door puzzels op te lossen in het ruim van ons schip en zet de snelste tijd neer.',
-          english: 'In front of the Bolk you can find our boat and boats are, as you might know, pretty hard to navigate. Especially now that we’ve made it into an escaperoom. Try to find your way out by solving puzzles in the hold of our boat and set a new time record.'
+          dutch: 'Hoe hoog kan jij je toren maken met alleen A4 papiertjes? Deel een foto van je toren met ons via Instagram met #debolk of deel je foto met ons via het tekstkanaal!',
+          english: 'How high can you make a tower consisting of only A4 papers? Share a photo of your tower with us via Instagram with #debolk or share it with us in our text channel!'
         },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Eettafel',
-          english: 'Dinner'
-        },
-        start: 1800,
-        end: 2000,
-        beschrijving: {
-          dutch: 'Onze eettafel bestaat uit een voorgerecht, een hoofdgerecht en een toetje, elke dag gemaakt door onze eigen leden met verse producten.',
-          english: 'Dinner at the Bolk consists of a starter, main course and dessert, made freshly everyday by our own members.'
-        },
-        lokatie: 'links'
+        lokatie: 'midden'
       },
       {
         titel: {
           dutch: 'Pubquiz',
           english: 'Pubquiz'
         },
-        start: 2000,
+        start: 2030,
         end: 2130,
         beschrijving: {
-          dutch: 'Verbaas je vrienden met je superieure kennis over willekeurige trivia zoals: “Wisten jullie dat de ster die het dichtst bij de aarde staat de zon is?”, “Wisten jullie dat Lingo 5000 afleveringen telt?” en “Wisten jullie dat Willem van Oranje in het pand van De Bolk heeft overnacht?” Deze willekeurige bullshit kan jou een voorsprong geven op de overwinning van deze e-pi-sche pubquiz. Of kom langs om voor de gezelligheid en omdat je dingen wil leren ofzo.',
-          english: '[In Dutch] Surprise your friends with your superior knowledge of random trivia. Or just come by to enjoy the atmosphere and learn a thing or two.'
+          dutch: 'Pubquiz? Pubquiz! Test je kennis over algemene onderwerpen, maar ook over Delft. Los raadsels op en leer leuke weetjes over de Bolk. De pubquiz kan gespeeld worden met je mentorgroepje of alleen.',
+          english: 'Pubquiz? Pubquiz! Test your knowledge on general topics, but also of Delft. Solve riddles and learn fun facts about the Bolk. The pub quiz can be played with your mentor group or alone.'
         },
-        lokatie: 'links'
+        lokatie: 'midden'
       },
       {
         titel: {
-          dutch: 'Will it Blend?',
-          english: 'Will it Blend?'
+          dutch: 'Absurde kookworkshop',
+          english: 'Crazy cooking workshop'
         },
         start: 2130,
         end: 2200,
         beschrijving: {
-          dutch: 'Altijd al benieuwd geweest wat er gebeurd als je je spullen in een blender gooit? Wij ook niet! Kom er achter op de Bolk!',
-          english: 'Do you know what happens when you throw some stuff in a blender ? We neither! Find it out at the Bolk!'
+          dutch: 'Twee van onze leden gaan naar de markt en kopen random ingrediënten! Hiermee maken zij een absurde maaltijd.',
+          english: 'Two of our members will go to the market to buy random ingredients! With this they will make an absurd meal.'
         },
         lokatie: 'midden'
       },
       {
         titel: {
-          dutch: 'Preimeppen',
-          english: 'Leekfight'
+          dutch: 'Shortfilm',
+          english: 'Shortfilm'
         },
         start: 2200,
         end: 2230,
         beschrijving: {
-          dutch: 'Wat zou jij doen als je tientallen kilo’s prei rond hebt slingeren? Kapot slaan tegen je medestudenten natuurlijk! Kom naar de Bolk, claim je prei en verlies een aantal vrienden in dit geweldige idee wat nooit fout kan gaan.',
-          english: 'What would you do in case you have access to tens of kilos of leek? Hit your fellow students of course! Visit the Bolk, claim your leek and lose a couple of friends during this awesome idea that can’t possibly go wrong.'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Tosti klussen',
-          english: 'Build your own Grilled cheese sandwich'
-        },        
-        start: 2230,
-        end: 0,
-        beschrijving: {
-          dutch: 'Tosti met kaas? Tosti met tandpasta? Of dan toch gewoon een tosti met appeltaart? Het kan hier allemaal! Verzin je eigen tosti en eet hem op.',
-          english: 'Grilled cheese sandwich with cheese? Toothpaste? Or just with apple pie? It’s all possible! Create your own sandwich and taste your ideas.'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Mix je Mojito',
-          english: 'Mix your Mojito'
-        },        
-        start: 2230,
-        end: 0,
-        beschrijving: {
-          dutch: 'Het is zomer en hopelijk lekker weer buiten. Koel lekker af met een frisse mojito huisgemaakt en live gebrouwen aan onze bar met de ingrediënten die je zelf kiest. Alcoholvrije opties zijn natuurlijk ook aanwezig.',
-          english: 'It’s summer and hopefully great weather outside. Cool yourself down with a fresh homemade mojito which is brewed live at the bar using the ingredients of your choosing. Alcohol free options are available as well, obviously.'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Karaoke',
-          english: 'Karaoke'
-        },
-        start: 0,
-        end: 400,
-        beschrijving: {
-          dutch: 'Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf.',
-          english: 'Do you want to sing to all your favorite songs? Then go to the karaoke and sing till your throat hurts. '
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: '4 uur cup-a-soup',
-          english: '4 o\'clock cup-a-soup'
-        },
-        start: 400,
-        end: 500,
-        beschrijving: {
-          dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
-          english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
+          dutch: 'Er zullen shortfilms te zien zijn die door onze eigen leden gemaakt zijn!',
+          english: 'We will show shortfilms which are made by our own members!'
         },
         lokatie: 'midden'
       }
     ]
   },
 
-  woensdag: {
-    begintijd: 1400,
+  zaterdag: {
+    begintijd: 1200,
     planning: [
       {
         titel: {
-          dutch: 'Jukebox Party',
-          english: 'Jukebox Party'
-        },
-        start: 1700,
-        end: 1800,
-        beschrijving: {
-          dutch: 'Wil jij je echt ultiem hipster voelen of ben je dat al maar zit je in de ontkenningsfase, kom dan gewoon lekker langs en vraag jouw ultieme zomerse plaatje aan bij deze handmatige Jukebox Party experience! Singeltjes worden speciaal voor jou onder de naald gelegd! Geniet met een lekker drankje van het gekraak in het zwarte vinyl. Haal die echte hipster in jou naar boven! ☮',
-          english: 'Do you want to feel ultra hipster or are you still denying that you are in fact a hipster? Come over and listen to your favorite sunny tunes! Request your favorite vinyl singles and see how the needles is dropped onto the vinyl. Enjoy a drink, relax, sit back and listen to the crackling in the black vinyl. Bring out your inner hipster! ☮'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Knoop je sleutelhanger',
-          english: 'Knot your keychain'
-        },
-        start: 1700,
-        end: 1800,
-        beschrijving: {
-          dutch: 'Vul je sleutelbos aan met je eigen kunstwerken. Laat zien welke knopen jij allemaal kent of breid je collectie uit. Gezellig? Natuurlijk! En dit alles op onze historische zeilboot.',
-          english: 'Fill your bunch of keys with your own artworks. Show which knotting techniques you know or expand your collection. Cosy? Of course! And all this on our historic sailboat.'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Eettafel',
-          english: 'Dinner'
-        },
-        start: 1800,
-        end: 2000,
-        beschrijving: {
-          dutch: 'Onze eettafel bestaat uit een voorgerecht, een hoofdgerecht en een toetje, elke dag gemaakt door onze eigen leden met verse producten.',
-          english: 'Dinner at the Bolk consists of a starter, main course and dessert, made freshly everyday by our own members.'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Retrogamen',
-          english: 'Retrogaming'
-        },
-        start: 2000,
-        end: 2200,
-        beschrijving: {
-          dutch: 'Ken jij je klassiekers nog? Daag je vrienden uit in een potje Mario Kart, Super Smash of andere spelletjes!',
-          english: 'Do you know your classics? Challenge your friends in a game of Mario Kart, Super Smash and many more games!'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Pimp je fiets',
-          english: 'Pimp my bike'
-        },
-        start: 2000,
-        end: 2100,
-        beschrijving: {
-          dutch: 'Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling.',
-          english: 'Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don’t have to worry about losing it anymore.'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Vis roken',
-          english: 'Smoked fish'
-        },
-        start: 2100,
-        end: 2200,
-        beschrijving: {
-          dutch: 'Even bijkomen van alle drukte kan ook. Vis roken is een kunst die verloren gaat, terwijl het zo’n lekker resultaat oplevert! Kom lekker met de Vrienden van Trui (de botter) chillen terwijl er vis wordt gerookt. Uiteraard kan je deze ook eten!',
-          english: 'Take a moment of rest and enjoy some smoked fish. Enjoy the lost art of smoking some good ol’ fish.'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Dozenfort',
-          english: 'Cardboard fortress'
-        },
-        start: 2200,
-        end: 2230,
-        beschrijving: {
-          dutch: 'Haal het kind in je naar boven en bouw een fort van kartonnen dozen, meters hoog en meters breed! Dan heb je meteen een tactische schuilplek om iedereen vanuit te bekogelen bij de activiteit hierna, de bierviltjesoorlog.',
-          english: 'Bring out your inner child and build a massive fortress out of cardboard boxes. Then you’ll also have a tactical hideout for the next activity, the war of the beer mats! '
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Bierviltjesoorlog',
-          english: 'War of the beer mats'
-        },
-        start: 2230,
-        end: 2300,
-        beschrijving: {
-          dutch: 'Tijdens een bierviltjesoorlog ga je met een bijna oneindige voorraad bierviltjes gooien. Gooi ze op je vrienden en/of je mentor. Alles is toegestaan in een bierviltjesoorlog. “Bierviltjes! Bierviltjes overal! Dit is chaos!” ',
-          english: 'During this event you will be able to throw a nearly unlimited supply of beer mats. Throw them at anyone.  “Beer mats, Beer mats everywhere!” - last years only survivor.'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Hardrockcafé',
-          english: 'Hard rock café'
-        },
-        start: 2300,
-        end: 100,
-        beschrijving: {
-          dutch: 'De speakers gaan op volle toeren met een snoeiharde lijst aan muziek! Herken jij de nummers en artiesten? Kom lekker een drankje drinken en zorg ervoor dat jij degene bent die zijn bingokaart meteen vol krijgt! Er zijn geweldige prijzen te winnen!',
-          english: 'You can’t miss this hour full of oldies but goldies! Can you recognise every single song? Then you’ll probably win the Bingo and win a prize!'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Speciaalbier proeverij',
-          english: 'Craft beer tasting'
-        },
-        start: 2315,
-        end: 45,
-        beschrijving: {
-          dutch: 'Bier is er in allerlei soorten en maten. Hou je van een zoet biertje of juist eentje met een bittertje? Wil jij dat je bier zonder toevoegingen is gemaakt, of vind je het niet erg als er peper in zit? Hou je van koffie en bier? Dan kan dat ook! Het Bolksch Bierbrouwersgilde kan je er van alles over vertellen tijdens deze speciaalbierproeverij! Heb je vragen over de proeverij, kom dan langs op de Sport en Cultuurdag bij het Bolksch Bierbrouwersgilde (BBG).',
-          english: 'Craft beers come in many shapes and sizes. Do you like a sweet or a bitter pint? Do you like the German idea of the Reinheitsgebot? Or don’t you mind if it is brewed with pepper or coffee beans? The Bolksch Bierbrouwersgilde (Craft Beer Brewing Guild of the Bolk) can tell you a ton of information with every sip you take. If you have any question, you can come and ask them on the Sports & Culture Market at the BBG stand.'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Irish Hour',
-          english: 'Irish Hour'
-        },
-        start: 100,
-        end: 200,
-        beschrijving: {
-          dutch: 'In dit uur is de muziek aangepast op de sfeer die wordt neergezet bij De Bolk! We gaan niet een uur lang alleen maar Ierse zinnen brabbelen of Drunken Lullabies luisteren (hij komt vast wel voorbij), maar waarschijnlijk roepen we wel willekeurige Ierse woorden naar elkaar toe tijdens dit Ierse uur! Drink Guinness en ga los! Proost!',
-          english: '“San uair seo tá an ceol curtha in oiriúint don atmaisféar atá curtha síos ag De Bolk! Ní bhfaighidh muid ach abairtí Gaeilge ar feadh uair an chloig nó ní bheidh sé ag éisteacht le Lullabies Drunken (is dócha go dtéann sé), ach is dócha go bhfaighfimid focail Ghaeilge randamach lena chéile le linn na huaire Gaeilge seo! Dí Guinness agus dul! Slainte!”'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Short film marathon',
-          english: 'Short film marathon'
-        },
-        start: 100,
-        end: 300,
-        beschrijving: {
-          dutch: 'Kom rustig genieten van een mooie selectie aan grappige, bizarre en ontroerende korte films!',
-          english: 'Relax and enjoy our selection of entertaining, bizzare or heartwarming short films!'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Hora Mexicana',
-          english: 'The Hora Mexicana'
-        },
-        start: 200,
-        end: 300,
-        beschrijving: {
-          dutch: 'In dit uur is de muziek aangepast op de sfeer die wordt neergezet bij De Bolk! We gaan niet een uur lang alleen maar Spaanse zinnen brabbelen of Despacito luisteren (hij komt vast wel voorbij), maar waarschijnlijk roepen we wel willekeurige Spaanse woorden naar elkaar toe tijdens dit Mexicaanse uur! Drink tequila en ga los! Olé!',
-          english: '“¡En esta hora la música se adapta a la atmósfera que se pone en De Bolk! No solo escuchamos frases en español durante una hora o escuchamos a Despacito (probablemente pasará), ¡pero probablemente llamaremos palabras aleatorias en español durante esta hora mexicana! ¡Bebe tequila y listo! ¡Olé!”'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Blikbierkwartier',
-          english: 'Quarter of the canned beer'
-        },
-        start: 315,
-        end: 330,
-        beschrijving: {
-          dutch: 'Tijdens een blikbierkwartier mag je dingen slopen! En drink je blikbier. Ooh en je gooit ook met dat blikbier! Of kijk lekker vanaf de bar hoe mensen domme dingen doen. ',
-          english: 'During this quarter of an hour you get to destroy stuff! And drink canned beer. Ooh and you also can throw with that beer! (Yes you can!) Or look from the bar how people act.'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: '4 uur cup-a-soup',
-          english: '4 o\'clock cup-a-soup'
-        },
-        start: 400,
-        end: 500,
-        beschrijving: {
-          dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
-          english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Ochtend gymnastiek',
-          english: 'Morning workout'
-        },
-        start: 400,
-        end: 430,
-        beschrijving: {
-          dutch: 'Als je nog wakker bent op dit late (vroege?) uur dan helpt een beetje ochtendgymnastiek je vaak weer wat beter de dag door.',
-          english: 'Still awake at this late (early?) hour? Then a nice morning workout will get you right up and running again!'
-        },
-        lokatie: 'rechts'
-      }
-    ]
-  },
-
-  donderdag: {
-    begintijd: 1400,
-    planning: [
-      {
-        titel: {
-          dutch: 'Spa',
-          english: 'Spa'
+          dutch: 'Bob Ross in Paint',
+          english: 'Bob Ross in Paint'
         },
         start: 1400,
+        end: 1500,
+        beschrijving: {
+          dutch: 'Laat jouw creatieve kant zien en maak een mooie creatie in microsoft paint door een bob ross tutorial te volgen. Deel je resultaat met ons via Instagram met #debolk of deel je foto met ons via het tekstkanaal!',
+          english: 'Show your creative side and make a beautiful creation in Microsoft Paint by following a Bob Ross tutorial. Share your result with us via Instagram with #debolk or share it with us via our text channel!'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'IKEA constructiewedstrijd',
+          english: 'IKEA construction contest'
+        },
+        start: 1500,
+        end: 1515,
+        beschrijving: {
+          dutch: 'Zijn de ikea kasten echt zo makkelijk in elkaar te zetten? Hoe goed gaat het in elkaar zetten als het snel moet? Kijk hoe twee bolkers zo snel mogelijk de kast in elkaar proberen te zetten en kies je team!',
+          english: 'Are the IKEA cabinets really that easy to assemble? How does the assembly go when it has to be done fast? Watch how two bolkers try to assemble a cabinet as soon as possible and choose your team!'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'Scavenger hunt',
+          english: 'Scavenger hunt'
+        },
+        start: 1515,
+        end: 1545,
+        beschrijving: {
+          dutch: 'Zit jij al de hele OWee in je stoel stil? Dat kan niet zo langer! Krijg een kleine workout en doe mee aan de scavenger hunt: ga in je huis op zoek naar alle dingen van onze lijst. Maak hier een foto van en upload die naar instagram met #debolk of deel je foto met ons via het tekstkanaal.',
+          english: 'Have you been sitting in your chair all this time during the OWee? This can\'t go on like this! Get a little workout and join the scavenger hunt: search your house for all items on our list. Take a picture of this and upload it to instagram with #debolk or share it with us via our text channel.'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'Minecraft',
+          english: 'Minecraft'
+        },
+        start: 1545,
         end: 1700,
         beschrijving: {
-          dutch: 'Ook zo moe van gisteren? Kom chillen met zwembadjes, gezichtscreme, gekoelde drankjes en je rustige zomerse muziek. ',
-          english: 'Tired from yesterday? Come chill out at our spa with kiddie pools, face masks, cooled drinks and summery tunes.'
+          dutch: 'Speel minecraft met bolkers! Loop door de Bolk en sloop bijvoorbeeld het pand op een zo creatief mogelijke manier.',
+          english: 'Play minecraft with bolkers! Walk through the Bolk and demolish the building in the most creative way possible.'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'Spelletjesavond',
+          english: 'Game night'
+        },
+        start: 2000,
+        end: 2300,
+        beschrijving: {
+          dutch: 'Minecraft \n Speel minecraft met bolkers! Loop door de Bolk en sloop bijvoorbeeld het pand op een zo creatief mogelijke manier.\n\n Bordspellen met Bolkers\n Kom gezellig online bordspellen spelen zoals Saboteur, Coop, Hanabi en Boeren Bridge samen met bolkers.\n\n One Night Weerwolven/n Speel met een groepje een digitaal rondje One Night Werewolf op Discord, mogelijk gemaakt door een bolker. Red jij de burgers of slaan de weerwolven \'s nachts toe?',
+          english: 'Minecraft\n Play minecraft with bolkers! Walk through the Bolk and demolish the building in the most creative way possible.\n\n Boardgames with Bolkers\n Come play online board games like Saboteur, Coop, Hanabi and Boeren Bridge together with bolkers.\n\n One Night Werewolf\n Play a digital round of One Night Werewolf on Discord together with others, made possible by a bolker. Will you save the civilians or will the werewolves strike at night?'
         },
         lokatie: 'links'
+      },
+      {
+        titel: {
+          dutch: 'Bolk Mystery',
+          english: 'Bolk Mystery'
+        },
+        start: 2000,
+        end: 2145,
+        beschrijving: {
+          dutch: 'Door hints te vinden op onze pagina\'s, volg je een online speurtocht en kan je het mysterie oplossen!',
+          english: 'By finding hints on our sites, you follow an online treasure hunt and you can solve the mystery!'
+        },
+        lokatie: 'rechts'
+      }
+    ]
+  },
+
+  zondag: {
+    begintijd: 1200,
+    planning: [
+      {
+        titel: {
+          dutch: 'Craftworkshop',
+          english: 'Craftworkshop'
+        },
+        start: 1200,
+        end: 1230,
+        beschrijving: {
+          dutch: 'Maak een epische schatkaart met een velletje papier, een aansteker, koffie of thee, een oven en een keukenrol. Maak hierna een mooie tekening op het papier met potlood of pen. Een bolker zal dit allemaal voordoen. Deel een foto van jouw creatie met ons via Instagram met #debolk of deel de foto met ons via het tekstkanaal!',
+          english: 'Make an epic treasure map with a piece of paper, a lighter, coffee or tea, an oven and a paper towel. Then make a nice drawing on the paper with pencil or pen. A member of the Bolk will show how to do all of this. Share a photo of your creation with us on Instagram using #debolk or share it with us via our text channel!'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'Tosti tutorial',
+          english: 'Grilled sandwiches tutorial'
+        },
+        start: 1230,
+        end: 1300,
+        beschrijving: {
+          dutch: 'Vind jij tosti\'s lekker? Wij bij de Bolk ook! We maken dan ook allerlei soorten tosti\'s in de vereniging. Dit is je kans om een paar van deze geheime recepten na te maken en zelf te proberen! Check wel even van tevoren of je alle ingrediënten in je huis hebt. Je kan kiezen uit de volgende tosti’s:\n Appeltaart (appel compote, rozijnen, kaneel, 2 sneden casinobrood) \n Pure passie (kaas, tomatenpuree, olijven, tonijn, oregano, 2 sneden casinobrood)\n Döner (kaas, kip döner uit de vriezer, kaas, knoflooksaus, kebab kruiden, 2 sneden casinobrood)\n Kipkip pesto (kaas, kipfilet (beleg), pesto, 2 sneden casinobrood)',
+          english: 'Do you like grilled sandwiches? We at the Bolk love them too! We make all kinds of special sandwiches in the association. This is your chance to recreate some of these secret recipes and try it for yourself! Check in advance if you have all the ingredients in your house. You can choose from the following sandwiches:\n Apple pie (apple compote, raisins, cinnamon, 2 slices of casino bread)\n Pure passion (cheese, tomato paste, olives, tuna, oregano, 2 slices of casino bread)\n Döner (cheese, chicken döner from the freezer, cheese, garlic sauce, kebab herbs, 2 slices of casino bread)\n Chicken pesto (cheese, chicken fillet (fillings), pesto, 2 slices of casino bread)'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: '(video)chatten met Bolkers',
+          english: '(video)chat with Bolkers'
+        },
+        start: 1300,
+        end: 1400,
+        beschrijving: {
+          dutch: 'Join een zoom meeting en praat met Bolkers over Delft, studeren en de Bolk! Vraag jij je nog iets af, of twijfel je ergens over? Dan is dit het moment om al je vragen te stellen!',
+          english: 'Join a zoom meeting and talk to bolkers about Delft, studying and the Bolk! Are you wondering or doubting something? Then this is the moment to ask all your questions!'
+        },
+        lokatie: 'midden'
+      },
+      {
+        titel: {
+          dutch: 'Bakken in de keuken',
+          english: 'Baking in the kitchen'
+        },
+        start: 1500,
+        end: 1530,
+        beschrijving: {
+          dutch: 'Bij de Bolk houden we van bakken! Maak lavacakejes met ons die we tijdens de High Tea op kunnen eten! Check of je alle ingrediënten in huis hebt, als je mee wilt doen!\n 70 g boter (+om in te vetten), 4 eieren, 150 g chocolade, 12 blokjes chocolade, 100 g suiker, 40 g bloem, 20 g cacaopoeder voor de vormpjes (mag ook suiker zijn) en 6 ramekins.',
+          english: 'At de Bolk we love baking! Make lava cakes with us, which we are going to eat during the High Tea! Check if you have all the ingredients if you want to participate!\n 70 g butter (+ for greasing), 4 eggs, 150 g chocolate, 12 chocolate cubes, 100 g sugar, 40 g flour, 20 g cocoa powder for the ramekins (may also be sugar) and 6 ramekins.'
+        },
+        lokatie: 'midden'
       },
       {
         titel: {
           dutch: 'High Tea',
           english: 'High Tea'
         },
-        start: 1400,
-        end: 1700,
+        start: 1530,
+        end: 1630,
         beschrijving: {
-          dutch: 'Wil jij ook lekker bij komen van een deze drukke week? Kom relaxed genieten van een theetje met een lekker koekje erbij!',
-          english: 'Are you also tired from this busy week ? Come relax with a nice cup of tea and some cookies. '
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Theeproeverij',
-          english: 'Tea Tasting'
-        },
-        start: 1700,
-        end: 1800,
-        beschrijving: {
-          dutch: 'Zwarte thee, groene thee, witte thee, kruidenthee en nog veel meer. Er zijn zo veel theesoorten in de wereld. Kom een kleine selectie proeven! Misschien ontdek jij wel je nieuwste favoriete theesmaak of weet je alle smaken feilloos te benoemen.',
-          english: 'Black tea, green tea, white tea, herbal tea and much more. There are so many tea flavours in the world. Come and taste a small selection! Maybe you discover your latest favourite tea or you pick out all flavour flawlessly.'
-        },
-        lokatie: 'midden'
-      },
-      {
-        titel: {
-          dutch: 'Eettafel',
-          english: 'Dinner'
-        },
-        start: 1800,
-        end: 2000,
-        beschrijving: {
-          dutch: 'Onze eettafel bestaat uit een voorgerecht, een hoofdgerecht en een toetje, elke dag gemaakt door onze eigen leden met verse producten.',
-          english: 'Dinner at the Bolk consists of a starter, main course and dessert, made freshly everyday by our own members.'
+          dutch: 'Na een druk weekend van deze online OWee is dit een moment om lekker te ontspannen, thee te drinken en lavacakejes van het bakken in de keuken op te eten samen met bolkers. Zij zullen verhalen vertellen en jullie vragen beantwoorden!',
+          english: 'After a busy weekend of this online OWee, this is a time to relax, drink tea and eat lava cakes which we made during baking in the kitchen together with bolkers. They will tell stories and answer your questions!'
         },
         lokatie: 'midden'
       },
@@ -488,79 +247,27 @@ module.exports = {
           dutch: 'Band op de Boot',
           english: 'Band on the Boat'
         },
-        start: 2000,
-        end: 2300,
+        start: 1700,
+        end: 1800,
         beschrijving: {
-          dutch: 'Live muziek is leuk, maar het is nog veel leuker om live muziek op een van de oudste botters van Nederland te zien! Kom genieten van vrolijke bands en kom even bij van de heftige week feesten. Deze bruisende afsluiter zorgt voor een onvergetelijke week!',
-          english: 'Live music is fun! Consider live music on a boat! I’M ON A BOAT! Take a look at me! Trui (the name of the boat) is the only botter that is managed by students and the oldest botter that has continuously sailed over the last century.'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: 'Loco met choco',
-          english: 'Loco with choco'
-        },
-        start: 2130,
-        end: 2230,
-        beschrijving: {
-          dutch: 'Chocoladetaart, chocoladecake, chocoladekoekjes, chocoladecocktails, chocolademousse … Voor alle chocoladeliefhebbers hebben onze keukenprinsen en -prinsessen alles uit de kast gehaald om de meest chocola houdende baksels te creëren. Bestaat er iets als te veel chocola? Vind het uit!',
-          english: 'Chocolate cake, chocolate biscuits, chocolate cocktails, chocolate mousse … For all chocolate lovers our kitchen princes and princesses have tried to create the most chocolate-containing pastry. Is there something like too much chocolate? Find it out!'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Borrel to be alive',
-          english: 'Party to be alive'
-        },
-        start: 2315,
-        end: 400,
-        beschrijving: {
-          dutch: 'Deze ultieme Bolk experience zorgt ervoor dat je je (weer) levendig voelt. Sluit je week af met een knaller en borrel to be alive!',
-          english: 'This ultimate Bolk experience ensures that you feel alive (again). Close your week off with a bang and Party to be alive.'
+          dutch: 'Wij sluiten de OWee altijd af met optredens van bands waar bolkers in zitten! Ook dit keer zal dit gebeuren, maar deze keer via een livestream. Dit uur zal de band The Flask optreden!',
+          english: 'We always close the OWee with performances by bands which include Bolkers! This will also happen this year, but this time via a live stream. This hour the band The Flask will perform!'
         },
         lokatie: 'midden'
       },
       {
         titel: {
-          dutch: 'Intermezzo',
-          english: 'Intermezzo'
+          dutch: 'Band op de Boot',
+          english: 'Band on the Boat'
         },
-        start: 2300,
-        end: 2315,
+        start: 1930,
+        end: 2030,
         beschrijving: {
-          dutch: 'Neem eventjes rust.',
-          english: 'Have a break.'
-        },
-        lokatie: 'rechts'
-      },
-      {
-        titel: {
-          dutch: 'Frietuur',
-          english: 'Deep fry hour'
-        },
-        start: 2315,
-        end: 15,
-        beschrijving: {
-          dutch: 'Er is een feestje op de Bolk. En bij een feestje hoort natuurlijk gefrituurde meuk. Dat is iets wat we altijd wel op voorraad hebben. Kost geen geld, het hoort er nou eenmaal een beetje bij.',
-          english: 'There is a party at the Bolk and every party needs deep fried shit. That is something we always have in stock. Free or charge, it’s just something we like to do.'
-        },
-        lokatie: 'links'
-      },
-      {
-        titel: {
-          dutch: '4 uur cup-a-soup',
-          english: '4 o\'clock cup-a-soup'
-        },
-        start: 400,
-        end: 500,
-        beschrijving: {
-          dutch: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
-          english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
+          dutch: 'Wij sluiten de OWee altijd af met optredens van bands waar bolkers in zitten! Ook dit keer zal dit gebeuren, maar deze keer via een livestream. Dit uur zal de band Like Fire optreden!',
+          english: 'We always close the OWee with performances by bands which include Bolkers! This will also happen this year, but this time via a live stream. This hour the band Like Fire will perform!'
         },
         lokatie: 'midden'
       }
     ]
-  }
+  },
 }

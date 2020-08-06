@@ -32,7 +32,11 @@
 <style>
 
 #main p{
-  color: white;
+  color: #045a8f;
+}
+
+#main h2{
+  color: #045a8f !important;
 }
 
 #main{
