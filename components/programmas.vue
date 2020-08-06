@@ -32,7 +32,9 @@
             {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
           </span>
           <br/>
-        {{modalItem.beschrijving[$cookie.get('language')]}}
+        <div style="white-space: pre-wrap">
+          {{modalItem.beschrijving[$cookie.get('language')]}}
+        </div>
       </div>
       <button class="modal-close is-large" @click="modal = false"></button>
     </div>

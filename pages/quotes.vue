@@ -84,7 +84,7 @@ export default{
 #quotes .VueCarousel-navigation button{
 	margin-left: 20px;
 	margin-right: 20px;
-	border: solid #045a8f;
+	border: solid #ee7730;
 	border-width: 0 2px 2px 0 !important;
 	width: 30px;
 	height: 30px;

@@ -153,7 +153,7 @@ module.exports = {
         start: 2000,
         end: 2300,
         beschrijving: {
-          dutch: 'Minecraft \n Speel minecraft met bolkers! Loop door de Bolk en sloop bijvoorbeeld het pand op een zo creatief mogelijke manier.\n\n Bordspellen met Bolkers\n Kom gezellig online bordspellen spelen zoals Saboteur, Coop, Hanabi en Boeren Bridge samen met bolkers.\n\n One Night Weerwolven/n Speel met een groepje een digitaal rondje One Night Werewolf op Discord, mogelijk gemaakt door een bolker. Red jij de burgers of slaan de weerwolven \'s nachts toe?',
+          dutch: 'Minecraft \n Speel minecraft met bolkers! Loop door de Bolk en sloop bijvoorbeeld het pand op een zo creatief mogelijke manier.\n\n Bordspellen met Bolkers\n Kom gezellig online bordspellen spelen zoals Saboteur, Coop, Hanabi en Boeren Bridge samen met bolkers.\n\n One Night Weerwolven\n Speel met een groepje een digitaal rondje One Night Werewolf op Discord, mogelijk gemaakt door een bolker. Red jij de burgers of slaan de weerwolven \'s nachts toe?',
           english: 'Minecraft\n Play minecraft with bolkers! Walk through the Bolk and demolish the building in the most creative way possible.\n\n Boardgames with Bolkers\n Come play online board games like Saboteur, Coop, Hanabi and Boeren Bridge together with bolkers.\n\n One Night Werewolf\n Play a digital round of One Night Werewolf on Discord together with others, made possible by a bolker. Will you save the civilians or will the werewolves strike at night?'
         },
         lokatie: 'links'
