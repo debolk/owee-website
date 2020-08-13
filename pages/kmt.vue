@@ -39,7 +39,7 @@
   height: 50px;
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   background-image: url('~assets/triangle-purple.svg');
   background-size: contain;
 }

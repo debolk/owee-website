@@ -34,6 +34,14 @@
   position: relative;
 }
 
+#vereniging a {
+  color: #ee7730 !important;
+}
+
+#vereniging a:hover{
+  color: white !important;
+}
+
 #vereniging h2{
   color: white !important;
 }

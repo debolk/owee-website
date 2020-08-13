@@ -2,6 +2,7 @@
   <div>
     <navbar></navbar>
     <imageheader></imageheader>
+    <inschrijven></inschrijven>
     <maintext></maintext>
     <vereniging></vereniging>
     <schema></schema>
@@ -14,6 +15,7 @@
 
 <script>
   import imageheader from '~/pages/imageheader.vue'
+  import inschrijven from '~/pages/inschrijven.vue'
   import quotes from '~/pages/quotes.vue'
   import vereniging from '~/pages/vereniging.vue'
   import maintext from '~/pages/maintext.vue'
@@ -26,6 +28,7 @@
   export default {
     components: {
       imageheader,
+      inschrijven,
       quotes,
       vereniging,
       schema,

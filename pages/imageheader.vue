@@ -21,7 +21,6 @@
     background-position: center;
     width: 100%;
     height: 100vh;
-    border: 10px solid #ee7730;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,8 +31,8 @@
     height: 50px;
     width: 100%;
     position: absolute;
-    top: calc(100vh - 60px);
-    background-image: url('~assets/triangle-purple.svg');
+    top: calc(100vh - 50px);
+    background-image: url('~assets/triangle-blue.svg');
     background-size: contain;
   }
 
