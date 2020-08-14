@@ -48,7 +48,6 @@
   background-color: #ee7730;
   border: none;
   color: white;
-  width: 50%;
   padding: 16px 30px;
   text-align: center;
   text-decoration: none;
