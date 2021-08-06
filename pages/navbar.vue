@@ -17,7 +17,7 @@
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Vereniging</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Programma</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleep-Inn</a></div>
+          <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
         </div>
@@ -28,7 +28,7 @@
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Association</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Schedule</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">Sleep-Inn</a></div>
+          <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
         </div>
@@ -73,7 +73,7 @@ export default{
 
 <style>
   .navbar{
-    background-color: #8700a0;
+    background-color: #63d6ed;
   }
 
   .flag{
@@ -83,12 +83,12 @@ export default{
   }
 
   .navbar-menu{
-    background-color: #8700a0;
+    background-color: #63d6ed;
     text-align: center;
     width: 100%;
     padding: 0;
     position: fixed;
-    border-bottom: 5px solid #87eebf;
+    border-bottom: 5px solid #201f58;
     transition: 0.2s ease all;
   }
 
@@ -101,7 +101,7 @@ export default{
   }
 
   .navbar-brand{
-    border-bottom: 5px solid #87eebf;
+    border-bottom: 5px solid #201f58;
   }
 
   .navbar-menu a {
@@ -123,11 +123,11 @@ export default{
   }
 
   .menuitemcontainer:hover a{
-    color: #8700a0;
+    color: #63d6ed;
   }
 
   .navbar a{
-    font-family: 'Britanic bold', cursive;
+    font-family: 'Bierstadt Bold', cursive;
     color: white;
     font-size: 1.2rem;
   }

@@ -34,11 +34,11 @@
 }
 
 #contact a:hover{
-  color: #87eebf;
+  color: #201f58;
 }
 
 #contact{
-  background-color: #8700a0;
+  background-color: #63d6ed;
   padding: 100px 0px;
   position: relative;
   text-align: center;
@@ -49,7 +49,8 @@
   width: 100%;
   position: absolute;
   bottom: 0px;
-  background-image: url('~assets/triangle-blue.svg');
+  z-index: 0;
+  background-image: url('~assets/triangle-secondary.svg');
   background-size: contain;
 }
 </style>

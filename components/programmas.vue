@@ -170,8 +170,8 @@ export default {
 .event {
   cursor: pointer;
   width: 100%;
-  background-color: #87eebf;
-  border: 2px solid #8700a0;
+  background-color: #201F58;
+  border: 2px solid #63D6ED;
   border-radius: 10px;
   position: absolute;
   font-size: 0.25em;
@@ -186,13 +186,26 @@ export default {
 }
 
 .event:hover{
-  background-color: white;
+  background-color: #63D6ED;
+  border: 2px solid #201F58;
 }
 
 .event .title {
-  color: black;
+  color: #63D6ED;
   font-size: 1rem;
   margin-bottom: -20px !important;
+}
+
+.event .time{
+  color: white;
+}
+
+.event:hover .title{
+  color: #201F58;
+}
+
+.event:hover .time{
+  color: gray;
 }
 
 body{

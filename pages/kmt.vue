@@ -23,24 +23,14 @@
 
 #kmt{
   padding: 100px 0px;
-  background-color: #87eebf;
-  color: #8700a0;
+  background-color: #63d6ed;
+  color: #63d6ed;
   position: relative;
-  background-image: url('~assets/fotos/kmt botter.jpg');
-  background-position: bottom;
-  background-size: cover;
+  background-color: #201F58;
 }
 
 #kmt h2{
-  color: #8700a0 !important;
+  color: #63d6ed !important;
 }
 
-.verenigingtriangles{
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  background-image: url('~assets/triangle-purple.svg');
-  background-size: contain;
-}
 </style>

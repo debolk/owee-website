@@ -3,9 +3,16 @@
     <div id="imageheader">
       <img
         class="largelogo"
-        src="~/assets/Bolk Logo.svg">
-      <br/>
-      <h1 v-bind:class="{ 'mobileheadertext': $mq === 'mobile' }">BOLK TO BE ALIVE</h1>
+        src="~/assets/logo-stok.svg"
+		v-if="!$isMobile()">
+	  <img
+        class="largelogo-mobile"
+        src="~/assets/logo.svg"
+		v-else>
+	  <img
+		class="largetext"
+		src="~/assets/textbox.svg"
+		v-if="!$isMobile()">
       <div class="triangles"></div>
     </div>
   </div>
@@ -13,11 +20,10 @@
 
 <style>
   #imageheader{
-    background-image: url('~assets/fotos/DSC_0316.jpg');
+    background-image: url('~assets/fotos/header.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
-    border: 10px solid #8700a0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,8 +34,9 @@
     height: 50px;
     width: 100%;
     position: absolute;
-    top: calc(100vh - 60px);
-    background-image: url('~assets/triangle-purple.svg');
+    top: calc(100vh - 49px);
+	z-index: 0;
+    background-image: url('~assets/triangle-primary.svg');
     background-size: contain;
   }
 
@@ -39,6 +46,19 @@
     margin-right: 20px;
     max-height: 50vh;
   }
+  
+  .largelogo-mobile{
+    height: 90vh;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+  }
+  
+  .largetext{
+    height:50vw;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    max-height: 50vh;
+  }
 
   #imageheader .mobileheadertext{
     font-size: 4rem !important;
@@ -46,14 +66,14 @@
 
   #imageheader h1{
     font-size: 8rem !important;
-    color: #87eebf !important;
-    text-shadow: -4px 0 #8700a0,
-                -4px -4px #8700a0,
-                4px 4px #8700a0,
-                -4px 4px #8700a0,
-                4px -4px #8700a0,
-                0 4px #8700a0,
-                4px 0 #8700a0,
-                0 -4px #8700a0;
+    color: #201f58 !important;
+    text-shadow: -4px 0 #63d6ed,
+                -4px -4px #63d6ed,
+                4px 4px #63d6ed,
+                -4px 4px #63d6ed,
+                4px -4px #63d6ed,
+                0 4px #63d6ed,
+                4px 0 #63d6ed,
+                0 -4px #63d6ed;
   }
 </style>

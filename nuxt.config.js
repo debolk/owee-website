@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'De Bolk - OWee 2018',
+    title: 'De Bolk - OWee 2021',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +14,7 @@ module.exports = {
     ],
     link: [
       {href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600', rel: 'stylesheet'},
-      {href: '/fonts/BRITANIC.TTF', rel: "stylesheet"},
+      {href: '/fonts/BIERSTADT_B.ttf', rel: "stylesheet"},
       { rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.png' },
       { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.png' },
       { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.png' },
@@ -40,7 +40,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#201F58' },
   /*
   ** Build configuration
   */

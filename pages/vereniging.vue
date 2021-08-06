@@ -27,23 +27,23 @@
 
 #vereniging{
   padding: 100px 0px;
-  background-image: url('~assets/fotos/groepsfoto.jpg');
-  background-size: cover;
-  background-position: bottom;
-  color: #8700a0;
+  background-color: #201f58;
+  color: #63d6ed;
   position: relative;
 }
 
 #vereniging h2{
-  color: #8700a0 !important;
+  color: #63d6ed !important;
 }
 
 .verenigingtriangles{
   height: 50px;
   width: 100%;
   position: absolute;
-  bottom: 0px;
-  background-image: url('~assets/triangle-purple.svg');
+  bottom: -1px;
+  z-index: 1;
+  background-image: url('~assets/triangle-primary.svg');
   background-size: contain;
 }
+
 </style>
