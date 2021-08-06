@@ -10,7 +10,7 @@
 
       <div class="columns">
         <div class="column">
-          <div class="columns is-mobile">
+          <div class="columns">
             <div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][0]}}</h3>
@@ -24,7 +24,7 @@
               </div>
             </div>
 			
-			<div class="column">
+			      <div class="column">
               <div class="dagcontainer">
                 <h3>{{dagen[$cookie.get('language')][2]}}</h3>
                 <programmas dag="dinsdagvrijdag"></programmas>
@@ -67,7 +67,6 @@ export default{
 
 .mobiledagcontainer{
   position: relative;
-  top: -250px;
 }
 
 #schema{
