@@ -184,6 +184,22 @@ module.exports = {
           english: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup of soup!'
         },
         lokatie: 'rechts'
+      },
+      {
+        titel: {
+          dutch: 'Online spelletjes via Discord',
+          english: 'Online games on Discord'
+        },
+        start: 2400,
+        end: 2500,
+        neptijd: true,
+        nepstart: "20:00",
+        nepend: "?",
+        beschrijving: {
+          dutch: 'Niet in Delft maar toch zin in gezelligheid? Kom online spelletjes met ons spelen via Discord. Klik deze link om te joinen: <a href="https://discord.gg/SA6HV8hqWU">link</a>',
+          english: 'Not in Delft but still up for some fun? Join our Discord server and let\'s play some games together. Hit the following link to join: <a href="https://discord.gg/SA6HV8hqWU">link</a>'
+        },
+        lokatie: 'midden'
       }
     ]
   },

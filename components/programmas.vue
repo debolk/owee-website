@@ -13,7 +13,10 @@
              <div class="textcontainer">
                <span class="title fitTitle">{{item.titel[$cookie.get('language')]}}</span>
                <br/>
-               <span class="time fitTime">
+               <span v-if="!!item.neptijd" class="time fitTime">
+                 {{`${item.nepstart} - ${item.nepend}`}}
+               </span>
+               <span v-else class="time fitTime">
                  {{`${Math.floor(item.start/100)}:${pad(item.start%100,2 )} - ${Math.floor(item.end/100)}:${pad(item.end%100,2 )}`}}
                </span>
              </div>
@@ -28,11 +31,14 @@
         <div class="modaltitle">
           {{modalItem.titel[$cookie.get('language')]}}
         </div>
-          <span class="time">
+          <span v-if="!!modalItem.neptijd" class="time">
+            {{`${modalItem.nepstart} - ${modalItem.nepend}`}}
+          </span>
+          <span v-else class="time">
             {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
           </span>
           <br/>
-        {{modalItem.beschrijving[$cookie.get('language')]}}
+          <p v-html="modalItem.beschrijving[$cookie.get('language')]"></p>
       </div>
       <button class="modal-close is-large" @click="modal = false"></button>
     </div>

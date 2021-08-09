@@ -104,7 +104,7 @@ export default{
 .dagcontainer{
   text-align: center;
   width: 100%;
-  height: 400px;
+  height: 450px;
 }
 
 .dagcontainer h3{
