@@ -4,8 +4,10 @@
 
       <h2 v-if="$cookie.get('language') == 'dutch'">Wat is er te doen tijdens de OWee?</h2>
       <h2 v-if="$cookie.get('language') == 'english'">What is there to do during the OWee?</h2>
-	  <h3 v-if="$cookie.get('language') == 'dutch'" style="color:#201F58;position:relative;text-align:center;">N.B. Dit programma is onder voorbehoud.</h3>
-	  <h3 v-if="$cookie.get('language') == 'english'" style="color:#201F58;position:relative;text-align:center;">N.B. This programm is not final.</h3>
+	  <div class="subtitle">
+		<h3 v-if="$cookie.get('language') == 'dutch'">N.B. Dit programma is onder voorbehoud.</h3>
+		<h3 v-if="$cookie.get('language') == 'english'">N.B. This programm is not final.</h3>
+	  </div>
 	  
 
       <div class="columns">
@@ -34,6 +36,12 @@
           </div>
         </div>
       </div>
+	  
+	  <div class="subtitle">
+	    <h4 v-if="$cookie.get('language') == 'dutch'">Er zijn elke dag ook bord- en retrospelletjes beschikbaar</h4>
+		<h4 v-if="$cookie.get('language') == 'english'">We also have board- and retrogames available every day</h4>
+	  </div>
+	  
     </div>
     <div class="upsidedowntriangles"></div>
   </div>
@@ -104,11 +112,25 @@ export default{
 .dagcontainer{
   text-align: center;
   width: 100%;
-  height: 450px;
+  height: 500px;
 }
 
 .dagcontainer h3{
    color: white;
+}
+
+.subtitle h4{
+
+  color: #201F58;
+  text-align:center;
+  
+}
+
+.subtitle h3{
+
+  color: #201F58;
+  text-align:center;
+  
 }
 
 </style>
