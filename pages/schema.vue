@@ -13,12 +13,14 @@
       <div class="columns">
         <div class="column">
           <div class="columns">
-            <div class="column">
+            
+			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][0]}}</h3>
                 <programmas dag="zondagwoensdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
+			
             <div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][1]}}</h3>
@@ -26,10 +28,10 @@
               </div>
             </div>
 			
-			      <div class="column">
-              <div class="dagcontainer">
+			<div class="column">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][2]}}</h3>
-                <programmas dag="dinsdagvrijdag"></programmas>
+                <programmas dag="dinsdagvrijdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
 			
@@ -42,8 +44,13 @@
 		<h4 v-if="$cookie.get('language') == 'english'">We also have board- and retrogames available every day</h4>
 	  </div>
 	  
+	  <a href="https://reserveren.debolk.nl" class="button2">
+        <span v-if="$cookie.get('language') == 'dutch'">Schrijf je hier in voor activiteiten</span>
+        <span v-if="$cookie.get('language') == 'english'">You can register here for an activity</span>
+      </a>
+	  
     </div>
-    <div class="upsidedowntriangles"></div>
+	<div class="upsidedowntriangles"></div>
   </div>
 </template>
 
@@ -68,6 +75,27 @@ export default{
 </script>
 
 <style>
+
+.button2{
+  color: #201F58;
+  background-color: #63D6ED;
+  align-items: center;
+  padding: 4px;
+  border: 0;
+  
+  margin: auto;	
+  width: 25vw;
+  position: relative;
+  display: flex;
+}
+
+.button2 span{
+  text-align: center;
+}
+
+.button2:hover{
+  color: white;
+}
 
 .mobiledagcontainerparent{
   height: 500px !important;
