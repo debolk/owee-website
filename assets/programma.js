@@ -44,8 +44,8 @@ module.exports = {
         start: 2200,
         end: 2400,
         beschrijving: {
-		  dutch: 'De beroemde Bolksche Cocktailnight wordt weer een groot feest! Met een twist; je mag namelijk zelf een mojito maken! Ga een avondje helemaal los met je favoriete cocktails, zoals de Paarse Moederneuker of de Bananenboner, of je zelfgemaakte mojito! Natuurlijk zijn er ook alcoholvrije opties aanwezig.',
-          english: 'The famous Bolkish Cocktailnight is going to be a huge party! With a twist; you can make your own mojito\'s! Go wild for a night with your favourite cocktails, like the Purple Motherfucker or the Bananaboner, or your selfmade mojito! Of course, there are also alcohol-free options available.'
+		  dutch: 'De beroemde Bolksche Cocktailnight wordt weer een groot feest! Met een twist; je mag namelijk zelf een mojito maken! Ga een avondje helemaal los met je favoriete cocktails, zoals de Paarse Moederneuker of de Bananenboner, of je zelfgemaakte mojito! Natuurlijk zijn er ook alcoholvrije opties aanwezig. Je kan de cocktails vinden op https://owee.debolk.nl/cocktails',
+          english: 'The famous Bolkish Cocktailnight is going to be a huge party! With a twist; you can make your own mojito\'s! Go wild for a night with your favourite cocktails, like the Purple Motherfucker or the Bananaboner, or your selfmade mojito! Of course, there are also alcohol-free options available. You can find the cocktails at https://owee.debolk.nl/cocktails'
         },
         lokatie: 'links'
       },
@@ -254,8 +254,8 @@ module.exports = {
         start: 2200,
         end: 2400,
         beschrijving: {
-          dutch: 'De beroemde Bolksche Cocktailnight wordt weer een groot feest! Met een twist; je mag namelijk zelf een mojito maken! Ga een avondje helemaal los met je favoriete cocktails, zoals de Paarse Moederneuker of de Bananenboner, of je zelfgemaakte mojito! Natuurlijk zijn er ook alcoholvrije opties aanwezig.',
-          english: 'The famous Bolkish Cocktailnight is going to be a huge party! With a twist; you can make your own mojito\'s! Go wild for a night with your favourite cocktails, like the Purple Motherfucker or the Bananaboner, or your selfmade mojito! Of course, there are also alcohol-free options available.'
+          dutch: 'De beroemde Bolksche Cocktailnight wordt weer een groot feest! Met een twist; je mag namelijk zelf een mojito maken! Ga een avondje helemaal los met je favoriete cocktails, zoals de Paarse Moederneuker of de Bananenboner, of je zelfgemaakte mojito! Natuurlijk zijn er ook alcoholvrije opties aanwezig. Je kan de cocktails vinden op https://owee.debolk.nl/cocktails',
+          english: 'The famous Bolkish Cocktailnight is going to be a huge party! With a twist; you can make your own mojito\'s! Go wild for a night with your favourite cocktails, like the Purple Motherfucker or the Bananaboner, or your selfmade mojito! Of course, there are also alcohol-free options available. You can find the cocktails at https://owee.debolk.nl/cocktails'
         },
         lokatie: 'links'
       },

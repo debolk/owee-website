@@ -20,6 +20,7 @@
           <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
+          <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
         </div>
 
         <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
@@ -31,6 +32,7 @@
           <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
+          <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
         </div>
 
         <div class="navbar-end">
