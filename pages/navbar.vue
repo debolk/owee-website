@@ -21,6 +21,7 @@
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
           <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
+          <div class="menuitemcontainer"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RVc2FTJosthCiYwvudE5NzBUMDhFSlBNNFVUQU80NTU0VTFRUEpaRUVGTi4u" v-smooth-scroll @click="burger = false">Schrijf je in!</a></div>
         </div>
 
         <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
@@ -32,7 +33,8 @@
           <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
-          <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
+		  <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
+          <div class="menuitemcontainer"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RVc2FTJosthCiYwvudE5NzBUMUlOSFgyTjlZVVFFT1RXWlNEN0tXNENZQi4u" v-smooth-scroll @click="burger = false">Sign up!</a></div>
         </div>
 
         <div class="navbar-end">
@@ -95,7 +97,7 @@ export default{
   }
 
   .navmenusmall{
-    top: -450px;
+    top: -550px;
   }
 
   .is-down{

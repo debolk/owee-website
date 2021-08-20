@@ -77,24 +77,17 @@ export default{
 <style>
 
 .button2{
-  color: #201F58;
-  background-color: #63D6ED;
-  align-items: center;
-  padding: 4px;
-  border: 0;
-  
-  margin: auto;	
-  width: 25vw;
-  position: relative;
-  display: flex;
+	width: 100%;
+	display: block;
+	text-align: center;
 }
 
 .button2 span{
-  text-align: center;
+	color: #201F58;	
 }
 
-.button2:hover{
-  color: white;
+.button2 span:hover{
+	color: white;
 }
 
 .mobiledagcontainerparent{
