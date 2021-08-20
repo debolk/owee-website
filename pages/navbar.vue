@@ -21,7 +21,7 @@
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
           <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
-          <div class="menuitemcontainer"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RVc2FTJosthCiYwvudE5NzBUMDhFSlBNNFVUQU80NTU0VTFRUEpaRUVGTi4u" v-smooth-scroll @click="burger = false">Schrijf je in!</a></div>
+          <div class="menuitemcontainer"><a href="https://debolk.nl/inschrijven" v-smooth-scroll @click="burger = false">Schrijf je in!</a></div>
         </div>
 
         <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
@@ -34,7 +34,7 @@
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
 		  <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
-          <div class="menuitemcontainer"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RVc2FTJosthCiYwvudE5NzBUMUlOSFgyTjlZVVFFT1RXWlNEN0tXNENZQi4u" v-smooth-scroll @click="burger = false">Sign up!</a></div>
+          <div class="menuitemcontainer"><a href="https://debolk.nl/sign-up" v-smooth-scroll @click="burger = false">Sign up!</a></div>
         </div>
 
         <div class="navbar-end">
