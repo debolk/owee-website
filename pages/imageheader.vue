@@ -13,6 +13,7 @@
 		class="largetext"
 		src="~/assets/textbox.svg"
 		v-if="!$isMobile()">
+      <div class="triangles"></div>
     </div>
   </div>
 </template>
@@ -27,6 +28,16 @@
     align-items: center;
     justify-content: center;
     padding: 0 20px;
+  }
+
+  .triangles{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: calc(100vh - 49px);
+	z-index: 0;
+    background-image: url('~assets/triangle-primary.svg');
+    background-size: contain;
   }
 
   .largelogo{
@@ -56,13 +67,13 @@
   #imageheader h1{
     font-size: 8rem !important;
     color: #201f58 !important;
-    text-shadow: -4px 0 #af74e8,
-                -4px -4px #af74e8,
-                4px 4px #af74e8,
-                -4px 4px #af74e8,
-                4px -4px #af74e8,
-                0 4px #af74e8,
-                4px 0 #af74e8,
-                0 -4px #af74e8;
+    text-shadow: -4px 0 #63d6ed,
+                -4px -4px #63d6ed,
+                4px 4px #63d6ed,
+                -4px 4px #63d6ed,
+                4px -4px #63d6ed,
+                0 4px #63d6ed,
+                4px 0 #63d6ed,
+                0 -4px #63d6ed;
   }
 </style>

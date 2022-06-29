@@ -12,7 +12,7 @@
    viewBox="0 0 24 24"
    version="1.1"
    id="svg4"
-   sodipodi:docname="triangle-blue.svg"
+   sodipodi:docname="triangle-purple-upsidedown.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <metadata
      id="metadata10">
@@ -41,17 +41,17 @@
      inkscape:window-height="1017"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="119.37091"
-     inkscape:cy="-88.662534"
+     inkscape:zoom="27.812867"
+     inkscape:cx="4.7922091"
+     inkscape:cy="21.659927"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4"
      inkscape:document-rotation="0" />
   <path
-     d="M 24.008738,24.021186 H 0.00873941 L 12.00874,15.207627 Z"
+     d="M 0,15.182204 H 24 L 12,23.995763 Z"
      id="path2"
-     style="fill:#201f58;fill-opacity:1;stroke-width:0.66383582"
+     style="fill:#63d6ed;fill-opacity:1;stroke-width:0.66383582"
      inkscape:connector-curvature="0" />
 </svg>

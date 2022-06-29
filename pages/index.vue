@@ -4,17 +4,12 @@
 	<div class="soosjes-rechts" v-if="!$isMobile()"></div>
 	<navbar></navbar>
 	<imageheader></imageheader>
-		<div class="triangles-primary"></div>
 	<maintext></maintext>
-		<div class="triangles-secondary"></div>
 	<vereniging></vereniging>
-		<div class="triangles-primary"></div>
 	<schema></schema>
-		<div class="triangles-secondary"></div>
 	<kmt></kmt>
-		<div class="triangles-primary"></div>
+	<covid19></covid19>
 	<quotes></quotes>
-		<div class="triangles-secondary"></div>
 	<contact></contact>
   </div>
 </template>
@@ -26,6 +21,7 @@
   import maintext from '~/pages/maintext.vue'
   import schema from '~/pages/schema.vue'
   import kmt from '~/pages/kmt.vue'
+  import covid19 from '~/pages/covid-19.vue'
   import contact from '~/pages/contact.vue'
   import navbar from '~/pages/navbar.vue'
 
@@ -41,6 +37,7 @@
       schema,
       maintext,
       kmt,
+      covid19,
       contact,
       navbar
     },
@@ -66,26 +63,6 @@ html {
 body {
   height: 100%;
   width: 100%;
-}
-
-.triangles-primary{
-  height: 18px;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  margin-top: -18px;
-  background-image: url('~assets/triangle-primary.svg');
-  background-size: contain;
-}
-
-.triangles-secondary{
-  height: 18px;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  margin-top: -18px;
-  background-image: url('~assets/triangle-secondary.svg');
-  background-size: contain;
 }
 
 .soosjes-links{

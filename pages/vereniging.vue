@@ -19,6 +19,7 @@
       <p>Our members are not only concerned with all these cool things, we also have to study, of course. Being a member at the Bolk can easily be combined with your studies. We do not impose obligations that can impede you from studying. Furthermore, as a first-year you have contact with all members of the Bolk, and therefore with the senior students you can turn to for help.</p>
     </div>
 
+    <div class="verenigingtriangles"></div>
   </div>
 </template>
 
@@ -26,13 +27,23 @@
 
 #vereniging{
   padding: 100px 0px;
-  background-color: #32fced;
-  color: #af74e8;
+  background-color: #201f58;
+  color: #63d6ed;
   position: relative;
 }
 
 #vereniging h2{
-  color: #af74e8 !important;
+  color: #63d6ed !important;
+}
+
+.verenigingtriangles{
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  z-index: 1;
+  background-image: url('~assets/triangle-primary.svg');
+  background-size: contain;
 }
 
 </style>
