@@ -33,10 +33,6 @@ module.exports = [
     quote: 'De Bolk heeft mijn nieuwe fiets onomkeerbaar bekladderd tijdens de OWee. rip. Twee drankjes later was ik lid.'
   },
   {
-    person: 'Harry',
-    quote: 'Via via ben ik bij de Bolk terecht gekomen omdat een vriend tegen mij zei dat er hier een zooitje lompe nerds rondlopen.'
-  },
-  {
     person: 'Linda',
     quote: 'Voornamelijk omdat ik merkte dat mensen hier ook gewoon een beetje spelletjes spelen. Bij 3D twister ben ik hier terrecht gekomen, heb ik mijn bril verloren en ben ik hier blijven hangen.'
   },

@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-
+		<h2 v-if="$isMobile()" class="navtitle">BOLK TO THE FUTURE</h2>
         <a role="button" class="navbar-burger" v-bind:class="{ 'is-active': burger }" @click="burger = !burger">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -12,38 +12,36 @@
       <div class="navbar-menu is-active"
       v-bind:class="{ 'is-down': burger, 'navmenusmall': ($mq !== 'threecards' && $mq !== 'fourcards' && $mq !== 'desktop') }">
         <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
-          <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">Home</a></div>
-          <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWee</a></div>
-          <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Vereniging</a></div>
-          <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Programma</a></div>
+          <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">HOME</a></div>
+          <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
+          <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">VERENIGING</a></div>
+          <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">PROGRAMMA</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
-          <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
-          <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
-          <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
-          <div class="menuitemcontainer"><a href="https://debolk.nl/inschrijven" v-smooth-scroll @click="burger = false">Schrijf je in!</a></div>
+          <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">QUOTES</a></div>
+          <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">CONTACT</a></div>
+          <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">COCKTAILS</a></div>
+          <div class="menuitemcontainer"><a href="https://debolk.nl/inschrijven" v-smooth-scroll @click="burger = false">SCHRIJF JE IN!</a></div>
         </div>
 
         <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
-          <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">Home</a></div>
-          <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWee</a></div>
-          <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">Association</a></div>
-          <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">Schedule</a></div>
+          <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">HOME</a></div>
+          <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
+          <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">ASSOCIATION</a></div>
+          <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">SCHEDULE</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
-          <div class="menuitemcontainer"><a href="#covid19" v-smooth-scroll @click="burger = false">Covid-19</a></div>
-          <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">Quotes</a></div>
-          <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">Contact</a></div>
-		  <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">Cocktails</a></div>
-          <div class="menuitemcontainer"><a href="https://debolk.nl/sign-up" v-smooth-scroll @click="burger = false">Sign up!</a></div>
+          <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">QUOTES</a></div>
+          <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">CONTACT</a></div>
+		  <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">COCKTAILS</a></div>
+          <div class="menuitemcontainer"><a href="https://debolk.nl/sign-up" v-smooth-scroll @click="burger = false">SIGN UP!</a></div>
         </div>
 
         <div class="navbar-end">
           <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setCookie('english')"><img src="~/assets/united-kingdom.svg" class="flag"> English</a></div>
+            <div class="menuitemcontainer"><a @click="setCookie('english')"><img src="~/assets/united-kingdom.svg" class="flag"> english</a></div>
           </div>
 
           <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> Nederlands</a></div>
+            <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> nederlands</a></div>
           </div>
         </div>
         
@@ -79,6 +77,13 @@ export default{
   .navbar{
     background-color: #af74e8;
   }
+  
+  .navtitle{
+	font-size: 1.25rem !important;
+	text-align: center;
+	width: calc(100% - 3.25rem);
+	margin: auto;
+  }
 
   .flag{
     width: 25px;
@@ -92,7 +97,7 @@ export default{
     width: 100%;
     padding: 0;
     position: fixed;
-    border-bottom: 5px solid #201f58;
+    border-bottom: 5px solid #af46e8;
     transition: 0.2s ease all;
   }
 
@@ -105,7 +110,7 @@ export default{
   }
 
   .navbar-brand{
-    border-bottom: 5px solid #201f58;
+    border-bottom: 5px solid #af46e8;
   }
 
   .navbar-menu a {
@@ -131,7 +136,7 @@ export default{
   }
 
   .navbar a{
-    font-family: 'Bierstadt Bold', cursive;
+    font-family: 'BTTF', cursive;
     color: white;
     font-size: 1.2rem;
   }

@@ -3,16 +3,12 @@
     <div id="imageheader">
       <img
         class="largelogo"
-        src="~/assets/logo-stok.svg"
+        src="~/assets/logo.svg"
 		v-if="!$isMobile()">
 	  <img
         class="largelogo-mobile"
         src="~/assets/logo.svg"
 		v-else>
-	  <img
-		class="largetext"
-		src="~/assets/textbox.svg"
-		v-if="!$isMobile()">
     </div>
   </div>
 </template>
@@ -21,6 +17,7 @@
   #imageheader{
     background-image: url('~assets/fotos/header.jpg');
     background-size: cover;
+	background-position: center;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -30,10 +27,10 @@
   }
 
   .largelogo{
-    height:50vw;
+    height: 50vw;
     background-repeat: no-repeat;
     margin-right: 20px;
-    max-height: 50vh;
+    max-height: 80vh;
   }
   
   .largelogo-mobile{

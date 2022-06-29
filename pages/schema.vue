@@ -2,12 +2,8 @@
   <div id="schema">
     <div class="content">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">Wat is er te doen tijdens de OWee?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">What is there to do during the OWee?</h2>
-	  <div class="subtitle">
-		<h3 v-if="$cookie.get('language') == 'dutch'">N.B. Dit programma is onder voorbehoud.</h3>
-		<h3 v-if="$cookie.get('language') == 'english'">N.B. This programm is not final.</h3>
-	  </div>
+      <h2 v-if="$cookie.get('language') == 'dutch'">wat is er te doen tijdens de owee?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">what is there to do during the owee?</h2>
 	  
 
       <div class="columns">
@@ -39,16 +35,6 @@
         </div>
       </div>
 	  
-	  <div class="subtitle">
-	    <h4 v-if="$cookie.get('language') == 'dutch'">Er zijn elke dag ook bord- en retrospelletjes beschikbaar</h4>
-		<h4 v-if="$cookie.get('language') == 'english'">We also have board- and retrogames available every day</h4>
-	  </div>
-	  
-	  <a href="https://reserveren.debolk.nl" class="button2">
-        <span v-if="$cookie.get('language') == 'dutch'">Schrijf je hier in voor activiteiten</span>
-        <span v-if="$cookie.get('language') == 'english'">You can register here for an activity</span>
-      </a>
-	  
     </div>
   </div>
 </template>
@@ -75,20 +61,6 @@ export default{
 
 <style>
 
-.button2{
-	width: 100%;
-	display: block;
-	text-align: center;
-}
-
-.button2 span{
-	color: #32fced;	
-}
-
-.button2 span:hover{
-	color: white;
-}
-
 .mobiledagcontainerparent{
   height: 500px !important;
 }
@@ -99,6 +71,7 @@ export default{
 
 #schema{
   background-color: #af74e8;
+  font-family: Bierstadt Bold;
   padding: 100px 0px;
   position: relative;
 }
@@ -128,20 +101,6 @@ export default{
 
 .dagcontainer h3{
    color: white;
-}
-
-.subtitle h4{
-
-  color: #32fced;
-  text-align:center;
-  
-}
-
-.subtitle h3{
-
-  color: #32fced;
-  text-align:center;
-  
 }
 
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div id="quotes">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">Waarom ben je hier lid geworden?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">Why did you become a member?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">waarom ben je hier lid geworden?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">why did you become a member?</h2>
 
       <carousel class="carousel"
         :perPage="cardsamount"
@@ -17,6 +17,7 @@
           <div class="slide-container">
             <img class="photo" :src="`/quotes/${i.person}.jpg`">
             <p>"{{i.quote}}"</p>
+			<br>
             <i> - {{i.person}} </i>
           </div>
         </slide>
@@ -72,6 +73,7 @@ export default{
   background-color: #ad74e8;
   color: #af46e8;
   position: relative;
+  font-family: Bierstadt Bold;
 }
 
 #quotes h2{
@@ -81,7 +83,7 @@ export default{
 #quotes .VueCarousel-navigation button{
 	margin-left: 20px;
 	margin-right: 20px;
-	border: solid #af46e8;
+	border: solid #32fced;
 	border-width: 0 4px 4px 0 !important;
 	width: 30px;
 	height: 30px;

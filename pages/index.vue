@@ -114,7 +114,7 @@ body {
 
 body{
   margin: none;
-  font-family: 'Bierstadt Bold', sans-serif !important;
+  font-family: 'BTTF', sans-serif !important;
   font-weight: 500;
 }
 
@@ -123,19 +123,24 @@ html{
 }
 
 @font-face {
-  font-family: 'Bierstadt Bold';
-  src: url('/fonts/BIERSTADT_B.ttf') format('truetype')
+  font-family: 'BTTF';
+  src: url('/fonts/BTTF.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Bierstadt Bold Italic';
-  src: url('/fonts/BIERSTADT_BI.ttf') format('truetype')
+  src: url('/fonts/BIERSTADT_BI.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bierstadt Bold';
+  src: url('/fonts/BIERSTADT_B.ttf') format('truetype');
 }
 
 h1, h2{
   text-align: center;
   color: white !important;
-  font-family: 'Bierstadt Bold Italic';
+  font-family: 'BTTF';
   font-size: 3rem !important;
 }
 

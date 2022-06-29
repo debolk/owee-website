@@ -2,8 +2,8 @@
   <div id="contact">
     <div class="content">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">Waar kan je ons vinden?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">Where can you find us?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">waar kan je ons vinden?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">where can you find us?</h2>
 
       
       <p>
@@ -24,17 +24,23 @@
 
 <style>
 
+#contact h2{
+  color: #af46e8 !important;
+}
+
 #contact p{
-  color: white;
+  color: #af46e8;
+  font-family: Bierstadt Bold;
 }
 
 #contact a{
-  color: white;
+  color: #af46e8;
   text-decoration: underline;
+  font-family: Bierstadt Bold;
 }
 
 #contact a:hover{
-  color: #af74e8;
+  color: white;
 }
 
 #contact{
