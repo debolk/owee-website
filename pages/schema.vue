@@ -50,7 +50,6 @@
       </a>
 	  
     </div>
-	<div class="upsidedowntriangles"></div>
   </div>
 </template>
 
@@ -83,7 +82,7 @@ export default{
 }
 
 .button2 span{
-	color: #201F58;	
+	color: #32fced;	
 }
 
 .button2 span:hover{
@@ -99,7 +98,7 @@ export default{
 }
 
 #schema{
-  background-color: #63d6ed;
+  background-color: #af74e8;
   padding: 100px 0px;
   position: relative;
 }
@@ -121,15 +120,6 @@ export default{
   margin: -5px;
 }
 
-.maintriangles{
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  background-image: url('~assets/triangle-secondary.svg');
-  background-size: contain;
-}
-
 .dagcontainer{
   text-align: center;
   width: 100%;
@@ -142,14 +132,14 @@ export default{
 
 .subtitle h4{
 
-  color: #201F58;
+  color: #32fced;
   text-align:center;
   
 }
 
 .subtitle h3{
 
-  color: #201F58;
+  color: #32fced;
   text-align:center;
   
 }

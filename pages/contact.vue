@@ -34,23 +34,14 @@
 }
 
 #contact a:hover{
-  color: #201f58;
+  color: #af74e8;
 }
 
 #contact{
-  background-color: #63d6ed;
+  background-color: #32fced;
   padding: 100px 0px;
   position: relative;
   text-align: center;
 }
 
-.maintriangles{
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  z-index: 0;
-  background-image: url('~assets/triangle-secondary.svg');
-  background-size: contain;
-}
 </style>

@@ -21,10 +21,6 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fEYfhu617D8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-
-    
-
-    <div class="upsidedowntriangles"></div>
   </div>
 </template>
 
@@ -35,7 +31,7 @@
 }
 
 #main{
-  background-color: #63d6ed;
+  background-color: #af74e8;
   padding: 100px 0px;
   position: relative;
 }
@@ -57,23 +53,4 @@
   height: 100%;
 }
 
-.maintriangles{
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  z-index: 1;
-  background-image: url('~assets/triangle-secondary.svg');
-  background-size: contain;
-}
-
-.upsidedowntriangles{
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  bottom: -18px;
-  z-index: 1;
-  background-image: url('~assets/triangle-primary-upsidedown.svg');
-  background-size: contain;
-}
 </style>

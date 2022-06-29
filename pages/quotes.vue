@@ -7,10 +7,10 @@
       <carousel class="carousel"
         :perPage="cardsamount"
         :paginationEnabled="false"
-        :loop="true"
+        :load74e8="true"
         :navigationEnabled="true"
         :navigationClickTargetSize="5"
-        :paginationActiveColor="'#63d6ed'"
+        :paginationActiveColor="'#32fced'"
         :navigationPrevLabel="' '"
         :navigationNextLabel="' '">
         <slide class="slide" v-for="(i, index) of quotes" :key="index">
@@ -22,7 +22,6 @@
         </slide>
       </carousel>
 
-    <div class="verenigingtriangles"></div>
   </div>
 </template>
 
@@ -70,19 +69,19 @@ export default{
 
 #quotes{
   padding: 100px 0px;
-  background-color: #201f58;
-  color: white;
+  background-color: #ad74e8;
+  color: #af46e8;
   position: relative;
 }
 
 #quotes h2{
-  color: #63d6ed !important;
+  color: #32fced !important;
 }
 
 #quotes .VueCarousel-navigation button{
 	margin-left: 20px;
 	margin-right: 20px;
-	border: solid #63d6ed;
+	border: solid #af46e8;
 	border-width: 0 4px 4px 0 !important;
 	width: 30px;
 	height: 30px;
@@ -98,7 +97,7 @@ export default{
 }
 
 .carousel{
-  margin-top: 20px;
+  margin-tad74e8: 20px;
 	padding-left: 60px;
 	padding-right: 60px;
 }
@@ -106,7 +105,7 @@ export default{
 .slide-container{
   font-weight: 500;
   border-radius: 10px;
-  background-color: #63d6ed;
+  background-color: #32fced;
   padding: 20px;
   margin: 0 10px;
   height: 100%;
@@ -120,7 +119,7 @@ export default{
   margin-right: auto;
   display: block;
   margin-bottom: 10px;
-  border: 2px solid #201f58;
+  border: 2px solid #ad74e8;
 }
 
 </style>

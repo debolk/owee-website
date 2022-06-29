@@ -14,8 +14,6 @@
       <p>With us, the KMT is a fun, extra week of vacation, without obligations. This is the time to get to know The Bolk and to get to know your year.</p>
       <p>The first time together to organize a big party, the first time sagging until 5 o'clock at The Bolk, fighting together to get your BSA: all experiences that you will experience with your yearlings. You will also get to know The Bolk, the older members who will help you form committees, the board that is always there to answer your questions, the old guys that always nag about everything until the late hours of the night. So start your time at The Bolk and go along with getting acquainted!</p>
     </div>
-
-    <div class="verenigingtriangles"></div>
   </div>
 </template>
 
@@ -23,14 +21,14 @@
 
 #kmt{
   padding: 100px 0px;
-  background-color: #63d6ed;
-  color: #63d6ed;
+  background-color: #af74e8;
+  color: #af74e8;
   position: relative;
-  background-color: #201F58;
+  background-color: #32fced;
 }
 
 #kmt h2{
-  color: #63d6ed !important;
+  color: #af74e8 !important;
 }
 
 </style>
