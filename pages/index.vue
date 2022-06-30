@@ -11,10 +11,12 @@
 		<div class="triangles-primary"></div>
 	<schema></schema>
 		<div class="triangles-secondary"></div>
-	<kmt></kmt>
+	<sleepin></sleepin>
 		<div class="triangles-primary"></div>
-	<quotes></quotes>
+	<kmt></kmt>
 		<div class="triangles-secondary"></div>
+	<quotes></quotes>
+		<div class="triangles-primary"></div>
 	<contact></contact>
   </div>
 </template>
@@ -25,6 +27,7 @@
   import vereniging from '~/pages/vereniging.vue'
   import maintext from '~/pages/maintext.vue'
   import schema from '~/pages/schema.vue'
+  import sleepin from '~/pages/sleepin.vue'
   import kmt from '~/pages/kmt.vue'
   import contact from '~/pages/contact.vue'
   import navbar from '~/pages/navbar.vue'
@@ -42,7 +45,8 @@
       maintext,
       kmt,
       contact,
-      navbar
+      navbar,
+	  sleepin
     },
 
     beforeCreate(){

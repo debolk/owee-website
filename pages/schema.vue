@@ -2,8 +2,8 @@
   <div id="schema">
     <div class="content">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">wat is er te doen tijdens de owee?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">what is there to do during the owee?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">WAT IS ER TE DOEN TIJDENS DE OWEE?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">WHAT IS THERE TO DO DURING THE OWEE?</h2>
 	  
 
       <div class="columns">

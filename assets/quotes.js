@@ -80,10 +80,10 @@ module.exports = [
 	person: 'Vink',
 	quote: 'Ik was bezopen en zag een boot.'
   },
-  {
-	person: 'Jasper',
-	quote: 'Kom dan!'
-  },
+//  {
+//	person: 'Jasper',
+//	quote: 'Kom dan!'
+//  },
   {
 	person: 'Brendan',
 	quote: 'Leuke mensen.'
@@ -92,10 +92,10 @@ module.exports = [
 	person: 'Stephen',
 	quote: 'Leek mij wel grappig.'
   },
-  {
-	person: 'Flip',
-	quote: 'Hoewel iedereen vet passief-agresieve grappen maakt, is het een plek waar je zonder zorgen jezelf kan zijn.'
-  },
+//  {
+//	person: 'Flip',
+//	quote: 'Hoewel iedereen vet passief-agresieve grappen maakt, is het een plek waar je zonder zorgen jezelf kan zijn.'
+// },
   {
 	person: 'Miguel',
 	quote: 'Ik werd meegesleept naar de BeginBBQ door studiegenoten en vond het vet gaaf. Ben sindsdien blijven plakken.'

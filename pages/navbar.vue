@@ -16,10 +16,10 @@
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">VERENIGING</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">PROGRAMMA</a></div>
+          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">SLEEP-INN</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">QUOTES</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">CONTACT</a></div>
-          <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">COCKTAILS</a></div>
           <div class="menuitemcontainer"><a href="https://debolk.nl/inschrijven" v-smooth-scroll @click="burger = false">SCHRIJF JE IN!</a></div>
         </div>
 
@@ -28,20 +28,20 @@
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">ASSOCIATION</a></div>
           <div class="menuitemcontainer"><a href="#schema" v-smooth-scroll @click="burger = false">SCHEDULE</a></div>
+          <div class="menuitemcontainer"><a href="#sleepin" v-smooth-scroll @click="burger = false">SLEEP-INN</a></div>
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">QUOTES</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">CONTACT</a></div>
-		  <div class="menuitemcontainer"><a href="cocktails" v-smooth-scroll @click="burger = false">COCKTAILS</a></div>
           <div class="menuitemcontainer"><a href="https://debolk.nl/sign-up" v-smooth-scroll @click="burger = false">SIGN UP!</a></div>
         </div>
 
         <div class="navbar-end">
           <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setCookie('english')"><img src="~/assets/united-kingdom.svg" class="flag"> english</a></div>
+            <div class="menuitemcontainer"><a @click="setCookie('english')"><img src="~/assets/united-kingdom.svg" class="flag"> ENGLISH</a></div>
           </div>
 
           <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> nederlands</a></div>
+            <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
           </div>
         </div>
         

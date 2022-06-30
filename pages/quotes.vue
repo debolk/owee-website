@@ -1,8 +1,8 @@
 <template>
   <div id="quotes">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">waarom ben je hier lid geworden?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">why did you become a member?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">WAAROM BEN JIJ HIER LID GEWORDEN?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">WHY DID YOU BECOME A MEMBER?</h2>
 
       <carousel class="carousel"
         :perPage="cardsamount"
@@ -10,7 +10,7 @@
         :load74e8="true"
         :navigationEnabled="true"
         :navigationClickTargetSize="5"
-        :paginationActiveColor="'#32fced'"
+        :paginationActiveColor="'#af74e8'"
         :navigationPrevLabel="' '"
         :navigationNextLabel="' '">
         <slide class="slide" v-for="(i, index) of quotes" :key="index">
@@ -70,20 +70,16 @@ export default{
 
 #quotes{
   padding: 100px 0px;
-  background-color: #ad74e8;
-  color: #af46e8;
+  background-color: #32fced;
+  color: white;
   position: relative;
   font-family: Bierstadt Bold;
-}
-
-#quotes h2{
-  color: #32fced !important;
 }
 
 #quotes .VueCarousel-navigation button{
 	margin-left: 20px;
 	margin-right: 20px;
-	border: solid #32fced;
+	border: solid #af46e8;
 	border-width: 0 4px 4px 0 !important;
 	width: 30px;
 	height: 30px;
@@ -107,7 +103,7 @@ export default{
 .slide-container{
   font-weight: 500;
   border-radius: 10px;
-  background-color: #32fced;
+  background-color: #af74e8;
   padding: 20px;
   margin: 0 10px;
   height: 100%;
@@ -121,7 +117,7 @@ export default{
   margin-right: auto;
   display: block;
   margin-bottom: 10px;
-  border: 2px solid #ad74e8;
+  border: 2px solid #af46e8;
 }
 
 </style>
