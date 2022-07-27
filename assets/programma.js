@@ -12,7 +12,7 @@ module.exports = {
     planning:[
       {
         titel: {
-          dutch: 'Spelletjes Uur',
+          dutch: 'Spelletjesuur',
           english: 'Game Time'
         },
         start: 1600,
@@ -206,7 +206,7 @@ module.exports = {
     planning: [
       {
         titel: {
-          dutch: 'Spelletjes Uur',
+          dutch: 'Spelletjesuur',
           english: 'Game Time'
         },
         start: 1600,
