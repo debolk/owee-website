@@ -2,7 +2,7 @@
   <div id="main">
 
     <div v-if="$cookie.get('language') == 'dutch'" class="content">
-      <h2>BEN JIJ ER AL KLAAR VOOR?</h2>
+      <h2>BEN JIJ ER<br>AL KLAAR VOOR?</h2>
       <p>De OWee markeert het begin van een nieuwe periode in je leven: je studententijd. Maar hoe gaat jouw studentenleven eruit zien?</p>
       <p>Op 21 t/m 25 augustus is Delft een groot feest, speciaal voor jou als eerstejaars. De OWee is jouw moment om jezelf opnieuw uit te vinden en te ontdekken wat er nu echt bij jou past.</p>
       <p>De hele week organiseert de Bolk speciaal voor jou allerlei gave activiteiten, zodat je helemaal uit je Bolk kan gaan om jou studietijd een onvergetelijke start te geven!</p>
@@ -10,7 +10,7 @@
     </div>
 
     <div v-if="$cookie.get('language') == 'english'" class="content">
-      <h2>ARE YOU READY?</h2>
+      <h2>ARE YOU<br>READY?</h2>
       <p>The OWee marks the beginning of a new period in your life: your student days. But what does your student life look like?</p>
       <p>On August 21st to the 25th, Delft is a big party, especially for you as a first-year student. The OWee is your time to reinvent yourself and discover what really fits you.</p>
       <p>Curious what to do and what the Bolk has to offer? This website is especially built for that! Have a look around, mark the dates in your diary and visit us during the OWee.</p>

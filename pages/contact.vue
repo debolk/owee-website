@@ -2,8 +2,8 @@
   <div id="contact">
     <div class="content">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">WAAR KAN JE ONS VINDEN?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">WHERE CAN YOU FIND US?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">WAAR KAN JE<br>ONS VINDEN?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">WHERE CAN YOU<br>FIND US?</h2>
 
 	  <div class="floatleft" :class="{ mobile : $isMobile() }">
 		  <p>
@@ -61,7 +61,7 @@
   position: relative;
   text-align: center;
   align-items: center;
-  min-height: 500px;
+  min-height: 550px;
 }
 
 .button2{

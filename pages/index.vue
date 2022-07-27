@@ -64,6 +64,7 @@
 html {
   min-height: 100%;
   min-width: 100%;
+  max-width: 100vw;
   position: relative;
 }
 

@@ -1,8 +1,8 @@
 <template>
   <div id="quotes">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">WAAROM BEN JIJ HIER LID GEWORDEN?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">WHY DID YOU BECOME A MEMBER?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'">WAAROM BEN JIJ<br>HIER LID GEWORDEN?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'">WHY DID YOU<br>BECOME A MEMBER?</h2>
 
       <carousel class="carousel"
         :perPage="cardsamount"
