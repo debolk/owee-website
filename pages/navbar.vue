@@ -20,7 +20,7 @@
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">QUOTES</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">CONTACT</a></div>
-          <div class="menuitemcontainer"><a href="https://website.debolk.nl/inschrijven" v-smooth-scroll @click="burger = false">SCHRIJF JE IN!</a></div>
+          <div class="menuitemcontainer"><a href="https://website.debolk.nl/inschrijven" target="_blank" v-smooth-scroll @click="burger = false">SCHRIJF JE IN!</a></div>
         </div>
 
         <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
@@ -32,7 +32,7 @@
           <div class="menuitemcontainer"><a href="#kmt" v-smooth-scroll @click="burger = false">KMT</a></div>
           <div class="menuitemcontainer"><a href="#quotes" v-smooth-scroll @click="burger = false">QUOTES</a></div>
           <div class="menuitemcontainer"><a href="#contact" v-smooth-scroll @click="burger = false">CONTACT</a></div>
-          <div class="menuitemcontainer"><a href="https://website.debolk.nl/sign-up" v-smooth-scroll @click="burger = false">SIGN UP!</a></div>
+          <div class="menuitemcontainer"><a href="https://website.debolk.nl/sign-up" target="_blank" v-smooth-scroll @click="burger = false">SIGN UP!</a></div>
         </div>
 
         <div class="navbar-end">

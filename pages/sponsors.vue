@@ -5,10 +5,10 @@
       <h2 v-if="$cookie.get('language') == 'dutch'">LIEVE MENSEN<br>DIE ONS SPONSOREN</h2>
       <h2 v-if="$cookie.get('language') == 'english'">NICE PEOPLE<br>THAT SPONSOR US</h2>
 
-	  <a id="link" class="left" :class="{ mobile : $isMobile() }" href="https://kimplusdelta.nl/werken-bij-kim-plus-delta/"><img :class="{ mobile : $isMobile()}" src="~/assets/kpd.png" alt="Kim Plus Delta"></a>
-	  <a id="link" class="right" :class="{ mobile : $isMobile() }" href="https://www.facebook.com/MW-Transportservice-118538376218854/">MW Transportservice</a>
+	  <a id="link" class="left" :class="{ mobile : $isMobile() }" href="https://kimplusdelta.nl/werken-bij-kim-plus-delta/" target="_blank"><img :class="{ mobile : $isMobile()}" src="~/assets/kpd.png" alt="Kim Plus Delta"></a>
+	  <a id="link" class="right" :class="{ mobile : $isMobile() }" href="https://www.facebook.com/MW-Transportservice-118538376218854/" target="_blank">MW Transportservice</a>
 	  <br>
-	  <a id="link" class="center" :class="{ mobile : $isMobile() }" href="https://www.youtube.com/channel/UCoC5EwX2l18L5d1oyDyvXMA"><img :class="{ mobile : $isMobile()}" src="~/assets/blikbierman.svg" alt="DJ BlikBierMan"></a>
+	  <a id="link" class="center" :class="{ mobile : $isMobile() }" href="https://www.youtube.com/channel/UCoC5EwX2l18L5d1oyDyvXMA" target="_blank"><img :class="{ mobile : $isMobile()}" src="~/assets/blikbierman.svg" alt="DJ BlikBierMan"></a>
 	  
     </div>
 	

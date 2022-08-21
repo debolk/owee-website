@@ -15,17 +15,17 @@
 		  <p>
 		  Telefoon/Phone: 015 212 6012<br/>
 		  E-mail: <a href="mailto:owee@nieuwedelft.nl">owee@nieuwedelft.nl</a><br/>
-		  Website: <a href="http://www.debolk.nl">www.debolk.nl</a>
+		  Website: <a href="http://www.debolk.nl" target="_blank">www.debolk.nl</a>
 		  </p>
 		  
 		  <div class="socials">
-			  <a href="https://www.instagram.com/dsv.nieuwebolk/" class="button2">
+			  <a href="https://www.instagram.com/dsv.nieuwebolk/" target="_blank" class="button2">
 				<img src="~/assets/instagram.svg" alt="Instagram icon" width="50" height="50">
 			  </a>
-			  <a href="https://www.facebook.com/debolk" class="button2">
+			  <a href="https://www.facebook.com/debolk" target="_blank" class="button2">
 				<img src="~/assets/facebook.svg" alt="Facebook icon" width="50" height="50">
 			  </a>
-			  <a href="https://nl.wikipedia.org/wiki/D.S.V._Nieuwe_Delft" class="button2">
+			  <a href="https://nl.wikipedia.org/wiki/D.S.V._Nieuwe_Delft" target="_blank" class="button2">
 				<img src="~/assets/wikipedia.svg" alt="Wikipedia icon" width="50" height="50">
 			  </a>
 		  </div>
