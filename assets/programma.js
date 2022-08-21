@@ -52,7 +52,7 @@ module.exports = {
 	  {
 		titel: {
 			dutch: 'Tijdreisfeest met Cocktails',
-			english: 'Timetravelparty with Cocktails'
+			english: 'Timetravelparty met Cocktails'
 		},
 		start: 2200,
 		end: 400,
@@ -151,8 +151,8 @@ module.exports = {
           dutch: 'Loco met Choco',
           english: 'Loco with Choco'
         },
-        start: 2245,
-        end: 2345,
+        start: 2230,
+        end: 2330,
         beschrijving: {
           dutch: 'Chocoladetaart, chocoladecake, chocoladekoekjes, chocoladecocktails, chocolademousse … Voor alle chocoladeliefhebbers hebben onze keukenprinsen en -prinsessen alles uit de kast gehaald om de meest chocola houdende baksels te creëren. Bestaat er iets als te veel chocola? Vind het uit!',
           english: 'Chocolate cake, chocolate biscuits, chocolate cocktails, chocolate mousse … For all chocolate lovers our kitchen princes and princesses have tried to create the most chocolate-containing pastry. Is there something like too much chocolate? Find it out!'
@@ -164,7 +164,7 @@ module.exports = {
           dutch: 'Karaoke',
           english: 'Karaoke'
         },
-        start: 2230,
+        start: 2330,
         end: 300,
         beschrijving: {
           dutch: 'Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf.',
@@ -285,7 +285,7 @@ module.exports = {
 	  {
 		titel: {
 		  dutch: 'Tosti proeverij',
-		  english: 'grilled sandwich Tasting'
+		  english: 'Grilled Sandwich Tasting'
 		},
 		start: 2330,
 		end: 30,
@@ -297,8 +297,8 @@ module.exports = {
 	  },
 	  {
 		titel: {
-		  dutch: 'Ikea of Kaas?',
-		  english: 'Ikea or Cheese'
+		  dutch: 'Pubquiz',
+		  english: 'Pubquiz'
 		},
 		start: 30,
 		end: 130,
@@ -402,19 +402,6 @@ module.exports = {
 	  beschrijving: {
 		dutch: 'Live muziek is leuk, maar het is nog veel leuker om live muziek op de oudste botter van Nederland te zien! Kom genieten van vrolijke bands en kom even bij van de heftige week feesten. Deze bruisende afsluiter zorgt voor een onvergetelijke week!',
         english: 'Live music is fun! Consider live music on a boat! I’M ON A BOAT! Take a look at me! Trui (the name of the boat) is the only botter that is managed by students and the oldest botter that has continuously sailed over the last century.'
-	  },
-	  lokatie: 'midden'
-	},
-	{
-	  titel: {
-		dutch: 'x-minuten borrel',
-		english: 'x-minutes drinks'
-	  },
-	  start: 2300,
-	  end: 400,
-	  beschrijving: {
-		dutch: 'Deze borrel duurt x minuten, waarmee x het aantal ingeschreven sjaarsch zijn. Dit wil je niet missen.',
-		english: 'During these drinks the number of new members will be announced and it will last for that amount. You don\t want to miss this.'
 	  },
 	  lokatie: 'midden'
 	}

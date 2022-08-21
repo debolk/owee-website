@@ -140,6 +140,12 @@ export default {
   padding-bottom: 0px !important;
 }
 
+.modaltitle{
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  padding-top: 5px !important;
+}
+
 .modal-content .modaltitle{
   font-size: 1.8rem;
 }

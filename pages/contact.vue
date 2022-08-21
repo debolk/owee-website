@@ -61,7 +61,7 @@
   position: relative;
   text-align: center;
   align-items: center;
-  min-height: 550px;
+  min-height: 600px;
 }
 
 .button2{

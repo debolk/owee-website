@@ -18,6 +18,8 @@
 	<quotes></quotes>
 		<div class="triangles-primary"></div>
 	<contact></contact>
+		<div class="triangles-secondary"></div>
+	<sponsors></sponsors>
   </div>
 </template>
 
@@ -30,6 +32,7 @@
   import sleepin from '~/pages/sleepin.vue'
   import kmt from '~/pages/kmt.vue'
   import contact from '~/pages/contact.vue'
+  import sponsors from '~/pages/sponsors.vue'
   import navbar from '~/pages/navbar.vue'
 
   import VueMobileDetection from 'vue-mobile-detection'
@@ -46,7 +49,8 @@
       kmt,
       contact,
       navbar,
-	  sleepin
+	  sleepin,
+	  sponsors
     },
 
     beforeCreate(){
@@ -146,7 +150,7 @@ h1, h2{
   text-align: center;
   color: white !important;
   font-family: 'BTTF';
-  font-size: 3rem !important;
+  font-size: 2rem !important;
 }
 
 p{
