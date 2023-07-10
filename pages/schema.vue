@@ -4,44 +4,44 @@
 
       <h2 v-if="$cookie.get('language') == 'dutch'">WAT IS ER TE DOEN TIJDENS DE OWEE?</h2>
       <h2 v-if="$cookie.get('language') == 'english'">WHAT IS THERE TO DO DURING THE OWEE?</h2>
-	  
+
 
       <div class="columns">
         <div class="column">
           <div class="columns">
-            
+
 			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][0]}}</h3>
                 <programmas dag="maandag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
-			
+
             <div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][1]}}</h3>
                 <programmas dag="dinsdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
-			
+
 			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][2]}}</h3>
                 <programmas dag="woensdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
-			
+
 			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
                 <h3>{{dagen[$cookie.get('language')][3]}}</h3>
                 <programmas dag="donderdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
-			
+
           </div>
         </div>
       </div>
-	  
+
     </div>
   </div>
 </template>
@@ -77,7 +77,7 @@ export default{
 }
 
 #schema{
-  background-color: #af74e8;
+  background-color: #068b8c;
   font-family: Bierstadt Bold;
   padding: 100px 0px;
   position: relative;

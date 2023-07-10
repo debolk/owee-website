@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-		<h2 v-if="$isMobile()" class="navtitle">BOLK TO THE FUTURE</h2>
+		<h2 v-if="$isMobile()" class="navtitle">ALS EEN VIS IN HET WATER!</h2>
         <a role="button" class="navbar-burger" v-bind:class="{ 'is-active': burger }" @click="burger = !burger">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -44,7 +44,6 @@
             <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
           </div>
         </div>
-        
       </div>
     </nav>
   </div>
@@ -75,9 +74,9 @@ export default{
 
 <style>
   .navbar{
-    background-color: #af74e8;
+    background-color: #068b8c;
   }
-  
+
   .navtitle{
 	font-size: 1.25rem !important;
 	text-align: center;
@@ -92,17 +91,17 @@ export default{
   }
 
   .navbar-menu{
-    background-color: #af74e8;
+    background-color: #068b8c;
     text-align: center;
     width: 100%;
     padding: 0;
     position: fixed;
-    border-bottom: 5px solid #af46e8;
+    border-bottom: 2px solid #e8ffb0;
     transition: 0.2s ease all;
   }
 
   .navmenusmall{
-    top: -550px;
+    top: -600px;
   }
 
   .is-down{
@@ -110,7 +109,7 @@ export default{
   }
 
   .navbar-brand{
-    border-bottom: 5px solid #af46e8;
+    border-bottom: 5px solid #e8ffb0;
   }
 
   .navbar-menu a {
@@ -132,13 +131,13 @@ export default{
   }
 
   .menuitemcontainer:hover a{
-    color: #af74e8;
+    color: #068b8c;
   }
 
   .navbar a{
-    font-family: 'BTTF', cursive;
+    font-family: 'Some Time Later';
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .navbar-brand img{

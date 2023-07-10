@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'De Bolk - OWee 2022',
+    title: 'De Bolk - OWee 2023',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -31,7 +31,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#af46e8' },
+  loading: { color: '#e8ffb0' },
   /*
   ** Build configuration
   */

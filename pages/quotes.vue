@@ -1,8 +1,8 @@
 <template>
   <div id="quotes">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">WAAROM BEN JIJ<br>HIER LID GEWORDEN?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">WHY DID YOU<br>BECOME A MEMBER?</h2>
+      <h2 v-if="$cookie.get('language') == 'dutch'" style="color: #068b8c !important;">WAAROM BEN JIJ HIER LID GEWORDEN?</h2>
+      <h2 v-if="$cookie.get('language') == 'english'" style="color: #068b8c !important;">WHY DID YOU BECOME A MEMBER?</h2>
 
       <carousel class="carousel"
         :perPage="cardsamount"
@@ -10,7 +10,7 @@
         :load74e8="true"
         :navigationEnabled="true"
         :navigationClickTargetSize="5"
-        :paginationActiveColor="'#af74e8'"
+        :paginationActiveColor="'#068b8c'"
         :navigationPrevLabel="' '"
         :navigationNextLabel="' '">
         <slide class="slide" v-for="(i, index) of quotes" :key="index">
@@ -70,8 +70,8 @@ export default{
 
 #quotes{
   padding: 100px 0px;
-  background-color: #32fced;
-  color: white;
+  background-color: #e8ffb0;
+  color: #e8ffb0;
   position: relative;
   font-family: Bierstadt Bold;
 }
@@ -79,7 +79,7 @@ export default{
 #quotes .VueCarousel-navigation button{
 	margin-left: 20px;
 	margin-right: 20px;
-	border: solid #af46e8;
+	border: solid #068b8c;
 	border-width: 0 4px 4px 0 !important;
 	width: 30px;
 	height: 30px;
@@ -103,7 +103,7 @@ export default{
 .slide-container{
   font-weight: 500;
   border-radius: 10px;
-  background-color: #af74e8;
+  background-color: #068b8c;
   padding: 20px;
   margin: 0 10px;
   height: 100%;
@@ -117,7 +117,7 @@ export default{
   margin-right: auto;
   display: block;
   margin-bottom: 10px;
-  border: 2px solid #af46e8;
+  border: 2px solid #068b8c;
 }
 
 </style>

@@ -23,7 +23,7 @@
   padding: 100px 0px;
   color: white;
   position: relative;
-  background-color: #af74e8;
+  background-color: #068b8c;
   font-family: Bierstadt Bold;
 }
 

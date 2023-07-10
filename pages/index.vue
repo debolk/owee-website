@@ -60,7 +60,7 @@
       }
     }
   }
-  
+
 </script>
 
 <style>
@@ -75,6 +75,11 @@ html {
 body {
   height: 100%;
   width: 100%;
+  background-color: #068b8c;
+}
+
+div{
+  margin-top: -1px;
 }
 
 .triangles-primary{
@@ -83,6 +88,8 @@ body {
   position: relative;
   z-index: 1;
   margin-top: -18px;
+  padding: 0;
+  border: 0;
   background-image: url('~assets/triangle-primary.svg');
   background-size: contain;
 }
@@ -93,6 +100,8 @@ body {
   position: relative;
   z-index: 1;
   margin-top: -18px;
+  padding: 0;
+  border: 0;
   background-image: url('~assets/triangle-secondary.svg');
   background-size: contain;
 }
@@ -146,11 +155,21 @@ html{
   src: url('/fonts/BIERSTADT_B.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Some Time Later';
+  src: url('/fonts/STL.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Bob Sponge';
+  src: url('/fonts/Bob Sponge.ttf') format('truetype');
+}
+
 h1, h2{
   text-align: center;
   color: white !important;
-  font-family: 'BTTF';
-  font-size: 2rem !important;
+  font-family: 'Some Time Later';
+  font-size: 4rem !important;
 }
 
 p{
