@@ -1,3 +1,10 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});;
+</script>
+
 <template>
   <div id="schema">
     <div class="content">
@@ -11,30 +18,30 @@
           <div class="columns">
 
 			<div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': mq === 'mobile' }">
                 <h3>{{dagen[language][0]}}</h3>
-                <programmas dag="maandag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
+                <programmas dag="maandag" v-bind:class="{ 'mobiledagcontainer': mq === 'mobile' }"></programmas>
               </div>
             </div>
 
             <div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': mq === 'mobile' }">
                 <h3>{{dagen[language][1]}}</h3>
-                <programmas dag="dinsdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
+                <programmas dag="dinsdag" v-bind:class="{ 'mobiledagcontainer': mq === 'mobile' }"></programmas>
               </div>
             </div>
 
 			<div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': mq === 'mobile' }">
                 <h3>{{dagen[language][2]}}</h3>
-                <programmas dag="woensdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
+                <programmas dag="woensdag" v-bind:class="{ 'mobiledagcontainer': mq === 'mobile' }"></programmas>
               </div>
             </div>
 
 			<div class="column">
-              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
+              <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': mq === 'mobile' }">
                 <h3>{{dagen[language][3]}}</h3>
-                <programmas dag="donderdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
+                <programmas dag="donderdag" v-bind:class="{ 'mobiledagcontainer': mq === 'mobile' }"></programmas>
               </div>
             </div>
 
@@ -64,10 +71,6 @@ export default{
   }
 }
 
-</script>
-
-<script setup>
-const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
 </script>
 
 <style>

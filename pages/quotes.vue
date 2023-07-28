@@ -1,6 +1,12 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});;
+</script>
+
 <template>
   <div id="quotes">
-
       <h2 v-if="language == 'dutch'" style="color: #068b8c !important;">WAAROM BEN JIJ HIER LID GEWORDEN?</h2>
       <h2 v-if="language == 'english'" style="color: #068b8c !important;">WHY DID YOU BECOME A MEMBER?</h2>
 
@@ -13,7 +19,7 @@
         :paginationActiveColor="'#068b8c'"
         :navigationPrevLabel="' '"
         :navigationNextLabel="' '">
-        <slide class="slide" v-for="(i, index) of quotes" :key="index">
+        <slide class="slide" v-for="i in quotes" :key="i.person">
           <div class="slide-container">
             <img class="photo" :src="`/quotes/${i.person}.jpg`">
             <p>"{{i.quote}}"</p>
@@ -26,12 +32,9 @@
   </div>
 </template>
 
-<script setup>
-const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
-</script>
-
 <script>
 import quotes from '~/assets/quotes'
+import {useMq} from "vue3-mq";
 
 export default{
   data(){
@@ -44,7 +47,7 @@ export default{
 
   computed: {
     cardsamount: function(){
-      switch(this.$mq){
+      switch(useMq().current){
         case 'mobile':
           return 1
           break
@@ -69,6 +72,7 @@ export default{
 }
 
 </script>
+
 
 <style>
 
