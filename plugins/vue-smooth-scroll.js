@@ -1,4 +1,5 @@
-import Vue from 'vue';
+import VueSmoothScroll from "v-smooth-scroll";
 
-import vueSmoothScroll from 'vue-smooth-scroll'
-Vue.use(vueSmoothScroll)
+export default defineNuxtPlugin(nuxtApp => {
+  nuxtApp.vueApp.use(VueSmoothScroll)
+})

@@ -1,4 +1,4 @@
-module.exports = {
+export default defineNuxtConfig({
   /*
   ** Headers of the page
   */
@@ -27,7 +27,6 @@ module.exports = {
       },
     ]
   },
-  mode: 'spa',
   /*
   ** Customize the progress bar color
   */
@@ -37,19 +36,20 @@ module.exports = {
   */
   build: {
     vendor: [
-      'vue-carousel',
-      'vue-smooth-scroll',
-      'vue-mq',
-      'vue-cookie'
+      'vue3-carousel',
+      'vue3-smooth-scroll',
+      'vue3-mq'
     ],
   },
+
+  modules: [
+    '@nuxtjs/device'
+  ],
   plugins: [
-    { src: '~plugins/vue-carousel', ssr: false },
-    { src: '~plugins/vue-smooth-scroll', ssr: true },
-    { src: '~plugins/vue-mq', ssr: false },
-    { src: '~plugins/vue-cookie', ssr: false }
+    { src: 'plugins/vue-smooth-scroll', ssr: true },
+    { src: 'plugins/vue-mq', ssr: false }
   ],
   css: [
     { src: 'bulma/bulma.sass', lang: 'sass' }
   ]
-}
+})

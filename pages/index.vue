@@ -1,7 +1,7 @@
 <template>
   <div>
-	<div class="soosjes-links" v-if="!$isMobile()"></div>
-	<div class="soosjes-rechts" v-if="!$isMobile()"></div>
+	<div class="soosjes-links" v-if="!$device.isMobile"></div>
+	<div class="soosjes-rechts" v-if="!$device.isMobile"></div>
 	<navbar></navbar>
 	<imageheader></imageheader>
 		<div class="triangles-primary"></div>
@@ -24,20 +24,16 @@
 </template>
 
 <script>
-  import imageheader from '~/pages/imageheader.vue'
-  import quotes from '~/pages/quotes.vue'
-  import vereniging from '~/pages/vereniging.vue'
-  import maintext from '~/pages/maintext.vue'
-  import schema from '~/pages/schema.vue'
-  import sleepin from '~/pages/sleepin.vue'
-  import kmt from '~/pages/kmt.vue'
-  import contact from '~/pages/contact.vue'
-  import sponsors from '~/pages/sponsors.vue'
-  import navbar from '~/pages/navbar.vue'
-
-  import VueMobileDetection from 'vue-mobile-detection'
-  import Vue from 'vue'
-  Vue.use(VueMobileDetection)
+  import imageheader from '/pages/imageheader.vue'
+  import quotes from '/pages/quotes.vue'
+  import vereniging from '/pages/vereniging.vue'
+  import maintext from '/pages/maintext.vue'
+  import schema from '/pages/schema.vue'
+  import sleepin from '/pages/sleepin.vue'
+  import kmt from '/pages/kmt.vue'
+  import contact from '/pages/contact.vue'
+  import sponsors from '/pages/sponsors.vue'
+  import navbar from '/pages/navbar.vue'
 
   export default {
     components: {
@@ -49,18 +45,15 @@
       kmt,
       contact,
       navbar,
-	  sleepin,
-	  sponsors
-    },
-
-    beforeCreate(){
-      //set cookie if none
-      if(this.$cookie.get('language') != 'dutch' && this.$cookie.get('language') != 'english'){
-        this.$cookie.set('language', 'dutch', '100')
-      }
+	    sleepin,
+	    sponsors
     }
-  }
 
+  }
+</script>
+
+<script setup>
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
 </script>
 
 <style>
@@ -90,7 +83,7 @@ div{
   margin-top: -18px;
   padding: 0;
   border: 0;
-  background-image: url('~assets/triangle-primary.svg');
+  background-image: url('~/assets/triangle-primary.svg');
   background-size: contain;
 }
 
@@ -102,7 +95,7 @@ div{
   margin-top: -18px;
   padding: 0;
   border: 0;
-  background-image: url('~assets/triangle-secondary.svg');
+  background-image: url('~/assets/triangle-secondary.svg');
   background-size: contain;
 }
 
@@ -114,7 +107,7 @@ div{
   top: 0px;
   z-index: 2;
   overflow: hidden;
-  background-image: url('~assets/soos.svg');
+  background-image: url('~/assets/soos.svg');
   background-repeat: repeat-y;
 }
 
@@ -126,7 +119,7 @@ div{
   top: 0px;
   z-index: 2;
   overflow: hidden;
-  background-image: url('~assets/soos.svg');
+  background-image: url('~/assets/soos.svg');
   background-repeat: repeat-y;
 }
 
@@ -162,7 +155,7 @@ html{
 
 @font-face {
   font-family: 'Bob Sponge';
-  src: url('/fonts/Bob Sponge.ttf') format('truetype');
+  src: url('/fonts/Bob_Sponge.ttf') format('opentype');
 }
 
 h1, h2{

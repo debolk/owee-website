@@ -1,19 +1,23 @@
 <template>
   <div id="covid19">
 
-    <div v-if="$cookie.get('language') == 'dutch'" class="content">
+    <div v-if="language == 'dutch'" class="content">
       <h2>Corona?</h2>
       <p>Ook bij De Bolk wordt er rekening gehouden met de maatregelen omtrent COVID-19. Zo zal er tijdens de OWee en op reguliere avonden rekening gehouden met de (inmiddels welbekende) regels omtrent 1,5m afstand houden en hygiëne.</p>
     </div>
 
-    <div v-if="$cookie.get('language') == 'english'" class="content">
+    <div v-if="language == 'english'" class="content">
       <h2>Corona?</h2>
       <p>At De Bolk we follow the Dutch rules concerning COVID-19. During the OWee we will follow the (well-known) rules about 1,5m distance and hygiëne, this also applies to the regular evenings at De Bolk. </p>
     </div>
-    
+
     <div class="upsidedowntriangles"></div>
   </div>
 </template>
+
+<script setup>
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
+</script>
 
 <style>
 

@@ -1,8 +1,8 @@
 <template>
   <div id="quotes">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'" style="color: #068b8c !important;">WAAROM BEN JIJ HIER LID GEWORDEN?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'" style="color: #068b8c !important;">WHY DID YOU BECOME A MEMBER?</h2>
+      <h2 v-if="language == 'dutch'" style="color: #068b8c !important;">WAAROM BEN JIJ HIER LID GEWORDEN?</h2>
+      <h2 v-if="language == 'english'" style="color: #068b8c !important;">WHY DID YOU BECOME A MEMBER?</h2>
 
       <carousel class="carousel"
         :perPage="cardsamount"
@@ -17,7 +17,7 @@
           <div class="slide-container">
             <img class="photo" :src="`/quotes/${i.person}.jpg`">
             <p>"{{i.quote}}"</p>
-			<br>
+			      <br>
             <i> - {{i.person}} </i>
           </div>
         </slide>
@@ -25,6 +25,10 @@
 
   </div>
 </template>
+
+<script setup>
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
+</script>
 
 <script>
 import quotes from '~/assets/quotes'

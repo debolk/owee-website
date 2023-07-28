@@ -1,4 +1,6 @@
-import Vue from 'vue';
-import VueCarousel from 'vue-carousel';
+import {Carousel, Slide} from 'vue3-carousel'
 
-Vue.use(VueCarousel);
+export default defineNuxtPlugin(nuxtApp => {
+  nuxtApp.vueApp.use(Carousel)
+  nuxtApp.vueApp.use(Slide)
+})

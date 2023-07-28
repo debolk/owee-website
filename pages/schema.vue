@@ -2,8 +2,8 @@
   <div id="schema">
     <div class="content">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">WAT IS ER TE DOEN TIJDENS DE OWEE?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">WHAT IS THERE TO DO DURING THE OWEE?</h2>
+      <h2 v-if="language == 'dutch'">WAT IS ER TE DOEN TIJDENS DE OWEE?</h2>
+      <h2 v-if="language == 'english'">WHAT IS THERE TO DO DURING THE OWEE?</h2>
 
 
       <div class="columns">
@@ -12,28 +12,28 @@
 
 			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
-                <h3>{{dagen[$cookie.get('language')][0]}}</h3>
+                <h3>{{dagen[language][0]}}</h3>
                 <programmas dag="maandag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
 
             <div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
-                <h3>{{dagen[$cookie.get('language')][1]}}</h3>
+                <h3>{{dagen[language][1]}}</h3>
                 <programmas dag="dinsdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
 
 			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
-                <h3>{{dagen[$cookie.get('language')][2]}}</h3>
+                <h3>{{dagen[language][2]}}</h3>
                 <programmas dag="woensdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
 
 			<div class="column">
               <div class="dagcontainer" v-bind:class="{ 'mobiledagcontainerparent': $mq === 'mobile' }">
-                <h3>{{dagen[$cookie.get('language')][3]}}</h3>
+                <h3>{{dagen[language][3]}}</h3>
                 <programmas dag="donderdag" v-bind:class="{ 'mobiledagcontainer': $mq === 'mobile' }"></programmas>
               </div>
             </div>
@@ -64,6 +64,10 @@ export default{
   }
 }
 
+</script>
+
+<script setup>
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
 </script>
 
 <style>
