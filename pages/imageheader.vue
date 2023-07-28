@@ -4,7 +4,7 @@
       <img
         class="largelogo"
         src="~/assets/logo.svg"
-		v-if="!$isMobile()">
+		v-if="!$device.isMobile">
 	  <img
         class="largelogo-mobile"
         src="~/assets/logo.svg"
@@ -15,7 +15,7 @@
 
 <style>
   #imageheader{
-    background-image: url('~assets/fotos/header.jpg');
+    background-image: url('~/assets/fotos/header.jpg');
     background-size: cover;
 	  background-position: center;
     width: 100%;

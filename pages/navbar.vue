@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-		<h2 v-if="$isMobile()" class="navtitle">ALS EEN VIS IN HET WATER!</h2>
+		    <h2 v-if="$device.isMobile" class="navtitle">ALS EEN VIS IN HET WATER!</h2>
         <a role="button" class="navbar-burger" v-bind:class="{ 'is-active': burger }" @click="burger = !burger">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -11,7 +11,7 @@
       </div>
       <div class="navbar-menu is-active"
       v-bind:class="{ 'is-down': burger, 'navmenusmall': ($mq !== 'threecards' && $mq !== 'fourcards' && $mq !== 'desktop') }">
-        <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
+        <div v-if="language === 'dutch'" class="navbar-start">
           <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">HOME</a></div>
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">VERENIGING</a></div>
@@ -23,7 +23,7 @@
           <div class="menuitemcontainer"><a href="https://website.debolk.nl/inschrijven" target="_blank" v-smooth-scroll @click="burger = false">SCHRIJF JE IN!</a></div>
         </div>
 
-        <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
+        <div v-if="language === 'english'" class="navbar-start">
           <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">HOME</a></div>
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
           <div class="menuitemcontainer"><a href="#vereniging" v-smooth-scroll @click="burger = false">ASSOCIATION</a></div>
@@ -36,12 +36,12 @@
         </div>
 
         <div class="navbar-end">
-          <div v-if="$cookie.get('language') == 'dutch'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setCookie('english')"><img src="~/assets/united-kingdom.svg" class="flag"> ENGLISH</a></div>
+          <div v-if="language == 'dutch'" class="navbar-start">
+            <div class="menuitemcontainer"><a @click="setLang('english')"><img src="~/assets/united-kingdom.svg" class="flag"> ENGLISH</a></div>
           </div>
 
-          <div v-if="$cookie.get('language') == 'english'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setCookie('dutch')"><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
+          <div v-if="language == 'english'" class="navbar-start">
+            <div class="menuitemcontainer"><a @click="setLang('dutch')"><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
           </div>
         </div>
       </div>
@@ -49,8 +49,11 @@
   </div>
 </template>
 
-<script>
+<script setup>
+const language = useCookie("language")
+</script>
 
+<script>
 export default{
   data(){
     return {
@@ -59,17 +62,13 @@ export default{
   },
 
   methods: {
-    setCookie(lang){
-      //set cookie for 100 days, that should probably be enough
-      this.$cookie.set('language', lang, '100')
+    setLang(lang){
+      this.$cookies.set('language', lang, {maxAge: 100 * 24 * 60 * 60});
       //this.burger = false;
-      location.reload()
+      location.reload();
     }
   }
 }
-
-
-
 </script>
 
 <style>

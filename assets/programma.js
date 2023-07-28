@@ -5,7 +5,7 @@
 // titel (titel),
 // beschrijving (beschrijving),
 // of hij 'links', 'rechts' of in het 'midden' moet worden weergegeven (lokatie)
-
+export default "";
 module.exports = {
   maandag: {
     begintijd: 1600,
@@ -362,7 +362,7 @@ module.exports = {
       }
 	]
   },
-	
+
   donderdag: {
   begintijd: 1600,
   planning: [

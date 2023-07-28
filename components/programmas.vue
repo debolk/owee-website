@@ -11,7 +11,7 @@
            class="event"
            @click="openmodal(item)">
              <div class="textcontainer">
-               <span class="title fitTitle">{{item.titel[$cookie.get('language')]}}</span>
+               <span class="title fitTitle">{{item.titel[language]}}</span>
                <br/>
                <span v-if="!!item.neptijd" class="time fitTime">
                  {{`${item.nepstart} - ${item.nepend}`}}
@@ -29,7 +29,7 @@
       <div class="modal-background" @click="modal = false"></div>
       <div class="modal-content">
         <div class="modaltitle">
-          {{modalItem.titel[$cookie.get('language')]}}
+          {{modalItem.titel[language]}}
         </div>
           <span v-if="!!modalItem.neptijd" class="time">
             {{`${modalItem.nepstart} - ${modalItem.nepend}`}}
@@ -38,7 +38,7 @@
             {{`${Math.floor(modalItem.start/100)}:${pad(modalItem.start%100,2 )} - ${Math.floor(modalItem.end/100)}:${pad(modalItem.end%100,2 )}`}}
           </span>
           <br/>
-          <p v-html="modalItem.beschrijving[$cookie.get('language')]"></p>
+          <p v-html="modalItem.beschrijving[language]"></p>
       </div>
       <button class="modal-close is-large" @click="modal = false"></button>
     </div>

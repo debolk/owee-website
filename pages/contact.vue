@@ -2,10 +2,10 @@
   <div id="contact">
     <div class="content">
 
-      <h2 v-if="$cookie.get('language') == 'dutch'">WAAR KAN JE ONS VINDEN?</h2>
-      <h2 v-if="$cookie.get('language') == 'english'">WHERE CAN YOU FIND US?</h2>
+      <h2 v-if="language == 'dutch'">WAAR KAN JE ONS VINDEN?</h2>
+      <h2 v-if="language == 'english'">WHERE CAN YOU FIND US?</h2>
 
-	  <div class="floatleft" :class="{ mobile : $isMobile() }">
+	  <div class="floatleft" :class="{ mobile : $device.isMobile }">
 		  <p>
 			De Bolk (D.S.V. "Nieuwe Delft")<br/>
 			Buitenwatersloot 1-3<br/>
@@ -31,12 +31,16 @@
 		  </div>
 	  </div>
 
-	  <iframe :class="{ mobile : $isMobile() }" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1736.582321526495!2d4.353183702808223!3d52.00873160295196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5c6c9c297dd%3A0x4f0f19d2b4b48a70!2sDe%20Bolk%20(D.S.V.%20%22Nieuwe%20Delft%22)!5e0!3m2!1snl!2snl!4v1656592715654!5m2!1snl!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	  <iframe :class="{ mobile : $device.isMobile }" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1736.582321526495!2d4.353183702808223!3d52.00873160295196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5c6c9c297dd%3A0x4f0f19d2b4b48a70!2sDe%20Bolk%20(D.S.V.%20%22Nieuwe%20Delft%22)!5e0!3m2!1snl!2snl!4v1656592715654!5m2!1snl!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </div>
 
   </div>
 </template>
+
+<script setup>
+const language = useCookie("language")
+</script>
 
 <style>
 

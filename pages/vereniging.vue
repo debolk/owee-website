@@ -1,7 +1,7 @@
 <template>
   <div id="vereniging">
 
-    <div v-if="$cookie.get('language') == 'dutch'" class="content">
+    <div v-if="language == 'dutch'" class="content">
       <h2>WAT VOOR VERENIGING ZIJN WIJ?</h2>
       <p>De Bolk, ook wel bekend als D.S.V. "Nieuwe Delft", is een van de kleinere verenigingen in Delft waar alle leden elkaar kennen. Bij ons heerst dan ook een huiselijke en ongedwongen sfeer, waardoor je lekker jezelf kunt zijn. Het unieke aan onze vereniging is dat de leden heel divers zijn, maar wel open staan voor anderen. Op deze manier kun je in één week mee doen aan een biercantus en een debatavond, gevolgd door een weekend zeilen.</p>
       <p>Onze sociëteit ligt vlakbij het station en het centrum. Bolkers kun je meestal vinden aan de bar voor een (speciaal)biertje en een tosti of in de achterzaal voor een bord- of kaartspel.</p>
@@ -10,7 +10,7 @@
       <p>Onze leden zijn niet alleen maar bezig met al deze gave dingen, we moeten natuurlijk ook studeren. Lid zijn bij de Bolk kun je prima combineren met je studie. Wij stellen geen verplichtingen die jou kunnen belemmeren om te studeren. Verder heb je als eerstejaars contact met alle leden van de Bolk, dus ook met de ouderejaars bij wie je terecht kunt voor hulp.</p>
     </div>
 
-    <div v-if="$cookie.get('language') == 'english'" class="content">
+    <div v-if="language == 'english'" class="content">
       <h2>WHAT KIND OF ASSOCIATION ARE WE?</h2>
       <p>The Bolk is one of the smaller associations in Delft where all members know each other. There is a homely and relaxed atmosphere, so you can be yourself. The unique thing about our association is that the members are very diverse, but are open to others. At one moment you can participate in a sing-along and a debate evening, and at another you can go sailing for the weekend.</p>
       <p>Our club is located near the station and the city center. Bolkers can usually be found at the bar for a beer and a sandwich or in the back for a board game.</p>
@@ -21,6 +21,10 @@
 
   </div>
 </template>
+
+<script setup>
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
+</script>
 
 <style>
 
