@@ -1,3 +1,10 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});
+</script>
+
 <template>
   <div id="vereniging">
 
@@ -21,10 +28,6 @@
 
   </div>
 </template>
-
-<script setup>
-const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
-</script>
 
 <style>
 

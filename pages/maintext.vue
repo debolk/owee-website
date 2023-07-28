@@ -1,7 +1,14 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});
+</script>
+
 <template>
   <div id="main">
 
-    <div v-if="language == 'dutch'" class="content">
+    <div v-if="language === 'dutch'" class="content">
       <h2>BEN JIJ ER AL KLAAR VOOR?</h2>
       <p>De OWee markeert het begin van een nieuwe periode in je leven: je studententijd. Maar hoe gaat jouw studentenleven eruit zien?</p>
       <p>Op 13 t/m 17 augustus is Delft een groot feest, speciaal voor jou als eerstejaars. De OWee is jouw moment om jezelf opnieuw uit te vinden en te ontdekken wat er nu echt bij jou past.</p>
@@ -9,7 +16,7 @@
       <p>Benieuwd wat er allemaal te doen gaat zijn, en wat de Bolk allemaal te bieden heeft? Daar is deze website speciaal voor gebouwd! Kijk lekker rond, zet het in je agenda en kom langs tijdens de OWee!</p>
     </div>
 
-    <div v-if="language == 'english'" class="content">
+    <div v-if="language === 'english'" class="content">
       <h2>ARE YOU READY?</h2>
       <p>The OWee marks the beginning of a new period in your life: your student days. But what does your student life look like?</p>
       <p>On August 13th to the 17th, Delft is a big party, especially for you as a first-year student. The OWee is your time to reinvent yourself and discover what really fits you.</p>
@@ -23,10 +30,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
-</script>
 
 <style>
 

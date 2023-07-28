@@ -8,9 +8,9 @@ import { withQuery, hasProtocol, parseURL, joinURL } from 'ufo';
 import { renderSSRHead } from '@unhead/ssr';
 import { getActiveHead, createServerHead as createServerHead$1 } from 'unhead';
 import { defineHeadPlugin } from '@unhead/shared';
-import VueSmoothScroll from 'v-smooth-scroll';
-import VueMq from 'vue3-mq';
+import VueSmoothScroll from 'vue3-smooth-scroll';
 import { Carousel, Slide } from 'vue3-carousel';
+import { Vue3Mq } from 'vue3-mq';
 import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode } from 'vue/server-renderer';
 import { defu } from 'defu';
 import { a as useRuntimeConfig$1 } from '../nitro/node-server.mjs';
@@ -323,15 +323,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/contact-cd3b6e64.mjs').then((m) => m.default || m)
-  },
-  {
-    name: "covid-19",
-    path: "/covid-19",
-    meta: {},
-    alias: [],
-    redirect: void 0,
-    component: () => import('./_nuxt/covid-19-812e47eb.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/contact-d00de8e4.mjs').then((m) => m.default || m)
   },
   {
     name: "imageheader",
@@ -339,7 +331,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/imageheader-70f3f195.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/imageheader-88e7b6ef.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -347,7 +339,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-8989a261.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-13c35f33.mjs').then((m) => m.default || m)
   },
   {
     name: "kmt",
@@ -355,7 +347,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/kmt-a08532c9.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/kmt-7b28c25f.mjs').then((m) => m.default || m)
   },
   {
     name: "maintext",
@@ -363,7 +355,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/maintext-514ca840.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/maintext-36bc4ca9.mjs').then((m) => m.default || m)
   },
   {
     name: "navbar",
@@ -371,7 +363,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/navbar-bc824dff.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/navbar-91bc2054.mjs').then((m) => m.default || m)
   },
   {
     name: "quotes",
@@ -379,7 +371,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/quotes-6545ed3d.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/quotes-cb5c100b.mjs').then((m) => m.default || m)
   },
   {
     name: "schema",
@@ -387,7 +379,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/schema-87e89be2.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/schema-0149aaa7.mjs').then((m) => m.default || m)
   },
   {
     name: "sleepin",
@@ -395,7 +387,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/sleepin-df3d8b9f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/sleepin-fed959f6.mjs').then((m) => m.default || m)
   },
   {
     name: "sponsors",
@@ -403,7 +395,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/sponsors-20009a1a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/sponsors-0a6befa7.mjs').then((m) => m.default || m)
   },
   {
     name: "vereniging",
@@ -411,7 +403,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/vereniging-189b0d49.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/vereniging-68073538.mjs').then((m) => m.default || m)
   }
 ];
 const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [], "style": [], "script": [], "noscript": [] };
@@ -937,21 +929,20 @@ const plugin_t2GMTTFnMT = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
 const vue_smooth_scroll_1lTJx8nNoG = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueSmoothScroll);
 });
-const vue_mq_qCRbiL90e7 = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.use(VueMq, {
-    breakpoints: {
-      mobile: 770,
-      twocards: 1e3,
-      navbar: 1088,
-      threecards: 1300,
-      fourcards: 1500,
-      desktop: Infinity
-    }
-  });
-});
 const vue_carousel_FfT98ZyCh0 = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(Carousel);
   nuxtApp.vueApp.use(Slide);
+});
+const vue_mq_qCRbiL90e7 = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(Vue3Mq, {
+    breakpoints: {
+      mobile: 0,
+      twocards: 770,
+      threecards: 1088,
+      fourcards: 1300,
+      desktop: 1500
+    }
+  });
 });
 const plugins = [
   plugin,
@@ -960,8 +951,8 @@ const plugins = [
   unhead_KgADcZ0jPj,
   plugin_t2GMTTFnMT,
   vue_smooth_scroll_1lTJx8nNoG,
-  vue_mq_qCRbiL90e7,
-  vue_carousel_FfT98ZyCh0
+  vue_carousel_FfT98ZyCh0,
+  vue_mq_qCRbiL90e7
 ];
 const _wrapIf = (component, props, slots) => {
   props = props === true ? {} : props;
@@ -971,7 +962,7 @@ const _wrapIf = (component, props, slots) => {
   } };
 };
 const layouts = {
-  default: () => import('./_nuxt/default-388c07d5.mjs').then((m) => m.default || m)
+  default: () => import('./_nuxt/default-21904a1d.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = /* @__PURE__ */ defineComponent({
   name: "LayoutLoader",
@@ -1250,8 +1241,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-af5eb639.mjs').then((r) => r.default || r));
-    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-b9cb061e.mjs').then((r) => r.default || r));
+    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-bf75b8af.mjs').then((r) => r.default || r));
+    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-8b5c91ad.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -1269,7 +1260,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-205b0461.mjs').then((r) => r.default || r));
+    const IslandRenderer = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/island-renderer-5f6c591d.mjs').then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

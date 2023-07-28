@@ -550,744 +550,562 @@ const assets = {
   "/android-icon-192x192.png": {
     "type": "image/png",
     "etag": "\"2fd8-D89lQ9USL9L+wqiyQqLFx3wvJTA\"",
-    "mtime": "2023-07-28T14:44:01.605Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 12248,
     "path": "../public/android-icon-192x192.png"
   },
   "/apple-icon-180x180.png": {
     "type": "image/png",
     "etag": "\"2c84-jFIx5PMSGW/vvcFcHJE2s7S0L64\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 11396,
     "path": "../public/apple-icon-180x180.png"
   },
   "/browserconfig.xml": {
     "type": "application/xml",
     "etag": "\"119-hTOJtsQnOWWJnrEwLWZeuROV/Qw\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 281,
     "path": "../public/browserconfig.xml"
   },
   "/favicon-32x32.png": {
     "type": "image/png",
     "etag": "\"613-2uMhp7rJHUGaDuJMmAjRdJL5HGU\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 1555,
     "path": "../public/favicon-32x32.png"
   },
   "/favicon-96x96.png": {
     "type": "image/png",
     "etag": "\"157d-M0zKAL6emT3JpnoHsVx1o08K2Ds\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 5501,
     "path": "../public/favicon-96x96.png"
   },
   "/favicon.svg": {
     "type": "image/svg+xml",
     "etag": "\"2171e-z1L4uB7WnGdhevhmYWTfYmeIum4\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 136990,
     "path": "../public/favicon.svg"
   },
   "/manifest.json": {
     "type": "application/json",
     "etag": "\"2d0-0R/r+ecIqeEbruN+19xemZAlgL4\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 720,
     "path": "../public/manifest.json"
+  },
+  "/_nuxt/contact.5b3f69fb.js": {
+    "type": "application/javascript",
+    "etag": "\"7b4-TB0TAnMFeWYTqkKydUGD6Sw7k7Y\"",
+    "mtime": "2023-07-28T16:20:54.475Z",
+    "size": 1972,
+    "path": "../public/_nuxt/contact.5b3f69fb.js"
   },
   "/_nuxt/contact.92b0844c.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"247-P5zyU9iBw0yygPZ5YFNApqAL6fI\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 583,
     "path": "../public/_nuxt/contact.92b0844c.css"
   },
-  "/_nuxt/contact.d6c7567c.js": {
+  "/_nuxt/cookie.cb9ef82f.js": {
     "type": "application/javascript",
-    "etag": "\"791-GbN2B0+4+QoO4HZyrulHjpT50HU\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 1937,
-    "path": "../public/_nuxt/contact.d6c7567c.js"
-  },
-  "/_nuxt/cookie.760c8d35.js": {
-    "type": "application/javascript",
-    "etag": "\"1cbc-wxVrRvvoOLqnYwDnCYRekd4Hlig\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "etag": "\"1cbc-ODBZxRNLALHBRLW3RKhKyG+ILUY\"",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 7356,
-    "path": "../public/_nuxt/cookie.760c8d35.js"
+    "path": "../public/_nuxt/cookie.cb9ef82f.js"
   },
-  "/_nuxt/covid-19.1b1a9979.js": {
+  "/_nuxt/default.6de44eb1.js": {
     "type": "application/javascript",
-    "etag": "\"3e9-4wvqIOC3dMuCla371ocSly64n1s\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 1001,
-    "path": "../public/_nuxt/covid-19.1b1a9979.js"
-  },
-  "/_nuxt/covid-19.49c86d06.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"a0-d1IMc6CFw/05z8b8OfncjUIfoiA\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 160,
-    "path": "../public/_nuxt/covid-19.49c86d06.css"
-  },
-  "/_nuxt/default.06c01aef.js": {
-    "type": "application/javascript",
-    "etag": "\"bb-58epyJ+3m+CLDtGkHgxeSiHble4\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "etag": "\"bb-MtaIH0W4cBgywoR3xpvtQ2H6nwI\"",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 187,
-    "path": "../public/_nuxt/default.06c01aef.js"
+    "path": "../public/_nuxt/default.6de44eb1.js"
   },
-  "/_nuxt/entry.4737a8fd.js": {
+  "/_nuxt/entry.cf351e42.js": {
     "type": "application/javascript",
-    "etag": "\"2f4c1-00nOkVC7vquzpu5e3MtwKFATgIE\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 193729,
-    "path": "../public/_nuxt/entry.4737a8fd.js"
+    "etag": "\"2f367-qUgZuHpqakkCXk8U2fJV2V9yGrw\"",
+    "mtime": "2023-07-28T16:20:54.475Z",
+    "size": 193383,
+    "path": "../public/_nuxt/entry.cf351e42.js"
   },
-  "/_nuxt/error-404.7dc5c91f.js": {
+  "/_nuxt/error-404.783b97d7.js": {
     "type": "application/javascript",
-    "etag": "\"1983-/bShyibS4DvfzxF59p/KNC7Azbg\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "etag": "\"1983-/KKK3/icjztFQSudOaipslZmYoY\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 6531,
-    "path": "../public/_nuxt/error-404.7dc5c91f.js"
+    "path": "../public/_nuxt/error-404.783b97d7.js"
   },
   "/_nuxt/error-404.7fc72018.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"e2e-iNt1cqPQ0WDudfCTZVQd31BeRGs\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 3630,
     "path": "../public/_nuxt/error-404.7fc72018.css"
-  },
-  "/_nuxt/error-500.c2cd81e8.js": {
-    "type": "application/javascript",
-    "etag": "\"756-LS5GcbmKvJJwJ9f43q4pe72lLY4\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 1878,
-    "path": "../public/_nuxt/error-500.c2cd81e8.js"
   },
   "/_nuxt/error-500.c5df6088.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"79e-ByRo+49BgcevWdRjJy3CMx2IA5k\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 1950,
     "path": "../public/_nuxt/error-500.c5df6088.css"
+  },
+  "/_nuxt/error-500.e443317e.js": {
+    "type": "application/javascript",
+    "etag": "\"756-4kdd7PJdb+XHd+VahmdV8D3n+Cg\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 1878,
+    "path": "../public/_nuxt/error-500.e443317e.js"
   },
   "/_nuxt/facebook.bed82655.svg": {
     "type": "image/svg+xml",
     "etag": "\"5f1-eeR6bJKaYefrQLUWsoYxQ9ABPFE\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 1521,
     "path": "../public/_nuxt/facebook.bed82655.svg"
   },
-  "/_nuxt/imageheader.9b687861.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"1f4-xaVWa4otVdS00Kbx1vDA5CfYPVk\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 500,
-    "path": "../public/_nuxt/imageheader.9b687861.css"
+  "/_nuxt/header.d616ff8f.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"38298-IQHsj0zplPAJEXPDg8yUr0BF6ss\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 230040,
+    "path": "../public/_nuxt/header.d616ff8f.jpg"
   },
-  "/_nuxt/imageheader.df6ab6ae.js": {
+  "/_nuxt/imageheader.0d3eb0dd.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"1f1-7V6rNebc/Uz9swmBbtmz464LG7M\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 497,
+    "path": "../public/_nuxt/imageheader.0d3eb0dd.css"
+  },
+  "/_nuxt/imageheader.dd909006.js": {
     "type": "application/javascript",
-    "etag": "\"191-QSHXHfhczqMHaf0yqfHixZ9PcAc\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
+    "etag": "\"191-eNjOyfAYzwOhMYQ0qA5dt9UxJns\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 401,
-    "path": "../public/_nuxt/imageheader.df6ab6ae.js"
+    "path": "../public/_nuxt/imageheader.dd909006.js"
   },
-  "/_nuxt/index.3eb294fd.js": {
-    "type": "application/javascript",
-    "etag": "\"55b-XQi8l7GF+JyqQT3VeqcJrPyzfIY\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 1371,
-    "path": "../public/_nuxt/index.3eb294fd.js"
-  },
-  "/_nuxt/index.ae6d1e7d.css": {
+  "/_nuxt/index.4310e3b5.css": {
     "type": "text/css; charset=utf-8",
-    "etag": "\"557-kdvzbjl1oZjjxGj4gLrxt7k7RxE\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
-    "size": 1367,
-    "path": "../public/_nuxt/index.ae6d1e7d.css"
+    "etag": "\"58a-2QRf2QZCUivUD+Ik8Nb1tCLNEzY\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 1418,
+    "path": "../public/_nuxt/index.4310e3b5.css"
+  },
+  "/_nuxt/index.ecb737a1.js": {
+    "type": "application/javascript",
+    "etag": "\"5c2-NcHM2hIeFUyI461Nb6/K0cYL5rA\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 1474,
+    "path": "../public/_nuxt/index.ecb737a1.js"
   },
   "/_nuxt/instagram.aa9c1646.svg": {
     "type": "image/svg+xml",
     "etag": "\"1601-Jk6Vz/CUo97ErQv8jPbFCG6e5XY\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 5633,
     "path": "../public/_nuxt/instagram.aa9c1646.svg"
-  },
-  "/_nuxt/kmt.64730c8b.js": {
-    "type": "application/javascript",
-    "etag": "\"96c-E94Oi3ds+4exVadrwPbE1MDWOkU\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
-    "size": 2412,
-    "path": "../public/_nuxt/kmt.64730c8b.js"
   },
   "/_nuxt/kmt.79fc0cf0.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"67-Y0baf78BpDMHEN0RpvuCZdZYaAw\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 103,
     "path": "../public/_nuxt/kmt.79fc0cf0.css"
+  },
+  "/_nuxt/kmt.da5cc75e.js": {
+    "type": "application/javascript",
+    "etag": "\"96c-Uu8HSAiOsIoVVCO95Ddf0J0Gizw\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 2412,
+    "path": "../public/_nuxt/kmt.da5cc75e.js"
   },
   "/_nuxt/logo.1e2073ca.svg": {
     "type": "image/svg+xml",
     "etag": "\"14271-wVVZJOvawQhHjlPZkE+0TRs5sbo\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 82545,
     "path": "../public/_nuxt/logo.1e2073ca.svg"
+  },
+  "/_nuxt/maintext.1c5dd9e3.js": {
+    "type": "application/javascript",
+    "etag": "\"846-dT1gxfOOW8e5c1/qoXCO+laqMao\"",
+    "mtime": "2023-07-28T16:20:54.471Z",
+    "size": 2118,
+    "path": "../public/_nuxt/maintext.1c5dd9e3.js"
   },
   "/_nuxt/maintext.50b407da.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"160-vBu7Q0qoQCzzN/rOaSnck1Tvah4\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
+    "mtime": "2023-07-28T16:20:54.471Z",
     "size": 352,
     "path": "../public/_nuxt/maintext.50b407da.css"
-  },
-  "/_nuxt/maintext.d21630d3.js": {
-    "type": "application/javascript",
-    "etag": "\"844-TnYOIiJLi1AgJ1ffsfZTW/Vo9l4\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
-    "size": 2116,
-    "path": "../public/_nuxt/maintext.d21630d3.js"
   },
   "/_nuxt/mwtransportservice.2cb1f7ac.svg": {
     "type": "image/svg+xml",
     "etag": "\"5024fb-ym5eYz1ZR7Upe3fB1Si67WBqoKY\"",
-    "mtime": "2023-07-28T14:44:01.575Z",
+    "mtime": "2023-07-28T16:20:54.468Z",
     "size": 5252347,
     "path": "../public/_nuxt/mwtransportservice.2cb1f7ac.svg"
   },
-  "/_nuxt/navbar.04a5624e.js": {
+  "/_nuxt/navbar.41aa6fa6.js": {
     "type": "application/javascript",
-    "etag": "\"12dd-KrfMmH7DxhFLeJLiSE/hqoAyv1I\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
-    "size": 4829,
-    "path": "../public/_nuxt/navbar.04a5624e.js"
+    "etag": "\"1121-ONay3fbDAtYRy2VkiUqrzi8684E\"",
+    "mtime": "2023-07-28T16:20:54.468Z",
+    "size": 4385,
+    "path": "../public/_nuxt/navbar.41aa6fa6.js"
   },
   "/_nuxt/navbar.b17ecea5.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"311-L7YojuUJ82Syv869u79OY1zxSgQ\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
+    "mtime": "2023-07-28T16:20:54.468Z",
     "size": 785,
     "path": "../public/_nuxt/navbar.b17ecea5.css"
   },
   "/_nuxt/netherlands.e3f35579.svg": {
     "type": "image/svg+xml",
     "etag": "\"347-CY4+WRerhHpZ5aUKznbqJayP784\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
+    "mtime": "2023-07-28T16:20:54.468Z",
     "size": 839,
     "path": "../public/_nuxt/netherlands.e3f35579.svg"
   },
-  "/_nuxt/quotes.005a9dd5.js": {
+  "/_nuxt/quotes.43db8493.js": {
     "type": "application/javascript",
-    "etag": "\"edc-hnwPT0m7IMsGwl6NM05yljYNrpI\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
-    "size": 3804,
-    "path": "../public/_nuxt/quotes.005a9dd5.js"
+    "etag": "\"ef3-Ohijwjpywzcged4OKoNR4Pk84B4\"",
+    "mtime": "2023-07-28T16:20:54.468Z",
+    "size": 3827,
+    "path": "../public/_nuxt/quotes.43db8493.js"
   },
   "/_nuxt/quotes.50674737.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"2d9-2Jy5pCnNU4REUFFlQlVmmAgG8Iw\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 729,
     "path": "../public/_nuxt/quotes.50674737.css"
   },
-  "/_nuxt/schema.024eb673.js": {
+  "/_nuxt/schema.d1467ad8.js": {
     "type": "application/javascript",
-    "etag": "\"3e92-BLhgTjE5ukGaHtsxX+Q4pWbRlIA\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
-    "size": 16018,
-    "path": "../public/_nuxt/schema.024eb673.js"
+    "etag": "\"3eaf-9+49AMThoohedY/WAiEJAk2EFKA\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
+    "size": 16047,
+    "path": "../public/_nuxt/schema.d1467ad8.js"
   },
   "/_nuxt/schema.eedcfa32.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"5c1-1/INBFsoKYv0ht1K8SkLaO+a+As\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 1473,
     "path": "../public/_nuxt/schema.eedcfa32.css"
   },
   "/_nuxt/sleepin.2a2fc065.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"e2-eSDQBP6o9bNg23IIaWME4egYJI8\"",
-    "mtime": "2023-07-28T14:44:01.572Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 226,
     "path": "../public/_nuxt/sleepin.2a2fc065.css"
   },
-  "/_nuxt/sleepin.bd1b9e00.js": {
+  "/_nuxt/sleepin.bcdbfece.js": {
     "type": "application/javascript",
-    "etag": "\"783-LWwlOpY2MRf+kvoQjZVSEczNA9E\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
-    "size": 1923,
-    "path": "../public/_nuxt/sleepin.bd1b9e00.js"
+    "etag": "\"785-X+XyCBmWt15Bc7VfSsjXCPFibOA\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
+    "size": 1925,
+    "path": "../public/_nuxt/sleepin.bcdbfece.js"
   },
-  "/_nuxt/sponsors.4a556950.js": {
-    "type": "application/javascript",
-    "etag": "\"383-UD8wH9rcCcn1SF/ui5ktNRXqJ10\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
-    "size": 899,
-    "path": "../public/_nuxt/sponsors.4a556950.js"
+  "/_nuxt/soos.d27e01f3.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"7e88-3Xl7dF4zagjnTxboWg+Chhy3npQ\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
+    "size": 32392,
+    "path": "../public/_nuxt/soos.d27e01f3.svg"
   },
   "/_nuxt/sponsors.638b0c94.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"23c-MDoIqFui3SSZHlgLL6gHConYWgw\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 572,
     "path": "../public/_nuxt/sponsors.638b0c94.css"
+  },
+  "/_nuxt/sponsors.7e18bd32.js": {
+    "type": "application/javascript",
+    "etag": "\"385-LmF9m8TWCnUCTNNP0ZBTChpZjpw\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
+    "size": 901,
+    "path": "../public/_nuxt/sponsors.7e18bd32.js"
+  },
+  "/_nuxt/triangle-primary.e81447b7.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"785-ocV3ZVOtGh2eQxPc0OFhC2EdhJk\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
+    "size": 1925,
+    "path": "../public/_nuxt/triangle-primary.e81447b7.svg"
+  },
+  "/_nuxt/triangle-secondary.ff209aed.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"786-pu+oXa8dWcAXrZq3EjrWU6a5b70\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
+    "size": 1926,
+    "path": "../public/_nuxt/triangle-secondary.ff209aed.svg"
   },
   "/_nuxt/united-kingdom.1a55a5ce.svg": {
     "type": "image/svg+xml",
     "etag": "\"a27-cjWevzB8wgqhMSavesfBkywwjI8\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 2599,
     "path": "../public/_nuxt/united-kingdom.1a55a5ce.svg"
   },
   "/_nuxt/vereniging.2654afbb.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"98-qKD/+D3M6Cea8Ar8WroLvnrmmGY\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 152,
     "path": "../public/_nuxt/vereniging.2654afbb.css"
   },
-  "/_nuxt/vereniging.c8775cab.js": {
+  "/_nuxt/vereniging.6cc11e8a.js": {
     "type": "application/javascript",
-    "etag": "\"11c2-iOMK5dwT+T5RfUvKi6pyAH31h8Y\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
+    "etag": "\"11c2-596wZqyx2Fh/JcQ6KMGtZlVg/rE\"",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 4546,
-    "path": "../public/_nuxt/vereniging.c8775cab.js"
+    "path": "../public/_nuxt/vereniging.6cc11e8a.js"
   },
   "/_nuxt/wikipedia.ebec8258.svg": {
     "type": "image/svg+xml",
     "etag": "\"3053a-DLYsMv+F5PUlOVd+UUYysE4G0kc\"",
-    "mtime": "2023-07-28T14:44:01.568Z",
+    "mtime": "2023-07-28T16:20:54.465Z",
     "size": 197946,
     "path": "../public/_nuxt/wikipedia.ebec8258.svg"
   },
   "/fonts/BIERSTADT_B.ttf": {
     "type": "font/ttf",
     "etag": "\"135b0-llr2NKbsBJRpGzfH3GA/Sho9mjw\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 79280,
     "path": "../public/fonts/BIERSTADT_B.ttf"
   },
   "/fonts/BIERSTADT_BI.ttf": {
     "type": "font/ttf",
     "etag": "\"13d7c-yWHrpnz6zREDND08d9w8I+Gc0bQ\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 81276,
     "path": "../public/fonts/BIERSTADT_BI.ttf"
   },
   "/fonts/BTTF.ttf": {
     "type": "font/ttf",
     "etag": "\"52a4-hLaPtfzSXKOq72kFMst7INYuLsc\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 21156,
     "path": "../public/fonts/BTTF.ttf"
   },
   "/fonts/Bob_Sponge.ttf": {
     "type": "font/ttf",
     "etag": "\"338c-zcuvQvDNagfmB8JlZOs9LIzgd+w\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 13196,
     "path": "../public/fonts/Bob_Sponge.ttf"
   },
   "/fonts/STL.otf": {
     "type": "font/otf",
     "etag": "\"6aa3c-R8CP+MPwk/cFg2yQIRUg5GnQQs0\"",
-    "mtime": "2023-07-28T14:44:01.602Z",
+    "mtime": "2023-07-28T16:20:54.481Z",
     "size": 436796,
     "path": "../public/fonts/STL.otf"
   },
   "/js/fitty.min.js": {
     "type": "application/javascript",
     "etag": "\"e24-6GOgAHpt61uAL/ZD5u6m27/5ggI\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 3620,
     "path": "../public/js/fitty.min.js"
   },
   "/quotes/Bas.jpg": {
     "type": "image/jpeg",
     "etag": "\"1deac-R/ageWx2vY/QTsI3n7BrMkh8UsI\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 122540,
     "path": "../public/quotes/Bas.jpg"
   },
   "/quotes/Brendan.jpg": {
     "type": "image/jpeg",
     "etag": "\"60f6e-Ys9eIPfFtWQ3fF2+oELfNQoLaDM\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 397166,
     "path": "../public/quotes/Brendan.jpg"
   },
   "/quotes/Christiaan.jpg": {
     "type": "image/jpeg",
     "etag": "\"3b5e-L/z4xVtpmrHsgg3aWnYENSbxVE8\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 15198,
     "path": "../public/quotes/Christiaan.jpg"
   },
   "/quotes/Connor.jpg": {
     "type": "image/jpeg",
     "etag": "\"36b7-JLiszKQMOs7E0T+5iUwry6yG0W8\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 14007,
     "path": "../public/quotes/Connor.jpg"
   },
   "/quotes/Deime.jpg": {
     "type": "image/jpeg",
     "etag": "\"2b81-T3c80I06X9NQbRFlGXs3QOQN97Y\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 11137,
     "path": "../public/quotes/Deime.jpg"
   },
   "/quotes/Deww.jpg": {
     "type": "image/jpeg",
     "etag": "\"463f-NMbxqJYUCaLtZm7QikxzyppJz1Y\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 17983,
     "path": "../public/quotes/Deww.jpg"
   },
   "/quotes/Douwe.jpg": {
     "type": "image/jpeg",
     "etag": "\"319e-jNFeZPX6IXxaFtmumiDXmmXeZdc\"",
-    "mtime": "2023-07-28T14:44:01.598Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 12702,
     "path": "../public/quotes/Douwe.jpg"
   },
   "/quotes/Emilio.jpg": {
     "type": "image/jpeg",
     "etag": "\"93c0-2/UFu/y3l1aVFLAjVLb1Wd/EAgs\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 37824,
     "path": "../public/quotes/Emilio.jpg"
   },
   "/quotes/Flip.jpg": {
     "type": "image/jpeg",
     "etag": "\"31428-olNZwa1s8ajtUGTVX2tN/eQwULM\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 201768,
     "path": "../public/quotes/Flip.jpg"
   },
   "/quotes/Isa.jpg": {
     "type": "image/jpeg",
     "etag": "\"1eb70-q+atXTMJSqmwUds48QA6JXjstN4\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 125808,
     "path": "../public/quotes/Isa.jpg"
   },
   "/quotes/Ivo.jpg": {
     "type": "image/jpeg",
     "etag": "\"5183-F4/7F4HrImyiTwBd8JGnZrEJ6A0\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 20867,
     "path": "../public/quotes/Ivo.jpg"
   },
   "/quotes/Jasper.jpg": {
     "type": "image/jpeg",
     "etag": "\"3fbe8-CWe/cWuLu4QGAk4h+L4tvqAfEtk\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 261096,
     "path": "../public/quotes/Jasper.jpg"
   },
   "/quotes/Kilian.jpg": {
     "type": "image/jpeg",
     "etag": "\"1c7eb-dAcRLkvdiC99UrNcUqTqMpTe7V8\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 116715,
     "path": "../public/quotes/Kilian.jpg"
   },
   "/quotes/Linda.jpg": {
     "type": "image/jpeg",
     "etag": "\"5437-MPq75alawup4YdNuTO0IRpYz7oE\"",
-    "mtime": "2023-07-28T14:44:01.595Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 21559,
     "path": "../public/quotes/Linda.jpg"
   },
   "/quotes/Looka.jpg": {
     "type": "image/jpeg",
     "etag": "\"4cd2-/8v1g54vQXzewssJYYlN/NtC4us\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 19666,
     "path": "../public/quotes/Looka.jpg"
   },
   "/quotes/Luc.jpg": {
     "type": "image/jpeg",
     "etag": "\"4509-Le69qqvAcMxZqp+jUxzVkVtrIOs\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 17673,
     "path": "../public/quotes/Luc.jpg"
   },
   "/quotes/Luka.jpg": {
     "type": "image/jpeg",
     "etag": "\"2cbbf-HsNdcG+6JZl3SK0uBFN+M3/i/HY\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.478Z",
     "size": 183231,
     "path": "../public/quotes/Luka.jpg"
   },
   "/quotes/Marisa.jpg": {
     "type": "image/jpeg",
     "etag": "\"184cf-wB65+rPS4mxY6LKr27h2bjuwFRg\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 99535,
     "path": "../public/quotes/Marisa.jpg"
   },
   "/quotes/Mathijs.jpg": {
     "type": "image/jpeg",
     "etag": "\"4f1e9-t4sXDN77S7EWocIlTOO5erbYa4U\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 324073,
     "path": "../public/quotes/Mathijs.jpg"
   },
   "/quotes/Mees.jpg": {
     "type": "image/jpeg",
     "etag": "\"375b-w38+oUKVaT26KQbpt4xJClVWr/c\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 14171,
     "path": "../public/quotes/Mees.jpg"
   },
   "/quotes/Miguel.jpg": {
     "type": "image/jpeg",
     "etag": "\"27894-1/2yDJUYHDERJeHObNk6gXY0MoI\"",
-    "mtime": "2023-07-28T14:44:01.592Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 161940,
     "path": "../public/quotes/Miguel.jpg"
   },
   "/quotes/Pia.jpg": {
     "type": "image/jpeg",
     "etag": "\"3fa6-mtcPHbAy7as8FkKUSSmmEikqFnw\"",
-    "mtime": "2023-07-28T14:44:01.588Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 16294,
     "path": "../public/quotes/Pia.jpg"
   },
   "/quotes/Simon.jpg": {
     "type": "image/jpeg",
     "etag": "\"3f072-QoOzTXcKBQFy/ouU9NNvQuEZ1jo\"",
-    "mtime": "2023-07-28T14:44:01.588Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 258162,
     "path": "../public/quotes/Simon.jpg"
   },
   "/quotes/Stephen.jpg": {
     "type": "image/jpeg",
     "etag": "\"3d01a-GFghNLvKIFGK6erM0rUzTqZHoA0\"",
-    "mtime": "2023-07-28T14:44:01.588Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 249882,
     "path": "../public/quotes/Stephen.jpg"
   },
   "/quotes/Vasco.jpg": {
     "type": "image/jpeg",
     "etag": "\"2e83-KcIPDZA09ioJT6wtjVNNZt+aJfU\"",
-    "mtime": "2023-07-28T14:44:01.588Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 11907,
     "path": "../public/quotes/Vasco.jpg"
   },
   "/quotes/Vink.jpg": {
     "type": "image/jpeg",
     "etag": "\"f931-UHYOhjN80UAxSZsbzExMQNrqEok\"",
-    "mtime": "2023-07-28T14:44:01.588Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 63793,
     "path": "../public/quotes/Vink.jpg"
   },
   "/quotes/Wuis.jpg": {
     "type": "image/jpeg",
     "etag": "\"4ddd2-alWT1uX3kHEOzK9R+HcAbOLV+X0\"",
-    "mtime": "2023-07-28T14:44:01.588Z",
+    "mtime": "2023-07-28T16:20:54.475Z",
     "size": 318930,
     "path": "../public/quotes/Wuis.jpg"
-  },
-  "/quotes-oud/Anne.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2867-9uSdLRF6H5DZdfrcLab5G/OurfA\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 10343,
-    "path": "../public/quotes-oud/Anne.jpg"
-  },
-  "/quotes-oud/Astrid.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3dbc-UcgAbVoPrH2QPSVlootZn4pOZAE\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 15804,
-    "path": "../public/quotes-oud/Astrid.jpg"
-  },
-  "/quotes-oud/Boedi.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"29cb-ZK7pAvGP2QbCgY6KxvMEFaN00nI\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 10699,
-    "path": "../public/quotes-oud/Boedi.jpg"
-  },
-  "/quotes-oud/Bram.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3608-mbRWPyL81jCWj12U8YOsgu7vV/E\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 13832,
-    "path": "../public/quotes-oud/Bram.jpg"
-  },
-  "/quotes-oud/Catelijne.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"221c-Txa7FHC2Ys/c+vQTVx6kefpcPeY\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 8732,
-    "path": "../public/quotes-oud/Catelijne.jpg"
-  },
-  "/quotes-oud/Celine.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"5359-UveJU1CoERk9X08mmDPhinqyuck\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 21337,
-    "path": "../public/quotes-oud/Celine.jpg"
-  },
-  "/quotes-oud/Erwin.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3300-CO0oFdCu6jPQRBb3Mqb/9uHC5Mc\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 13056,
-    "path": "../public/quotes-oud/Erwin.jpg"
-  },
-  "/quotes-oud/Frank.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"31e1-N+d46/uH9dgf4a+w8h3Gm6WLGzw\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 12769,
-    "path": "../public/quotes-oud/Frank.jpg"
-  },
-  "/quotes-oud/Harry.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3b8a-8fAHfgwhLztmQ3xi28TORaZR3gg\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 15242,
-    "path": "../public/quotes-oud/Harry.jpg"
-  },
-  "/quotes-oud/Huib.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"348e-8fpNSQTzsDB1R7IAymQX7Qxmcjk\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 13454,
-    "path": "../public/quotes-oud/Huib.jpg"
-  },
-  "/quotes-oud/Ide.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"352d-1ShUPwWTmEfV9W9YhGWunUR4rcA\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 13613,
-    "path": "../public/quotes-oud/Ide.jpg"
-  },
-  "/quotes-oud/Ivan.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"4aab-6ZRCJnFeSsblJ2Jad1W/ItI8RG4\"",
-    "mtime": "2023-07-28T14:44:01.585Z",
-    "size": 19115,
-    "path": "../public/quotes-oud/Ivan.jpg"
-  },
-  "/quotes-oud/Jakob.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2014-vXWjUDQnjI6xGGYMHDgKDjJECHc\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 8212,
-    "path": "../public/quotes-oud/Jakob.jpg"
-  },
-  "/quotes-oud/Jasper.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2cd3-j1DAdt8aflj/GkTnvZOXAwixD10\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 11475,
-    "path": "../public/quotes-oud/Jasper.jpg"
-  },
-  "/quotes-oud/Johan.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2611-8l7hIHhcVib03qbue+xdXKU5z98\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 9745,
-    "path": "../public/quotes-oud/Johan.jpg"
-  },
-  "/quotes-oud/Kariem.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"384e-/4lOJsH8oq1w505SUnrAdsV6DU0\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 14414,
-    "path": "../public/quotes-oud/Kariem.jpg"
-  },
-  "/quotes-oud/Korijn.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3310-feHUv44QrD13uVj8DkmTuoub7yU\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 13072,
-    "path": "../public/quotes-oud/Korijn.jpg"
-  },
-  "/quotes-oud/Kurt.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"41f4-JqaDvHyXNtq0BH7LDTqptXZWc+c\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 16884,
-    "path": "../public/quotes-oud/Kurt.jpg"
-  },
-  "/quotes-oud/Maaike.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2821-TwGD5oYezhb9sc32diqIDds/Deo\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 10273,
-    "path": "../public/quotes-oud/Maaike.jpg"
-  },
-  "/quotes-oud/Manon.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3ae5-q2VHA39Xuh00KIfskOHkcyGsrF8\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 15077,
-    "path": "../public/quotes-oud/Manon.jpg"
-  },
-  "/quotes-oud/Nienke.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"255b-WqyKDaP2KVRTJmc3Y+M0Ii0/DEI\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 9563,
-    "path": "../public/quotes-oud/Nienke.jpg"
-  },
-  "/quotes-oud/Reinout.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"2ce2-qo0pOo/5wvJOgCri1py8TFRTUmo\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 11490,
-    "path": "../public/quotes-oud/Reinout.jpg"
-  },
-  "/quotes-oud/Roel.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"318f-PY3G6hh6pzU2HDpso8NwF5kPbr0\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 12687,
-    "path": "../public/quotes-oud/Roel.jpg"
-  },
-  "/quotes-oud/Roy.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"389e-mIAm6Gusv9j6g0lX4nIXJfz3d3c\"",
-    "mtime": "2023-07-28T14:44:01.582Z",
-    "size": 14494,
-    "path": "../public/quotes-oud/Roy.jpg"
-  },
-  "/quotes-oud/Satisa.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"a5c2-dhiJoagji/ig7W8L6T60Rdy0KVI\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 42434,
-    "path": "../public/quotes-oud/Satisa.jpg"
-  },
-  "/quotes-oud/Tanja.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"244f-40W6Z8UymTugWG6/sqBD20gLW4g\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 9295,
-    "path": "../public/quotes-oud/Tanja.jpg"
-  },
-  "/quotes-oud/Tim.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"4ec1-PfUMUYX9tBPqMIzMWKFUT8CPalw\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 20161,
-    "path": "../public/quotes-oud/Tim.jpg"
-  },
-  "/quotes-oud/Wendy.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"3539-Qmjzpxm/Sa/JuwLY5u/Aw44g+6g\"",
-    "mtime": "2023-07-28T14:44:01.578Z",
-    "size": 13625,
-    "path": "../public/quotes-oud/Wendy.jpg"
   }
 };
 

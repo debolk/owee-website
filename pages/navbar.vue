@@ -1,8 +1,15 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});
+</script>
+
 <template>
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-		    <h2 v-if="$device.isMobile" class="navtitle">ALS EEN VIS IN HET WATER!</h2>
+		    <h2 v-if="$device.isMobile" class="navtitle">ALS EEN VIS IN HET WATER! {{ mq }}</h2>
         <a role="button" class="navbar-burger" v-bind:class="{ 'is-active': burger }" @click="burger = !burger">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -10,7 +17,7 @@
         </a>
       </div>
       <div class="navbar-menu is-active"
-      v-bind:class="{ 'is-down': burger, 'navmenusmall': ($mq !== 'threecards' && $mq !== 'fourcards' && $mq !== 'desktop') }">
+      v-bind:class="{ 'is-down': burger, 'navmenusmall': (!mq.threecards && !mq.fourcards && !mq.desktop) }">
         <div v-if="language === 'dutch'" class="navbar-start">
           <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">HOME</a></div>
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
@@ -37,11 +44,11 @@
 
         <div class="navbar-end">
           <div v-if="language == 'dutch'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setLang('english')"><img src="~/assets/united-kingdom.svg" class="flag"> ENGLISH</a></div>
+            <div class="menuitemcontainer"><a @click="language = 'english'; window.location.reload(); "><img src="~/assets/united-kingdom.svg" class="flag"> ENGLISH</a></div>
           </div>
 
           <div v-if="language == 'english'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="setLang('dutch')"><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
+            <div class="menuitemcontainer"><a @click="language = 'dutch'; window.location.reload(); "><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
           </div>
         </div>
       </div>
@@ -49,23 +56,13 @@
   </div>
 </template>
 
-<script setup>
-const language = useCookie("language")
-</script>
-
 <script>
+
 export default{
+
   data(){
     return {
       burger: false
-    }
-  },
-
-  methods: {
-    setLang(lang){
-      this.$cookies.set('language', lang, {maxAge: 100 * 24 * 60 * 60});
-      //this.burger = false;
-      location.reload();
     }
   }
 }

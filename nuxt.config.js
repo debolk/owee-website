@@ -36,18 +36,17 @@ export default defineNuxtConfig({
   */
   build: {
     vendor: [
-      'vue3-carousel',
       'vue3-smooth-scroll',
       'vue3-mq'
     ],
   },
-
   modules: [
-    '@nuxtjs/device'
+    '@nuxtjs/device',
+    'vue3-carousel-nuxt'
   ],
   plugins: [
-    { src: 'plugins/vue-smooth-scroll', ssr: true },
-    { src: 'plugins/vue-mq', ssr: false }
+    { src: 'plugins/vue3-smooth-scroll', ssr: false },
+    { src: 'plugins/vue3-mq', ssr: false }
   ],
   css: [
     { src: 'bulma/bulma.sass', lang: 'sass' }

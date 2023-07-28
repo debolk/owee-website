@@ -1,4 +1,4 @@
-export default "";
+export default {}
 module.exports = [
   {
     person: 'Connor',

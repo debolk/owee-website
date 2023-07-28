@@ -1,3 +1,10 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});
+</script>
+
 <template>
   <div class="programma">
 
@@ -50,13 +57,11 @@
 import programma from '~/assets/programma'
 
 export default {
-  props: {
-    dag: String
-  },
+  props: ['dag'],
 
   data() {
     return {
-      vandaag: programma[this.dag].planning,
+      vandaag: programma[this.$props.dag].planning,
       modal: false,
       modalItem: {
         titel: {},
@@ -66,6 +71,10 @@ export default {
   },
 
   mounted(){
+    let script = document.createElement("script");
+    script.setAttribute("src", "/js/fitty.min.js");
+    document.head.appendChild(script);
+
     fitty('.fitTitle', {
       minSize: 10,
       maxSize: 20,
@@ -79,12 +88,13 @@ export default {
   },
 
   computed: {
+
     grow(){
-      return this.$mq === 'mobile' ? 1.4 : 1.4
+      return this.$device.isMobile ? 1.4 : 1.4
     },
     begintijd: function(){
-      if(this.$mq === 'mobile'){
-        return programma[this.dag].begintijd;
+      if(this.$device.isMobile){
+        return programma[this.$props.dag].begintijd;
       }
       let s = Number.MAX_SAFE_INTEGER;
       for(let i in programma){

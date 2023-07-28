@@ -1,3 +1,10 @@
+<script setup>
+import { useMq } from "vue3-mq";
+
+const mq = useMq();
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});
+</script>
+
 <template>
   <div id="sponsors">
     <div class="sponsors" :class="{ mobilesponsors : $device.isMobile }">
@@ -5,16 +12,12 @@
       <h2 v-if="language == 'dutch'" style="color: #068b8c !important;">LIEVE MENSEN DIE ONS SPONSOREN</h2>
       <h2 v-if="language == 'english'" style="color: #068b8c !important;">NICE PEOPLE THAT SPONSOR US</h2>
 
-      <a id="link" class="left" :class="{ mobile : $device.isMobile }" href="https://www.facebook.com/profile.php?id=100057201169713" target="_blank"><img :class="{ mobile : $device.isMobile}" src="~/assets/mwtransportservice.svg" alt="MW Transportservice"></a>
+      <a id="link" class="center" :class="{ mobile : $device.isMobile }" href="https://www.facebook.com/profile.php?id=100057201169713" target="_blank"><img :class="{ mobile : $device.isMobile}" src="~/assets/mwtransportservice.svg" alt="MW Transportservice"></a>
 
     </div>
 
   </div>
 </template>
-
-<script setup>
-const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }})
-</script>
 
 <style>
 
