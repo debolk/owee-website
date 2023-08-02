@@ -54,7 +54,8 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
       navbar,
 	    sleepin,
 	    sponsors
-    }
+    },
+    inject: ["mq"]
   }
 </script>
 
@@ -106,7 +107,7 @@ div{
   width: 50px;
   position: absolute;
   left: 10px;
-  top: 0px;
+  top: 0;
   z-index: 2;
   overflow: hidden;
   background-image: url('~/assets/soos.svg');
@@ -118,7 +119,7 @@ div{
   width: 50px;
   position: absolute;
   left: calc(100% - 60px);
-  top: 0px;
+  top: 0;
   z-index: 2;
   overflow: hidden;
   background-image: url('~/assets/soos.svg');
@@ -126,7 +127,6 @@ div{
 }
 
 body{
-  margin: none;
   font-family: 'BTTF', sans-serif !important;
   font-weight: 500;
 }

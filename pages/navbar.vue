@@ -9,15 +9,14 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-		    <h2 v-if="$device.isMobile" class="navtitle">ALS EEN VIS IN HET WATER! {{ mq }}</h2>
-        <a role="button" class="navbar-burger" v-bind:class="{ 'is-active': burger }" @click="burger = !burger">
+		    <h2 v-if="$device.isMobile" class="navtitle">ALS EEN VIS IN HET WATER!</h2>
+        <a role="button" class="navbar-burger" :class="{ 'is-active': burger }" @click="burger = !burger">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div class="navbar-menu is-active"
-      v-bind:class="{ 'is-down': burger, 'navmenusmall': (!mq.threecards && !mq.fourcards && !mq.desktop) }">
+      <div id="navbarmenu" class="navbar-menu is-active" :class="{'is-down': burger, navmenusmall: $device.isMobile}">
         <div v-if="language === 'dutch'" class="navbar-start">
           <div class="menuitemcontainer"><a href="#imageheader" v-smooth-scroll @click="burger = false">HOME</a></div>
           <div class="menuitemcontainer"><a href="#main" v-smooth-scroll @click="burger = false">OWEE</a></div>
@@ -43,12 +42,12 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
         </div>
 
         <div class="navbar-end">
-          <div v-if="language == 'dutch'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="language = 'english'; window.location.reload(); "><img src="~/assets/united-kingdom.svg" class="flag"> ENGLISH</a></div>
+          <div v-if="language === 'dutch'" class="navbar-start">
+            <div class="menuitemcontainer"><a @click="language = 'english'; window.location.reload(); "><img src="~/assets/united-kingdom.svg" class="flag" alt="uk"> ENGLISH</a></div>
           </div>
 
-          <div v-if="language == 'english'" class="navbar-start">
-            <div class="menuitemcontainer"><a @click="language = 'dutch'; window.location.reload(); "><img src="~/assets/netherlands.svg" class="flag"> NEDERLANDS</a></div>
+          <div v-if="language === 'english'" class="navbar-start">
+            <div class="menuitemcontainer"><a @click="language = 'dutch'; window.location.reload(); "><img src="~/assets/netherlands.svg" class="flag" alt="nl"> NEDERLANDS</a></div>
           </div>
         </div>
       </div>
@@ -59,13 +58,14 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 <script>
 
 export default{
-
   data(){
     return {
       burger: false
     }
-  }
+  },
+  inject: ["mq"]
 }
+
 </script>
 
 <style>
@@ -74,10 +74,10 @@ export default{
   }
 
   .navtitle{
-	font-size: 1.25rem !important;
+	font-size: 2rem !important;
 	text-align: center;
 	width: calc(100% - 3.25rem);
-	margin: auto;
+	margin-top: 8px;
   }
 
   .flag{

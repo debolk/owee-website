@@ -20,11 +20,6 @@ export default defineNuxtConfig({
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/favicon-96x96.png' },
       { rel: 'manifest', href: '/manifest.json' }
-    ],
-    script: [
-      {
-        src: "/js/fitty.min.js"
-      },
     ]
   },
   /*
@@ -38,7 +33,7 @@ export default defineNuxtConfig({
     vendor: [
       'vue3-smooth-scroll',
       'vue3-mq'
-    ],
+    ]
   },
   modules: [
     '@nuxtjs/device',

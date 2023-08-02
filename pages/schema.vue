@@ -2,15 +2,15 @@
 import { useMq } from "vue3-mq";
 
 const mq = useMq();
-const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});;
+const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () => { return "dutch" }});
 </script>
 
 <template>
   <div id="schema">
     <div class="content">
 
-      <h2 v-if="language == 'dutch'">WAT IS ER TE DOEN TIJDENS DE OWEE?</h2>
-      <h2 v-if="language == 'english'">WHAT IS THERE TO DO DURING THE OWEE?</h2>
+      <h2 v-if="language === 'dutch'">WAT IS ER TE DOEN TIJDENS DE OWEE?</h2>
+      <h2 v-if="language === 'english'">WHAT IS THERE TO DO DURING THE OWEE?</h2>
 
 
       <div class="columns">
@@ -65,6 +65,7 @@ export default{
       }
     }
   },
+  inject: ["mq"],
 
   components: {
     programmas
@@ -86,7 +87,7 @@ export default{
 #schema{
   background-color: #068b8c;
   font-family: Bierstadt Bold;
-  padding: 100px 0px;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -95,11 +96,11 @@ export default{
 }
 
 .column-left{
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .column-right{
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .columns{

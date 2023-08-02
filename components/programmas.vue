@@ -55,11 +55,14 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 
 <script>
 import programma from '~/assets/programma'
+import fitty from 'fitty'
 
 export default {
   props: ['dag'],
+  inject: ["mq"],
 
   data() {
+
     return {
       vandaag: programma[this.$props.dag].planning,
       modal: false,
@@ -71,9 +74,6 @@ export default {
   },
 
   mounted(){
-    let script = document.createElement("script");
-    script.setAttribute("src", "/js/fitty.min.js");
-    document.head.appendChild(script);
 
     fitty('.fitTitle', {
       minSize: 10,
@@ -88,12 +88,11 @@ export default {
   },
 
   computed: {
-
     grow(){
-      return this.$device.isMobile ? 1.4 : 1.4
+      return this.mq.mobile ? 1.4 : 1.4
     },
     begintijd: function(){
-      if(this.$device.isMobile){
+      if(this.mq.mobile){
         return programma[this.$props.dag].begintijd;
       }
       let s = Number.MAX_SAFE_INTEGER;
@@ -147,7 +146,7 @@ export default {
 
 .fitTitle{
   height: 25px;
-  padding-bottom: 0px !important;
+  padding-bottom: 0 !important;
 }
 
 .modaltitle{
@@ -180,7 +179,7 @@ export default {
 }
 
 .leftevent {
-  left: 0%;
+  left: 0;
   width: 50% !important;
 }
 
@@ -228,10 +227,6 @@ export default {
 
 .event:hover .time{
   color: #e8ffb0;
-}
-
-body{
-  margin: none;
 }
 
 

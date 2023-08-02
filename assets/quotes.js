@@ -1,5 +1,4 @@
-export default {}
-module.exports = [
+export default [
   {
     person: 'Connor',
     quote: 'Tijdens de OWee kwam ik vaak bij de Bolk om te ontspannen, of juist om iets ongelofelijk mafs te doen. Sindsdien is er weinig veranderd.'

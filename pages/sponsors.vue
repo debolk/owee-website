@@ -12,7 +12,9 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
       <h2 v-if="language == 'dutch'" style="color: #068b8c !important;">LIEVE MENSEN DIE ONS SPONSOREN</h2>
       <h2 v-if="language == 'english'" style="color: #068b8c !important;">NICE PEOPLE THAT SPONSOR US</h2>
 
-      <a id="link" class="center" :class="{ mobile : $device.isMobile }" href="https://www.facebook.com/profile.php?id=100057201169713" target="_blank"><img :class="{ mobile : $device.isMobile}" src="~/assets/mwtransportservice.svg" alt="MW Transportservice"></a>
+      <a id="link" class="left" :class="{ mobile : $device.isMobile }" href="https://www.facebook.com/profile.php?id=100057201169713" target="_blank"><img :class="{ mobile : $device.isMobile}" src="~/assets/mwtransportservice.svg" alt="MW Transportservice"></a>
+      <br>
+      <a id="link" class="right" :class="{ mobile : $device.isMobile }" href="https://wineandmorebyarjan.nl/" target="_blank"><img :class="{ mobile : $device.isMobile }" src="~/assets/winenmore.svg" alt="Wine & More"></a>
 
     </div>
 
@@ -22,12 +24,12 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 <style>
 
 #sponsors{
-  padding: 100px 0px;
+  padding: 100px 0;
   background-color: #e8ffb0;
   color: #068b8c;
   position: relative;
   font-family: Bierstadt Bold;
-  min-height: calc(90vh + 10px);
+  min-height: calc(70vh + 10px);
 }
 
 #sponsors .mobilesponsors{
@@ -40,7 +42,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 
 #sponsors .mobile {
   left: 10vw !important;
-  padding: 50px 0px !important;
+  padding: 10px 0 !important;
   font-size: 6.7vw;
 }
 
@@ -71,11 +73,15 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 }
 
 .left{
-  left: 100px;
+  left: 400px;
 }
 
 .right{
-  right: 100px;
+  right: 400px;
+}
+
+.right.mobile{
+  top: 200vw !important;
 }
 
 </style>

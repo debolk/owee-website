@@ -29,8 +29,8 @@ export default {
         start: 1700,
         end: 1800,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Leer van schippers en maten van onze botter Trui nieuwe knopen en strikken. Te gebruiken aan boord van Trui, of voor ... andere doeleinden...',
+          english: 'Learn new knots and bows from the skippers and mates or our boat Trui. Usable on board of Trui, or for ... other purposes...'
         },
         lokatie: 'rechts'
       },
@@ -55,8 +55,8 @@ export default {
         start: 1930,
         end: 2100,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Speel met bolkers One Night Weerwolven, een bliksemsnelle en meer interactieve versie van het orginele Weerwolven.',
+          english: 'Play One Night Werewolves with us, a lightning fast and more interactive versie of the original Werewolves.'
         },
         lokatie: 'links'
       },
@@ -68,8 +68,8 @@ export default {
         start: 2000,
         end: 2200,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Om een BADEENDfeest te houden moeten we wel badeendjes hebben. Help ons ze op te vissen!',
+          english: 'We need rubber ducks to hold a RUBBER DUCK party. Help us fish them!'
         },
         lokatie: 'rechts'
       },
@@ -147,13 +147,13 @@ export default {
       {
         titel: {
           dutch: 'Mattenfort bouwen',
-          english: 'Build a Mattress fort'
+          english: 'Build a Mat fort'
         },
         start: 2000,
         end: 2200,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Kom lekker een fort bouwen uit de matten uit het vooronder van onze botter Trui om op uit te rusten van alle heftige activiteiten.',
+          english: 'Come build a fort out of the mats from the forecastle from out boat Trui to relax from all the busy activities.'
         },
         lokatie: 'rechts'
       },
@@ -191,8 +191,8 @@ export default {
         start: 2200,
         end: 2300,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Twister is een veel te simpel en comfortabel spel. Om het wat interessanter te maken voegen we een extra dimensie toe, zo garanderen we dat iedereen in de knoop raakt!',
+          english: 'Twister is a far to simple and comfortable game. To make it more interesting, weĺl be adding an extra dimension. This way we can guarantee everyone gets in a bind!'
         },
         lokatie: 'rechts'
       },
@@ -204,8 +204,8 @@ export default {
         start: 2300,
         end: 2400,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Kom Guinness drinken, we hebben het op tap.',
+          english: 'Come drink Guinness, we\'ve got it on tap.'
         },
         lokatie: 'links'
       },
@@ -256,14 +256,14 @@ export default {
     planning: [
       {
         titel: {
-          dutch: 'D&D one shot',
-          english: 'D&D one shot'
+          dutch: 'DnD one shot',
+          english: 'DnD one shot'
         },
         start: 1700,
         end: 1900,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^',
+          english: 'We\'ve got lots of enthousiastic DM\'s at the Bolk that would love to DM an oneshot for you. Come visit faraway worlds with your group and feel free to roleplay in your own way ^^.'
         },
         lokatie: 'midden'
       },
@@ -283,13 +283,13 @@ export default {
       {
         titel: {
           dutch: 'Botter Rossen',
-          english: 'Botter Ross Paiting'
+          english: 'Botter Ross Painting'
         },
         start: 2030,
         end: 2230,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Schilder in de stijl van Bob Ross een scenisch landschap met onze botter Trui erin.',
+          english: 'Paint in the style of Bob Ross a scenic landscape with our boat "Trui".'
         },
         lokatie: 'midden'
       },
@@ -327,8 +327,8 @@ export default {
         start: 30,
         end: 130,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Raad woorden en grabbel in de blikbierton om punten te verdienen. Groeeeeen!',
+          english: 'Guess the words and grab something in the ton of beer cans to get points. Greeeeeeeen!'
         },
         lokatie: 'midden'
       },
@@ -353,8 +353,8 @@ export default {
         start: 230,
         end: 400,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Kom een kapsalon bouwen uit onze selectie van ingrediënten. Maak je kapsalon een perfecte creatie, of een vreemde combinatie van smaken die niet samen zouden moeten gaan.',
+          english: 'Come and build your own kapsalon from our selection of ingredients. Make it a perfect creation, or a weird combinatie of tastes that shouldn\'t go together.'
         },
         lokatie: 'midden'
       },
@@ -398,8 +398,8 @@ export default {
         start: 1700,
         end: 1800,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Gezellige theeproeverij met de vereniging Vrienden Van Trui met lekkere hapjes!',
+          english: 'Cosy tea tasting with the association Friends of Trui (Vrienden Van Trui) with tast treats!'
         },
         lokatie: 'rechts'
       },
@@ -411,8 +411,8 @@ export default {
         start: 2000,
         end: 2300,
         beschrijving: {
-          dutch: 'Live muziek is leuk, maar het is nog veel leuker om live muziek op de oudste botter van Nederland te zien! Kom genieten van vrolijke bands en kom even bij van de heftige week feesten. Deze bruisende afsluiter zorgt voor een onvergetelijke week!',
-          english: 'Live music is fun! Consider live music on a boat! I’M ON A BOAT! Take a look at me! Trui (the name of the boat) is the only botter that is managed by students and the oldest botter that has continuously sailed over the last century.'
+          dutch: 'De bands Headfirst en Staplers komen optreden in de soos. Dat gaat een fantastische performance worden!',
+          english: 'The bands Headfirst and Staplers will be performing here. It\'ll be a fantastic performance!'
         },
         lokatie: 'midden'
       }
