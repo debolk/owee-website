@@ -36,7 +36,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 
 #sleepin{
   background-color: #e8ffb0;
-  padding: 100px 0px;
+  padding: 100px 0;
   position: relative;
 }
 

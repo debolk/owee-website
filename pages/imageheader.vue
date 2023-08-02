@@ -43,7 +43,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
   .largelogo-mobile{
     height: 90vh;
     background-repeat: no-repeat;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .largetext{

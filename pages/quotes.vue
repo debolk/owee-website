@@ -14,7 +14,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
         :items-to-show="cardsamount" :items-to-scroll="1" :snap-align="'center'" :wrap-around="true">
         <Slide class="slide" v-for="i in quotes" :key="i.person">
           <div class="slide-container">
-            <img class="photo" :src="`/quotes/${i.person}.jpg`" als="quotePhoto">
+            <img class="photo" :src="`/quotes/${i.person}.jpg`" alt="quotePhoto">
             <p>"{{i.quote}}"</p>
 			      <br>
             <i> - {{i.person}} </i>

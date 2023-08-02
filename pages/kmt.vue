@@ -27,7 +27,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 <style>
 
 #kmt{
-  padding: 100px 0px;
+  padding: 100px 0;
   color: white;
   position: relative;
   background-color: #068b8c;

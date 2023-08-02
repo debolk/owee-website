@@ -64,7 +64,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 
 #contact{
   background-color: #068b8c;
-  padding: 100px 0px;
+  padding: 100px 0;
   position: relative;
   text-align: center;
   align-items: center;
@@ -100,7 +100,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 
 #contact .mobile {
   float: none !important;
-  padding: 50px 0px !important;
+  padding: 50px 0 !important;
 }
 
 </style>

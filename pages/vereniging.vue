@@ -32,7 +32,7 @@ const language = useCookie("language", {maxAge: 100 * 24 * 60 * 60, default: () 
 <style>
 
 #vereniging{
-  padding: 100px 0px;
+  padding: 100px 0;
   background-color: #e8ffb0;
   color: #068b8c;
   position: relative;
