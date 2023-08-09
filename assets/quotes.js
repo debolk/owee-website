@@ -68,7 +68,7 @@ export default [
 	quote: 'De vier-uur cup a soup was wel een uitdaging.'
   },
   {
-	person: 'Mathijs',
+	person: 'Matthijs',
 	quote: 'Van alle bezochten verenigingen vond ik deze het best op onder andere de gezelschapsmentaliteit, open en hoe de communicatie met de andere leden hier gehouden wordt.'
   },
   {

@@ -6,14 +6,14 @@
 // of hij 'links', 'rechts' of in het 'midden' moet worden weergegeven (lokatie)
 export default {
   maandag: {
-    begintijd: 1700,
+    begintijd: 1600,
     planning: [
       {
         titel: {
           dutch: 'Pimp je Fiets',
           english: 'Pimp my Bike'
         },
-        start: 1700,
+        start: 1600,
         end: 1800,
         beschrijving: {
           dutch: 'Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling.',
@@ -26,7 +26,7 @@ export default {
           dutch: 'Kinky knopen',
           english: 'Kinky knots'
         },
-        start: 1700,
+        start: 1600,
         end: 1800,
         beschrijving: {
           dutch: 'Leer van schippers en maten van onze botter Trui nieuwe knopen en strikken. Te gebruiken aan boord van Trui, of voor ... andere doeleinden...',
@@ -94,8 +94,8 @@ export default {
         start: 2130,
         end: 400,
         beschrijving: {
-          dutch: '',
-          english: ''
+          dutch: 'Veel BADEEND! Meer Feest! Kom dan!',
+          english: 'Much RUBBER DUCK! Very Party! Be there!'
         },
         lokatie: 'midden'
       },
@@ -116,14 +116,14 @@ export default {
   },
 
   dinsdag: {
-    begintijd: 1700,
+    begintijd: 1600,
     planning: [
       {
         titel: {
           dutch: 'Mega spellen',
           english: 'Mega games'
         },
-        start: 1700,
+        start: 1600,
         end: 1800,
         beschrijving: {
           dutch: 'Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Of probeer iets anders en ga spijkerslaan. Iedereen om een GROTE boomstronk, spijkers en hamers, dit kan alleen maar voor ENORM veel plezier zorgen!',
@@ -252,14 +252,14 @@ export default {
   },
 
   woensdag: {
-    begintijd: 1700,
+    begintijd: 1600,
     planning: [
       {
         titel: {
           dutch: 'DnD one shot',
           english: 'DnD one shot'
         },
-        start: 1700,
+        start: 1600,
         end: 1900,
         beschrijving: {
           dutch: 'We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^',
@@ -375,14 +375,14 @@ export default {
   },
 
   donderdag: {
-    begintijd: 1700,
+    begintijd: 1600,
     planning: [
       {
         titel: {
           dutch: 'Spa',
           english: 'Spa'
         },
-        start: 1700,
+        start: 1600,
         end: 1800,
         beschrijving: {
           dutch: 'Ook zo moe van gisteren? Kom chillen met zwembadjes, gezichtscreme, gekoelde drankjes en je rustige zomerse muziek. ',
@@ -395,13 +395,26 @@ export default {
           dutch: 'VVThee',
           english: 'VVTea'
         },
-        start: 1700,
+        start: 1600,
         end: 1800,
         beschrijving: {
           dutch: 'Gezellige theeproeverij met de vereniging Vrienden Van Trui met lekkere hapjes!',
           english: 'Cosy tea tasting with the association Friends of Trui (Vrienden Van Trui) with tast treats!'
         },
         lokatie: 'rechts'
+      },
+      {
+        titel: {
+          dutch: 'Eten @Bolk',
+          english: 'Dinner @Bolk'
+        },
+        start: 1800,
+        end: 2000,
+        beschrijving: {
+          dutch: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten! Schrijf je in op noms.debolk.nl',
+          english: 'Dinner with the Bolk is really good, come and have a good meal! Sign up at noms.debolk.nl'
+        },
+        lokatie: 'midden'
       },
       {
         titel: {
