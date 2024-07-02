@@ -127,17 +127,12 @@ div{
 }
 
 body{
-  font-family: 'BTTF', sans-serif !important;
+  font-family: 'Bierstadt Bold', sans-serif !important;
   font-weight: 500;
 }
 
 html{
   font-size: 16px;
-}
-
-@font-face {
-  font-family: 'BTTF';
-  src: url('/fonts/BTTF.ttf') format('truetype');
 }
 
 @font-face {
