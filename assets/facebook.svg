@@ -10,7 +10,7 @@
    enable-background="new 73 0 267 266.9"
    xml:space="preserve"
    sodipodi:docname="facebook.svg"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,20 +25,23 @@
    inkscape:pagecheckerboard="0"
    showgrid="false"
    inkscape:zoom="1.0902003"
-   inkscape:cx="216.01536"
-   inkscape:cy="59.622074"
-   inkscape:window-width="1360"
-   inkscape:window-height="697"
-   inkscape:window-x="-1368"
-   inkscape:window-y="-8"
+   inkscape:cx="216.47398"
+   inkscape:cy="59.622071"
+   inkscape:window-width="1920"
+   inkscape:window-height="1008"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
+   inkscape:current-layer="Layer_1"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
 <path
    id="Blue_1_"
-   fill="#32fced"
+   fill="#245e8b"
    d="M321.1,262.3c7.9,0,14.2-6.4,14.2-14.2V18.8c0-7.9-6.4-14.2-14.2-14.2H91.8  C84,4.6,77.6,11,77.6,18.8v229.3c0,7.9,6.4,14.2,14.2,14.2H321.1z" />
 <path
    id="f"
    fill="#068b8c"
-   d="M255.4,262.3v-99.8h33.5l5-38.9h-38.5V98.8c0-11.3,3.1-18.9,19.3-18.9l20.6,0V45  c-3.6-0.5-15.8-1.5-30-1.5c-29.7,0-50,18.1-50,51.4v28.7h-33.6v38.9h33.6v99.8H255.4z" />
+   d="M255.4,262.3v-99.8h33.5l5-38.9h-38.5V98.8c0-11.3,3.1-18.9,19.3-18.9l20.6,0V45  c-3.6-0.5-15.8-1.5-30-1.5c-29.7,0-50,18.1-50,51.4v28.7h-33.6v38.9h33.6v99.8H255.4z"
+   style="fill:#1d4c6e;fill-opacity:1" />
 </svg>
