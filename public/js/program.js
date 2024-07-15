@@ -5,16 +5,30 @@ const program = {
   monday: [
     {
       title: {
-        dutch: '(Mega) spelletjesmiddag',
+        dutch: '(Mega) spelletjes',
         english: '(Mega) boardgames'
       },
       start: 1600,
       end: 1800,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: '',
         english: ''
       }
+    },
+    {
+        title: {
+            dutch: '3D-twister',
+            english: '3D-twister'
+        },
+        start: 1600,
+        end: 1800,
+        alignment: 'right',
+		color_shift: 'true',
+        description: {
+            dutch: 'Het spel twister, wie kent het niet. Maar wat nu als de stippen niet alleen onder je op de mat liggen maar ook boven en naast je? Doe mee aan dit vrolijke spel en leer de botter van binnen kennen!',
+            english: 'The game Twister, a classic. But how about when the dots are not only on the floor, but also on the ceiling and the walls? Participate in this fun game and get to know the Botter from the inside!'
+        }
     },
     {
       title: {
@@ -55,6 +69,20 @@ const program = {
       }
     },
     {
+        title: {
+            dutch: 'Verhalen bij de olielamp',
+            english: 'Stories beneath the oil lamp'
+        },
+        start: 2200,
+        end: 2400,
+        alignment: 'right',
+		color_shift: 'true',
+        description: {
+            dutch: 'Trui is een heerlijke plek om tot rust te komen. Droogvallend op het wad tussen de zeehonden kun je genieten van de mooiste zonsondergangen. Deze intieme sfeer en de gezelligheid ervaar je ook op onze Trui in Delft. Sluit aan boord je avond gezellig af met sterrenkijken, een leuk verhaal en een scheepsborreltje',
+            english: 'Trui is an amazing place to calm down. Grounded in the Waddensea, between the seals, you can watch the most beautiful sunsets. This cozy environment can also be experienced on Trui in Delft! End your evening on board with a fun story and a sailors drink'
+        }
+    },
+    {
       title: {
         dutch: 'Multifeest!',
         english: 'Multiparty!'
@@ -89,11 +117,25 @@ const program = {
       },
       start: 1600,
       end: 1800,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: 'Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling',
         english: 'Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don’t have to worry about losing it anymore'
       }
+    },
+    {
+        title: {
+            dutch: 'Escaperoom op Trui',
+            english: 'Escaperoom op Trui'
+        },
+        start: 1600,
+        end: 1800,
+        alignment: 'right',
+		color_shift: 'true',
+        description: {
+            dutch: 'Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden</b>',
+            english: 'Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity</b>'
+        }
     },
     {
       title: {
@@ -115,7 +157,7 @@ const program = {
       },
       start: 2000,
       end: 2100,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: '',
         english: ''
@@ -128,12 +170,26 @@ const program = {
       },
       start: 2100,
       end: 2200,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: 'Weet jij hoe een wasmachine klinkt als het van 4 meter valt op de grond? Kom er hier achter!',
         english: 'Do you know what sound a washing machine makes when it falls 4 meters to the ground? Come and find out here!'
       }
     },
+	{
+		title: {
+			dutch: 'Speurtocht op de Boot',
+			english: 'Quest on the Boat'
+		},
+		start: 2000,
+		end: 2200,
+		alignment: 'right',
+		color_shift: 'true',
+		description: {
+			dutch: 'Onze oude boot heeft veel rare onderdelen. Wist je bijvoorbeeld dat je beter op dan onder de deken kunt liggen en wil je weten wie Dirk is? Kom dan langs voor onze speurtocht en leer de Trui en haar bemanning kennen!',
+			english: 'Our old boat has many weird components. Do you want to know who "Dirk" is? Come join us for the quest on the boat and get to know Trui and her crew!'
+		}
+	},
     {
       title: {
         dutch: 'Kroegsport Spelen',
@@ -201,6 +257,20 @@ const program = {
         english: ''
       }
     },
+	{
+		title: {
+			dutch: 'Botter Rossen',
+			english: 'Botter Ross'
+		},
+		start: 1700,
+		end: 1800,
+		alignment: 'right',
+		color_shift: 'true',
+		description: {
+			dutch: 'Botteraars kunnen goed beunen maar ook het wat fijnzinnigere werk is aan hun goed besteed. Stap aan boord voor deze creatieve activiteit en laat je door Vink meenemen naar de Waddenzee. <br><b>Let op! Deze activiteit heeft een vaste starttijd</b>',
+			english: 'The sailors of Trui are great at building, but they can also flourish in the more fine arts. Get on board for this creative activity And let Vink take you on a trip to the beautiful Waddensea. <br><b>Watch out! This activity has a set starting time</b>'
+		}
+	},
     {
       title: {
         dutch: 'DnD Oneshot',
@@ -208,7 +278,7 @@ const program = {
       },
       start: 1700,
       end: 1900,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: 'We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^',
         english: 'We\'ve got lots of enthousiastic DM\'s at the Bolk that would love to DM an oneshot for you. Come visit faraway worlds with your group and feel free to roleplay in your own way ^^'
@@ -234,12 +304,26 @@ const program = {
       },
       start: 2100,
       end: 2300,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: '',
         english: ''
       }
     },
+	{
+		title: {
+			dutch: 'Vooronder rave',
+			english: 'Forecastle Rave'
+		},
+		start: 2100,
+		end: 2300,
+		alignment: 'right',
+		color_shift: 'true',
+		description: {
+			dutch: 'Deze avond toveren we Trui om tot een unieke ravecave. Met veel geluid, mooie lichtjes en onze eigen DJ-Blikbierman!',
+			english: 'This night we transform Trui into a unique rave cave. With a lot of noise, beautiful lights and our own DJ Blikbierman!'
+		}
+	},
     {
       title: {
         dutch: 'Dozenfort --> Bierviltjesoorlog',
@@ -314,12 +398,26 @@ const program = {
       },
       start: 1600,
       end: 1800,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         dutch: 'Ook zo moe van gisteren? Kom chillen met zwembadjes, gezichtscreme, gekoelde drankjes en je rustige zomerse muziek',
         english: 'Tired from yesterday? Come chill out at our spa with kiddie pools, face masks, cooled drinks and summery tunes'
       }
     },
+	{
+		title: {
+			dutch: 'VVThee',
+			english: 'VVTea',
+		},
+		start: 1600,
+		end: 1800,
+		alignment: 'right',
+		color_shift: 'true',
+		description: {
+			dutch: 'Sluit je OWee relaxt af bij ons aan boord. De matjes liggen klaar, de thee is gezet en de koekjes zijn gebakken',
+			english: 'End your OWee on a relaxing note on board. The tea and cookies are ready!'
+		}
+	},
     {
       title: {
         dutch: 'Eten @ Bolk',
@@ -329,8 +427,8 @@ const program = {
       end: 2000,
       alignment: 'center',
       description: {
-        dutch: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten! Schrijf je in op <a href="https://noms.debolk.nl">noms.debolk.nl</a>',
-        english: 'Dinner with the Bolk is really good, come and have a good meal! Sign up at <a href="https://noms.debolk.nl">noms.debolk.nl</a>'
+        dutch: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten! <br><b>Schrijf je in op <a href="https://noms.debolk.nl">noms.debolk.nl</a></b>',
+        english: 'Dinner with the Bolk is really good, come and have a good meal! <br><b>Sign up at <a href="https://noms.debolk.nl">noms.debolk.nl</a></b>'
       }
     },
     {
@@ -388,10 +486,17 @@ function populateDay(element, day_duration, plan) {
     act_node.classList.add(act.alignment);
     act_node.style.height = `calc(${height}% - 6px)`;
 
+
     let top = act.start >= program.start_time ?
       (convertTime(act.start) - convertTime(program.start_time))/day_duration * 100
       : (convertTime(act.start) - convertTime(program.start_time) + 24)/day_duration * 100;
     act_node.style.top = `calc(${top}%)`;
+
+	if (act.color_shift) {
+		act_node.classList.add('color_shift');
+		act_node.style.top = `calc(${top}% + 2px)`;
+		act_node.style.height = `calc(${height}% - 10px)`
+	}
 
     act_node.innerHTML = "<div id='activity-content'><h2>" + act.title.dutch + "</h2><p id='duration'>" + `${formatTime(act.start)}-${formatTime(act.end)}` + "</p><p id='description'>" + act.description.dutch + "</p></div>";
     element.appendChild(act_node)
@@ -407,6 +512,14 @@ function resizeText(rows = -1){
 
     fitText(element, .9, {minFontSize: 10, maxFontSize: maxFontSize});
   }
+  
+  let headers = document.getElementsByTagName('th');
+  for (let head of headers){
+    if (head.id !== 'time'){
+        fitText(head, .64, {minFontSize: 10, maxFontSize: 30});
+    }
+  }
+  
 }
 
 function renderProgram() {

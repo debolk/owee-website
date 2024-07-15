@@ -1,6 +1,7 @@
 .content#program{
   color: #d7855f;
   background-color: #245e8b;
+  padding-bottom: 1vh;
 }
 .content#program::after{
   background-image: linear-gradient(135deg, #245e8b 25%, transparent 25%), linear-gradient(225deg, #245e8b 25%, transparent 25%);
@@ -24,6 +25,7 @@
 
 #program th{
   font-size: 2rem;
+  font-weight: 640;
 }
 
 #program #time{
@@ -44,6 +46,13 @@
   border-radius: 15px;
   transition: 0.4s ease all;
   z-index: 2;
+}
+
+.activity.color_shift{
+  border: 2px solid #d7855f;
+  color: #d7855f;
+  background-color: #245e8b;
+  z-index: 3;
 }
 
 .activity.center{
@@ -87,7 +96,15 @@
   background-color: #245e8b;
   color: #d7855f;
   border-color: #d7855f;
-  width: calc(100% - 4px);
+  width: calc(164% - 4px);
+}
+
+.activity.left:hover, .activity.center:hover{
+  left: -32%;
+}
+
+.activity.right:hover{
+  right: -32%;
 }
 
 .activity:hover h2{
@@ -97,6 +114,10 @@
 .activity:hover #description{
   visibility: visible;
   font-size: 1.25rem;
+}
+
+.activity:hover #description b{
+  color: white;
 }
 
 .activity:hover #duration{
