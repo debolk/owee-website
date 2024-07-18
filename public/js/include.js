@@ -1,15 +1,14 @@
 function includeHTML(){
   let elements = document.getElementsByTagName("include-html");
-  
+
   let lang = 'nl';
-  if(document.cookie !== '') {
-	let cookie = JSON.parse(document.cookie.split(';')[0]);
-	lang = cookie.lang;
+  if(getCookie('lang') !== '') {
+	  let cookie = getCookie('lang');
+	  lang = cookie;
   } else {
-	document.cookie = JSON.stringify({lang: 'nl'}) + '; SameSite=Strict; Secure; expires=' + getCookieExpire();
-	console.log(JSON.stringify({lang: 'nl'}) + '; SameSite=Strict; Secure; expires=' + getCookieExpire());
+    setCookie('lang', 'nl', 4);
   }
-  
+
   for (let e of elements){
     if (e.hasAttribute("src")) {
       fetch(`./html/${lang}/${e.getAttribute("src")}`)
@@ -21,19 +20,35 @@ function includeHTML(){
           v.classList.add("included");
           e.parentNode.replaceChild(v, e);
         })
-        .catch((e) => console.error(e));
+        .catch((e) => console.error(e, `./html/${lang}/${e.getAttribute("src")}`));
     }
   }
 }
 
-function getCookieExpire() {
-	let expires = new Date();
-	expires.setTime(expires.getTime() + 1000 * 86400 * 5);
-	return expires.toUTCString();
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0)  == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function setCookie(cname, cvalue, exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
 function changeToLang(lang){
-	document.cookie = JSON.stringify({lang: `${lang}`}) + '; SameSite=Strict; Secure; expires=' + getCookieExpire();
+	setCookie('lang', lang, 4);
 	location.reload();
 }
-	

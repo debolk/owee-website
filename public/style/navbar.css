@@ -31,6 +31,34 @@ li {
   transition: 0.4s ease all;
 }
 
+li.right{
+  float: right;
+  margin-right: 1vw;
+}
+
+li button{
+  display: flex;
+  font-family: 'Stencil', sans-serif;
+  text-align: center;
+  background: none;
+  border: none;
+  height: 100%;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #245e8b;
+  margin-top: 3.5%;
+}
+
+li button:hover{
+  color: #d7855f;
+}
+
+li button img{
+  height: 64%;
+  margin-top: -3.5%;
+  margin-right: 4px;
+}
+
 li a, li a:visited, li a:link{
   color: inherit;
   font-family: 'Stencil', sans-serif;
@@ -38,7 +66,7 @@ li a, li a:visited, li a:link{
   font-weight: 500;
   font-size: 1.4rem;
   padding: 0 5px;
-  margin: 0;
+  margin: 2% 0 0;
   display: block;
 }
 

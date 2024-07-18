@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Stencil';
-  src: url('../fonts/STENCIL.TTF') format('truetype');
+  src: url('../fonts/STENCIL.ttf') format('truetype');
 }
 
 html {
@@ -20,7 +20,7 @@ html {
   overflow-x: hidden;
   overflow-y: visible;
   scroll-behavior: smooth;
-  
+
   scrollbar-width: thin;
   scrollbar-color: #646464 light;
 }
