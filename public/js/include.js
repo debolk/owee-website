@@ -52,3 +52,12 @@ function changeToLang(lang){
 	setCookie('lang', lang, 4);
 	location.reload();
 }
+
+function toggleNavbarMobile() {
+  let el = document.getElementById("navlinks");
+  if ( el.classList.contains("active") ){
+    el.classList.remove("active");
+  } else {
+    el.classList.add("active");
+  }
+}

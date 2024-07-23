@@ -74,3 +74,89 @@ li:hover{
   background-color: #245e8b;
   color: #d7855f;
 }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+  #navbar{
+    display: none;
+  }
+
+  #navbar-mobile button{
+    font-size: 3rem;
+  }
+
+  #navbar-mobile a{
+    font-size: 3rem;
+    margin-bottom: 0.5%;
+  }
+
+  #navbar-mobile a.icon{
+    font-size: 3rem;
+    margin-bottom: 2.5%;
+  }
+
+  #navlinks {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    overflow: hidden;
+    width: 0;
+    position: fixed;
+    z-index: 20;
+    top: 5vh;
+    left: -2px;
+    background-color: #d7855f;
+    color: #245e8b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-right: solid #245e8b 2px;
+    border-bottom: solid #245e8b 2px;
+  }
+
+  #navlinks li {
+    border-bottom: solid #245e8b 2px;
+    border-radius: 0;
+    padding-bottom: 4px;
+    margin: 0;
+  }
+
+  #navlinks li.last{
+    border-bottom: 0;
+  }
+
+  #navlinks li a{
+    padding: 8px 8px 8px 32px;
+    transition: 0.5s ease all;
+    font-size: 3rem;
+  }
+
+  #navlinks.active{
+    width: 43vw;
+    left: 0;
+  }
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  /* smartphone width works fine */
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #navbar-mobile button, #navbar-mobile a, #navbar-mobile a.icon, #navlinks li a{
+    font-size: 2rem;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  #navbar-mobile{
+    display: none;
+  }
+  #navbar{
+    display: initial;
+  }
+
+  #navbar li button, #navbar li a{
+    font-size: 1rem;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+  #navbar li button, #navbar li a{
+    font-size: 1.4rem;
+  }
+}
