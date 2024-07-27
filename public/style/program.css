@@ -138,4 +138,12 @@
   .activity:hover, .activity:active{
     width: calc(132% - 4px);
   }
+
+  .activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{
+    left: -16%;
+  }
+
+  .activity.right:hover, .activity.right:active{
+    right: -16%;
+  }
 }
