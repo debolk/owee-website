@@ -134,4 +134,8 @@
     max-width: 16vw;
     font-size: 1.5rem;
   }
+
+  .activity:hover, .activity:active{
+    width: calc(132% - 4px);
+  }
 }
