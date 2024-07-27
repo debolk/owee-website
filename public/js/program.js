@@ -557,17 +557,21 @@ function populateDay(element, day_duration, plan) {
 
 function resizeText(rows = -1){
   let elements = document.getElementsByClassName("activity");
-  for (let element of elements){
-    let maxFontSize = 30;
-    if (element.clientHeight <= (element.parentElement.clientHeight/rows * 2) && element.classList.contains("center")) maxFontSize = 16;
 
-    fitText(element, .9, {minFontSize: 10, maxFontSize: maxFontSize});
+  let glob_max_font_size = 32;
+  if (matchMedia("only screen and (max-device-width: 640px)").matches) glob_max_font_size = 128;
+
+  for (let element of elements){
+    let max_font_size = glob_max_font_size;
+    if (element.clientHeight <= (element.parentElement.clientHeight/rows * 3)
+      && element.classList.contains("center")) max_font_size /= 2;
+    fitText(element, .9, {minFontSize: 10, maxFontSize: max_font_size});
   }
 
   let headers = document.getElementsByTagName('th');
   for (let head of headers){
     if (head.id !== 'time'){
-        fitText(head, .64, {minFontSize: 10, maxFontSize: 30});
+        fitText(head, .64, {minFontSize: 10, maxFontSize: glob_max_font_size});
     }
   }
 
@@ -587,6 +591,8 @@ function renderDayMobile(day, plan, duration, rows, timetable) {
   let table = document.createElement('table');
   let headers = document.createElement('tr');
   let time_column = document.createElement('col');
+  time_column.span = 1;
+  time_column.id = "time";
   headers.innerHTML = `<th></th><th>${day}</th>`
   table.append(headers, time_column);
 
@@ -669,9 +675,13 @@ function renderProgramDesktop() {
   setTimeout(resizeText, 500, rows);
 }
 
-function renderProgram() {
+async function renderProgram() {
+  if (document.getElementById('program') === null) {
+    setTimeout(renderProgram, 10);
+    return;
+  }
+
   if (matchMedia('only screen and (max-device-width: 640px)').matches) {
-    console.log("MATCH");
     renderProgramMobile();
   } else {
     renderProgramDesktop();

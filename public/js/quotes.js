@@ -188,36 +188,47 @@ function getQuotesHTML() {
   }
 }
 
-function renderQuotes() {
+async function renderQuotes() {
+  if (document.getElementById('quotes-container') === null) {
+    setTimeout(renderQuotes, 10);
+    return;
+  }
+
   shuffleQuotes();
   shuffleQuotes();
   shuffleQuotes();
   shuffleQuotes();
   getQuotesHTML();
   slides = document.getElementsByClassName('quote');
-  showSlides(1);
+  let amount = 5;
+  if (matchMedia("only screen and (max-device-width: 640px)").matches) amount = 1;
+  showSlides(1, amount);
   interval = setInterval(moveSlides, 13200, 5, true);
 }
 
 function moveSlides(n, auto = false) {
+  if (matchMedia("only screen and (max-device-width: 640px)").matches &&
+    n !== -1 && n !== 1) n /= 5;
+
   while (document.getElementsByClassName('active').length > 0) {
     let elem = document.getElementsByClassName('active')[0];
     elem.style.order = '';
     elem.classList.remove('active');
   }
-  showSlides(slideIndex += n);
+  showSlides(slideIndex += n, n);
   if (!auto) {
     clearInterval(interval);
     setTimeout(function () {
-      setInterval(moveSlides, 2640, 5, true);
+      setInterval(moveSlides, 2640, Math.abs(n), true);
     }, 128000)
   }
 }
 
-function showSlides(direction) {
-  for (let i = 0; i < 5; i++) {
+function showSlides(direction, amount = 5) {
+  amount = Math.abs(amount);
+  for (let i = 0; i < amount; i++) {
     if (slideIndex + i >= slides.length) slideIndex = -i;
-    else if (slideIndex + i < 0) slideIndex = slides.length - 5 + i;
+    else if (slideIndex + i < 0) slideIndex = slides.length - amount + i;
 
     slides[slideIndex + i].classList.add('active');
     slides[slideIndex + i].style.order = i.toString();

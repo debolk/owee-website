@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 338.53601 338.53601"
-   height="338.53601"
-   width="338.53601"
+   viewBox="0 0 338.5358 94.869911"
+   height="94.869911"
+   width="338.5358"
    xml:space="preserve"
    id="svg2"
    version="1.1"
    sodipodi:docname="winenmore.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,10 +26,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.152821"
-     inkscape:cx="-76.33449"
-     inkscape:cy="127.5133"
+     inkscape:cx="-75.900769"
+     inkscape:cy="6.5057802"
      inkscape:window-width="1920"
-     inkscape:window-height="1007"
+     inkscape:window-height="1119"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -83,7 +83,7 @@
        r="1269.5093"
        gradientTransform="matrix(1,0,0,0.28023598,0,601.01693)"
        gradientUnits="userSpaceOnUse" /></defs><g
-     transform="matrix(1.3333333,0,0,-1.3333333,7.4815265,280.60392)"
+     transform="matrix(1.3333333,0,0,-1.3333333,7.4815265,158.77087)"
      id="g10"><g
        transform="scale(0.1)"
        id="g12"><path

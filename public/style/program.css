@@ -29,9 +29,8 @@
 }
 
 #program #time{
-  width: 4rem;
+  width: 3vw;
   text-align: right;
-  height: 4vh;
   font-size: 1rem;
 }
 
@@ -91,7 +90,7 @@
   color: black;
 }
 
-.activity:hover {
+.activity:hover, .activity:active{
   z-index: 12;
   background-color: #245e8b;
   color: #d7855f;
@@ -99,28 +98,40 @@
   width: calc(164% - 4px);
 }
 
-.activity.left:hover, .activity.center:hover{
+.activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{
   left: -32%;
 }
 
-.activity.right:hover{
+.activity.right:hover, .activity.right:active{
   right: -32%;
 }
 
-.activity:hover h2{
+.activity:hover h2, .activity:active h2{
   font-size: 1.5rem;
 }
 
-.activity:hover #description{
+.activity:hover #description, .activity:active #description{
   visibility: visible;
   font-size: 1.25rem;
 }
 
-.activity:hover #description b{
+.activity:hover #description b, .activity:active #description b{
   color: white;
 }
 
-.activity:hover #duration{
+.activity:hover #duration, .activity:active #duration{
   visibility: visible;
   font-size: 1rem;
+}
+
+@media only screen and (max-device-width: 640px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  #program tr{
+    height: 8vh;
+  }
+
+  #program #time{
+    width: 16vw;
+    max-width: 16vw;
+    font-size: 1.5rem;
+  }
 }

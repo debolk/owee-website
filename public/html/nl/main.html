@@ -12,13 +12,28 @@
   .content#main{
     padding-top: 6vh;
     color: #d7855f;
-	background-color: #245e8b;
+	  background-color: #245e8b;
   }
   .content#main::after{
     background-image: linear-gradient(135deg, #245e8b 25%, transparent 25%), linear-gradient(225deg, #245e8b 25%, transparent 25%);
   }
   iframe{
-    width: 60vw;
-    height: 33.75vw;
+    width: 80%;
+    margin-left: 10%;
+    aspect-ratio: 16/9;
   }
+
+  @media only screen and (max-device-width:1024px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  }
+
+  @media only screen and (max-device-width:1280px) { /* big landscape tablets, laptops, and desktops */
+  }
+
+  @media only screen and (max-device-width:640px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    iframe{
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
 </style>

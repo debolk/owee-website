@@ -1,7 +1,7 @@
 <div class="content" id="sponsors">
   <h1>ONZE LIEVE SPONSORS</h1>
 
-  <table>
+  <table id="desktop">
     <tr>
       <td>
         <a href="https://kimplusdelta.nl/" target="_blank">
@@ -21,6 +21,30 @@
     </tr>
   </table>
 
+  <table id="mobile">
+    <tr>
+      <td>
+        <a href="https://kimplusdelta.nl/" target="_blank">
+          <img src="./images/sponsors/kpd.png" alt="Kim Plus Delta">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://park20advocaten.nl/" target="_blank">
+          <img src="./images/sponsors/park20.png" alt="Park20 Advocaten">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://wineandmorebyarjan.nl/" target="_blank">
+          <img src="./images/sponsors/winenmore.svg" alt="Wine & More by Arjan">
+        </a>
+      </td>
+    </tr>
+  </table>
+
 </div>
 
 <style>
@@ -30,7 +54,7 @@
   }
   .content#sponsors::after{
     height: 0;
-	width: 0;
+	  width: 0;
   }
 
   #sponsors table{
@@ -49,6 +73,29 @@
 
   #sponsors img{
     width: 90%;
+  }
+
+  #sponsors #mobile{
+    display: none;
+  }
+
+  @media only screen and (max-device-width: 640px){
+    #sponsors #mobile {
+      display: initial;
+    }
+
+    #sponsors #desktop{
+      display: none;
+    }
+
+    #sponsors img{
+      margin-top: 5vh;
+    }
+
+    #sponsors td{
+      width: 90%;
+      max-width: 90%;
+    }
   }
 
 </style>

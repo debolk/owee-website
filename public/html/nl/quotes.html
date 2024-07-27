@@ -3,10 +3,10 @@
   <h2>Waarom ben je bij de Bolk lid geworden?</h2>
 
   <div id="quotes-container">
-  <a class="prev" onclick="moveSlides(-5)">&#10094;</a>
-  <a class="next" onclick="moveSlides(5)">&#10095;</a>
+    <a class="prev" onclick="moveSlides(-5)">&#10094;</a>
+    <a class="next" onclick="moveSlides(5)">&#10095;</a>
   </div>
-  
+
 
 </div>
 
@@ -15,7 +15,7 @@
     color: #245e8b;
     background-color: #d7855f;
     width: 85vw;
-	max-width: 85vw;
+	  max-width: 85vw;
     padding-left: 7.5vw;
     padding-right: 7.5vw;
   }
@@ -29,9 +29,9 @@
     position: absolute;
     top: 50%;
     width: auto;
-	height: fit-content;
+	  height: fit-content;
     padding: 16px;
-	margin-top: -44px;
+	  margin-top: -44px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -58,15 +58,15 @@
   }
 
   #quotes-container{
-	position: relative;
-	top: 0;
+    position: relative;
+    top: 0;
     display: flex;
     flex-direction: row;
-	height: fit-content;
-	padding-bottom: 2vh;
+    height: fit-content;
+    padding-bottom: 2vh;
   }
 
-  #quotes-container .quote{
+  #quotes-container .quote {
     display: none;
     width: 64%;
     height: 32rem;
@@ -109,5 +109,17 @@
   @keyframes fade{
     from {opacity: 0.4}
     to {opacity: 1}
+  }
+
+  @media only screen and (max-device-width: 640px){
+    #quotes-container .quote {
+      margin-left: 9%;
+      margin-right: 9%;
+      width: 82%;
+    }
+
+    .prev, .next{
+      font-size: 82px;
+    }
   }
 </style>

@@ -9,8 +9,8 @@
 
   <script src="./js/fittext.js" async></script>
   <script src="./js/include.js" async onload="includeHTML();"></script>
-  <script src="./js/program.js" async onload="setTimeout(renderProgram, 500);" onresize="renderProgram();"></script>
-  <script src="./js/quotes.js" async onload="setTimeout(renderQuotes, 500);"></script>
+  <script src="./js/program.js" async onload="renderProgram();" onresize="renderProgram();" onchange="renderProgram();"></script>
+  <script src="./js/quotes.js" async onload="renderQuotes();" onresize="renderQuotes();" onchange="renderQuotes();" ></script>
 
 </head>
 <body>

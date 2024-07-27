@@ -1,7 +1,7 @@
 <div class="content" id="contact">
   <h1>HOE KAN JE ONS VINDEN?</h1>
 
-  <table>
+  <table id="desktop">
     <tr>
       <td>
         <a href='https://www.google.com/maps/dir/?api=1&destination=De+Bolk+(D.S.V.+"Nieuwe+Delft")/' target="_blank">
@@ -40,6 +40,53 @@
 
   </table>
 
+  <table id="mobile">
+    <tr>
+      <td colspan="3">
+        <a href='https://www.google.com/maps/dir/?api=1&destination=De+Bolk+(D.S.V.+"Nieuwe+Delft")/' target="_blank">
+          De Bolk (D.S.V. "Nieuwe Delft")<br>
+          Buitenwatersloot 1-3<br>
+          2613 TA, Delft
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3">
+        <p class="spacing">
+          Telefoon: <a href="tel:+31152126012">015 212 6012</a><br>
+          E-mail: <br>
+          <a class='right' href="mailto:owee@nieuwedelft.nl">owee@nieuwedelft.nl</a>
+          <br>
+          <a class='right' href="mailto:bestuur@nieuwedelft.nl">bestuur@nieuwedelft.nl</a>
+          <br>
+          Website: <a href="http://website.debolk.nl" target="_blank">www.debolk.nl</a>
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="center">
+        <a href="https://www.instagram.com/dsv.nieuwebolk/" target="_blank">
+          <img src="./images/instagram.svg" alt="Instagram">
+        </a>
+      </td>
+
+      <td class="center">
+        <a href="https://nl.wikipedia.org/wiki/Delftse_Studentenvereniging_Nieuwe_Delft" target="_blank">
+          <img src="./images/wikipedia.svg" alt="Wikipedia">
+        </a>
+      </td>
+
+      <td class="center">
+        <a href="https://wa.me/31152126012" target="_blank">
+          <img src="./images/whatsapp.svg" alt="WhatsApp">
+        </a>
+      </td>
+    </tr>
+
+  </table>
+
 </div>
 
 <style>
@@ -51,6 +98,10 @@
 
   .content#contact::after{
     background-image: linear-gradient(135deg, #245e8b 25%, transparent 25%), linear-gradient(225deg, #245e8b 25%, transparent 25%);
+  }
+
+  #contact #mobile{
+    display: none;
   }
 
   #contact img{
@@ -85,5 +136,20 @@
     vertical-align: top;
     position: relative;
     height: fit-content;
+  }
+
+  @media only screen and (max-device-width: 640px){
+    #contact #desktop{
+      display: none;
+    }
+
+    #contact #mobile{
+      display: table;
+    }
+
+    #contact #mobile .spacing{
+      margin-top: 2.5vh;
+      margin-bottom: 2.5vh;
+    }
   }
 </style>

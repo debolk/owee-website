@@ -1,0 +1,8 @@
+@media only screen and (max-device-width:1280px) { /* big landscape tablets, laptops, and desktops */
+}
+
+@media only screen and (max-device-width:1024px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media only screen and (max-device-width:640px)  { /* smartphones, iPhone, portrait 480x320 phones */
+}

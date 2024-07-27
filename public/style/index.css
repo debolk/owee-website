@@ -51,7 +51,6 @@ table{
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 2vh;
-  left: 20vw;
   width: 80%;
   table-layout: fixed;
 }
@@ -66,7 +65,11 @@ table{
   max-width: 60%;
   width: 60%;
   display: block;
-
+  padding: 8vh 20vw 8vh;
+  background-image: url('../images/soos.svg'), url('../images/soos.svg');
+  background-repeat: repeat-y, repeat-y;
+  background-position-x: 1vw, 96vw;
+  background-size: 3vw;
 }
 
 .content::after {
@@ -84,7 +87,17 @@ table{
   background-position: 0 0;
 }
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+@media only screen and (max-device-width: 1280px) { /* big landscape tablets, laptops, and desktops */
+}
+
+
+@media only screen and (max-device-width: 1024px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  html{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-device-width: 640px)  { /* smartphones, iPhone, portrait 480x320 phones */
 
   html{
     font-size: 32px;
@@ -94,21 +107,14 @@ table{
     max-width: 80%;
     width: 80%;
     padding: 8vh 10vw 8vh;
+    background: none;
   }
-}
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  html{
-    font-size: 16px;
+
+  table{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    max-width: 90%;
   }
-}
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
-}
-@media (min-width:1281px) { /* hi-res laptops and desktops */
-  padding: 8vh 20vw 8vh;
-  background-image: url('../images/soos.svg'), url('../images/soos.svg');
-  background-repeat: repeat-y, repeat-y;
-  background-position-x: 1vw, 96vw;
-  background-size: 3vw;
+
 }
