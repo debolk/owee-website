@@ -13,7 +13,7 @@ const program = {
       alignment: 'left',
       description: {
         nl: '',
-        en: ''
+        en: 'Do Four in a Row and Jenga give you nostalgic feelings? Come play it in MEGA-Style. Ensure your victory can be admired even from a distance or challenge your friends to a rematch. This can only provide a HUGE amount of fun! <br> And are you rather looking for normal-sized games? Then you are also welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people.'
       }
     },
     {
@@ -84,11 +84,76 @@ const program = {
     },
     {
       title: {
-        nl: 'Multifeest!',
-        en: 'Multiparty!'
+        nl: 'Throwback Party',
+        en: 'Throwback Party'
       },
       start: 2200,
+      end: 2300,
+      alignment: 'center',
+      description: {
+        nl: 'Laat je terugnemen naar vroeger en ga los op de beste nummers uit je jeugd',
+        en: 'Be transported to your past and party to the best songs from your youth'
+      }
+    },
+    {
+      title: {
+        nl: 'Eurovisie Extravaganza',
+        en: 'Eurovision Extravaganza'
+      },
+      start: 2300,
+      end: 2400,
+      alignment: 'center',
+      description: {
+        nl: 'Het wordt een glitterfestijn met de toppers van de afgelopen 68 Songfestivals',
+        en: 'It will be a glitter party with the top songs from the past 68 years of Eurovision'
+      }
+    },
+    {
+      title: {
+        nl: 'De Skihut',
+        en: 'The Skihut'
+      },
+      start: 2400,
+      end: 100,
+      alignment: 'center',
+      description: {
+        nl: 'Après-ski in augustus? Jawohl! Geniet van de beste muziek die onze oosterburen te bieden hebben',
+        en: 'Après ski in August? Jawohl! Enjoy the best music our eastern neighbours have to offer'
+      }
+    },
+    {
+      title: {
+        nl: 'Frituur',
+        en: 'Fried Hour'
+      },
+      start: 200,
+      end: 300,
+      alignment: 'center',
+      description: {
+        nl: 'Honger? Daar hebben we iets voor! Geniet van Brabants Beste Bangers met patat en andere frituursnacks',
+        en: 'Hungry? We have the solution! Enjoy a midnight snack of fries and other fried snacks'
+      }
+    },
+    {
+      title: {
+        nl: 'Brabants Beste Bangers',
+        en: 'Brabant\'s Best Bangers'
+      },
+      start: 300,
       end: 400,
+      alignment: 'center',
+      description: {
+        nl: 'Dans op de beste feestnummers van onder de rivieren, en stiekem misschien ook een paar van boven de rivieren',
+        en: 'Dance to the best songs the Netherlands have to offer'
+      }
+    },
+    {
+      title: {
+        nl: '',
+        en: ''
+      },
+      start: 2200,
+      end: 2300,
       alignment: 'center',
       description: {
         nl: '',
@@ -112,8 +177,8 @@ const program = {
   tuesday: [
     {
       title: {
-        nl: 'Pimp je fiets',
-        en: 'Pimp your bike'
+        nl: 'Pimp je fiets / Minecraft strijkkralen',
+        en: 'Pimp your bike / Minecraft ironing beads'
       },
       start: 1600,
       end: 1800,
@@ -192,15 +257,15 @@ const program = {
 	},
     {
       title: {
-        nl: 'Kroegsport Spelen',
-        en: 'Bargames Olympics'
+        nl: 'Kroegsport',
+        en: 'Bargames'
       },
       start: 2200,
       end: 2400,
       alignment: 'left',
       description: {
         nl: '',
-        en: ''
+        en: 'Play darts, shuffleboard, and many other games from the pub. And we also present “whack-a-nail”: a block of wood, some nails, a large hammer, and a lot of violence. Guaranteed fun!'
       }
     },
     {
@@ -222,11 +287,11 @@ const program = {
         en: 'Karoake ft. Oily Balls'
       },
       start: 2400,
-      end: 300,
+      end: 400,
       alignment: 'center',
       description: {
         nl: '',
-        en: ''
+        en: 'Do you want to belt out the best songs all evening long? Then come to the karaoke and sing your lungs out! Featuring “oliebollen” to celebrate the new academic year'
       }
     },
     {
@@ -246,31 +311,18 @@ const program = {
   wednesday: [
     {
       title: {
-        nl: 'Maak je eigen tosti',
-        en: 'Build your own tosti'
+        nl: 'Botter Rossen',
+        en: 'Botter Ross'
       },
-      start: 1600,
-      end: 1700,
-      alignment: 'center',
+      start: 1700,
+      end: 1800,
+      alignment: 'right',
+      color_shift: 'true',
       description: {
-        nl: '',
-        en: ''
+        nl: 'Botteraars kunnen goed beunen maar ook het wat fijnzinnigere werk is aan hun goed besteed. Stap aan boord voor deze creatieve activiteit en laat je door Vink meenemen naar de Waddenzee. <br><b>Let op! Deze activiteit heeft een vaste starttijd</b>',
+        en: 'The sailors of Trui are great at building, but they can also flourish in the more fine arts. Get on board for this creative activity And let Vink take you on a trip to the beautiful Waddensea. <br><b>Watch out! This activity has a set starting time</b>'
       }
     },
-	{
-		title: {
-			nl: 'Botter Rossen',
-			en: 'Botter Ross'
-		},
-		start: 1700,
-		end: 1800,
-		alignment: 'right',
-		color_shift: 'true',
-		description: {
-			nl: 'Botteraars kunnen goed beunen maar ook het wat fijnzinnigere werk is aan hun goed besteed. Stap aan boord voor deze creatieve activiteit en laat je door Vink meenemen naar de Waddenzee. <br><b>Let op! Deze activiteit heeft een vaste starttijd</b>',
-			en: 'The sailors of Trui are great at building, but they can also flourish in the more fine arts. Get on board for this creative activity And let Vink take you on a trip to the beautiful Waddensea. <br><b>Watch out! This activity has a set starting time</b>'
-		}
-	},
     {
       title: {
         nl: 'DnD Oneshot',
@@ -307,7 +359,7 @@ const program = {
       alignment: 'left',
       description: {
         nl: '',
-        en: ''
+          en: ''
       }
     },
 	{
@@ -347,7 +399,7 @@ const program = {
       alignment: 'center',
       description: {
         nl: '',
-        en: ''
+        en: 'Do you want to let out your inner kid? Do you want to practice your civil engineering skills? Then come and build Kapla with us! Build a bridge, house, Eiffel Tower, or something else. The only limit is your imagination'
       }
     },
     {
@@ -356,7 +408,7 @@ const program = {
         en: 'Canned Beer Drive'
       },
       start: 200,
-      end: 300,
+      end: 230,
       alignment: 'center',
       description: {
         nl: 'Is dit een BlikBierBorrel? Wist je dat er een auto in de soos stond? Kom zuipen ofzo.',
@@ -368,7 +420,7 @@ const program = {
         nl: 'DIY Kapsalon',
         en: 'DIY Kapsalon'
       },
-      start: 300,
+      start: 230,
       end: 400,
       alignment: 'center',
       description: {
@@ -521,21 +573,79 @@ function resizeText(rows = -1){
 
 }
 
-function renderProgram() {
-  let increment = convertTime(program.increment);
+function setupProgram() {
   let duration = getTimeDif(program.start_time, program.end_time);
-  let rows = duration/increment;
+  let rows = duration/convertTime(program.increment);
+  let hnm = getHoursMinutes(program.increment);
 
   let element = document.getElementById("program");
-  let node = document.createElement("table");
+
+  return [duration, rows, hnm, element];
+}
+
+function renderDayMobile(day, plan, duration, rows, timetable) {
+  let table = document.createElement('table');
+  let headers = document.createElement('tr');
+  let time_column = document.createElement('col');
+  headers.innerHTML = `<th></th><th>${day}</th>`
+  table.append(headers, time_column);
+
+  let day_node = document.createElement('td');
+  day_node.rowSpan = rows;
+
+  day_node = populateDay(day_node, duration, plan);
+
+  for (let t of timetable) {
+    let row = document.createElement("tr");
+    let time = document.createElement("th");
+    time.innerHTML = t;
+    time.id = 'time';
+    if (timetable[0] === t) row.append(time, day_node);
+    else row.appendChild(time);
+    table.appendChild(row);
+  }
+  return table;
+}
+
+function renderProgramMobile() {
+  let [duration, rows, timetable, element] = setupProgram();
+
+  if(getCookie('lang') === 'nl') {
+    for (let day of [['Maandag', program.monday],
+      ['Dinsdag', program.tuesday],
+      ['Woensdag', program.wednesday],
+      ['Donderdag', program.thursday]]){
+      let table = renderDayMobile(day[0], day[1], duration, rows, timetable);
+      element.appendChild(table);
+    }
+  } else {
+    for (let day of [['Monday', program.monday],
+      ['Tuesday', program.tuesday],
+      ['Wednesday', program.wednesday],
+      ['Thursday', program.thursday]]){
+      let table = renderDayMobile(day[0], day[1], duration, rows, timetable);
+      element.appendChild(table);
+    }
+  }
+  setTimeout(resizeText, 500, rows);
+}
+
+function renderProgramDesktop() {
+  let [duration, rows, timetable, element] = setupProgram();
+
+  let table = document.createElement("table");
   let headers = document.createElement("tr");
-  let col = document.createElement("col");
-  col.span = 1;
-  col.id = "time";
+  let time_column = document.createElement("col");
+  time_column.span = 1;
+  time_column.id = "time";
 
-  headers.innerHTML = "<th></th><th>Maandag</th><th>Dinsdag</th><th>Woensdag</th><th>Donderdag</th>";
+  if (getCookie('lang') == 'nl') {
+    headers.innerHTML = "<th></th><th>Maandag</th><th>Dinsdag</th><th>Woensdag</th><th>Donderdag</th>";
+  } else {
+    headers.innerHTML = "<th></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th>";
+  }
 
-  node.append(headers, col);
+  table.append(headers, time_column);
 
   let day = document.createElement("td");
   day.rowSpan = rows;
@@ -545,18 +655,25 @@ function renderProgram() {
   let wednesday = populateDay(day.cloneNode(), duration, program.wednesday);
   let thursday = populateDay(day.cloneNode(), duration, program.thursday);
 
-  let hnm = getHoursMinutes(program.increment);
-
-  for (let t of hnm){
+  for (let t of timetable){
     let row = document.createElement("tr");
     let time = document.createElement("th");
     time.innerHTML = t;
     time.id = 'time';
-    if (hnm[0] === t) row.append(time, monday, tuesday, wednesday, thursday);
+    if (timetable[0] === t) row.append(time, monday, tuesday, wednesday, thursday);
     else row.appendChild(time);
-    node.appendChild(row);
+    table.appendChild(row);
   }
 
-  element.appendChild(node);
+  element.appendChild(table);
   setTimeout(resizeText, 500, rows);
+}
+
+function renderProgram() {
+  if (matchMedia('only screen and (max-device-width: 640px)').matches) {
+    console.log("MATCH");
+    renderProgramMobile();
+  } else {
+    renderProgramDesktop();
+  }
 }
