@@ -582,7 +582,7 @@ function setupProgram() {
   let rows = duration/convertTime(program.increment);
   let hnm = getHoursMinutes(program.increment);
 
-  let element = document.getElementById("program");
+  let element = document.getElementById("program-container");
 
   return [duration, rows, hnm, element];
 }
@@ -676,12 +676,12 @@ function renderProgramDesktop() {
 }
 
 async function renderProgram() {
-  if (document.getElementById('program') === null) {
+  if (document.getElementById('program-container') === null) {
     setTimeout(renderProgram, 10);
     return;
   }
 
-  document.getElementById('program').innerHTML = '';
+  document.getElementById('program-container').innerHTML = '';
   if (matchMedia('only screen and (max-device-width: 640px)').matches) {
     renderProgramMobile();
   } else {

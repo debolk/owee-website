@@ -121,7 +121,7 @@ let quotes = [
   {
     person: 'Matthijs',
     quote: {
-      nl: 'Van alle bezochten verenigingen vond ik deze het best op onder andere de gezelschapsmentaliteit, openheid en hoe de communicatie met de andere leden hier gehouden wordt.',
+      nl: 'Van alle bezochten verenigingen vond ik deze het best op onder andere de gezelschaps-mentaliteit, openheid en hoe de communicatie met de andere leden hier gehouden wordt.',
       en: 'Of all the associations I visited, I like this one the best because of the friendly mentality, openness en how the communication with other members goes.'
     }
   },
@@ -193,7 +193,8 @@ async function renderQuotes() {
     setTimeout(renderQuotes, 10);
     return;
   }
-  document.getElementById('quotes-container').innerHTML = '';
+  document.getElementById('quotes-container').innerHTML = '<a class="prev" onclick="moveSlides(-5)">&#10094;</a>\n' +
+    '    <a class="next" onclick="moveSlides(5)">&#10095;</a>';
 
   shuffleQuotes();
   shuffleQuotes();

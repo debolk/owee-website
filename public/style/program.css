@@ -124,6 +124,19 @@
   font-size: 1rem;
 }
 
+@media only screen and (max-device-width: 1024px) {
+  #program-container table{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #program #time{
+    width: 6vw;
+  }
+}
+
 @media only screen and (max-device-width: 640px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
   #program tr{
     height: 8vh;
