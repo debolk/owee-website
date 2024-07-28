@@ -154,7 +154,7 @@ let quotes = [
     }
   },
   {
-    person: 'Melody',
+    person: 'Miguel',
     quote: {
       nl: 'Ik werd meegesleept naar de BeginBBQ door studiegenoten en vond het vet gaaf. Ben sindsdien blijven plakken.',
       en: 'I was dragged to the Beginning BBQ by classmates and though it was incredibly cool. Stuck around since then.'
@@ -193,6 +193,7 @@ async function renderQuotes() {
     setTimeout(renderQuotes, 10);
     return;
   }
+  document.getElementById('quotes-container').innerHTML = '';
 
   shuffleQuotes();
   shuffleQuotes();

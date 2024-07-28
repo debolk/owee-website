@@ -681,6 +681,7 @@ async function renderProgram() {
     return;
   }
 
+  document.getElementById('program').innerHTML = '';
   if (matchMedia('only screen and (max-device-width: 640px)').matches) {
     renderProgramMobile();
   } else {

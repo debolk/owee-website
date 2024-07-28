@@ -23,6 +23,11 @@ function includeHTML(){
         .catch((e) => console.error(e, `./html/${lang}/${e.getAttribute("src")}`));
     }
   }
+
+  screen.orientation.addEventListener("change", (e) => {
+    renderProgram();
+    renderQuotes();
+  });
 }
 
 function getCookie(cname) {
