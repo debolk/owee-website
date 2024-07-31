@@ -154,13 +154,49 @@ let quotes = [
     }
   },
   {
-    person: 'Miguel',
+    person: 'Melody',
     quote: {
       nl: 'Ik werd meegesleept naar de BeginBBQ door studiegenoten en vond het vet gaaf. Ben sindsdien blijven plakken.',
       en: 'I was dragged to the Beginning BBQ by classmates and though it was incredibly cool. Stuck around since then.'
     }
+  },
+  {
+    person: 'Nienke',
+    quote: {
+      nl: 'Tijdens de OWee werd ik bij de Bolk het meest betrokken bij de gesprekken tussen leden.',
+      en: 'During the OWee I was most involved with conversations between members at the Bolk.'
+    }
+  },
+  {
+    person: 'Wouter',
+    quote: {
+      nl: 'Gezellige mensen, veel spelletjes en goed eten.',
+      en: 'Fun people, lots of boardgames en good food.'
+    }
+  },
+  {
+    person: 'Sean',
+    quote: {
+      nl: 'Tosti, pils en dom doen is een goede combo.',
+      en: 'Grilled sandwiches, pilseners and being stupid is a good combo.'
+    }
+  },
+  {
+    person: 'Laurens',
+    quote: {
+      nl: 'De Bolk adviseerde mij de Bolk.',
+      en: 'The Bolk adviced the Bolk.'
+    }
+  },
+  {
+    person: 'Zed',
+    quote: {
+      nl: 'Ik voelde me tijdens de OWee gelijk thuis bij de Bolk.',
+      en: 'I immediately felt right at home at the Bolk during the OWee.'
+    }
   }
 ]
+
 
 let templ = '<img src="./images/quotes/{NAME}.jpg"><p>{QUOTE}</p><br><p class="name">- {NAME}</p>'
 
