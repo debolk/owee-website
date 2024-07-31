@@ -62,26 +62,52 @@
 
 .activity.left{
   width: calc(49% - 4px);
-  left: 2px;
+  left: 0;
 }
 .activity.right{
+  width: calc(49% - 4px);
+  right: 0;
+}
+
+.activity.center.triple{
+  width: calc(33.33333333% - 6px);
+  left: 33.33333333%;
+}
+
+.activity.left.triple{
+  width: calc(33.33333333% - 6px);
+}
+
+.activity.right.triple{
+  width: calc(33.33333333% - 6px);
+}
+
+.activity.center.color_shift{
+  width: calc(100% - 4px);
+  left: 2px;
+  right: 2px;
+}
+
+.activity.left.color_shift{
+  width: calc(49% - 4px);
+  left: 2px;
+}
+.activity.right.color_shift{
   width: calc(49% - 4px);
   right: 2px;
 }
 
-.activity.center.triple{
-  width: calc(33% - 4px);
-  left: calc(33% + 3px)
+.activity.center.triple.color_shift{
+  width: calc(33.33333333% - 6px);
+  left: calc(33.33333333% + 2px);
 }
 
-.activity.left.triple{
-  width: calc(33% - 4px);
-  left: 2px;
+.activity.left.triple.color_shift{
+  width: calc(33.33333333% - 6px);
 }
 
-.activity.right.triple{
-  width: calc(33% - 4px);
-  right: 2px;
+.activity.right.triple.color_shift{
+  width: calc(33.33333333% - 6px);
 }
 
 #activity-content{
@@ -110,15 +136,15 @@
   background-color: #245e8b;
   color: #d7855f;
   border-color: #d7855f;
-  width: calc(164% - 4px);
+  width: calc(164% - 4px) !important;
 }
 
 .activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{
-  left: -32%;
+  left: -32% !important;
 }
 
 .activity.right:hover, .activity.right:active{
-  right: -32%;
+  right: -32% !important;
 }
 
 .activity:hover h2, .activity:active h2{
@@ -168,13 +194,14 @@
   }
 
   .activity:hover, .activity:active{
-    width: calc(132% - 4px);
+    width: calc(132% - 4px) !important;
   }
 
   .activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{
-    left: -28%;  }
+    left: -28% !important;
+  }
 
   .activity.right:hover, .activity.right:active{
-    right: -28%;
+    right: -28% !important;
   }
 }

@@ -76,7 +76,7 @@ const program = {
         start: 2200,
         end: 2400,
         alignment: 'right',
-		color_shift: 'true',
+		    color_shift: 'true',
         description: {
             nl: 'Trui is een heerlijke plek om tot rust te komen. Droogvallend op het wad tussen de zeehonden kun je genieten van de mooiste zonsondergangen. Deze intieme sfeer en de gezelligheid ervaar je ook op onze Trui in Delft. Sluit aan boord je avond gezellig af met sterrenkijken, een leuk verhaal en een scheepsborreltje',
             en: 'Trui is an amazing place to calm down. Grounded in the Waddensea, between the seals, you can watch the most beautiful sunsets. This cozy environment can also be experienced on Trui in Delft! End your evening on board with a fun story and a sailors drink'
@@ -87,9 +87,9 @@ const program = {
         nl: 'Throwback Party',
         en: 'Throwback Party'
       },
-      start: 2130,
+      start: 2200,
       end: 2230,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         nl: 'Laat je terugnemen naar vroeger en ga los op de beste nummers uit je jeugd',
         en: 'Be transported to your past and party to the best songs from your youth'
@@ -102,7 +102,7 @@ const program = {
       },
       start: 2230,
       end: 2300,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         nl: 'Het wordt een glitterfestijn met de toppers van de afgelopen 68 Songfestivals',
         en: 'It will be a glitter party with the top songs from the past 68 years of Eurovision'
@@ -115,7 +115,7 @@ const program = {
       },
       start: 2300,
       end: 2400,
-      alignment: 'center',
+      alignment: 'left',
       description: {
         nl: 'Après-ski in augustus? Jawohl! Geniet van de beste muziek die onze oosterburen te bieden hebben',
         en: 'Après ski in August? Jawohl! Enjoy the best music our eastern neighbours have to offer'
@@ -369,7 +369,7 @@ const program = {
         nl: 'Botter Rossen',
         en: 'Botter Ross'
       },
-      start: 1700,
+      start: 1600,
       end: 1800,
       alignment: 'right',
       color_shift: 'true',
@@ -383,7 +383,7 @@ const program = {
         nl: 'DnD Oneshot',
         en: 'DnD Oneshot'
       },
-      start: 1700,
+      start: 1600,
       end: 1900,
       alignment: 'left',
       description: {
