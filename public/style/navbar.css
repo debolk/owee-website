@@ -177,4 +177,8 @@ li:hover{
   #navlinks{
     top: 8vh;
   }
+
+  #navlinks li a{
+    font-size: 2rem;
+  }
 }

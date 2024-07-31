@@ -12,7 +12,7 @@ const program = {
       end: 1800,
       alignment: 'left',
       description: {
-        nl: '',
+        nl: 'Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Dit kan alleen maar voor ENORM veel plezier zorgen! <br>En ben je op zoek naar spellen van een normaler formaat? Dan ben je ook van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast.',
         en: 'Do Four in a Row and Jenga give you nostalgic feelings? Come play it in MEGA-Style. Ensure your victory can be admired even from a distance or challenge your friends to a rematch. This can only provide a HUGE amount of fun! <br> And are you rather looking for normal-sized games? Then you are also welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people.'
       }
     },
@@ -87,8 +87,8 @@ const program = {
         nl: 'Throwback Party',
         en: 'Throwback Party'
       },
-      start: 2200,
-      end: 2300,
+      start: 2130,
+      end: 2230,
       alignment: 'center',
       description: {
         nl: 'Laat je terugnemen naar vroeger en ga los op de beste nummers uit je jeugd',
@@ -100,8 +100,8 @@ const program = {
         nl: 'Eurovisie Extravaganza',
         en: 'Eurovision Extravaganza'
       },
-      start: 2300,
-      end: 2400,
+      start: 2230,
+      end: 2300,
       alignment: 'center',
       description: {
         nl: 'Het wordt een glitterfestijn met de toppers van de afgelopen 68 Songfestivals',
@@ -113,8 +113,8 @@ const program = {
         nl: 'De Skihut',
         en: 'The Skihut'
       },
-      start: 2400,
-      end: 100,
+      start: 2300,
+      end: 2400,
       alignment: 'center',
       description: {
         nl: 'Après-ski in augustus? Jawohl! Geniet van de beste muziek die onze oosterburen te bieden hebben',
@@ -126,9 +126,9 @@ const program = {
         nl: 'Frituur',
         en: 'Fried Hour'
       },
-      start: 200,
-      end: 300,
-      alignment: 'center',
+      start: 2400,
+      end: 100,
+      alignment: 'left',
       description: {
         nl: 'Honger? Daar hebben we iets voor! Geniet van Brabants Beste Bangers met patat en andere frituursnacks',
         en: 'Hungry? We have the solution! Enjoy a midnight snack of fries and other fried snacks'
@@ -139,25 +139,64 @@ const program = {
         nl: 'Brabants Beste Bangers',
         en: 'Brabant\'s Best Bangers'
       },
-      start: 300,
-      end: 400,
-      alignment: 'center',
+      start: 2400,
+      end: 100,
+      alignment: 'right',
       description: {
         nl: 'Dans op de beste feestnummers van onder de rivieren, en stiekem misschien ook een paar van boven de rivieren',
-        en: 'Dance to the best songs the Netherlands have to offer'
+        en: 'Dance to the best songs the "Brabant" area of the Netherlands has to offer'
       }
     },
     {
       title: {
-        nl: '',
-        en: ''
+        nl: 'Kinderdisco',
+        en: 'Children\'s Disco'
       },
-      start: 2200,
-      end: 2300,
+      start: 100,
+      end: 200,
       alignment: 'center',
       description: {
-        nl: '',
-        en: ''
+        nl: 'Ga los op de toppers van K3 en Kinderen voor Kinderen, en voel je even weer als kinds',
+        en: 'Go wild with the top songs of every Dutchperson’s childhood, and feel like a child again.'
+      }
+    },
+    {
+      title: {
+        nl: 'Happy Hour',
+        en: 'Happy Hour'
+      },
+      start: 130,
+      end: 200,
+      alignment: 'right',
+      description: {
+        nl: 'Laatste kans voor cocktails vanavond!<br><b>Korting op alle cocktails!</b>',
+        en: 'Last chance for cocktails tonight!<br><b>Discounts on all cocktails!</b>'
+      }
+    },
+    {
+      title: {
+        nl: 'Hardgaan',
+        en: 'Ravaging'
+      },
+      start: 200,
+      end: 300,
+      alignment: 'center',
+      description: {
+        nl: 'is wijn wens!',
+        en: 'is my wish!'
+      }
+    },
+    {
+      title: {
+        nl: 'Hakken en Beuken',
+        en: 'Chopping and Bonking'
+      },
+      start: 300,
+      end: 400,
+      alignment: 'center',
+      description: {
+        nl: 'Escaleren kun je leren',
+        en: 'Escalating is something you can learn'
       }
     },
     {
@@ -199,8 +238,8 @@ const program = {
       alignment: 'center',
       triple: 'true',
       description: {
-        nl: '',
-        en: ''
+        nl: 'Kom gezellig op de Bolk met de Pokkehandtas allerlei minecraftige figuren in strijkkralen maken en neem je mooie creaties naar huis!',
+        en: 'Come and make lots of minecraftian figures in ironing beads at the Bolk with the Pokkehandtas!'
       }
     },
     {
@@ -240,8 +279,8 @@ const program = {
       end: 2100,
       alignment: 'left',
       description: {
-        nl: '',
-        en: ''
+        nl: 'Kom gezellig samen gamen op de Bolk! Maak je vrienden in met Mario Kart en nog veel andere games!',
+        en: 'Come and game at the Bolk! Find your new friends in Mario Kart and other plentiful games!'
       }
     },
     {
@@ -280,7 +319,7 @@ const program = {
       end: 2400,
       alignment: 'left',
       description: {
-        nl: '',
+        nl: 'Ga samen darten, sjoelen, en andere sporten uit de kroeg doen. En natuurlijk ook spijkerslaan: een stuk hout, spijkers, een grote hamer, en veel geweld. Plezier gegarandeerd!',
         en: 'Play darts, shuffleboard, and many other games from the pub. And we also present “whack-a-nail”: a block of wood, some nails, a large hammer, and a lot of violence. Guaranteed fun!'
       }
     },
@@ -306,7 +345,7 @@ const program = {
       end: 400,
       alignment: 'center',
       description: {
-        nl: '',
+        nl: 'Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf! En natuurlijk zijn er ook oliebollen om het nieuwe studiejaar te vieren',
         en: 'Do you want to belt out the best songs all evening long? Then come to the karaoke and sing your lungs out! Featuring “oliebollen” to celebrate the new academic year'
       }
     },
@@ -414,8 +453,8 @@ const program = {
       end: 200,
       alignment: 'center',
       description: {
-        nl: '',
-        en: 'Do you want to let out your inner kid? Do you want to practice your civil engineering skills? Then come and build Kapla with us! Build a bridge, house, Eiffel Tower, or something else. The only limit is your imagination'
+        nl: 'Wil jij je weer een kind voelen? Of wil je gewoon leuk bouwen? Kom dan bij ons met Kapla bouwen! Bouw zelf een brug, huis, Eifeltoren, of iets anders. Het enige limiet is je fantasie!',
+        en: 'Do you want to let out your inner kid? Do you want to practice your civil engineering skills? Then come and build Kapla with us! Build a bridge, house, Eiffel Tower, or something else. The only limit is your imagination!'
       }
     },
     {
@@ -508,8 +547,8 @@ const program = {
       end: 2400,
       alignment: 'center',
       description: {
-        nl: '',
-        en: ''
+        nl: 'Er zullen live bands optreden op onze boot! Kom gezellig van hun performance genieten!',
+        en: 'Bands will be performing live on our boat! Come and enjoy their performance!'
       }
     }
   ]
