@@ -177,15 +177,30 @@ const program = {
   tuesday: [
     {
       title: {
-        nl: 'Pimp je fiets / Minecraft strijkkralen',
-        en: 'Pimp your bike / Minecraft ironing beads'
+        nl: 'Pimp je fiets',
+        en: 'Pimp your bike'
       },
       start: 1600,
       end: 1800,
       alignment: 'left',
+      triple: 'true',
       description: {
         nl: 'Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling',
         en: 'Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don’t have to worry about losing it anymore'
+      }
+    },
+    {
+      title: {
+        nl: 'Minecraft Strijkkralen',
+        en: 'Minecraft Ironing Beads'
+      },
+      start: 1600,
+      end: 1800,
+      alignment: 'center',
+      triple: 'true',
+      description: {
+        nl: '',
+        en: ''
       }
     },
     {
@@ -196,7 +211,8 @@ const program = {
         start: 1600,
         end: 1800,
         alignment: 'right',
-		color_shift: 'true',
+        triple: 'true',
+		    color_shift: 'true',
         description: {
             nl: 'Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden</b>',
             en: 'Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity</b>'
@@ -536,6 +552,7 @@ function populateDay(element, day_duration, plan) {
     let act_node = document.createElement("div");
     act_node.classList.add("activity");
     act_node.classList.add(act.alignment);
+    if (act.triple) act_node.classList.add("triple");
     act_node.style.height = `calc(${height}% - 6px)`;
 
     let top = act.start >= program.start_time ?
@@ -593,7 +610,7 @@ function renderDayMobile(day, plan, duration, rows, timetable) {
   let time_column = document.createElement('col');
   time_column.span = 1;
   time_column.id = "time";
-  headers.innerHTML = `<th></th><th>${day}</th>`
+  headers.innerHTML = `<th colspan="2">${day}</th>`
   table.append(headers, time_column);
 
   let day_node = document.createElement('td');

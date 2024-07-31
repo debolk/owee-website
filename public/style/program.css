@@ -69,6 +69,21 @@
   right: 2px;
 }
 
+.activity.center.triple{
+  width: calc(33% - 4px);
+  left: calc(33% + 3px)
+}
+
+.activity.left.triple{
+  width: calc(33% - 4px);
+  left: 2px;
+}
+
+.activity.right.triple{
+  width: calc(33% - 4px);
+  right: 2px;
+}
+
 #activity-content{
   display: table-cell;
   text-align: center;
@@ -135,6 +150,10 @@
   #program #time{
     width: 6vw;
   }
+
+  #program tr{
+    height: 14vh;
+  }
 }
 
 @media only screen and (max-device-width: 640px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -153,10 +172,9 @@
   }
 
   .activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{
-    left: -16%;
-  }
+    left: -28%;  }
 
   .activity.right:hover, .activity.right:active{
-    right: -16%;
+    right: -28%;
   }
 }
