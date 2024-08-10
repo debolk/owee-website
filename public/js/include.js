@@ -24,6 +24,8 @@ function includeHTML(){
     }
   }
 
+  setTimeout(changeHeader, 6400, 1);
+
   screen.orientation.addEventListener("change", (e) => {
     renderProgram();
     renderQuotes();
@@ -65,4 +67,22 @@ function toggleNavbarMobile() {
   } else {
     el.classList.add("active");
   }
+}
+
+//only for imageheader
+function changeHeader(i = 0) {
+  const headers = ['h1', 'h2', 'h3', 'h4'];
+  for (let h of headers) {
+    let he = document.getElementById(h);
+    if (headers[i] !== h){
+      he.style.display = 'none';
+    } else {
+      he.style.display = 'block';
+    }
+  }
+  i += 1;
+
+  if (i >= headers.length) i = 0;
+
+  setTimeout(changeHeader, 6400, i);
 }

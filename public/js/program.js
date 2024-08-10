@@ -8,7 +8,7 @@ const program = {
         nl: '(Mega) spelletjes',
         en: '(Mega) boardgames'
       },
-      start: 1600,
+      start: 1700,
       end: 1800,
       alignment: 'left',
       description: {
@@ -21,10 +21,10 @@ const program = {
             nl: '3D-twister',
             en: '3D-twister'
         },
-        start: 1600,
+        start: 1700,
         end: 1800,
         alignment: 'right',
-		color_shift: 'true',
+		    color_shift: 'true',
         description: {
             nl: 'Het spel twister, wie kent het niet. Maar wat nu als de stippen niet alleen onder je op de mat liggen maar ook boven en naast je? Doe mee aan dit vrolijke spel en leer de botter van binnen kennen!',
             en: 'The game Twister, a classic. But how about when the dots are not only on the floor, but also on the ceiling and the walls? Participate in this fun game and get to know the Botter from the inside!'
@@ -128,7 +128,7 @@ const program = {
       },
       start: 2400,
       end: 100,
-      alignment: 'left',
+      alignment: 'right',
       description: {
         nl: 'Honger? Daar hebben we iets voor! Geniet van Brabants Beste Bangers met patat en andere frituursnacks',
         en: 'Hungry? We have the solution! Enjoy a midnight snack of fries and other fried snacks'
@@ -141,7 +141,7 @@ const program = {
       },
       start: 2400,
       end: 100,
-      alignment: 'right',
+      alignment: 'left',
       description: {
         nl: 'Dans op de beste feestnummers van onder de rivieren, en stiekem misschien ook een paar van boven de rivieren',
         en: 'Dance to the best songs the "Brabant" area of the Netherlands has to offer'
@@ -247,7 +247,7 @@ const program = {
             nl: 'Escaperoom op Trui',
             en: 'Escaperoom op Trui'
         },
-        start: 1600,
+        start: 1700,
         end: 1800,
         alignment: 'right',
         triple: 'true',
@@ -364,20 +364,6 @@ const program = {
     }
   ],
   wednesday: [
-    {
-      title: {
-        nl: 'Botter Rossen',
-        en: 'Botter Ross'
-      },
-      start: 1600,
-      end: 1800,
-      alignment: 'right',
-      color_shift: 'true',
-      description: {
-        nl: 'Botteraars kunnen goed beunen maar ook het wat fijnzinnigere werk is aan hun goed besteed. Stap aan boord voor deze creatieve activiteit en laat je door Vink meenemen naar de Waddenzee. <br><b>Let op! Deze activiteit heeft een vaste starttijd</b>',
-        en: 'The sailors of Trui are great at building, but they can also flourish in the more fine arts. Get on board for this creative activity And let Vink take you on a trip to the beautiful Waddensea. <br><b>Watch out! This activity has a set starting time</b>'
-      }
-    },
     {
       title: {
         nl: 'DnD Oneshot',
@@ -511,20 +497,6 @@ const program = {
         en: 'Tired from yesterday? Come chill out at our spa with kiddie pools, face masks, cooled drinks and summery tunes'
       }
     },
-	{
-		title: {
-			nl: 'VVThee',
-			en: 'VVTea',
-		},
-		start: 1600,
-		end: 1800,
-		alignment: 'right',
-		color_shift: 'true',
-		description: {
-			nl: 'Sluit je OWee relaxt af bij ons aan boord. De matjes liggen klaar, de thee is gezet en de koekjes zijn gebakken',
-			en: 'End your OWee on a relaxing note on board. The tea and cookies are ready!'
-		}
-	},
     {
       title: {
         nl: 'Eten @ Bolk',
