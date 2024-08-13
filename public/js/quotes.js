@@ -1,23 +1,9 @@
 let quotes = [
   {
-    person: 'Connor',
-    quote: {
-      nl: 'Tijdens de OWee kwam ik vaak bij de Bolk om te ontspannen, of juist om iets ongelofelijk mafs te doen. Sindsdien is er weinig veranderd.',
-      en: 'I often came to the Bolk to relax during the OWee, or to do something completely daft. Nothing really changed since then.'
-    }
-  },
-  {
     person: 'Luc',
     quote: {
       nl: 'Iedereen is knettergek op zijn eigen manier, iedereen is zichzelf, maar staan open voor anderen.',
       en: 'Everyone here is completely crazy in their own way, everyone is themselves, but open for others.'
-    }
-  },
-  {
-    person: 'Deww',
-    quote: {
-      nl: 'De Bolk is gewoon top kek.',
-      en: 'The Bolk is just peak cool.'
     }
   },
   {
@@ -49,13 +35,6 @@ let quotes = [
     }
   },
   {
-    person: 'Mees',
-    quote: {
-      nl: 'De Bolk heeft mijn nieuwe fiets onomkeerbaar bekladderd tijdens de OWee. rip. Twee drankjes later was ik lid.',
-      en: 'The Bolk irreversibly plastered my new bike during the OWee. rip. Two drinks later I found myself a member.'
-    }
-  },
-  {
     person: 'Linda',
     quote: {
       nl: 'Voornamelijk omdat ik merkte dat mensen hier ook gewoon een beetje spelletjes spelen. Bij 3D twister ben ik hier terrecht gekomen, heb ik mijn bril verloren en ben ik hier blijven hangen.',
@@ -67,13 +46,6 @@ let quotes = [
     quote: {
       nl: 'Omdat ik elke avond van de OWee bij de Bolk belandde vanwege de toffe mensen. En natuurlijk de tosti\'s.',
       en: 'Because I found myself at the Bolk ever evening during the OWee because of the great people. Also the sandwiches of course.'
-    }
-  },
-  {
-    person: 'Douwe',
-    quote: {
-      nl: 'Bolk is love, Bolk is life.',
-      en: 'Bolk is love, Bolk is life.'
     }
   },
   {
@@ -128,8 +100,8 @@ let quotes = [
   {
     person: 'Jasper',
     quote: {
-      nl: 'Kom dan!',
-      en: 'Come then!'
+      nl: 'Ik zocht gezelligheid, een xxl vriendengroep',
+      en: 'I was looking for good vibes, an xxl friendgroup'
     }
   },
   {
@@ -137,13 +109,6 @@ let quotes = [
     quote: {
       nl: 'Leuke mensen.',
       en: 'Fun folk.'
-    }
-  },
-  {
-    person: 'Stephen',
-    quote: {
-      nl: 'Leek mij wel grappig.',
-      en: 'I thought it was funny.'
     }
   },
   {
@@ -193,6 +158,41 @@ let quotes = [
     quote: {
       nl: 'Ik voelde me tijdens de OWee gelijk thuis bij de Bolk.',
       en: 'I immediately felt right at home at the Bolk during the OWee.'
+    }
+  },
+  {
+    person: 'Alice',
+    quote: {
+      nl: 'Tijdens de OWee was de Bolk absoluut het meest gezellig. Ik liep binnen en heb gelijk de hele avond nieuwe mensen ontmoet!',
+      en: 'During the OWee the Bolk was absolutely the best. I entered and met new people the whole night!'
+    }
+  },
+  {
+    person: 'Rob',
+    quote: {
+      nl: 'Op dinsdag avonden worden altijd de beste keuzes gemaajt.',
+      en: 'The best choices are always made on Tuesday nights.'
+    }
+  },
+  {
+    person: 'Daan',
+    quote: {
+      nl: 'Ik had het gevoel dat dit een plek was waar je jezelf kan zijn',
+      en: 'I got the feeling that this was a place where you can be yourself'
+    }
+  },
+  {
+    person: 'Tram',
+    quote: {
+      nl: 'Gezelligheid en lekker eten zonder dwang',
+      en: 'Good times and tasty food without pressure'
+    }
+  },
+  {
+    person: 'Anna',
+    quote: {
+      nl: 'Want mensen zijn gezellig ;)',
+      en: 'Because people are nice ;)'
     }
   }
 ]
