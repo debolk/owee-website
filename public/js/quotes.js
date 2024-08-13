@@ -237,11 +237,12 @@ async function renderQuotes() {
   shuffleQuotes();
   shuffleQuotes();
   getQuotesHTML();
+
   slides = document.getElementsByClassName('quote');
   let amount = 5;
   if (matchMedia("only screen and (max-device-width: 640px)").matches) amount = 1;
   showSlides(1, amount);
-  interval = setInterval(moveSlides, 13200, 5, true);
+  interval = setInterval(moveSlides, 16400, 5, true);
 }
 
 function moveSlides(n, auto = false) {
@@ -253,11 +254,13 @@ function moveSlides(n, auto = false) {
     elem.style.order = '';
     elem.classList.remove('active');
   }
+
   showSlides(slideIndex += n, n);
+
   if (!auto) {
     clearInterval(interval);
     setTimeout(function () {
-      setInterval(moveSlides, 2640, Math.abs(n), true);
+      setInterval(moveSlides, 16400, Math.abs(n), true);
     }, 128000)
   }
 }
