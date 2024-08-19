@@ -253,8 +253,8 @@ const program = {
         triple: 'true',
 		    color_shift: 'true',
         description: {
-            nl: 'Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden</b>',
-            en: 'Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity</b>'
+            nl: 'Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden.<br>Stuur een mailtje naar secretarisvvt@bu130.nl of kom langs aan boord.</b>',
+            en: 'Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity.<br>Send an email to secretarisvvt@bu130.nl or come by on board.</b>'
         }
     },
     {
