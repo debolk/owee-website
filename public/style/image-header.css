@@ -1,0 +1,33 @@
+.largelogo {
+  height: 64vh;
+  width: 100vw;
+  max-width: 100vw;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  position: relative;
+  display: block;
+
+  transition: 0.2s ease all;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position-y: 32%;
+}
+
+.content#image-header{
+  margin: 0;
+  padding: 0;
+  height: 71vh;
+  max-height: 71vh;
+}
+
+.content#image-header::after{
+  left: 0;
+  top: calc(100% - 4vh);
+  background-image: linear-gradient(315deg, #e2a7f1 25%, transparent 25%), linear-gradient(45deg, #e2a7f1 25%, transparent 25%);
+}
+
+@media only screen and (max-device-width: 640px) {
+  .largelogo {
+    background-position-x: 50%;
+  }
+}

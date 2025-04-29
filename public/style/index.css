@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: 'Stencil';
-  src: url('../fonts/STENCIL.ttf') format('truetype');
+  font-family: 'Futura';
+  src: url('../fonts/futurapress.ttf') format('truetype');
 }
 
 html {
@@ -30,13 +30,13 @@ body {
   margin: 0;
   font-family: 'Bierstadt Bold', sans-serif;
   font-weight: 500;
-  background-color: #d7855f;
+  background-color: #315fb3;
 }
 
 
 h1 {
   text-align: center;
-  font-family: 'Stencil', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-size: 3rem;
   padding-top: 3vh;
   padding-bottom: 3vh;
@@ -83,7 +83,7 @@ table{
   height: 4vh;
   width: 100vw;
   background-size: 4vh 100%;
-  background-image: linear-gradient(135deg, #d7855f 25%, transparent 25%), linear-gradient(225deg, #d7855f 25%, transparent 25%);
+  background-image: linear-gradient(135deg, #315fb3 25%, transparent 25%), linear-gradient(225deg, #315fb3 25%, transparent 25%);
   background-position: 0 0;
 }
 

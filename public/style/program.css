@@ -1,10 +1,10 @@
 .content#program{
-  color: #d7855f;
-  background-color: #245e8b;
+  color: #315fb3;
+  background-color: #e2a7f1;
   padding-bottom: 1vh;
 }
 .content#program::after{
-  background-image: linear-gradient(135deg, #245e8b 25%, transparent 25%), linear-gradient(225deg, #245e8b 25%, transparent 25%);
+  background-image: linear-gradient(135deg, #e2a7f1 25%, transparent 25%), linear-gradient(225deg, #e2a7f1 25%, transparent 25%);
 }
 
 #program table, #program th, #program td {
@@ -40,75 +40,75 @@
   table-layout: fixed;
   border-collapse: separate;
   position: absolute;
-  border: 2px solid #245e8b;
-  color: #245e8b;
-  background-color: #d7855f;
-  border-radius: 15px;
+  border: 0.125em solid #e2a7f1;
+  color: #e2a7f1;
+  background-color: #315fb3;
+  border-radius: 1em;
   transition: 0.4s ease all;
   z-index: 2;
 }
 
 .activity.color_shift{
-  border: 2px solid #d7855f;
-  color: #d7855f;
-  background-color: #245e8b;
+  border: 0.125em solid #315fb3;
+  color: #315fb3;
+  background-color: #e2a7f1;
   z-index: 3;
 }
 
 .activity.center{
-  width: calc(100% - 4px);
+  width: calc(100% - 0.25em);
   left: 0;
   right: 0;
 }
 
 .activity.left{
-  width: calc(49% - 4px);
+  width: calc(49% - 0.25em);
   left: 0;
 }
 .activity.right{
-  width: calc(49% - 4px);
+  width: calc(49% - 0.25em);
   right: 0;
 }
 
 .activity.center.triple{
-  width: calc(33.33333333% - 6px);
-  left: 33.33333333%;
+  width: calc(100%/3 - 0.375em);
+  left: calc(100%/3);
 }
 
 .activity.left.triple{
-  width: calc(33.33333333% - 6px);
+  width: calc(100%/3 - 0.375em);
 }
 
 .activity.right.triple{
-  width: calc(33.33333333% - 6px);
+  width: calc(100%/3 - 0.375em);
 }
 
 .activity.center.color_shift{
-  width: calc(100% - 4px);
-  left: 2px;
-  right: 2px;
+  width: calc(100% - 0.25em);
+  left: 0.25em;
+  right: 0.25em;
 }
 
 .activity.left.color_shift{
-  width: calc(49% - 4px);
-  left: 2px;
+  width: calc(49% - 0.25em);
+  left: 0.125em;
 }
 .activity.right.color_shift{
-  width: calc(49% - 4px);
-  right: 2px;
+  width: calc(49% - 0.25em);
+  right: 0.125em;
 }
 
 .activity.center.triple.color_shift{
-  width: calc(33.33333333% - 6px);
-  left: calc(33.33333333% + 2px);
+  width: calc(100%/3 - 0.375em);
+  left: calc(100%/3 + 0.125em);
 }
 
 .activity.left.triple.color_shift{
-  width: calc(33.33333333% - 6px);
+  width: calc(100%/3 - 0.375em);
 }
 
 .activity.right.triple.color_shift{
-  width: calc(33.33333333% - 6px);
+  width: calc(100%/3 - 0.375em);
 }
 
 #activity-content{
@@ -123,7 +123,7 @@
 }
 
 #description, #duration{
-  font-size: 1px;
+  font-size: 0.0625em;
   visibility: hidden;
   transition: 0.4s ease all;
 }
@@ -134,10 +134,10 @@
 
 .activity:hover, .activity:active{
   z-index: 12;
-  background-color: #245e8b;
-  color: #d7855f;
-  border-color: #d7855f;
-  width: calc(164% - 4px) !important;
+  background-color: #e2a7f1;
+  color: #315fb3;
+  border-color: #315fb3;
+  width: calc(164% - 0.25em) !important;
 }
 
 .activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{
@@ -195,7 +195,7 @@
   }
 
   .activity:hover, .activity:active{
-    width: calc(132% - 4px) !important;
+    width: calc(132% - 0.25em) !important;
   }
 
   .activity.left:hover, .activity.center:hover, .activity.left:active, .activity.center:active{

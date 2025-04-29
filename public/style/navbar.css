@@ -6,19 +6,19 @@
   z-index: 20;
   top: 8vh;
   left: -2px;
-  background-color: #d7855f;
-  color: #245e8b;
+  background-color: #315fb3;
+  color: #e2a7f1;
   overflow-x: hidden;
   transition: 1s ease all;
-  border-right: solid #245e8b 2px;
-  border-bottom: solid #245e8b 2px;
+  border-right: solid #e2a7f1 2px;
+  border-bottom: solid #e2a7f1 2px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #d7855f;
+  background-color: #315fb3;
   position: fixed;
   z-index: 640;
   top: 0;
@@ -26,7 +26,7 @@ ul {
   width: 100%;
   max-width: 100%;
   height: 5vh;
-  border-bottom-color: #245e8b;
+  border-bottom-color: #e2a7f1;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   overflow: hidden;
@@ -37,7 +37,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #245e8b;
+  color: #e2a7f1;
   height: calc(100% - 8px);
   top: 0;
   margin-top: 4px;
@@ -54,19 +54,19 @@ li.right{
 
 li button{
   display: flex;
-  font-family: 'Stencil', sans-serif;
+  font-family: 'Futura', sans-serif;
   text-align: center;
   background: none;
   border: none;
   height: 100%;
   align-items: center;
   font-size: 1.4rem;
-  color: #245e8b;
+  color: #e2a7f1;
   margin-top: 3.5%;
 }
 
 li button:hover{
-  color: #d7855f;
+  color: #315fb3;
 }
 
 li button img{
@@ -77,7 +77,7 @@ li button img{
 
 li a, li a:visited, li a:link{
   color: inherit;
-  font-family: 'Stencil', sans-serif;
+  font-family: 'Futura', sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.4rem;
@@ -87,8 +87,8 @@ li a, li a:visited, li a:link{
 }
 
 li:hover{
-  background-color: #245e8b;
-  color: #d7855f;
+  background-color: #e2a7f1;
+  color: #315fb3;
 }
 
 @media only screen and (max-device-width:1280px) { /* big landscape tablets, laptops, and desktops */
@@ -139,7 +139,7 @@ li:hover{
   }
 
   #navlinks li {
-    border-bottom: solid #245e8b 2px;
+    border-bottom: solid #e2a7f1 2px;
     border-radius: 0;
     padding-bottom: 0;
     margin: 0;

@@ -1,8 +1,20 @@
-@media only screen and (max-device-width:1280px) { /* big landscape tablets, laptops, and desktops */
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
 }
 
-@media only screen and (max-device-width:1024px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media only screen and (max-device-width:640px)  { /* smartphones, iPhone, portrait 480x320 phones */
-}
+At standard zoom 1em === 16px, multiply pixels by 1em/16px to get ems. For example, 320px === 20em.
