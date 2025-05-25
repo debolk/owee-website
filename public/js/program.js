@@ -5,30 +5,16 @@ const program = {
   monday: [
     {
       title: {
-        nl: '(Mega) spelletjes',
-        en: '(Mega) boardgames'
+        nl: 'Spelletjesmiddag',
+        en: 'Afternoon boardgames'
       },
       start: 1700,
       end: 1800,
-      alignment: 'left',
+      alignment: 'center',
       description: {
-        nl: 'Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Dit kan alleen maar voor ENORM veel plezier zorgen! <br>En ben je op zoek naar spellen van een normaler formaat? Dan ben je ook van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast.',
-        en: 'Do Four in a Row and Jenga give you nostalgic feelings? Come play it in MEGA-Style. Ensure your victory can be admired even from a distance or challenge your friends to a rematch. This can only provide a HUGE amount of fun! <br> And are you rather looking for normal-sized games? Then you are also welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people.'
+        nl: 'Ben je op zoek naar lekker rustig spelletjes spelen? Dan ben je van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast.',
+        en: 'Are you looking for having a nice, quiet time of boardgames? Then you are welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people.'
       }
-    },
-    {
-        title: {
-            nl: '3D-twister',
-            en: '3D-twister'
-        },
-        start: 1700,
-        end: 1800,
-        alignment: 'right',
-		    color_shift: 'true',
-        description: {
-            nl: 'Het spel twister, wie kent het niet. Maar wat nu als de stippen niet alleen onder je op de mat liggen maar ook boven en naast je? Doe mee aan dit vrolijke spel en leer de botter van binnen kennen!',
-            en: 'The game Twister, a classic. But how about when the dots are not only on the floor, but also on the ceiling and the walls? Participate in this fun game and get to know the Botter from the inside!'
-        }
     },
     {
       title: {
@@ -58,7 +44,7 @@ const program = {
     {
       title: {
         nl: 'Preimeppen',
-        en: 'Whacking with a Leek'
+        en: 'Whack a Leek'
       },
       start: 2100,
       end: 2200,
@@ -69,308 +55,12 @@ const program = {
       }
     },
     {
-        title: {
-            nl: 'Verhalen bij de olielamp',
-            en: 'Stories beneath the oil lamp'
-        },
-        start: 2200,
-        end: 2400,
-        alignment: 'right',
-		    color_shift: 'true',
-        description: {
-            nl: 'Trui is een heerlijke plek om tot rust te komen. Droogvallend op het wad tussen de zeehonden kun je genieten van de mooiste zonsondergangen. Deze intieme sfeer en de gezelligheid ervaar je ook op onze Trui in Delft. Sluit aan boord je avond gezellig af met sterrenkijken, een leuk verhaal en een scheepsborreltje',
-            en: 'Trui is an amazing place to calm down. Grounded in the Waddensea, between the seals, you can watch the most beautiful sunsets. This cozy environment can also be experienced on Trui in Delft! End your evening on board with a fun story and a sailors drink'
-        }
-    },
-    {
       title: {
-        nl: 'Throwback Party',
-        en: 'Throwback Party'
+          nl: 'Dungeons and Dragons',
+          en: 'Dungeons and Dragons'
       },
       start: 2200,
-      end: 2230,
-      alignment: 'left',
-      description: {
-        nl: 'Laat je terugnemen naar vroeger en ga los op de beste nummers uit je jeugd',
-        en: 'Be transported to your past and party to the best songs from your youth'
-      }
-    },
-    {
-      title: {
-        nl: 'Eurovisie Extravaganza',
-        en: 'Eurovision Extravaganza'
-      },
-      start: 2230,
-      end: 2300,
-      alignment: 'left',
-      description: {
-        nl: 'Het wordt een glitterfestijn met de toppers van de afgelopen 68 Songfestivals',
-        en: 'It will be a glitter party with the top songs from the past 68 years of Eurovision'
-      }
-    },
-    {
-      title: {
-        nl: 'De Skihut',
-        en: 'The Skihut'
-      },
-      start: 2300,
-      end: 2400,
-      alignment: 'left',
-      description: {
-        nl: 'Après-ski in augustus? Jawohl! Geniet van de beste muziek die onze oosterburen te bieden hebben',
-        en: 'Après ski in August? Jawohl! Enjoy the best music our eastern neighbours have to offer'
-      }
-    },
-    {
-      title: {
-        nl: 'Frituur',
-        en: 'Fried Hour'
-      },
-      start: 2400,
       end: 100,
-      alignment: 'right',
-      description: {
-        nl: 'Honger? Daar hebben we iets voor! Geniet van Brabants Beste Bangers met patat en andere frituursnacks',
-        en: 'Hungry? We have the solution! Enjoy a midnight snack of fries and other fried snacks'
-      }
-    },
-    {
-      title: {
-        nl: 'Brabants Beste Bangers',
-        en: 'Brabant\'s Best Bangers'
-      },
-      start: 2400,
-      end: 100,
-      alignment: 'left',
-      description: {
-        nl: 'Dans op de beste feestnummers van onder de rivieren, en stiekem misschien ook een paar van boven de rivieren',
-        en: 'Dance to the best songs the "Brabant" area of the Netherlands has to offer'
-      }
-    },
-    {
-      title: {
-        nl: 'Kinderdisco',
-        en: 'Children\'s Disco'
-      },
-      start: 100,
-      end: 200,
-      alignment: 'center',
-      description: {
-        nl: 'Ga los op de toppers van K3 en Kinderen voor Kinderen, en voel je even weer als kinds',
-        en: 'Go wild with the top songs of every Dutchperson’s childhood, and feel like a child again.'
-      }
-    },
-    {
-      title: {
-        nl: 'Happy Hour',
-        en: 'Happy Hour'
-      },
-      start: 130,
-      end: 200,
-      alignment: 'right',
-      description: {
-        nl: 'Laatste kans voor cocktails vanavond!<br><b>Korting op alle cocktails!</b>',
-        en: 'Last chance for cocktails tonight!<br><b>Discounts on all cocktails!</b>'
-      }
-    },
-    {
-      title: {
-        nl: 'Hardgaan',
-        en: 'Ravaging'
-      },
-      start: 200,
-      end: 300,
-      alignment: 'center',
-      description: {
-        nl: 'is wijn wens!',
-        en: 'is my wish!'
-      }
-    },
-    {
-      title: {
-        nl: 'Hakken en Beuken',
-        en: 'Chopping and Bonking'
-      },
-      start: 300,
-      end: 400,
-      alignment: 'center',
-      description: {
-        nl: 'Escaleren kun je leren',
-        en: 'Escalating is something you can learn'
-      }
-    },
-    {
-      title: {
-        nl: '4 uur cup-a-soup',
-        en: '4 \'O clock cup-a-soup'
-      },
-      start: 400,
-      end: 430,
-      alignment: 'center',
-      description: {
-        nl: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
-        en: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup-a-soup!'
-      }
-    }
-  ],
-  tuesday: [
-    {
-      title: {
-        nl: 'Pimp je fiets',
-        en: 'Pimp your bike'
-      },
-      start: 1600,
-      end: 1800,
-      alignment: 'left',
-      triple: 'true',
-      description: {
-        nl: 'Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling',
-        en: 'Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don’t have to worry about losing it anymore'
-      }
-    },
-    {
-      title: {
-        nl: 'Minecraft Strijkkralen',
-        en: 'Minecraft Ironing Beads'
-      },
-      start: 1600,
-      end: 1800,
-      alignment: 'center',
-      triple: 'true',
-      description: {
-        nl: 'Kom gezellig op de Bolk met de Pokkehandtas allerlei minecraftige figuren in strijkkralen maken en neem je mooie creaties naar huis!',
-        en: 'Come and make lots of minecraftian figures in ironing beads at the Bolk with the Pokkehandtas!'
-      }
-    },
-    {
-        title: {
-            nl: 'Escaperoom op Trui',
-            en: 'Escaperoom op Trui'
-        },
-        start: 1700,
-        end: 1800,
-        alignment: 'right',
-        triple: 'true',
-		    color_shift: 'true',
-        description: {
-            nl: 'Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden.<br>Stuur een mailtje naar secretarisvvt@bu130.nl of kom langs aan boord.</b>',
-            en: 'Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity.<br>Send an email to secretarisvvt@bu130.nl or come by on board.</b>'
-        }
-    },
-    {
-      title: {
-        nl: 'Eten @ Bolk',
-        en: 'Dinner @ Bolk'
-      },
-      start: 1800,
-      end: 2000,
-      alignment: 'center',
-      description: {
-        nl: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten!',
-        en: 'Dinner with the Bolk is really good, come and have a good meal!'
-      }
-    },
-    {
-      title: {
-        nl: 'Partygames',
-        en: 'Partygames'
-      },
-      start: 2000,
-      end: 2100,
-      alignment: 'left',
-      description: {
-        nl: 'Kom gezellig samen gamen op de Bolk! Maak je vrienden in met Mario Kart en nog veel andere games!',
-        en: 'Come and game at the Bolk! Find your new friends in Mario Kart and other plentiful games!'
-      }
-    },
-    {
-      title: {
-        nl: 'Kijken hoe het Klinkt',
-        en: 'See how it Sounds'
-      },
-      start: 2100,
-      end: 2200,
-      alignment: 'left',
-      description: {
-        nl: 'Weet jij hoe een wasmachine klinkt als het van 4 meter valt op de grond? Kom er hier achter!',
-        en: 'Do you know what sound a washing machine makes when it falls 4 meters to the ground? Come and find out here!'
-      }
-    },
-	{
-		title: {
-			nl: 'Speurtocht op de Boot',
-			en: 'Quest on the Boat'
-		},
-		start: 2000,
-		end: 2200,
-		alignment: 'right',
-		color_shift: 'true',
-		description: {
-			nl: 'Onze oude boot heeft veel rare onderdelen. Wist je bijvoorbeeld dat je beter op dan onder de deken kunt liggen en wil je weten wie Dirk is? Kom dan langs voor onze speurtocht en leer de Trui en haar bemanning kennen!',
-			en: 'Our old boat has many weird components. Do you want to know who "Dirk" is? Come join us for the quest on the boat and get to know Trui and her crew!'
-		}
-	},
-    {
-      title: {
-        nl: 'Kroegsport',
-        en: 'Bargames'
-      },
-      start: 2200,
-      end: 2400,
-      alignment: 'left',
-      description: {
-        nl: 'Ga samen darten, sjoelen, en andere sporten uit de kroeg doen. En natuurlijk ook spijkerslaan: een stuk hout, spijkers, een grote hamer, en veel geweld. Plezier gegarandeerd!',
-        en: 'Play darts, shuffleboard, and many other games from the pub. And we also present “whack-a-nail”: a block of wood, some nails, a large hammer, and a lot of violence. Guaranteed fun!'
-      }
-    },
-    {
-      title: {
-        nl: 'Speciaalbier proeverij',
-        en: 'Tasting Craft Beer'
-      },
-      start: 2200,
-      end: 2400,
-      alignment: 'right',
-      description: {
-        nl: 'Bier is er in allerlei soorten en maten. Hou je van een zoet biertje of juist eentje met een bittertje? Wil jij dat je bier zonder toevoegingen is gemaakt, of vind je het niet erg als er peper in zit? Hou je van koffie en bier? Dan kan dat ook! Het Bolksch BierbrouwersGilde kan je er van alles over vertellen tijdens deze speciaalbierproeverij!',
-        en: 'Craft beers come in many shapes and sizes. Do you like a sweet or a bitter pint? Or don’t you mind if it is brewed with pepper or coffee beans? The Bolksch BierbrouwersGilde (Craft Beer Brewing Guild of the Bolk) can tell you a ton of information with every sip you take!'
-      }
-    },
-    {
-      title: {
-        nl: 'Karaoke ft. Oliebollen',
-        en: 'Karoake ft. Oily Balls'
-      },
-      start: 2400,
-      end: 400,
-      alignment: 'center',
-      description: {
-        nl: 'Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf! En natuurlijk zijn er ook oliebollen om het nieuwe studiejaar te vieren',
-        en: 'Do you want to belt out the best songs all evening long? Then come to the karaoke and sing your lungs out! Featuring “oliebollen” to celebrate the new academic year'
-      }
-    },
-    {
-      title: {
-        nl: '4 uur cup-a-soup',
-        en: '4 \'O clock cup-a-soup'
-      },
-      start: 400,
-      end: 430,
-      alignment: 'center',
-      description: {
-        nl: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
-        en: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup-a-soup!'
-      }
-    }
-  ],
-  wednesday: [
-    {
-      title: {
-        nl: 'DnD Oneshot',
-        en: 'DnD Oneshot'
-      },
-      start: 1600,
-      end: 1900,
       alignment: 'left',
       description: {
         nl: 'We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^',
@@ -379,55 +69,15 @@ const program = {
     },
     {
       title: {
-        nl: 'Eten @ Bolk',
-        en: 'Dinner @ Bolk'
+        nl: 'Retrogames',
+        en: 'Retrogames'
       },
-      start: 1900,
-      end: 2100,
-      alignment: 'center',
-      description: {
-        nl: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten!',
-        en: 'Dinner with the Bolk is really good, come and have a good meal!'
-      }
-    },
-    {
-      title: {
-        nl: 'Will it ...?',
-        en: 'Will it ...?'
-      },
-      start: 2100,
-      end: 2300,
-      alignment: 'left',
+      start: 2200,
+      end: 2400,
+      alignment: 'right',
       description: {
         nl: '',
-          en: ''
-      }
-    },
-	{
-		title: {
-			nl: 'Vooronder rave',
-			en: 'Forecastle Rave'
-		},
-		start: 2100,
-		end: 2300,
-		alignment: 'right',
-		color_shift: 'true',
-		description: {
-			nl: 'Deze avond toveren we Trui om tot een unieke ravecave. Met veel geluid, mooie lichtjes en onze eigen DJ-Blikbierman!',
-			en: 'This night we transform Trui into a unique rave cave. With a lot of noise, beautiful lights and our own DJ Blikbierman!'
-		}
-	},
-    {
-      title: {
-        nl: 'Dozenfort --> Bierviltjesoorlog',
-        en: 'Cartboardfortress --> War \'o Coaster'
-      },
-      start: 2300,
-      end: 2400,
-      alignment: 'center',
-      description: {
-        nl: 'Eerst ga je een dozenfort bouwen daarna ga je tijdens een bierviltjesoorlog ga je met een net niet oneindige voorraad bierviltjes gooien vanuit de relatieve veiligheid van je fort. Gooi ze op je vrienden en/of je mentor. Alles is toegestaan in een bierviltjesoorlog. “Bierviltjes! Bierviltjes overal! Dit is chaos!” - de enige overlevende vorig jaar',
-        en: 'First you\'re building a cartboard fortress, then you will be able to throw a nearly unlimited supply of coasters from the relative safety of your fortress. Throw them at anyone.  “Beer mats, Beer mats everywhere!” - last years only survivor.'
+        en: ''
       }
     },
     {
@@ -437,23 +87,10 @@ const program = {
       },
       start: 2400,
       end: 200,
-      alignment: 'center',
+      alignment: 'right',
       description: {
-        nl: 'Wil jij je weer een kind voelen? Of wil je gewoon leuk bouwen? Kom dan bij ons met Kapla bouwen! Bouw zelf een brug, huis, Eifeltoren, of iets anders. Het enige limiet is je fantasie!',
+        nl: 'Wil jij je weer een kind voelen? Of wil je gewoon leuk bouwen? Kom dan bij ons met Kapla bouwen! Bouw zelf een brug, huis, Eiffeltoren, of iets anders. Het enige limiet is je fantasie!',
         en: 'Do you want to let out your inner kid? Do you want to practice your civil engineering skills? Then come and build Kapla with us! Build a bridge, house, Eiffel Tower, or something else. The only limit is your imagination!'
-      }
-    },
-    {
-      title: {
-        nl: 'BlikBierKwartier',
-        en: 'Canned Beer Drive'
-      },
-      start: 200,
-      end: 230,
-      alignment: 'center',
-      description: {
-        nl: 'Is dit een BlikBierBorrel? Wist je dat er een auto in de soos stond? Kom zuipen ofzo.',
-        en: 'Is this a CannedBeerDrink? Did you know there was a car in the soos? Come and drink or something.'
       }
     },
     {
@@ -461,7 +98,7 @@ const program = {
         nl: 'DIY Kapsalon',
         en: 'DIY Kapsalon'
       },
-      start: 230,
+      start: 200,
       end: 400,
       alignment: 'center',
       description: {
@@ -483,18 +120,204 @@ const program = {
       }
     }
   ],
-  thursday: [
+  tuesday: [
     {
       title: {
-        nl: 'Spa',
-        en: 'Spa'
+        nl: 'Pokkehandtas',
+        en: 'Pokkehandtas'
       },
       start: 1600,
       end: 1800,
+      alignment: 'center',
+      description: {
+        nl: '',
+        en: ''
+      }
+    },
+    {
+      title: {
+        nl: 'Eten @ Bolk',
+        en: 'Dinner @ Bolk'
+      },
+      start: 1800,
+      end: 2000,
+      alignment: 'center',
+      description: {
+        nl: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten!',
+        en: 'Dinner with the Bolk is really good, come and have a good meal!'
+      }
+    },
+    {
+      title: {
+        nl: 'Dozenfort-Bierviltjesoorlog',
+        en: 'Boxfort-Beer coaster war'
+      },
+      start: 2000,
+      end: 2100,
+      alignment: 'center',
+      description: {
+        nl: 'Eerst ga je een dozenfort bouwen daarna ga je tijdens een bierviltjesoorlog ga je met een net niet oneindige voorraad bierviltjes gooien vanuit de relatieve veiligheid van je fort. Gooi ze op je vrienden en/of je mentor. Alles is toegestaan in een bierviltjesoorlog. “Bierviltjes! Bierviltjes overal! Dit is chaos!” - de enige overlevende vorig jaar',
+        en: 'First you\'re building a cartboard fortress, then you will be able to throw a nearly unlimited supply of coasters from the relative safety of your fortress. Throw them at anyone.  “Beer mats, Beer mats everywhere!” - last year\'s only survivor.'
+      }
+    },
+    {
+      title: {
+        nl: 'Spelletjesavond',
+        en: 'Gamenight'
+      },
+      start: 2100,
+      end: 2400,
+      alignment: 'center',
+      description: {
+        nl: 'Ben je op zoek naar lekker rustig spelletjes spelen? Dan ben je van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast.',
+        en: 'Are you looking for having a nice, quiet time of boardgames? Then you are welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people.'
+      }
+    },
+    {
+      title: {
+        nl: 'Karaoke-Cocktailnight',
+        en: 'Karaoke-Cocktailnight'
+      },
+      start: 2400,
+      end: 400,
+      alignment: 'center',
+      description: {
+        nl: 'Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf met een lekker cock- of mocktail!',
+        en: 'Do you want to belt out the best songs all evening long? Then come to the karaoke and sing your lungs out with a tasty cock- or mocktail!'
+      }
+    },
+    {
+      title: {
+        nl: '4 uur cup-a-soup',
+        en: '4 \'O clock cup-a-soup'
+      },
+      start: 400,
+      end: 430,
+      alignment: 'center',
+      description: {
+        nl: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
+        en: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup-a-soup!'
+      }
+    }
+  ],
+  wednesday: [
+    {
+      title: {
+        nl: 'Dungeons and Dragons',
+        en: 'Dungeons and Dragons'
+      },
+      start: 1600,
+      end: 2000,
+      alignment: 'center',
+      description: {
+        nl: 'We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^',
+        en: 'We\'ve got lots of enthousiastic DM\'s at the Bolk that would love to DM an oneshot for you. Come visit faraway worlds with your group and feel free to roleplay in your own way ^^'
+      }
+    },
+    {
+      title: {
+        nl: 'Eten @ Bolk',
+        en: 'Dinner @ Bolk'
+      },
+      start: 2000,
+      end: 2200,
+      alignment: 'center',
+      description: {
+        nl: 'Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten!',
+        en: 'Dinner with the Bolk is really good, come and have a good meal!'
+      }
+    },
+    {
+      title: {
+        nl: 'Kijken hoe het klinkt',
+        en: 'See how it sounds'
+      },
+      start: 2200,
+      end: 2300,
+      alignment: 'center',
+      description: {
+        nl: 'Weet jij hoe een wasmachine klinkt als het van 4 meter valt op de grond? Kom er hier achter!',
+        en: 'Do you know what sound a washing machine makes when it falls 4 meters to the ground? Come and find out here!'
+      }
+    },
+    {
+      title: {
+        nl: 'Speciaalbier proeverij',
+        en: 'Craft beer tasting'
+      },
+      start: 2300,
+      end: 100,
       alignment: 'left',
       description: {
-        nl: 'Ook zo moe van gisteren? Kom chillen met zwembadjes, gezichtscreme, gekoelde drankjes en je rustige zomerse muziek',
-        en: 'Tired from yesterday? Come chill out at our spa with kiddie pools, face masks, cooled drinks and summery tunes'
+        nl: 'Bier is er in allerlei soorten en maten. Hou je van een zoet biertje of juist eentje met een bittertje? Wil jij dat je bier zonder toevoegingen is gemaakt, of vind je het niet erg als er peper in zit? Hou je van koffie en bier? Dan kan dat ook! Het Bolksch BierbrouwersGilde kan je er van alles over vertellen tijdens deze speciaalbierproeverij!',
+        en: 'Craft beers come in many shapes and sizes. Do you like a sweet or a bitter pint? Or don’t you mind if it is brewed with pepper or coffee beans? The Bolksch BierbrouwersGilde (Craft Beer Brewing Guild of the Bolk) can tell you a ton of information with every sip you take!'
+      }
+    },
+    {
+      title: {
+        nl: 'Kroegsport',
+        en: 'Bar sports'
+      },
+      start: 2300,
+      end: 100,
+      alignment: 'right',
+      description: {
+        nl: '',
+        en: ''
+      }
+    },
+    {
+      title: {
+        nl: 'BlikBierKwartier',
+        en: 'Canned Beer Drive'
+      },
+      start: 100,
+      end: 230,
+      alignment: 'center',
+      description: {
+        nl: 'Is dit een BlikBierBorrel? Wist je dat er een auto in de soos stond? Kom zuipen ofzo.',
+        en: 'Is this a CannedBeerDrink? Did you know there was a car in the soos? Come and drink or something.'
+      }
+    },
+    {
+      title: {
+        nl: 'Ochtendgymnastiek',
+        en: 'Morning calisthenics'
+      },
+      start: 230,
+      end: 400,
+      alignment: 'center',
+      description: {
+        nl: '',
+        en: ''
+      }
+    },
+    {
+      title: {
+        nl: '4 uur cup-a-soup',
+        en: '4 \'O clock cup-a-soup'
+      },
+      start: 400,
+      end: 430,
+      alignment: 'center',
+      description: {
+        nl: 'Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!',
+        en: 'Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup-a-soup!'
+      }
+    }
+  ],
+  thursday: [
+    {
+      title: {
+        nl: 'Chillûûûh',
+        en: 'Chillllll'
+      },
+      start: 1600,
+      end: 1800,
+      alignment: 'center',
+      description: {
+        nl: 'Ook zo moe van deze week? Kom lekker chillen met onze leden, zwembadjes, koude drankjes en spelletjes.',
+        en: 'Are you also so tired from this week? Come and chill out at with us, tiny swimming pools, cool drinks and some boardgames.'
       }
     },
     {
