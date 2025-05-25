@@ -198,7 +198,7 @@ let quotes = [
 ]
 
 
-let templ = '<img src="./images/quotes/{NAME}.jpg"><p>{QUOTE}</p><br><p class="name">- {NAME}</p>'
+let templ = '<img src="images/quotes/{NAME}.jpg"><p>{QUOTE}</p><p class="name">- {NAME}</p>'
 
 let slideIndex = 0;
 
@@ -229,8 +229,8 @@ async function renderQuotes() {
     setTimeout(renderQuotes, 10);
     return;
   }
-  document.getElementById('quotes-container').innerHTML = '<a class="prev" onclick="moveSlides(-5)">&#10094;</a>\n' +
-    '    <a class="next" onclick="moveSlides(5)">&#10095;</a>';
+  document.getElementById('quotes-container').innerHTML = '<a class="prev" onclick="moveSlides(-1)">&#10094;</a>\n' +
+    '    <a class="next" onclick="moveSlides(1)">&#10095;</a>';
 
   shuffleQuotes();
   shuffleQuotes();
@@ -239,15 +239,16 @@ async function renderQuotes() {
   getQuotesHTML();
 
   slides = document.getElementsByClassName('quote');
-  let amount = 5;
-  if (matchMedia("only screen and (max-device-width: 640px)").matches) amount = 1;
+  let amount = 1;
+  if (matchMedia("only screen and (min-device-width: 641px)").matches) amount = 3;
   showSlides(1, amount);
-  interval = setInterval(moveSlides, 16400, 5, true);
+  interval = setInterval(moveSlides, 16400, 1, true);
 }
 
 function moveSlides(n, auto = false) {
-  if (matchMedia("only screen and (max-device-width: 640px)").matches &&
-    n !== -1 && n !== 1) n /= 5;
+  if (matchMedia("only screen and (min-device-width: 641px)").matches) {
+    n = n * 3;
+  }
 
   while (document.getElementsByClassName('active').length > 0) {
     let elem = document.getElementsByClassName('active')[0];
@@ -260,12 +261,12 @@ function moveSlides(n, auto = false) {
   if (!auto) {
     clearInterval(interval);
     setTimeout(function () {
-      setInterval(moveSlides, 16400, Math.abs(n), true);
+      setInterval(moveSlides, 16400, 1, true);
     }, 128000)
   }
 }
 
-function showSlides(direction, amount = 5) {
+function showSlides(direction, amount) {
   amount = Math.abs(amount);
   for (let i = 0; i < amount; i++) {
     if (slideIndex + i >= slides.length) slideIndex = -i;

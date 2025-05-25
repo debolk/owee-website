@@ -1,0 +1,115 @@
+.content#contact{
+  color: #315fb3;
+  background-color: #e2a7f1;
+  position: relative;
+}
+
+.content#contact::after{
+  background-image: linear-gradient(135deg, #e2a7f1 25%, transparent 25%), linear-gradient(225deg, #e2a7f1 25%, transparent 25%);
+}
+
+#contact #desktop {
+  display: none;
+}
+
+#contact #mobile {
+  display: table;
+}
+
+#contact #mobile .spacing{
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+
+#contact img{
+  height: 8vh;
+  width: 8vh;
+}
+
+#contact a{
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#contact a:visited, #contact a:link{
+  color: #0073EE;
+  text-decoration: underline;
+}
+
+#contact .right{
+  text-align: right;
+  right: 0;
+  position: absolute;
+}
+
+#contact .center{
+  text-align: center;
+}
+
+#contact p{
+  margin: 0;
+}
+
+#contact td{
+  vertical-align: top;
+  position: relative;
+  height: fit-content;
+}
+
+@media (min-device-width:321px) {/* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-device-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+  #contact a, #contact p{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-device-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+  #contact #desktop {
+    display: table;
+    margin-bottom: 0;
+  }
+
+  #contact #mobile {
+    display: none;
+  }
+
+  #contact a, #contact p {
+    font-size: 1rem;
+  }
+
+  #contact img {
+    height: 12vh;
+    width: 12vh;
+  }
+}
+
+@media (min-device-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-device-width:1025px) { /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-device-width:1281px) { /* hi-res laptops and desktops */
+}
+
+
+
+/*@media only screen and (max-device-width: 640px){*/
+/*  #contact #desktop{*/
+/*    display: none;*/
+/*  }*/
+
+/*  #contact #mobile{*/
+/*    display: table;*/
+/*  }*/
+
+/*  #contact #mobile .spacing{*/
+/*    margin-top: 2.5vh;*/
+/*    margin-bottom: 2.5vh;*/
+/*  }*/
+/*}*/
