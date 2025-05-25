@@ -56,6 +56,9 @@
 }
 
 @media (min-device-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  .content#image-header{
+    margin-top: 6vh;
+  }
 }
 
 @media (min-device-width:1281px) { /* hi-res laptops and desktops */

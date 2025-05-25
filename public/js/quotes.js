@@ -204,8 +204,6 @@ let slideIndex = 0;
 
 let slides = [];
 
-let interval;
-
 function shuffleQuotes(){
   quotes = quotes.sort( () => Math.random() - 0.5);
 }
@@ -240,13 +238,20 @@ async function renderQuotes() {
 
   slides = document.getElementsByClassName('quote');
   let amount = 1;
-  if (matchMedia("only screen and (min-device-width: 641px)").matches) amount = 3;
+  if (matchMedia("(min-device-width:1281px)").matches) amount = 5;
+  else if (matchMedia("(min-device-width:1025px)").matches) amount = 4;
+  else if (matchMedia("(min-device-width: 641px)").matches) amount = 3;
   showSlides(1, amount);
-  interval = setInterval(moveSlides, 16400, 1, true);
+  let interval = setInterval(moveSlides, 16400, 1, true);
+  window.sessionStorage.setItem("quotes-interval", interval.toString());
 }
 
 function moveSlides(n, auto = false) {
-  if (matchMedia("only screen and (min-device-width: 641px)").matches) {
+  if (matchMedia("(min-device-width:1281px)").matches) {
+    n = n * 5;
+  } else if (matchMedia("(min-device-width:1025px)").matches) {
+    n = n * 4;
+  } else if (matchMedia("(min-device-width: 641px)").matches) {
     n = n * 3;
   }
 
@@ -259,11 +264,22 @@ function moveSlides(n, auto = false) {
   showSlides(slideIndex += n, n);
 
   if (!auto) {
-    clearInterval(interval);
-    setTimeout(function () {
-      setInterval(moveSlides, 16400, 1, true);
-    }, 128000)
+    clearInterval(Number(window.sessionStorage.getItem("quotes-interval")));
+
+    let timeout = window.sessionStorage.getItem("quotes-timeout");
+    if (timeout != null) {
+      timeout = Number(timeout);
+      clearTimeout(timeout);
+      window.sessionStorage.removeItem("quotes-timeout");
+    }
+
+    timeout = setTimeout(function () {
+      let interval = setInterval(moveSlides, 16400, 1, true);
+      window.sessionStorage.setItem("quotes-interval", interval.toString());
+    }, 1200000);
+    window.sessionStorage.setItem("quotes-timeout", timeout.toString());
   }
+
 }
 
 function showSlides(direction, amount) {

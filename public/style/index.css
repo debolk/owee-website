@@ -71,10 +71,6 @@ table{
   background: none;
   width: 80%;
   max-width: 80%;
-  /*background-image: url('../images/soos.svg'), url('../images/soos.svg');*/
-  /*background-repeat: repeat-y, repeat-y;*/
-  /*background-position-x: 1vw, 96vw;*/
-  /*background-size: 3vw;*/
 }
 
 .content::after {
@@ -119,15 +115,10 @@ table{
 }
 
 @media (min-device-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-  html{
-    font-size: 1rem;
-  }
-
   .content{
     max-width: 90%;
     width: 90%;
     padding: 8vh 5vw 8vh;
-    background: none;
   }
 
   table{
@@ -141,11 +132,25 @@ table{
 @media (min-device-width:1025px) { /* big landscape tablets, laptops, and desktops */
 
   .content{
-    max-width: 60%;
-    width: 60%;
+    max-width: 80vw;
+    width: 80vw;
+    padding: 8vh 10vw 8vh;
   }
 
 }
 @media (min-device-width:1281px) { /* hi-res laptops and desktops */
+
+  .content{
+    width: 60vw;
+    padding: 8vh 20vw 8vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 
 }

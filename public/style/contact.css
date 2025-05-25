@@ -92,6 +92,16 @@
 }
 
 @media (min-device-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  #contact table{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #contact img {
+    height: 8vh;
+    width: 8vh;
+  }
 }
 
 @media (min-device-width:1281px) { /* hi-res laptops and desktops */
