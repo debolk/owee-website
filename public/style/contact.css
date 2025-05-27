@@ -105,21 +105,9 @@
 }
 
 @media (min-device-width:1281px) { /* hi-res laptops and desktops */
+  #contact table {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
-
-
-
-/*@media only screen and (max-device-width: 640px){*/
-/*  #contact #desktop{*/
-/*    display: none;*/
-/*  }*/
-
-/*  #contact #mobile{*/
-/*    display: table;*/
-/*  }*/
-
-/*  #contact #mobile .spacing{*/
-/*    margin-top: 2.5vh;*/
-/*    margin-bottom: 2.5vh;*/
-/*  }*/
-/*}*/
