@@ -3,7 +3,7 @@
 }
 
 #navbar-mobile {
-  display: block;
+  display: flex;
 }
 
 #navlinks {
@@ -84,7 +84,7 @@ li button{
   background: none;
   font-size: 2rem;
 
-  padding-top: 0.3125rem;
+  padding: 0.3125rem;
 
   color: #e2a7f1;
   border: none;
@@ -98,10 +98,7 @@ li button:hover{
 }
 
 li button img{
-  height: 1.5rem;
-  padding-top: 0.125rem;
-  margin-top: -3.5%;
-  margin-right: 0.5rem;
+  height: 2rem;
 }
 
 li a, li a:visited, li a:link{
@@ -120,7 +117,11 @@ li a, li a:visited, li a:link{
 
 @media only screen and (min-device-width:321px) {
   li a, li a:visited, li a:link {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  #navlinks.active {
+    width: 50%;
   }
 }
 
@@ -236,11 +237,11 @@ li a, li a:visited, li a:link{
 @media only screen and (min-device-width:1281px) { /* hi-res laptops and desktops */
 
   li a, li a:visited, li a:link {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   li button {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   li button img {
