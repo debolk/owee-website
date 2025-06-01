@@ -197,7 +197,6 @@ let quotes = [
   }
 ]
 
-
 let templ = '<img src="images/quotes/{NAME}.jpg"><p>{QUOTE}</p><p class="name">- {NAME}</p>'
 
 let slideIndex = 0;
@@ -240,7 +239,8 @@ async function renderQuotes() {
   let amount = 1;
   if (matchMedia("(min-device-width:1281px)").matches) amount = 5;
   else if (matchMedia("(min-device-width:1025px)").matches) amount = 4;
-  else if (matchMedia("(min-device-width: 641px)").matches) amount = 3;
+  else if (matchMedia("(min-device-width:961px)").matches) amount = 3;
+  else if (matchMedia("(min-device-width:641px)").matches) amount = 2;
   showSlides(1, amount);
   let interval = setInterval(moveSlides, 16400, 1, true);
   window.sessionStorage.setItem("quotes-interval", interval.toString());
@@ -251,8 +251,10 @@ function moveSlides(n, auto = false) {
     n = n * 5;
   } else if (matchMedia("(min-device-width:1025px)").matches) {
     n = n * 4;
-  } else if (matchMedia("(min-device-width: 641px)").matches) {
+  } else if (matchMedia("(min-device-width:961px)").matches) {
     n = n * 3;
+  } else if (matchMedia("(min-device-width:641px)").matches) {
+    n = n * 2;
   }
 
   while (document.getElementsByClassName('active').length > 0) {

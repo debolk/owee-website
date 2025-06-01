@@ -17,13 +17,14 @@
   background-color: #315fb3;
   color: #e2a7f1;
   overflow-x: hidden;
+  white-space: nowrap;
   transition: 1s ease all;
   border-right: solid #e2a7f1 2px;
   border-bottom: solid #e2a7f1 2px;
 }
 
 #navlinks.active{
-  width: 40%;
+  width: 60%;
 }
 
 #navlinks li a{
@@ -84,7 +85,8 @@ li button{
   background: none;
   font-size: 2rem;
 
-  padding: 0.3125rem;
+  padding: 0.3125rem 0.3125rem 0.4375rem;
+  margin: 0 0 0 0;
 
   color: #e2a7f1;
   border: none;
@@ -120,6 +122,14 @@ li a, li a:visited, li a:link{
     font-size: 2rem;
   }
 
+  li button{
+    margin-right: 0.3125rem;
+  }
+
+  li button img{
+    height: 2.5rem;
+  }
+
   #navlinks.active {
     width: 50%;
   }
@@ -142,11 +152,6 @@ li a, li a:visited, li a:link{
 
   li a, li a:visited, li a:link {
     font-size: 2.5rem;
-  }
-
-  li button img {
-    height: 85%;
-    margin-right: 1rem;
   }
 
   li:hover {
@@ -174,7 +179,11 @@ li a, li a:visited, li a:link{
   }
 
   li button img {
-    margin-right: 0.5rem;
+    height: 2.75rem;
+  }
+
+  li button{
+    margin-right: 0.125rem;
   }
 }
 
@@ -192,9 +201,8 @@ li a, li a:visited, li a:link{
   }
 
   li button img {
-    width: 85%;
-    height: 85%;
-    margin-right: 0.125rem;
+    width: 1.75rem;
+    height: 1.75rem;
   }
 
   #navlinks li a {
@@ -219,33 +227,36 @@ li a, li a:visited, li a:link{
     height: 6vh;
   }
 
+  li {
+    margin-bottom: 0.125rem;
+  }
+
   li a, li a:visited, li a:link {
     font-size: 1.25rem;
   }
 
   li button {
-    font-size: 1.25rem;
+    margin-top: 0.125rem;
   }
 
   li button img {
-    margin-right: 0.5rem;
-    margin-bottom: 0.125rem;
-    width: 2rem;
+    width: 1.5rem;
   }
 }
 
 @media only screen and (min-device-width:1281px) { /* hi-res laptops and desktops */
 
   li a, li a:visited, li a:link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   li button {
-    font-size: 1.5rem;
+    margin-right: 0;
+    margin-top: 0.125rem;
   }
 
   li button img {
-    width: 2.5rem;
+    width: 1.75rem;
   }
 
 }
