@@ -12,7 +12,7 @@
   width: 0;
   position: fixed;
   z-index: 20;
-  top: 8vh;
+  top: 2.5rem;
   left: -2px;
   background-color: #315fb3;
   color: #e2a7f1;
@@ -42,7 +42,7 @@ ul {
   left: 0;
   width: 100vw;
   max-width: 100vw;
-  height: 8vh;
+  height: 2.5rem;
   border-bottom-color: #e2a7f1;
   border-bottom-width: 0.125rem;
   border-bottom-style: solid;
@@ -138,11 +138,11 @@ li a, li a:visited, li a:link{
 @media only screen and (min-device-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
   ul {
-    height: 6vh;
+    height: 3.5rem;
   }
 
   #navlinks {
-    top: 6vh;
+    top: 3.5rem;
     font-size: 2rem;
   }
 
@@ -161,15 +161,6 @@ li a, li a:visited, li a:link{
 }
 
 @media only screen and (min-device-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-
-  ul {
-    height: 4vh;
-  }
-
-  #navlinks {
-    top: 4vh;
-  }
-
   li a, li a:visited, li a:link {
     font-size: 3rem;
   }
@@ -189,11 +180,11 @@ li a, li a:visited, li a:link{
 
 @media only screen and (min-device-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   ul{
-    height: 8vh;
+    height: 2.5rem;
   }
 
   #navlinks {
-    top: 8vh;
+    top: 2.5rem;
   }
 
   li a, li a:visited, li a:link {
@@ -224,7 +215,7 @@ li a, li a:visited, li a:link{
   }
 
   ul {
-    height: 6vh;
+    height: 2.5rem;
   }
 
   li {
@@ -263,6 +254,6 @@ li a, li a:visited, li a:link{
 
 @media only screen and (min-device-width:1921px) { /* UHD */
   ul {
-    height: 4vh;
+    height: 3rem;
   }
 }

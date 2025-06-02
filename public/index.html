@@ -14,11 +14,17 @@
   <script src="./js/program.js" async onload="renderProgram();" onresize="renderProgram();" onchange="renderProgram();"></script>
   <script src="./js/quotes.js" async onload="renderQuotes();" onresize="renderQuotes();" onchange="renderQuotes();" ></script>
 
+  <link rel="stylesheet" href="style/image-header.css">
 </head>
 <body>
 
   <include-html src="navbar.html"></include-html>
-  <include-html src="../image-header.html"></include-html>
+  <div class="content" id="image-header">
+    <img id="h1" class="largelogo" src="./images/logo.svg" alt="OWee Logo" style="background-image: url('images/headers/owee21.webp'); background-position-y: bottom">
+    <img id="h2" class="largelogo" src="./images/logo.svg" alt="OWee Logo" style="display: none; background-image: url('images/headers/kerstdiner.webp')">
+    <img id="h3" class="largelogo" src="./images/logo.svg" alt="OWee Logo" style="display: none; background-image: url('images/headers/soosheader.webp'); background-position-y: bottom">
+    <img id="h4" class="largelogo" src="./images/logo.svg" alt="OWee Logo" style="display: none; background-image: url('images/headers/pyjamaborrel.webp'); background-position-y: bottom">
+  </div>
   <include-html src="main.html"></include-html>
   <include-html src="association.html"></include-html>
   <include-html src="program.html"></include-html>

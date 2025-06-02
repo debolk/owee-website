@@ -257,8 +257,8 @@ function moveSlides(n, auto = false) {
     n = n * 2;
   }
 
-  while (document.getElementsByClassName('active').length > 0) {
-    let elem = document.getElementsByClassName('active')[0];
+  while (document.getElementsByClassName('quote active').length > 0) {
+    let elem = document.getElementsByClassName('quote active')[0];
     elem.style.order = '';
     elem.classList.remove('active');
   }

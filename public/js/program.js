@@ -438,6 +438,21 @@ function setupProgram() {
   return [duration, rows, hnm, element];
 }
 
+function getActiveDay(){
+  let now = new Date();
+  let OWeeYear = 2025;
+  let OWeeMonth = 8;
+  let OWeeDays = [18, 19, 20, 21];
+
+  if (now.getFullYear() === OWeeYear
+    && now.getMonth() === OWeeMonth
+    && OWeeDays.includes(now.getDate())){ // Current local time is during the OWee
+    return OWeeDays.indexOf(now.getDate());
+  } else { // OWee is not now, return 0 (Monday)
+    return 0;
+  }
+}
+
 function renderDayMobile(day, plan, duration, rows, timetable) {
   let table = document.createElement('table');
   let headers = document.createElement('tr');
@@ -467,11 +482,30 @@ function renderDayMobile(day, plan, duration, rows, timetable) {
 function renderProgramMobile() {
   let [duration, rows, timetable, element] = setupProgram();
 
-  if(getCookie('lang') === 'nl') {
+  let prevTop = document.createElement("a");
+  prevTop.classList.add("prev");
+  prevTop.classList.add("selector_top");
+  prevTop.innerHTML = "&#10094;";
+  //prevTop.onclick = moveProgramme(-1);
+
+  let nextTop = document.createElement("a");
+  nextTop.classList.add("next");
+  nextTop.classList.add("selector_top");
+  nextTop.innerHTML = "&#10095;";
+  //nextTop.onclick = moveProgramme(1);
+
+  let prevBottom = prevTop.cloneNode(true);
+  let nextBottom = nextTop.cloneNode(true);
+  prevBottom.classList.replace("selector_top", "selector_bottom");
+  nextBottom.classList.replace("selector_top", "selector_bottom");
+
+  element.append(prevTop, nextTop, prevBottom, nextBottom);
+
+  if (getCookie('lang') === 'nl') {
     for (let day of [['Maandag', program.monday],
       ['Dinsdag', program.tuesday],
       ['Woensdag', program.wednesday],
-      ['Donderdag', program.thursday]]){
+      ['Donderdag', program.thursday]]) {
       let table = renderDayMobile(day[0], day[1], duration, rows, timetable);
       element.appendChild(table);
     }
@@ -479,12 +513,13 @@ function renderProgramMobile() {
     for (let day of [['Monday', program.monday],
       ['Tuesday', program.tuesday],
       ['Wednesday', program.wednesday],
-      ['Thursday', program.thursday]]){
+      ['Thursday', program.thursday]]) {
       let table = renderDayMobile(day[0], day[1], duration, rows, timetable);
       element.appendChild(table);
     }
   }
-  setTimeout(resizeText, 500, rows);
+  setTimeout(resizeText, 250, rows);
+  element.children.item(getActiveDay() + 4).classList.add("active");
 }
 
 function renderProgramDesktop() {
@@ -533,9 +568,9 @@ async function renderProgram() {
   }
 
   document.getElementById('program-container').innerHTML = '';
-  if (matchMedia('only screen and (max-device-width: 640px)').matches) {
-    renderProgramMobile();
-  } else {
+  if (matchMedia('only screen and (min-device-width: 961px)').matches) {
     renderProgramDesktop();
+  } else {
+    renderProgramMobile();
   }
 }
