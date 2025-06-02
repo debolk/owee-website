@@ -260,3 +260,9 @@ li a, li a:visited, li a:link{
   }
 
 }
+
+@media only screen and (min-device-width:1921px) { /* UHD */
+  ul {
+    height: 4vh;
+  }
+}

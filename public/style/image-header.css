@@ -72,3 +72,9 @@
     padding-top: calc(5% - 6vh);
   }
 }
+
+@media only screen and (min-device-width:1921px) { /* UHD */
+  .content#image-header {
+    margin-top: 4vh;
+  }
+}

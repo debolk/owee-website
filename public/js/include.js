@@ -11,7 +11,7 @@ function includeHTML(){
 
   for (let e of elements){
     if (e.hasAttribute("src")) {
-      fetch(`./html/${lang}/${e.getAttribute("src")}`)
+      fetch(`html/${lang}/${e.getAttribute("src")}`)
         .then((res) => res.text())
         .then((html) => {
           let v = document.createElement("div");
@@ -20,7 +20,7 @@ function includeHTML(){
           v.classList.add("included");
           e.parentNode.replaceChild(v, e);
         })
-        .catch((e) => console.error(e, `./html/${lang}/${e.getAttribute("src")}`));
+        .catch((e) => console.error(e, `html/${lang}/${e.getAttribute("src")}`));
     }
   }
 
