@@ -1,0 +1,154 @@
+{
+	"translations": {
+		"megaspellen": "Megagames",
+		"pimp_je_fiets": "Pimp your bike",
+		"3d_twister_(vvt)": "3D twister (VVT)",
+		"bierviltjesoorlog": "Coasterwar",
+		"dozenfort": "Boxfort",
+		"speurtocht_(vvt)": "Treasure hunt (VVT)",
+		"retrogames": "Retrogames",
+		"spelletjesavond": "Boardgamenight",
+		"kapla": "Kapla",
+		"4_uur_cup_a_soup": "4 'O clock cup-a-soup",
+		"eten_@_bolk": "Dinner @ Bolk",
+		"arts_and_crafts": "Arts and Crafts",
+		"escape_room_(vvt)": "Escape Room (VVT)",
+		"weerwolven": "Werewolves",
+		"preimeppen": "Wacking with leek",
+		"sterrenkijken_(vvt)": "Stargazing on the boat (VVT)",
+		"karaoke_cocktailnight": "Karaoke cocktailnight",
+		"d&d": "Dungeons and Dragons",
+		"botter_rossen_(vvt)": "Painting with Boat Ross (VVT)",
+		"deken_is_lava_(vvt)": "Carpet is lava (VVT)",
+		"kijken_hoe_het_klinkt": "Watch How It Sounds",
+		"spebi_proeverij": "Craft Beer tasting",
+		"kroegsport": "Barsports",
+		"blikbierkwartier": "CannedBeerDrive",
+		"dinsdag": "TUESDAY",
+		"chillûûûûh": "Chillllll",
+		"vvthee_(vvt)": "VVTea (VVT)",
+		"band_op_de_boot": "Band on the Boat"
+	},
+	"descriptions": {
+		"megaspellen": {
+			"nl": "Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Of probeer iets anders en ga spijkerslaan. Iedereen om een GROTE boomstronk, spijkers en hamers, dit kan alleen maar voor ENORM veel plezier zorgen!",
+			"en": "Do Connect Four and Jenga give you nostalgic feelings? Play it in MEGA. Make sure that your victory can also be admired from a distance or challenge your friends to a rematch. Or try something different and play Nail Stump. Everyone around a BIG tree stump, nails and hammers, this can only lead to a HUGE amount of fun!"
+		},
+		"pimp_je_fiets": {
+			"nl": "Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling",
+			"en": "Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don\\u2019t have to worry about losing it anymore"
+		},
+		"3d_twister_(vvt)": {
+			"nl": "Het spel twister, wie kent het niet. Maar wat nu als de stippen niet alleen onder je op de mat liggen maar ook boven en naast je? Doe mee aan dit vrolijke spel en leer de botter van binnen kennen!",
+			"en": "The game Twister, a classic. But how about when the dots are not only on the floor, but also on the ceiling and the walls? Participate in this fun game and get to know the Botter from the inside!"
+		},
+		"bierviltjesoorlog": {
+			"nl": "Ga met een net niet oneindige voorraad bierviltjes gooien vanuit de relatieve veiligheid van een fort (of niet). Gooi ze op vrienden, partners, mentors of wildvreemde mensen. Alles is toegestaan in een bierviltjesoorlog! \"Bierviltjes! Bierviltjes overal! Dit is chaos!\" - de enige overlevende van vorig jaar",
+			"en": "Throw coasters from the relative safety of a cardboard fortress with a nearly unlimited supply of coasters! Throw them at your friends, partners, mentors or complete strangers. Everything is allowed during a coasterwar! \"Coasters! Coasters everywhere! This is chaos!\" - last year's sole survivor"
+		},
+		"dozenfort": {
+			"nl": "Kom en bouw een dozenfort om te verstoppen van de chaos gecree\\u00ebrd door de bierviltjes!",
+			"en": "Come and build a boxfort so you can hide from all the coasters!"
+		},
+		"speurtocht_(vvt)": {
+			"nl": "Onze oude boot heeft veel rare onderdelen. Wist je bijvoorbeeld dat je beter op dan onder de deken kunt liggen en wil je weten wie Dirk is? Kom dan langs voor onze speurtocht en leer de Trui en haar bemanning kennen!",
+			"en": "Our old boat has many weird components. Do you want to know who \"Dirk\" is? Come join us for the quest on the boat and get to know Trui and her crew!"
+		},
+		"retrogames": {
+			"nl": "Ken jij je klassiekers nog? Daag je vrienden uit in een potje Mario Kart, Super Smash of andere spelletjes!",
+			"en": "Do you know your classics? Challenge your friends in a game of Mario Kart, Super Smash and many more games!"
+		},
+		"spelletjesavond": {
+			"nl": "Ben je op zoek naar lekker rustig spelletjes spelen? Dan ben je van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast",
+			"en": "Are you looking for having a nice, quiet time of boardgames? Then you are welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people"
+		},
+		"nan": {
+			"nl": "",
+			"en": ""
+		},
+		"kapla": {
+			"nl": "Wil jij je weer een kind voelen? Of wil je gewoon leuk bouwen? Kom dan bij ons met Kapla bouwen! Bouw zelf een brug, huis, Eiffeltoren, of iets anders. Het enige limiet is je fantasie!",
+			"en": "Do you want to let out your inner kid? Do you want to practice your civil engineering skills? Then come and build Kapla with us! Build a bridge, house, Eiffel Tower, or something else. The only limit is your imagination!"
+		},
+		"4_uur_cup_a_soup": {
+			"nl": "Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!",
+			"en": "Tired after a long night? Wanna feel alive, like you were born again? Then enjoy a nice cup-a-soup!"
+		},
+		"eten_@_bolk": {
+			"nl": "Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten!",
+			"en": "Dinner with the Bolk is really good, come and have a good meal!"
+		},
+		"arts_and_crafts": {
+			"nl": "",
+			"en": ""
+		},
+		"escape_room_(vvt)": {
+			"nl": "Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden.<br>Stuur een mailtje naar secretarisvvt@bu130.nl of kom langs aan boord.</b>",
+			"en": "Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity.<br>Send an email to secretarisvvt@bu130.nl or come by on board.</b>"
+		},
+		"weerwolven": {
+			"nl": ".. van Wakkerdam: Speel met bolkers Weerwolven, optioneel ook One Night!",
+			"en": "... of Wakkerdam: Play Werewolves with us, optionally the One Night version!"
+		},
+		"preimeppen": {
+			"nl": "Wat zou jij doen als je tientallen kilo’s prei rond hebt slingeren? Kapot slaan tegen je medestudenten natuurlijk! Kom naar de Bolk, claim je prei en verlies een aantal vrienden in dit geweldige idee wat nooit fout kan gaan!",
+			"en": "What would you do in case you have access to tens of kilos of leek? Hit your fellow students of course! Visit the Bolk, claim your leek and lose a couple of friends during this awesome idea that can’t possibly go wrong!"
+		},
+		"sterrenkijken_(vvt)": {
+			"nl": "",
+			"en": ""
+		},
+		"karaoke_cocktailnight": {
+			"nl": "Wil jij een hele avond de leukste nummers mee blèren? Kom dan naar de karaoke en schreeuw de longen uit je lijf met een lekkere cock- of mocktail!",
+			"en": "Do you want to sing to all your favorite songs? Then go to the karaoke and sing till your throat hurts and soothe it with a tasty cock- or mocktail!"
+		},
+		"d&d": {
+			"nl": "We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^",
+			"en": "We've got lots of enthousiastic DM's at the Bolk that would love to DM an oneshot for you. Come visit faraway worlds with your group and feel free to roleplay in your own way ^^"
+		},
+		"botter_rossen_(vvt)": {
+			"nl": "Schilder in de stijl van Bob Ross een scenisch landschap met onze botter Trui erin",
+			"en": "Paint in the style of Bob Ross a scenic landscape with our boat \"Trui\""
+		},
+		"deken_is_lava_(vvt)": {
+			"nl": "",
+			"en": ""
+		},
+		"kijken_hoe_het_klinkt": {
+			"nl": "Weet jij hoe een wasmachine klinkt als het van 4 meter valt op de grond? Kom er hier achter!",
+			"en": "Do you know what sound a washing machine makes when it falls 4 meters to the ground? Come and find out here!"
+		},
+		"spebi_proeverij": {
+			"nl": "Bier is er in allerlei soorten en maten. Hou je van een zoet biertje of juist eentje met een bittertje? Wil jij dat je bier zonder toevoegingen is gemaakt, of vind je het niet erg als er peper in zit? Hou je van koffie en bier? Dan kan dat ook! Het Bolksch BierbrouwersGilde kan je er van alles over vertellen tijdens deze speciaalbierproeverij!",
+			"en": "Craft beers come in many shapes and sizes. Do you like a sweet or a bitter pint? Or don’t you mind if it is brewed with pepper or coffee beans? The Bolksch BierbrouwersGilde (Craft Beer Brewing Guild of the Bolk) can tell you a ton of information with every sip you take!"
+		},
+		"kroegsport": {
+			"nl": "",
+			"en": ""
+		},
+		"blikbierkwartier": {
+			"nl": "",
+			"en": ""
+		},
+		"dinsdag": {
+			"nl": "DINSDAG",
+			"en": "TUESDAY"
+		},
+		"spa": {
+			"nl": "Chillllll",
+			"en": "Are you also so tired from this week? Come and chill out at with us, tiny swimming pools, cool drinks and some boardgames"
+		},
+		"vvthee_(vvt)": {
+			"nl": "Gezellige theeproeverij met de vereniging Vrienden Van Trui met lekkere hapjes!",
+			"en": "Cosy tea tasting with the association Friends of Trui (Vrienden Van Trui) with tast treats!"
+		},
+		"band_op_de_boot": {
+			"nl": "Er zullen live bands optreden op onze boot! Kom gezellig van hun performance genieten!",
+			"en": "Bands will be performing live on our boat! Come and enjoy their performance!"
+		},
+		"chillûûûûh": {
+			"nl": "",
+			"en": ""
+		}
+	}
+}
