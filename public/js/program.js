@@ -558,8 +558,8 @@ function resizeText(rows = -1){
   for (let element of elements){
     let max_font_size = glob_max_font_size;
     if (element.clientHeight <= (element.parentElement.clientHeight/rows * 3)
-      && element.classList.contains("center")) max_font_size /= 2;
-    fitText(element, .9, {minFontSize: 10, maxFontSize: max_font_size});
+      && element.classList.contains("triple")) max_font_size = 24;
+    fitText(element, 0.6, {minFontSize: 6, maxFontSize: max_font_size});
   }
 
   let headers = document.getElementsByTagName('th');
