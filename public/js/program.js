@@ -250,7 +250,7 @@ const program = {
       "end": 2200,
       "alignment": "right",
       "color_shift": true,
-      "triple": false,
+      "triple": true,
       "title": {
         "nl": "Sterrenkijken (VVT)",
         "en": "Stargazing on the boat (VVT)"
@@ -280,7 +280,7 @@ const program = {
       "end": 430,
       "alignment": "center",
       "color_shift": false,
-      "triple": true,
+      "triple": false,
       "title": {
         "nl": "4 uur cup a soup",
         "en": "4 'O clock cup-a-soup"
