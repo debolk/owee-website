@@ -21,15 +21,30 @@ class Programme:
   def __str__(self):
     return f"Programme <start_time: {self.start_time}, end_time: {self.end_time}, increment: {self.increment}, activities: {{monday: {len(self.monday)}, tuesday: {len(self.tuesday)}, wednesday: {len(self.wednesday)}, thursday: {len(self.thursday)}}}>"
 
-  def add_activity(self, day, act):
+  def _get_list(self, day):
     if day == "ma":
-      self.monday.add(act)
+      return self.monday
     elif day == "di":
-      self.tuesday.add(act)
+      return self.tuesday
     elif day == "wo":
-      self.wednesday.add(act)
+      return self.wednesday
     elif day == "do":
-      self.thursday.add(act)
+      return self.thursday
+
+  def add_activity(self, day, act):
+    self._get_list(day).add(act)
+
+  def __contains__(self, act):
+    if type(act) == tuple:
+      for a in self._get_list(act[1]):
+        if a.title["nl"] == act[0]:
+          return True
+    else:
+      sets = {*self.monday, *self.tuesday, *self.wednesday, *self.thursday}
+      for a in sets:
+        if a == act:
+          return True
+    return False
 
   def open_database(self, json_file):
     with open(json_file) as data:
@@ -42,7 +57,6 @@ class Programme:
       self._dirty = False
 
   def sort_day(a):
-    print(f"{a.start:4d}".replace(' ', 'z'))
     return f"{a.start:4d}{alignments.index(a.alignment)}".replace(' ', 'z')
 
   def write(self):
@@ -54,7 +68,7 @@ class Programme:
     d['wednesday'] = sorted(list(self.wednesday), key=Programme.sort_day)
     d['thursday'] = sorted(list(self.thursday), key=Programme.sort_day)
 
-    with open("output.json", "wt") as output:
+    with open(path.join(script_path, "../public/js/programme.json"), "wt") as output:
       json.dump(self.__dict__, output, indent='\t', default=lambda o: o.__dict__, ensure_ascii=False)
 
 
@@ -96,10 +110,13 @@ class Programme:
         self.description = self._programme._database["descriptions"][self._object]
       else:
         self.description = {}
-        self.description["nl"] = input(f"Please provide a Dutch description for \"{self.title["nl"]}\": ")
-        self.description["en"] = input(f"Please provide an English description for \"{self.title["en"]}\": ")
-        self._programme._database["descriptions"][self._object] = self.description
-        self._programme._dirty = True
+        nl = input(f"Please provide a Dutch description for \"{self.title["nl"]}\": ")
+        en = input(f"Please provide an English description for \"{self.title["en"]}\": ")
+        self.description["nl"] = nl
+        self.description["en"] = en
+        if nl != "" or en != "":
+          self._programme._database["descriptions"][self._object] = self.description
+          self._programme._dirty = True
 
     def to_dict(self):
       d = self.__dict__
@@ -137,12 +154,11 @@ def get_timings(df):
 
   return int(start.strftime("%H%M")), int(end.strftime("%H%M")), int(start_inc.total_seconds()/60)
 
-def get_triple(df, cols, row):
+def get_amount(df, cols, row):
   items = set()
   for col in cols:
-    print(col, row)
     items.add(str(df.iloc[row, col]))
-  return len(items) == 3
+  return len(items)
 
 script_path = path.dirname(path.abspath(__file__))
 excel_file = path.join(script_path, "programme.xlsx")
@@ -165,14 +181,14 @@ if __name__ == "__main__":
   df = merge_cells(df, excel_file)
   p = Programme(*get_timings(df))
   p.open_database(json_file)
+  print(df)
 
   for i in sheet_dict.items():
     if type(i[1]) == int: # skip single columns for parsing
       continue
 
-    prev_row = [("", 0), ("", 0), ("", 0)] #(title, start)
+    prev_row = [("", 0, 0), ("", 0, 0), ("", 0, 0)] #(title, start, row)
     for row in range(df.shape[0]):
-      start = int(df.iloc[row, sheet_dict["start"]].strftime("%H%M"))
       end = int(df.iloc[row, sheet_dict["end"]].strftime("%H%M"))
 
       # print("\n")
@@ -183,32 +199,27 @@ if __name__ == "__main__":
         # print(start, title)
         # print(title != "nan", (row == df.shape[0] - 1 or str(df.iloc[row + 1, col]).strip() != title), (index == 0 or prev_row[index] != prev_row[index - 1]))
 
-        if prev_row[index][0] == title or row == df.shape[0] - 1: # title of prev row
-          if title != "nan" and row == df.shape[0] - 1:
-            a = Programme.Activity(p, title, start, end, 'center')
-            a.triple = prev_row.count(ref_tup) == 1
-            p.add_activity(i[0], a)
+        if title != "nan" and (row == df.shape[0] - 1 or str(df.iloc[row + 1, col]).strip() != title) and (title, i[0]) not in p:
+          align = "center"
+          if prev_row[index][0] != title:
+            start = int(df.iloc[row, sheet_dict["start"]].strftime("%H%M"))
+            amnt = get_amount(df, i[1], row)
 
-            system("clear")
+          else:
+            start = int(df.iloc[prev_row[index][1], sheet_dict["start"]].strftime("%H%M"))
+            amnt = get_amount(df, i[1], prev_row[index][1])
 
-          elif title != "nan" and str(df.iloc[row + 1, col]).strip() != title and (index == 0 or prev_row[index] != prev_row[index - 1]):
-            # print("Writing", title)
-            ref_tup = prev_row[index - 1]
+          if amnt > 1 and get_amount(df, i[1], row) > 1:
+            align = alignments[index]
 
-            align = 'center'
-            if prev_row.count(ref_tup) < 3:
-              align = alignments[index]
+          a = Programme.Activity(p, title, start, end, align)
+          a.triple = amnt == 3
+          p.add_activity(i[0], a)
 
-            # print(start, end)
-            a = Programme.Activity(p, title, prev_row[index][1], end, align)
-            a.triple = get_triple(df, i[1], row)
-            p.add_activity(i[0], a)
-
-            system("clear")
-            #print(a)
+        if prev_row[index][0] == title:
           continue
 
-        prev_row[index] = (title, start)
+        prev_row[index] = (title, row)
 
 
   p.write_database(json_file)
