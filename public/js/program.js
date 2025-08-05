@@ -105,7 +105,7 @@ function getActiveDay(){
   let OWeeDays = [18, 19, 20, 21];
 
   if (now.getFullYear() === OWeeYear
-    && now.getMonth() === OWeeMonth
+    && now.getMonth() === OWeeMonth - 1
     && OWeeDays.includes(now.getDate())){ // Current local time is during the OWee
     return OWeeDays.indexOf(now.getDate());
   } else { // OWee is not now, return 0 (Monday)
@@ -180,6 +180,8 @@ async function renderProgramMobile() {
   let nextBottom = nextTop.cloneNode(true);
   prevBottom.classList.replace("selector_top", "selector_bottom");
   nextBottom.classList.replace("selector_top", "selector_bottom");
+  prevBottom.onclick = moveProgramme.bind(prevBottom, -1);
+  nextBottom.onclick = moveProgramme.bind(nextBottom, 1);
 
   element.append(prevTop, nextTop, prevBottom, nextBottom);
 

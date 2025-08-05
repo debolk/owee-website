@@ -15,7 +15,7 @@ function includeHTML(){
         .then((res) => res.text())
         .then((html) => {
           let v = document.createElement("div");
-          v.id = e.getAttribute("src").replace(".html", "");
+          v.id = e.getAttribute("src");
           v.innerHTML = html;
           v.classList.add("included");
 
