@@ -9,13 +9,13 @@
 		"retrogames": "Retrogames",
 		"spelletjesavond": "Boardgamenight",
 		"kapla": "Kapla",
-		"4_uur_cup_a_soup": "4 'O clock cup-a-soup",
+		"4_uur_cup_a_soup": "4 'O clock Cup a Soup",
 		"eten_@_bolk": "Dinner @ Bolk",
 		"arts_and_crafts": "Arts and Crafts",
 		"escape_room_(vvt)": "Escape Room (VVT)",
 		"weerwolven": "Werewolves",
-		"preimeppen": "Wacking with leek",
-		"sterrenkijken_(vvt)": "Stargazing on the boat (VVT)",
+		"preimeppen": "War 'O Leek",
+		"sterrenkijken_op_de_boot_(vvt)": "Stargazing on the boat (VVT)",
 		"karaoke_cocktailnight": "Karaoke cocktailnight",
 		"d&d": "Dungeons and Dragons",
 		"botter_rossen_(vvt)": "Painting with Boat Ross (VVT)",
@@ -27,7 +27,8 @@
 		"dinsdag": "TUESDAY",
 		"chillûûûûh": "Chillllll",
 		"vvthee_(vvt)": "VVTea (VVT)",
-		"band_op_de_boot": "Band on the Boat"
+		"band_op_de_boot": "Band on the Boat",
+		"blåhaken": "Crochet your own BLÅHAJ"
 	},
 	"descriptions": {
 		"megaspellen": {
@@ -119,20 +120,16 @@
 			"en": "Craft beers come in many shapes and sizes. Do you like a sweet or a bitter pint? Or don’t you mind if it is brewed with pepper or coffee beans? The Bolksch BierbrouwersGilde (Craft Beer Brewing Guild of the Bolk) can tell you a ton of information with every sip you take!"
 		},
 		"kroegsport": {
-			"nl": "",
-			"en": ""
+			"nl": "Kom langs en beleef een van onze kroegsporten: je kan dartjes gooien (naar een dartbord), je kan een nagel slaan in een boomstronk of test je skills in een sjoelbak!",
+			"en": "Come by and experience one of our barsports: you can throw darts (at a board), you could HAMMMER a nail in a tree stump or test your skills with a shuffleboard!"
 		},
 		"blikbierkwartier": {
-			"nl": "",
-			"en": ""
+			"nl": "Blikbier: drink het, sproei het en sloop het! Over slopen gesproken: kom en breek onze spullen tijdens het blikbierkwartier!",
+			"en": "Canned beer: drink it, spray it en crush it! Talking about crushing: come and break our stuff during the canned beer drive!"
 		},
 		"dinsdag": {
-			"nl": "DINSDAG",
-			"en": "TUESDAY"
-		},
-		"spa": {
-			"nl": "Chillllll",
-			"en": "Are you also so tired from this week? Come and chill out at with us, tiny swimming pools, cool drinks and some boardgames"
+			"nl": "Kom kennismaken met Bolkers en lekker gezellig borrelen",
+			"en": "Come and meet the Bolkers and hang out"
 		},
 		"vvthee_(vvt)": {
 			"nl": "Gezellige theeproeverij met de vereniging Vrienden Van Trui met lekkere hapjes!",
@@ -143,8 +140,12 @@
 			"en": "Bands will be performing live on our boat! Come and enjoy their performance!"
 		},
 		"chillûûûûh": {
-			"nl": "",
-			"en": ""
+			"nl": "Ben jij ook zo moe van deze week? Kom dan met ons chillen. We hebben mini zwembaden, koude drankjes en bordspelletjes",
+			"en": "Are you also so tired from this week? Come and chill out at with us, tiny swimming pools, cool drinks and some boardgames"
+		},
+		"blåhaken": {
+			"nl": "Kom je eigen kleine BLÅHAJ (kleine, schattige haai) haken! Geschikt voor zowel beginnende als ervaren hakers.",
+			"en": "Come crochet your own little BLÅHAJ (a small, cute shark)! Suitable for beginning and experienced crocheters."
 		}
 	}
 }

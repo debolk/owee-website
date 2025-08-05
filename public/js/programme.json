@@ -1,5 +1,5 @@
 {
-	"start_time": 1700,
+	"start_time": 1600,
 	"end_time": 430,
 	"increment": 30,
 	"monday": [
@@ -113,7 +113,7 @@
 			"end": 0,
 			"alignment": "left",
 			"color_shift": false,
-			"triple": false,
+			"triple": true,
 			"title": {
 				"nl": "Retrogames",
 				"en": "Retrogames"
@@ -126,9 +126,9 @@
 		{
 			"start": 2100,
 			"end": 0,
-			"alignment": "right",
+			"alignment": "center",
 			"color_shift": false,
-			"triple": false,
+			"triple": true,
 			"title": {
 				"nl": "Spelletjesavond",
 				"en": "Boardgamenight"
@@ -146,7 +146,7 @@
 			"triple": false,
 			"title": {
 				"nl": "4 uur cup a soup",
-				"en": "4 'O clock cup-a-soup"
+				"en": "4 'O clock Cup a Soup"
 			},
 			"description": {
 				"nl": "Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!",
@@ -177,12 +177,12 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "Arts and Crafts",
-				"en": "Arts and Crafts"
+				"nl": "BLÅHAKEN",
+				"en": "Crochet your own BLÅHAJ"
 			},
 			"description": {
-				"nl": "",
-				"en": ""
+				"nl": "Kom je eigen kleine BLÅHAJ (kleine, schattige haai) haken! Geschikt voor zowel beginnende als ervaren hakers.",
+				"en": "Come crochet your own little BLÅHAJ (a small, cute shark)! Suitable for beginning and experienced crocheters."
 			}
 		},
 		{
@@ -220,7 +220,7 @@
 			"end": 2100,
 			"alignment": "left",
 			"color_shift": false,
-			"triple": true,
+			"triple": false,
 			"title": {
 				"nl": "Weerwolven",
 				"en": "Werewolves"
@@ -232,27 +232,12 @@
 		},
 		{
 			"start": 2000,
-			"end": 2100,
-			"alignment": "center",
-			"color_shift": false,
-			"triple": true,
-			"title": {
-				"nl": "Preimeppen",
-				"en": "Wacking with leek"
-			},
-			"description": {
-				"nl": "Wat zou jij doen als je tientallen kilo’s prei rond hebt slingeren? Kapot slaan tegen je medestudenten natuurlijk! Kom naar de Bolk, claim je prei en verlies een aantal vrienden in dit geweldige idee wat nooit fout kan gaan!",
-				"en": "What would you do in case you have access to tens of kilos of leek? Hit your fellow students of course! Visit the Bolk, claim your leek and lose a couple of friends during this awesome idea that can’t possibly go wrong!"
-			}
-		},
-		{
-			"start": 2000,
 			"end": 2200,
 			"alignment": "right",
 			"color_shift": true,
-			"triple": true,
+			"triple": false,
 			"title": {
-				"nl": "Sterrenkijken (VVT)",
+				"nl": "Sterrenkijken op de boot (VVT)",
 				"en": "Stargazing on the boat (VVT)"
 			},
 			"description": {
@@ -262,6 +247,21 @@
 		},
 		{
 			"start": 2100,
+			"end": 2200,
+			"alignment": "left",
+			"color_shift": false,
+			"triple": false,
+			"title": {
+				"nl": "Preimeppen",
+				"en": "War 'O Leek"
+			},
+			"description": {
+				"nl": "Wat zou jij doen als je tientallen kilo’s prei rond hebt slingeren? Kapot slaan tegen je medestudenten natuurlijk! Kom naar de Bolk, claim je prei en verlies een aantal vrienden in dit geweldige idee wat nooit fout kan gaan!",
+				"en": "What would you do in case you have access to tens of kilos of leek? Hit your fellow students of course! Visit the Bolk, claim your leek and lose a couple of friends during this awesome idea that can’t possibly go wrong!"
+			}
+		},
+		{
+			"start": 2200,
 			"end": 400,
 			"alignment": "center",
 			"color_shift": false,
@@ -283,7 +283,7 @@
 			"triple": false,
 			"title": {
 				"nl": "4 uur cup a soup",
-				"en": "4 'O clock cup-a-soup"
+				"en": "4 'O clock Cup a Soup"
 			},
 			"description": {
 				"nl": "Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!",
@@ -293,7 +293,7 @@
 	],
 	"wednesday": [
 		{
-			"start": 1700,
+			"start": 1600,
 			"end": 1830,
 			"alignment": "left",
 			"color_shift": false,
@@ -339,7 +339,7 @@
 		},
 		{
 			"start": 2030,
-			"end": 2300,
+			"end": 2200,
 			"alignment": "left",
 			"color_shift": false,
 			"triple": false,
@@ -368,8 +368,8 @@
 			}
 		},
 		{
-			"start": 2300,
-			"end": 100,
+			"start": 2200,
+			"end": 0,
 			"alignment": "left",
 			"color_shift": false,
 			"triple": false,
@@ -393,8 +393,8 @@
 				"en": "Barsports"
 			},
 			"description": {
-				"nl": "",
-				"en": ""
+				"nl": "Kom langs en beleef een van onze kroegsporten: je kan dartjes gooien (naar een dartbord), je kan een nagel slaan in een boomstronk of test je skills in een sjoelbak!",
+				"en": "Come by and experience one of our barsports: you can throw darts (at a board), you could HAMMMER a nail in a tree stump or test your skills with a shuffleboard!"
 			}
 		},
 		{
@@ -408,8 +408,8 @@
 				"en": "CannedBeerDrive"
 			},
 			"description": {
-				"nl": "",
-				"en": ""
+				"nl": "Blikbier: drink het, sproei het en sloop het! Over slopen gesproken: kom en breek onze spullen tijdens het blikbierkwartier!",
+				"en": "Canned beer: drink it, spray it en crush it! Talking about crushing: come and break our stuff during the canned beer drive!"
 			}
 		},
 		{
@@ -423,8 +423,8 @@
 				"en": "TUESDAY"
 			},
 			"description": {
-				"nl": "DINSDAG",
-				"en": "TUESDAY"
+				"nl": "Kom kennismaken met Bolkers en lekker gezellig borrelen",
+				"en": "Come and meet the Bolkers and hang out"
 			}
 		},
 		{
@@ -435,7 +435,7 @@
 			"triple": false,
 			"title": {
 				"nl": "4 uur cup a soup",
-				"en": "4 'O clock cup-a-soup"
+				"en": "4 'O clock Cup a Soup"
 			},
 			"description": {
 				"nl": "Beetje moe? Wil je je weer levend voelen, als herboren? Neem dan een 4 uur Cup-a-Soup, dat zouden meer mensen moeten doen!",
@@ -445,7 +445,7 @@
 	],
 	"thursday": [
 		{
-			"start": 1700,
+			"start": 1600,
 			"end": 1800,
 			"alignment": "left",
 			"color_shift": false,
@@ -455,8 +455,8 @@
 				"en": "Chillllll"
 			},
 			"description": {
-				"nl": "",
-				"en": ""
+				"nl": "Ben jij ook zo moe van deze week? Kom dan met ons chillen. We hebben mini zwembaden, koude drankjes en bordspelletjes",
+				"en": "Are you also so tired from this week? Come and chill out at with us, tiny swimming pools, cool drinks and some boardgames"
 			}
 		},
 		{

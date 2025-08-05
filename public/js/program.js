@@ -113,6 +113,27 @@ function getActiveDay(){
   }
 }
 
+function moveProgramme(n) {
+  let elems = document.getElementsByClassName("program_day");
+  let index = 0;
+
+  for (let i = 0; i < elems.length; i++) {
+    let elem = elems[i];
+    if (elem.classList.contains("active")) {
+      elem.classList.remove("active");
+      index = i;
+      break;
+    }
+  }
+  if (index + n === elems.length){
+    index = -1;
+  } else if (index + n === -1){
+    index = elems.length;
+  }
+  elems.item(index + n).classList.add("active");
+  resizeText(elems.item(index + n).children.length);
+}
+
 async function renderDayMobile(day, plan, duration, rows, timetable) {
   let table = document.createElement('table');
   let headers = document.createElement('tr');
@@ -136,6 +157,7 @@ async function renderDayMobile(day, plan, duration, rows, timetable) {
     else row.appendChild(time);
     table.appendChild(row);
   }
+  table.classList.add("program_day");
   return table;
 }
 
@@ -146,13 +168,13 @@ async function renderProgramMobile() {
   prevTop.classList.add("prev");
   prevTop.classList.add("selector_top");
   prevTop.innerHTML = "&#10094;";
-  //prevTop.onclick = moveProgramme(-1);
+  prevTop.onclick = moveProgramme.bind(prevTop, -1);
 
   let nextTop = document.createElement("a");
   nextTop.classList.add("next");
   nextTop.classList.add("selector_top");
   nextTop.innerHTML = "&#10095;";
-  //nextTop.onclick = moveProgramme(1);
+  nextTop.onclick = moveProgramme.bind(nextTop, 1);
 
   let prevBottom = prevTop.cloneNode(true);
   let nextBottom = nextTop.cloneNode(true);
@@ -166,7 +188,7 @@ async function renderProgramMobile() {
       ['Dinsdag', program.tuesday],
       ['Woensdag', program.wednesday],
       ['Donderdag', program.thursday]]) {
-      let table = renderDayMobile(day[0], day[1], duration, rows, timetable);
+      let table = await renderDayMobile(day[0], day[1], duration, rows, timetable);
       element.appendChild(table);
     }
   } else {
@@ -174,7 +196,7 @@ async function renderProgramMobile() {
       ['Tuesday', program.tuesday],
       ['Wednesday', program.wednesday],
       ['Thursday', program.thursday]]) {
-      let table = renderDayMobile(day[0], day[1], duration, rows, timetable);
+      let table = await renderDayMobile(day[0], day[1], duration, rows, timetable);
       element.appendChild(table);
     }
   }

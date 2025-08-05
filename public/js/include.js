@@ -15,9 +15,10 @@ function includeHTML(){
         .then((res) => res.text())
         .then((html) => {
           let v = document.createElement("div");
-          if (e.id !== '') v.id = e.id;
+          v.id = e.getAttribute("src").replace(".html", "");
           v.innerHTML = html;
           v.classList.add("included");
+
           e.parentNode.replaceChild(v, e);
         })
         .catch((e) => console.error(e, `html/${lang}/${e.getAttribute("src")}`));
