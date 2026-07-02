@@ -100,9 +100,9 @@ async function setupProgram() {
 
 function getActiveDay(){
   let now = new Date();
-  let OWeeYear = 2025;
+  let OWeeYear = 2026;
   let OWeeMonth = 8;
-  let OWeeDays = [18, 19, 20, 21];
+  let OWeeDays = [17, 18, 19, 20];
 
   if (now.getFullYear() === OWeeYear
     && now.getMonth() === OWeeMonth - 1
