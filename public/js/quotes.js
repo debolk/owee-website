@@ -51,8 +51,8 @@ let quotes = [
   {
     person: 'Simon',
     quote: {
-        nl: 'Ik heb me ingeschreven en dat bleek een goed idee te zijn.',
-        en: 'I signed up and that turned out to be a good idea.'
+      nl: 'Ik heb me ingeschreven en dat bleek een goed idee te zijn.',
+      en: 'I signed up and that turned out to be a good idea.'
     }
   },
   {
@@ -189,11 +189,11 @@ let slideIndex = 0;
 
 let slides = [];
 
-function shuffleQuotes(){
-  quotes = quotes.sort( () => Math.random() - 0.5);
+function shuffleQuotes() {
+  quotes = quotes.sort(() => Math.random() - 0.5);
 }
 
-function getTemplate(name, quote){
+function getTemplate(name, quote) {
   return templ.replaceAll('{NAME}', name).replaceAll('{QUOTE}', quote);
 }
 
@@ -220,6 +220,7 @@ async function renderQuotes() {
   shuffleQuotes();
   shuffleQuotes();
   getQuotesHTML();
+  addListeners();
 
   slides = document.getElementsByClassName('quote');
   let amount = 1;
@@ -281,4 +282,25 @@ function showSlides(direction, amount) {
   }
 }
 
+
+function addListeners() {
+  const container = document.getElementById('quotes-container');
+
+  let startX = 0;
+
+  container.addEventListener("pointerdown", e => {
+    startX = e.clientX;
+  });
+
+  container.addEventListener("pointerup", e => {
+    const dx = e.clientX - startX;
+
+    if (Math.abs(dx) < 50) return;
+
+    if (dx < 0)
+      moveSlides(1);
+    else
+      moveSlides(-1);
+  });
+}
 
