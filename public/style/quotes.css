@@ -1,6 +1,6 @@
 .content#quotes{
-  color: #e2a7f1;
-  background-color: #315fb3;
+  color: #ffad1d;
+  background-color: #46276b;
   width: 85vw;
   max-width: 85vw;
   padding-left: 7.5vw;
@@ -8,7 +8,7 @@
 }
 
 .content#quotes::after{
-  background-image: linear-gradient(135deg, #315fb3 25%, transparent 25%), linear-gradient(225deg, #315fb3 25%, transparent 25%);
+  background-image: linear-gradient(135deg, #46276b 25%, transparent 25%), linear-gradient(225deg, #46276b 25%, transparent 25%);
 }
 
 .prev, .next {
@@ -61,8 +61,8 @@
   max-width: 90%;
   height: 28em;
   border-radius: 1em;
-  border: 0.25rem #e2a7f1 solid;
-  background-color: #e2a7f1;
+  border: 0.25rem #ffad1d solid;
+  background-color: #ffad1d;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -73,7 +73,7 @@
   margin-right: 10%;
   font-style: italic;
   font-size: 1rem;
-  color: #315fb3;
+  color: #46276b;
 }
 
 #quotes-container .quote .name {
@@ -82,7 +82,7 @@
 
 #quotes-container .quote img{
   width: 80%;
-  border: 0.125em #315fb3 solid;
+  border: 0.125em #46276b solid;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;

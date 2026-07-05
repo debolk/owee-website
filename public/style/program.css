@@ -1,10 +1,10 @@
 .content#program{
-  color: #315fb3;
-  background-color: #e2a7f1;
+  color: #46276b;
+  background-color: #ffad1d;
   padding-bottom: 1vh;
 }
 .content#program::after{
-  background-image: linear-gradient(135deg, #e2a7f1 25%, transparent 25%), linear-gradient(225deg, #e2a7f1 25%, transparent 25%);
+  background-image: linear-gradient(135deg, #ffad1d 25%, transparent 25%), linear-gradient(225deg, #ffad1d 25%, transparent 25%);
 }
 
 #program-container .prev{
@@ -74,18 +74,18 @@
   table-layout: fixed;
   border-collapse: separate;
   position: absolute;
-  border: 0.125rem solid #e2a7f1;
-  color: #e2a7f1;
-  background-color: #315fb3;
+  border: 0.125rem solid #ffad1d;
+  color: #ffad1d;
+  background-color: #46276b;
   border-radius: 1rem;
   transition: 0.4s ease all;
   z-index: 2;
 }
 
 .activity.color_shift{
-  border: 0.125rem solid #315fb3;
-  color: #315fb3;
-  background-color: #e2a7f1;
+  border: 0.125rem solid #46276b;
+  color: #46276b;
+  background-color: #ffad1d;
   z-index: 3;
 }
 
@@ -173,9 +173,9 @@
 
 .activity:hover, .activity:active{
   z-index: 12;
-  background-color: #e2a7f1;
-  color: #315fb3;
-  border-color: #315fb3;
+  background-color: #ffad1d;
+  color: #46276b;
+  border-color: #46276b;
   width: calc(164% - 0.25rem) !important;
 }
 
