@@ -14,13 +14,6 @@ let quotes = [
     }
   },
   {
-    person: 'Christiaan',
-    quote: {
-      nl: 'Omdat iedereen elkaar kent.',
-      en: 'Because everyone knows each-other.'
-    }
-  },
-  {
     person: 'Vasco',
     quote: {
       nl: 'Omdat je bij de Bolk alles kan maken.',
@@ -109,13 +102,6 @@ let quotes = [
     quote: {
       nl: 'Leuke mensen.',
       en: 'Fun folk.'
-    }
-  },
-  {
-    person: 'Flip',
-    quote: {
-      nl: 'Hoewel iedereen vet passief-agresieve grappen maakt, is het een plek waar je zonder zorgen jezelf kan zijn.',
-      en: 'Even though everyone makes incredibly passive-aggressive jokes, it\'s a place where you can be yourself without worries.'
     }
   },
   {
@@ -294,3 +280,5 @@ function showSlides(direction, amount) {
     slides[slideIndex + i].style.order = i.toString();
   }
 }
+
+
