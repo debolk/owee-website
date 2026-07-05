@@ -28,20 +28,6 @@ let quotes = [
     }
   },
   {
-    person: 'Linda',
-    quote: {
-      nl: 'Voornamelijk omdat ik merkte dat mensen hier ook gewoon een beetje spelletjes spelen. Bij 3D twister ben ik hier terrecht gekomen, heb ik mijn bril verloren en ben ik hier blijven hangen.',
-      en: 'Primarely because I noticed the people here also just play boardgames. I arrived at 3D twister, lost my glasses and stayed hanging around.'
-    }
-  },
-  {
-    person: 'Looka',
-    quote: {
-      nl: 'Omdat ik elke avond van de OWee bij de Bolk belandde vanwege de toffe mensen. En natuurlijk de tosti\'s.',
-      en: 'Because I found myself at the Bolk ever evening during the OWee because of the great people. Also the sandwiches of course.'
-    }
-  },
-  {
     person: 'Kilian',
     quote: {
       nl: 'Gezellige mensen, leuke activiteiten.',
