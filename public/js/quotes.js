@@ -1,5 +1,12 @@
 let quotes = [
   {
+    person: 'Jimy',
+    quote: {
+      nl: 'Leuke mensen léúke mensen',
+      en: 'Good people góód people'
+    }
+  },
+  {
     person: 'Floris',
     quote: {
       nl: 'Ik dacht dat ik geen lid wilde worden van een vereeniging maar toen kwam ik 1 avond op De Bolk met een vriend mee, en was lid aan het einde van de avond. Sindsdien geniet ik van een bodemloze put aan gezelligheid.',
