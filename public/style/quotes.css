@@ -34,7 +34,7 @@
 }
 
 .next{
-  right: -9.5vw;
+  right: -9.5vw; 
 }
 
 .prev:hover, .next:hover {
@@ -74,6 +74,7 @@
   font-style: italic;
   font-size: 1rem;
   color: #46276b;
+  text-align: center;
 }
 
 #quotes-container .quote .name {

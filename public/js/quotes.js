@@ -1,9 +1,23 @@
 let quotes = [
   {
-    person: 'Luc',
+    person: 'Floris',
     quote: {
-      nl: 'Iedereen is knettergek op zijn eigen manier, iedereen is zichzelf, maar staan open voor anderen.',
-      en: 'Everyone here is completely crazy in their own way, everyone is themselves, but open for others.'
+      nl: 'Ik dacht dat ik geen lid wilde worden van een vereeniging maar toen kwam ik 1 avond op De Bolk met een vriend mee, en was lid aan het einde van de avond. Sindsdien geniet ik van een bodemloze put aan gezelligheid.',
+      en: 'I thought I did not want to be part of an student assosiation, then I came to De Bolk for a single evening with a friend, and became a part of De Bolk before the end of the evening. Ever since then I am enyoing my evenings surrounded by nice people and good company.'
+    }
+  },
+  {
+    person: 'Lucas',
+    quote: {
+      nl: 'Ik dacht dat ik raar was, maar toen kwam ik er achter dat ik gewoon een Bolker was.',
+      en: 'I always thought I was odd, but as it turns out I was just a Bolker.'
+    }
+  },
+  {
+    person: 'Esther',
+    quote: {
+      nl: 'De Bolk is een plek waar ik altijd lekker mezelf kan zijn en het is één grote vriendengroep waarmee ik altijd wat leuks kan gaan doen :)',
+      en: 'De Bolk is a place where I always feel free to be myself and it\'s a big friend group I can always hang out with :)'
     }
   },
   {
@@ -11,13 +25,6 @@ let quotes = [
     quote: {
       nl: 'Omdat als je hier lid bent je nog steeds goed kan studeren.',
       en: 'Because you\'re still able to study while being a member.'
-    }
-  },
-  {
-    person: 'Vasco',
-    quote: {
-      nl: 'Omdat je bij de Bolk alles kan maken.',
-      en: 'Because you can make anything at the Bolk.'
     }
   },
   {
@@ -142,7 +149,7 @@ let quotes = [
   {
     person: 'Rob',
     quote: {
-      nl: 'Op dinsdag avonden worden altijd de beste keuzes gemaajt.',
+      nl: 'Op dinsdag avonden worden altijd de beste keuzes gemaakt.',
       en: 'The best choices are always made on Tuesday nights.'
     }
   },
