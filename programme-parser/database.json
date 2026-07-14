@@ -28,7 +28,13 @@
 		"chillûûûûh": "Chillllll",
 		"vvthee_(vvt)": "VVTea (VVT)",
 		"band_op_de_boot": "Band on the Boat",
-		"blåhaken": "Crochet your own BLÅHAJ"
+		"blåhaken": "Crochet your own BLÅHAJ",
+		"balslingeren_(vvt)": "Wrecking ball swinging (VVT)",
+		"ironische_rave": "Ironic Rave",
+		"todo_pokke": "Bal (VVT)",
+		"bouw_je_eigen_kapsalon": "Build your own kapsalon",
+		"spa": "Spa",
+		"bl�hajen__knuffelen_(vvt)": "BLAHÅJ cuddling (VVT)"
 	},
 	"descriptions": {
 		"megaspellen": {
@@ -146,6 +152,34 @@
 		"blåhaken": {
 			"nl": "Kom je eigen kleine BLÅHAJ (kleine, schattige haai) haken! Geschikt voor zowel beginnende als ervaren hakers.",
 			"en": "Come crochet your own little BLÅHAJ (a small, cute shark)! Suitable for beginning and experienced crocheters."
+		},
+		"balslingeren_(vvt)": {
+			"nl": "Bal",
+			"en": "Bal"
+		},
+		"ironische_rave": {
+			"nl": "Kom lekker raven op louter serieuze muziek, zoals de Macarena, het lied van de Efteling en nog veel meer. Het is een ironische rave, dus je mag ook gewoon lekker meezingen en dansen.",
+			"en": "Come and dance to serious music, like the Macarena, the Efteling song and much more. It's an ironic rave, so you can also just sing along and dance."
+		},
+		"todo_pokke": {
+			"nl": "Bal",
+			"en": "B"
+		},
+		"sterrenkijken_op_de_boot_(vvt)": {
+			"nl": "Sterrenkijken op de boot",
+			"en": "Stargazing on the boat"
+		},
+		"bouw_je_eigen_kapsalon": {
+			"nl": "Vind jij de standaard kapsalon ook zo saai? Dan kan je hier verandering in brengen met je eigen DIY kapsalon!",
+			"en": "Do you find the standard kapsalon also so boring? Then you can make a change here with your own DIY kapsalon!"
+		},
+		"spa": {
+			"nl": "Ben jij ook zo moe van deze week? Kom dan met ons chillen. We hebben mini zwembaden, koude drankjes en bordspelletjes",
+			"en": "Are you also so tired from this week? Come and chill out at with us, tiny swimming pools, cool drinks and some boardgames"
+		},
+		"bl�hajen__knuffelen_(vvt)": {
+			"nl": "BL�HAJEN  knuffelen (VVT)",
+			"en": "TODO"
 		}
 	}
 }

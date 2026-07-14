@@ -1,5 +1,19 @@
 let quotes = [
   {
+    person: 'Sooskat',
+    quote: {
+      nl: 'Miauw😻...',
+      en: 'Meow😻...'
+    }
+  },
+  {
+    person: 'Zoggel',
+    quote: {
+      nl: 'De Bolk heeft paarse moederneukers. Tja ik hou van paars en van...',
+      en: 'De bolk has purple motherfuckers. Well, I like purple and...'
+    }
+  },
+  {
     person: 'Jimy',
     quote: {
       nl: 'Leuke mensen léúke mensen',
@@ -9,7 +23,7 @@ let quotes = [
   {
     person: 'Floris',
     quote: {
-      nl: 'Ik dacht dat ik geen lid wilde worden van een vereeniging maar toen kwam ik 1 avond op De Bolk met een vriend mee, en was lid aan het einde van de avond. Sindsdien geniet ik van een bodemloze put aan gezelligheid.',
+      nl: 'Ik dacht dat ik geen lid wilde worden van een vereniging maar toen kwam ik 1 avond op De Bolk met een vriend mee, en was lid aan het einde van de avond. Sindsdien geniet ik van een bodemloze put aan gezelligheid.',
       en: 'I thought I did not want to be part of an student assosiation, then I came to De Bolk for a single evening with a friend, and became a part of De Bolk before the end of the evening. Ever since then I am enyoing my evenings surrounded by nice people and good company.'
     }
   },
@@ -32,13 +46,6 @@ let quotes = [
     quote: {
       nl: 'Omdat als je hier lid bent je nog steeds goed kan studeren.',
       en: 'Because you\'re still able to study while being a member.'
-    }
-  },
-  {
-    person: 'Pia',
-    quote: {
-      nl: 'Omdat je bij deze vereniging zowel een BlikBierKwartier als een Spa kan hebben.',
-      en: 'Because you can have a Spa as well as a Canned Beer Drive at this association.'
     }
   },
   {

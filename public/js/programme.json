@@ -4,26 +4,11 @@
 	"increment": 30,
 	"monday": [
 		{
-			"start": 1700,
-			"end": 1800,
-			"alignment": "left",
-			"color_shift": false,
-			"triple": true,
-			"title": {
-				"nl": "Megaspellen",
-				"en": "Megagames"
-			},
-			"description": {
-				"nl": "Geven Vier op een rij en Jenga jou nostalgische gevoelens? Kom het spelen in het MEGA. Zorg ervoor dat je overwinning ook van een afstand te bewonderen is of daag je vrienden uit voor een rematch. Of probeer iets anders en ga spijkerslaan. Iedereen om een GROTE boomstronk, spijkers en hamers, dit kan alleen maar voor ENORM veel plezier zorgen!",
-				"en": "Do Connect Four and Jenga give you nostalgic feelings? Play it in MEGA. Make sure that your victory can also be admired from a distance or challenge your friends to a rematch. Or try something different and play Nail Stump. Everyone around a BIG tree stump, nails and hammers, this can only lead to a HUGE amount of fun!"
-			}
-		},
-		{
-			"start": 1700,
+			"start": 1600,
 			"end": 1800,
 			"alignment": "center",
 			"color_shift": false,
-			"triple": true,
+			"triple": false,
 			"title": {
 				"nl": "Pimp je fiets",
 				"en": "Pimp your bike"
@@ -31,21 +16,6 @@
 			"description": {
 				"nl": "Is jouw nieuwe (of oude) fiets ook nog zo saai en lastig herkenbaar? Geef hem wat flair met verf, stickers, googly eyes (!) en een gezonde hoeveelheid glitters. Niemand die jouw fiets nog durft te stelen, en jij hoeft je geen zorgen meer te maken dat je hem niet kan vinden in de overvolle fietsenstalling",
 				"en": "Is your new (or old) bike boring or difficult to find? Here you can pimp your bike using an assortment of awesome decorations like paint, stickers, googly eyes (!) and a healthy amount of glitter. No one will ever dare to steal your bike again and you don\\u2019t have to worry about losing it anymore"
-			}
-		},
-		{
-			"start": 1700,
-			"end": 1800,
-			"alignment": "right",
-			"color_shift": true,
-			"triple": true,
-			"title": {
-				"nl": "3D twister (VVT)",
-				"en": "3D twister (VVT)"
-			},
-			"description": {
-				"nl": "Het spel twister, wie kent het niet. Maar wat nu als de stippen niet alleen onder je op de mat liggen maar ook boven en naast je? Doe mee aan dit vrolijke spel en leer de botter van binnen kennen!",
-				"en": "The game Twister, a classic. But how about when the dots are not only on the floor, but also on the ceiling and the walls? Participate in this fun game and get to know the Botter from the inside!"
 			}
 		},
 		{
@@ -89,23 +59,23 @@
 				"en": "Boxfort"
 			},
 			"description": {
-				"nl": "Kom en bouw een dozenfort om te verstoppen van de chaos gecreeërd door de bierviltjes!",
+				"nl": "Kom en bouw een dozenfort om te verstoppen van de chaos gecree\\u00ebrd door de bierviltjes!",
 				"en": "Come and build a boxfort so you can hide from all the coasters!"
 			}
 		},
 		{
 			"start": 2000,
-			"end": 2200,
+			"end": 2230,
 			"alignment": "right",
 			"color_shift": true,
 			"triple": true,
 			"title": {
-				"nl": "Speurtocht (VVT)",
-				"en": "Treasure hunt (VVT)"
+				"nl": "Balslingeren (VVT)",
+				"en": "Wrecking ball swinging (VVT)"
 			},
 			"description": {
-				"nl": "Onze oude boot heeft veel rare onderdelen. Wist je bijvoorbeeld dat je beter op dan onder de deken kunt liggen en wil je weten wie Dirk is? Kom dan langs voor onze speurtocht en leer de Trui en haar bemanning kennen!",
-				"en": "Our old boat has many weird components. Do you want to know who \"Dirk\" is? Come join us for the quest on the boat and get to know Trui and her crew!"
+				"nl": "#TODO",
+				"en": "#TODO"
 			}
 		},
 		{
@@ -160,33 +130,18 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "Kapla",
-				"en": "Kapla"
+				"nl": "Ironische Rave",
+				"en": "Ironic Rave"
 			},
 			"description": {
-				"nl": "Wil jij je weer een kind voelen? Of wil je gewoon leuk bouwen? Kom dan bij ons met Kapla bouwen! Bouw zelf een brug, huis, Eiffeltoren, of iets anders. Het enige limiet is je fantasie!",
-				"en": "Do you want to let out your inner kid? Do you want to practice your civil engineering skills? Then come and build Kapla with us! Build a bridge, house, Eiffel Tower, or something else. The only limit is your imagination!"
+				"nl": "Kom lekker raven op louter serieuze muziek, zoals de Macarena, het lied van de Efteling en nog veel meer. Het is een ironische rave, dus je mag ook gewoon lekker meezingen en dansen.",
+				"en": "Come and dance to serious music, like the Macarena, the Efteling song and much more. It's an ironic rave, so you can also just sing along and dance."
 			}
 		}
 	],
 	"tuesday": [
 		{
-			"start": 1700,
-			"end": 1800,
-			"alignment": "left",
-			"color_shift": false,
-			"triple": false,
-			"title": {
-				"nl": "BLÅHAKEN",
-				"en": "Crochet your own BLÅHAJ"
-			},
-			"description": {
-				"nl": "Kom je eigen kleine BLÅHAJ (kleine, schattige haai) haken! Geschikt voor zowel beginnende als ervaren hakers.",
-				"en": "Come crochet your own little BLÅHAJ (a small, cute shark)! Suitable for beginning and experienced crocheters."
-			}
-		},
-		{
-			"start": 1700,
+			"start": 1600,
 			"end": 1800,
 			"alignment": "right",
 			"color_shift": true,
@@ -198,6 +153,21 @@
 			"description": {
 				"nl": "Wordt met je Oweegroepje opgesloten in ons vooronder en vind je weg weer naar buiten. Los puzzels op en werk goed samen. Zetten jullie de snelste tijd? <br><b>Let op! Voor deze activiteit moet je je vooraf aanmelden.<br>Stuur een mailtje naar secretarisvvt@bu130.nl of kom langs aan boord.</b>",
 				"en": "Get locked up with your OWee group and try to find your way back out. Solve puzzels and work together. Will your group be the fastest? <br><b>Watch out, you have to sign up beforehand for this activity.<br>Send an email to secretarisvvt@bu130.nl or come by on board.</b>"
+			}
+		},
+		{
+			"start": 1700,
+			"end": 1800,
+			"alignment": "left",
+			"color_shift": false,
+			"triple": false,
+			"title": {
+				"nl": "#TODO Pokke",
+				"en": "#TODO Pokke"
+			},
+			"description": {
+				"nl": "#TODO",
+				"en": "#TODO"
 			}
 		},
 		{
@@ -232,7 +202,7 @@
 		},
 		{
 			"start": 2000,
-			"end": 2200,
+			"end": 2100,
 			"alignment": "right",
 			"color_shift": true,
 			"triple": false,
@@ -241,14 +211,14 @@
 				"en": "Stargazing on the boat (VVT)"
 			},
 			"description": {
-				"nl": "",
-				"en": ""
+				"nl": "Sterrenkijken op de boot",
+				"en": "Stargazing on the boat"
 			}
 		},
 		{
 			"start": 2100,
 			"end": 2200,
-			"alignment": "left",
+			"alignment": "center",
 			"color_shift": false,
 			"triple": false,
 			"title": {
@@ -295,7 +265,7 @@
 		{
 			"start": 1600,
 			"end": 1830,
-			"alignment": "left",
+			"alignment": "center",
 			"color_shift": false,
 			"triple": false,
 			"title": {
@@ -305,21 +275,6 @@
 			"description": {
 				"nl": "We hebben veel enthousiaste DM’s op de Bolk, die graag een leuke oneshot voor jullie neerzetten. Laat je met je groepje meenemen naar verre werelden en voel je vrij om op je eigen manier te roleplayen ^^",
 				"en": "We've got lots of enthousiastic DM's at the Bolk that would love to DM an oneshot for you. Come visit faraway worlds with your group and feel free to roleplay in your own way ^^"
-			}
-		},
-		{
-			"start": 1700,
-			"end": 1830,
-			"alignment": "right",
-			"color_shift": true,
-			"triple": false,
-			"title": {
-				"nl": "Botter Rossen (VVT)",
-				"en": "Painting with Boat Ross (VVT)"
-			},
-			"description": {
-				"nl": "Schilder in de stijl van Bob Ross een scenisch landschap met onze botter Trui erin",
-				"en": "Paint in the style of Bob Ross a scenic landscape with our boat \"Trui\""
 			}
 		},
 		{
@@ -353,18 +308,18 @@
 			}
 		},
 		{
-			"start": 2030,
+			"start": 2130,
 			"end": 2300,
 			"alignment": "right",
 			"color_shift": true,
 			"triple": false,
 			"title": {
-				"nl": "Deken is lava (VVT)",
-				"en": "Carpet is lava (VVT)"
+				"nl": "BLÅHAJEN  knuffelen (VVT)",
+				"en": "#TODO BLÅHAJ cuddling (VVT)"
 			},
 			"description": {
-				"nl": "",
-				"en": ""
+				"nl": "#TODO BLÅHAJEN  knuffelen (VVT)",
+				"en": "#TODO"
 			}
 		},
 		{
@@ -419,12 +374,12 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "DINSDAG",
-				"en": "TUESDAY"
+				"nl": "Bouw je eigen kapsalon",
+				"en": "Build your own kapsalon"
 			},
 			"description": {
-				"nl": "Kom kennismaken met Bolkers en lekker gezellig borrelen",
-				"en": "Come and meet the Bolkers and hang out"
+				"nl": "Vind jij de standaard kapsalon ook zo saai? Dan kan je hier verandering in brengen met je eigen DIY kapsalon!",
+				"en": "Do you find the standard kapsalon also so boring? Then you can make a change here with your own DIY kapsalon!"
 			}
 		},
 		{
@@ -451,8 +406,8 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "Chillûûûûh",
-				"en": "Chillllll"
+				"nl": "SPA",
+				"en": "Spa"
 			},
 			"description": {
 				"nl": "Ben jij ook zo moe van deze week? Kom dan met ons chillen. We hebben mini zwembaden, koude drankjes en bordspelletjes",
@@ -460,7 +415,7 @@
 			}
 		},
 		{
-			"start": 1700,
+			"start": 1600,
 			"end": 1800,
 			"alignment": "right",
 			"color_shift": true,
@@ -485,8 +440,8 @@
 				"en": "Dinner @ Bolk"
 			},
 			"description": {
-				"nl": "Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten! <br><br><b>Meld je aan op <a href=https://noms.debolk.nl>noms.debolk.nl</a></b>",
-				"en": "Dinner with the Bolk is really good, come and have a good meal! <br><br><b>Sign up at <a href=https://noms.debolk.nl>noms.debolk.nl</a></b>"
+				"nl": "Eten bij de Bolk is echt mega lekker en gazellig, kom lekker eten!",
+				"en": "Dinner with the Bolk is really good, come and have a good meal!"
 			}
 		},
 		{
