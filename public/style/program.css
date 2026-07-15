@@ -117,6 +117,19 @@
   width: calc(100%/3 - 0.375rem);
 }
 
+.activity.center.double{
+  width: calc(100%/3*2 - 0.375rem);
+  left: calc(100%/3*2);
+}
+
+.activity.left.double{
+  width: calc(100%/3*2 - 0.375rem);
+}
+
+.activity.right.double{
+  width: calc(100%/3*2 - 0.375rem);
+}
+
 .activity.center.color_shift{
   width: calc(100% - 0.25rem);
   left: 0.25rem;
@@ -143,6 +156,19 @@
 
 .activity.right.triple.color_shift{
   width: calc(100%/3 - 0.375rem);
+}
+
+.activity.center.double.color_shift{
+  width: calc(100%/3*2 - 0.375rem);
+  left: calc(100%/3*2 + 0.125rem);
+}
+
+.activity.left.double.color_shift{
+  width: calc(100%/3*2 - 0.375rem);
+}
+
+.activity.right.double.color_shift{
+  width: calc(100%/3*2 - 0.375rem);
 }
 
 #activity-content{

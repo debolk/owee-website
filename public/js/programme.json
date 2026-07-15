@@ -46,7 +46,8 @@
 			"description": {
 				"nl": "Ga met een net niet oneindige voorraad bierviltjes gooien vanuit de relatieve veiligheid van een fort (of niet). Gooi ze op vrienden, partners, mentors of wildvreemde mensen. Alles is toegestaan in een bierviltjesoorlog! \"Bierviltjes! Bierviltjes overal! Dit is chaos!\" - de enige overlevende van vorig jaar",
 				"en": "Throw coasters from the relative safety of a cardboard fortress with a nearly unlimited supply of coasters! Throw them at your friends, partners, mentors or complete strangers. Everything is allowed during a coasterwar! \"Coasters! Coasters everywhere! This is chaos!\" - last year's sole survivor"
-			}
+			},
+			"double": true
 		},
 		{
 			"start": 2000,

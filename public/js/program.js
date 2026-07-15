@@ -38,6 +38,7 @@ function populateDay(element, day_duration, plan) {
     act_node.classList.add("activity");
     act_node.classList.add(act.alignment);
     if (act.triple) act_node.classList.add("triple");
+    if (act.double) act_node.classList.add("double");
     act_node.style.height = `calc(${height}% - 6px)`;
 
     let top = act.start >= program.start_time ?
@@ -66,7 +67,7 @@ function resizeText(rows = -1){
   for (let element of elements){
     let max_font_size = glob_max_font_size;
     if (element.clientHeight <= (element.parentElement.clientHeight/rows * 3)
-      && element.classList.contains("triple")) max_font_size = 24;
+      && (element.classList.contains("triple") || element.classList.contains("double"))) max_font_size = 24;
     fitText(element, 0.6, {minFontSize: 6, maxFontSize: max_font_size});
   }
 
