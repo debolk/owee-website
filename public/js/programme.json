@@ -40,29 +40,14 @@
 			"color_shift": false,
 			"triple": true,
 			"title": {
-				"nl": "Bierviltjesoorlog",
-				"en": "Coasterwar"
+				"nl": "Dozenfort en \n Bierviltjesoorlog",
+				"en": "Boxfort and \n Coasterwar"
 			},
 			"description": {
-				"nl": "Ga met een net niet oneindige voorraad bierviltjes gooien vanuit de relatieve veiligheid van een fort (of niet). Gooi ze op vrienden, partners, mentors of wildvreemde mensen. Alles is toegestaan in een bierviltjesoorlog! \"Bierviltjes! Bierviltjes overal! Dit is chaos!\" - de enige overlevende van vorig jaar",
-				"en": "Throw coasters from the relative safety of a cardboard fortress with a nearly unlimited supply of coasters! Throw them at your friends, partners, mentors or complete strangers. Everything is allowed during a coasterwar! \"Coasters! Coasters everywhere! This is chaos!\" - last year's sole survivor"
+				"nl": "Bouw een fort van dozen en ducttape om je in te verschuilen. Krijg vervolgens een stapel bierviltjes in je hand gedrukt, en gooi ze tegen het fort aan de overkant! Vrienden, partners, mentors of wildvreemde mensen; niemand is veilig, en alles is toegestaan in een bierviltjesoorlog! \"Bierviltjes! Bierviltjes overal! Dit is chaos!\" - de enige overlevende van vorig jaar",
+				"en": "Build a fort of carton boxes and duct tape to protect yourself. Then, when you're handed a pile of coasters, throw them against the opposing fort! Friends, parters, mentors or complete strangers; none are spared from the torrent of flying coasters, for everything is allowed during a coasterwar! \"Coasters! Coasters everywhere! This is chaos!\" - last year's sole survivor"
 			},
 			"double": true
-		},
-		{
-			"start": 2000,
-			"end": 2100,
-			"alignment": "center",
-			"color_shift": false,
-			"triple": true,
-			"title": {
-				"nl": "Dozenfort",
-				"en": "Boxfort"
-			},
-			"description": {
-				"nl": "Kom en bouw een dozenfort om te verstoppen van de chaos gecree\\u00ebrd door de bierviltjes!",
-				"en": "Come and build a boxfort so you can hide from all the coasters!"
-			}
 		},
 		{
 			"start": 2000,
