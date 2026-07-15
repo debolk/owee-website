@@ -106,7 +106,7 @@
 			},
 			"description": {
 				"nl": "Ben je op zoek naar lekker rustig spelletjes spelen? Dan ben je van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast",
-				"en": "Are you looking for having a nice, quiet time of boardgames? Then you are welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people"
+				"en": "Are you looking for a nice, quiet time of boardgames? Then you are welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people"
 			}
 		},
 		{
@@ -116,7 +116,7 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "4 uur cup a soup",
+				"nl": "4 uur Cup a Soup",
 				"en": "4 'O clock Cup a Soup"
 			},
 			"description": {
@@ -197,7 +197,7 @@
 				"en": "Werewolves"
 			},
 			"description": {
-				"nl": ".. van Wakkerdam: Speel met bolkers Weerwolven, optioneel ook One Night!",
+				"nl": ".. van Wakkerdam: Speel met Bolkers Weerwolven, optioneel ook One Night!",
 				"en": "... of Wakkerdam: Play Werewolves with us, optionally the One Night version!"
 			}
 		},
@@ -253,7 +253,7 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "4 uur cup a soup",
+				"nl": "4 uur Cup a Soup",
 				"en": "4 'O clock Cup a Soup"
 			},
 			"description": {
@@ -315,11 +315,11 @@
 			"color_shift": true,
 			"triple": false,
 			"title": {
-				"nl": "BLÅHAJEN  knuffelen (VVT)",
-				"en": "#TODO BLÅHAJ cuddling (VVT)"
+				"nl": "BLÅHAJEN knuffelen (VVT)",
+				"en": "BLÅHAJ cuddling (VVT)"
 			},
 			"description": {
-				"nl": "#TODO BLÅHAJEN  knuffelen (VVT)",
+				"nl": "#TODO BLÅHAJEN knuffelen (VVT)",
 				"en": "#TODO"
 			}
 		},
@@ -365,7 +365,7 @@
 			},
 			"description": {
 				"nl": "Blikbier: drink het, sproei het en sloop het! Over slopen gesproken: kom en breek onze spullen tijdens het blikbierkwartier!",
-				"en": "Canned beer: drink it, spray it en crush it! Talking about crushing: come and break our stuff during the canned beer drive!"
+				"en": "Canned beer: drink it, spray it en crush it! Speaking of crushing: come and break our stuff during the canned beer drive!"
 			}
 		},
 		{
@@ -380,7 +380,7 @@
 			},
 			"description": {
 				"nl": "Vind jij de standaard kapsalon ook zo saai? Dan kan je hier verandering in brengen met je eigen DIY kapsalon!",
-				"en": "Do you find the standard kapsalon also so boring? Then you can make a change here with your own DIY kapsalon!"
+				"en": "Do you also consider the regular kapsalon so boring? Then you can make one to your taste with your own DIY kapsalon!"
 			}
 		},
 		{
@@ -390,7 +390,7 @@
 			"color_shift": false,
 			"triple": false,
 			"title": {
-				"nl": "4 uur cup a soup",
+				"nl": "4 uur Cup a Soup",
 				"en": "4 'O clock Cup a Soup"
 			},
 			"description": {
@@ -408,7 +408,7 @@
 			"triple": false,
 			"title": {
 				"nl": "SPA",
-				"en": "Spa"
+				"en": "SPA"
 			},
 			"description": {
 				"nl": "Ben jij ook zo moe van deze week? Kom dan met ons chillen. We hebben mini zwembaden, koude drankjes en bordspelletjes",
@@ -427,7 +427,7 @@
 			},
 			"description": {
 				"nl": "Gezellige theeproeverij met de vereniging Vrienden Van Trui met lekkere hapjes!",
-				"en": "Cosy tea tasting with the association Friends of Trui (Vrienden Van Trui) with tast treats!"
+				"en": "Cosy tea tasting with the association Friends of Trui (Vrienden Van Trui) with tasty treats!"
 			}
 		},
 		{
