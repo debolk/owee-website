@@ -13,8 +13,3 @@ dist
 .output
 .*
 */venv
-
-script.js
-tmp.html
-
-.gitignore
