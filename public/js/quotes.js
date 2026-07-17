@@ -140,13 +140,6 @@ let quotes = [
     }
   },
   {
-    person: 'Laurens',
-    quote: {
-      nl: 'De Bolk adviseerde mij de Bolk.',
-      en: 'The Bolk adviced the Bolk.'
-    }
-  },
-  {
     person: 'Zed',
     quote: {
       nl: 'Ik voelde me tijdens de OWee gelijk thuis bij de Bolk.',
