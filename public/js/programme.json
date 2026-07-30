@@ -71,28 +71,14 @@
 			"color_shift": false,
 			"triple": true,
 			"title": {
-				"nl": "Retrogames",
-				"en": "Retrogames"
+				"nl": "Retrogames \n en \n Spelletjesavond",
+				"en": "Retrogames \n and \n Boardgamenight"
 			},
 			"description": {
-				"nl": "Ken jij je klassiekers nog? Daag je vrienden uit in een potje Mario Kart, Super Smash of andere spelletjes!",
-				"en": "Do you know your classics? Challenge your friends in a game of Mario Kart, Super Smash and many more games!"
-			}
-		},
-		{
-			"start": 2100,
-			"end": 0,
-			"alignment": "center",
-			"color_shift": false,
-			"triple": true,
-			"title": {
-				"nl": "Spelletjesavond",
-				"en": "Boardgamenight"
+				"nl": "Ben je op zoek naar lekker rustig spelletjes spelen? Of heb je zin in wat oude klassiekers? Dan ben je van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast of je vrienden in te maken in een potje Mario Kart, Super Smash of andere games!",
+				"en": "Looking for a relaxing board game session? Or are you more into retro games? Join us and choose from our extensive game collection to play with your OWee group, Bolkers, or randomc participants. Or challenge your friends to Mario Kart, Super Smash Bros., and many more games!"
 			},
-			"description": {
-				"nl": "Ben je op zoek naar lekker rustig spelletjes spelen? Dan ben je van harte welkom om met je groepje/Bolkers/random mensen een spel te spelen uit onze uitgebreide spelletjeskast",
-				"en": "Are you looking for a nice, quiet time of boardgames? Then you are welcome to play a game from our extensive game collection, together with your OWee-group/Bolkers/random people"
-			}
+			"double": true
 		},
 		{
 			"start": 400,
