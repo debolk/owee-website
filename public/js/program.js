@@ -7,19 +7,19 @@ function getTimeDif(start, end) {
 
 function formatTime(time) {
   time = time.toString().padStart(4, '0');
-  return time.substring(0,2) + ':' + time.substring(2);
+  return time.substring(0, 2) + ':' + time.substring(2);
 }
 
 function convertTime(time) {
-  let h = Math.floor(time/100);
-  let m60 = (time % 100)/60;
+  let h = Math.floor(time / 100);
+  let m60 = (time % 100) / 60;
   return h + m60;
 }
 
 function getHoursMinutes(increment) {
   let time_array = [];
   let start = convertTime(program.start_time);
-  for (let i = 0; i <= getTimeDif(program.start_time, program.end_time) ; i += convertTime(increment)) {
+  for (let i = 0; i <= getTimeDif(program.start_time, program.end_time); i += convertTime(increment)) {
     let h = start + Math.floor(i);
     let m = (i - h + start) * 60;
 
@@ -30,7 +30,7 @@ function getHoursMinutes(increment) {
 }
 
 function populateDay(element, day_duration, plan) {
-  for (let act of plan){
+  for (let act of plan) {
     let act_duration = getTimeDif(act.start, act.end);
     let height = act_duration / day_duration * 100;
 
@@ -42,15 +42,15 @@ function populateDay(element, day_duration, plan) {
     act_node.style.height = `calc(${height}% - 6px)`;
 
     let top = act.start >= program.start_time ?
-      (convertTime(act.start) - convertTime(program.start_time))/day_duration * 100
-      : (convertTime(act.start) - convertTime(program.start_time) + 24)/day_duration * 100;
+      (convertTime(act.start) - convertTime(program.start_time)) / day_duration * 100
+      : (convertTime(act.start) - convertTime(program.start_time) + 24) / day_duration * 100;
     act_node.style.top = `calc(${top}%)`;
 
-	if (act.color_shift) {
-		act_node.classList.add('color_shift');
-		act_node.style.top = `calc(${top}% + 2px)`;
-		act_node.style.height = `calc(${height}% - 10px)`
-	}
+    if (act.color_shift) {
+      act_node.classList.add('color_shift');
+      act_node.style.top = `calc(${top}% + 2px)`;
+      act_node.style.height = `calc(${height}% - 10px)`
+    }
 
     act_node.innerHTML = "<div id='activity-content'><h2>" + act.title[getCookie('lang')] + "</h2><p id='duration'>" + `${formatTime(act.start)}-${formatTime(act.end)}` + "</p><p id='description'>" + act.description[getCookie('lang')] + "</p></div>";
     element.appendChild(act_node)
@@ -58,23 +58,23 @@ function populateDay(element, day_duration, plan) {
   return element;
 }
 
-function resizeText(rows = -1){
+function resizeText(rows = -1) {
   let elements = document.getElementsByClassName("activity");
 
   let glob_max_font_size = 32;
   if (matchMedia("only screen and (max-device-width: 640px)").matches) glob_max_font_size = 128;
 
-  for (let element of elements){
+  for (let element of elements) {
     let max_font_size = glob_max_font_size;
-    if (element.clientHeight <= (element.parentElement.clientHeight/rows * 3)
+    if (element.clientHeight <= (element.parentElement.clientHeight / rows * 3)
       && (element.classList.contains("triple") || element.classList.contains("double"))) max_font_size = 24;
-    fitText(element, 0.6, {minFontSize: 6, maxFontSize: max_font_size});
+    fitText(element, 0.6, { minFontSize: 6, maxFontSize: max_font_size });
   }
 
   let headers = document.getElementsByTagName('th');
-  for (let head of headers){
-    if (head.id !== 'time'){
-        fitText(head, .64, {minFontSize: 10, maxFontSize: glob_max_font_size});
+  for (let head of headers) {
+    if (head.id !== 'time') {
+      fitText(head, .64, { minFontSize: 10, maxFontSize: glob_max_font_size });
     }
   }
 
@@ -91,7 +91,7 @@ async function setupProgram() {
   //   console.log("Loading in program.json");
   // }
   let duration = getTimeDif(program.start_time, program.end_time);
-  let rows = duration/convertTime(program.increment);
+  let rows = duration / convertTime(program.increment);
   let hnm = getHoursMinutes(program.increment);
 
   let element = document.getElementById("program-container");
@@ -99,7 +99,7 @@ async function setupProgram() {
   return [duration, rows, hnm, element];
 }
 
-function getActiveDay(){
+function getActiveDay() {
   let now = new Date();
   let OWeeYear = 2026;
   let OWeeMonth = 8;
@@ -107,7 +107,7 @@ function getActiveDay(){
 
   if (now.getFullYear() === OWeeYear
     && now.getMonth() === OWeeMonth - 1
-    && OWeeDays.includes(now.getDate())){ // Current local time is during the OWee
+    && OWeeDays.includes(now.getDate())) { // Current local time is during the OWee
     return OWeeDays.indexOf(now.getDate());
   } else { // OWee is not now, return 0 (Monday)
     return 0;
@@ -126,9 +126,9 @@ function moveProgramme(n) {
       break;
     }
   }
-  if (index + n === elems.length){
+  if (index + n === elems.length) {
     index = -1;
-  } else if (index + n === -1){
+  } else if (index + n === -1) {
     index = elems.length;
   }
   elems.item(index + n).classList.add("active");
@@ -162,6 +162,10 @@ async function renderDayMobile(day, plan, duration, rows, timetable) {
   return table;
 }
 
+function shiftArray(arr, n) {
+  n = n % arr.length;
+  return arr.slice(n).concat(arr.slice(0, n));
+}
 async function renderProgramMobile() {
   let [duration, rows, timetable, element] = await setupProgram();
 
@@ -186,23 +190,34 @@ async function renderProgramMobile() {
 
   element.append(prevTop, nextTop, prevBottom, nextBottom);
 
-  if (getCookie('lang') === 'nl') {
-    for (let day of [['Maandag', program.monday],
-      ['Dinsdag', program.tuesday],
-      ['Woensdag', program.wednesday],
-      ['Donderdag', program.thursday]]) {
-      let table = await renderDayMobile(day[0], day[1], duration, rows, timetable);
-      element.appendChild(table);
-    }
-  } else {
-    for (let day of [['Monday', program.monday],
-      ['Tuesday', program.tuesday],
-      ['Wednesday', program.wednesday],
-      ['Thursday', program.thursday]]) {
-      let table = await renderDayMobile(day[0], day[1], duration, rows, timetable);
-      element.appendChild(table);
-    }
+  const start_date_owee = "2026-08-15T00:00:00";
+  const end_date_owee = "2026-08-21T00:00:00"; 
+
+  const now = new Date();
+  const today = now > new Date(start_date_owee) && now < new Date(end_date_owee) ? 2 : 0;
+
+  const days = getCookie('lang') === 'nl'
+    ? [
+        ['Maandag', program.monday],
+        ['Dinsdag', program.tuesday],
+        ['Woensdag', program.wednesday],
+        ['Donderdag', program.thursday]
+      ]
+    : [
+        ['Monday', program.monday],
+        ['Tuesday', program.tuesday],
+        ['Wednesday', program.wednesday],
+        ['Thursday', program.thursday]
+      ];
+
+  const shift = today >= 1 && today <= 4 ? today - 1 : 0;
+  const shiftedDays = shiftArray(days, shift);
+  for (let day of shiftedDays) {
+    let table = await renderDayMobile(day[0], day[1], duration, rows, timetable);
+    element.appendChild(table);
   }
+
+
   setTimeout(resizeText, 250, rows);
   element.children.item(getActiveDay() + 4).classList.add("active");
 }
@@ -232,7 +247,7 @@ async function renderProgramDesktop() {
   let wednesday = populateDay(day.cloneNode(), duration, program.wednesday);
   let thursday = populateDay(day.cloneNode(), duration, program.thursday);
 
-  for (let t of timetable){
+  for (let t of timetable) {
     let row = document.createElement("tr");
     let time = document.createElement("th");
     time.innerHTML = t;
